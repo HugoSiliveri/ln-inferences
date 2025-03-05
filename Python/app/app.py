@@ -6,8 +6,7 @@ import utils
 
 def strategic_resolution(node1, relation, node2, type_ids):
     """
-        Effectue une resolution logique entre trois nœuds (node1, relation, node2) 
-        en utilisant une stratégie et vérifie si une relation spécifique existe entre node1 et node2.
+        Effectue une inférence entre deux nœuds (node1, relation, node2) en utilisant une stratégie
         
         Arguments :
         node1 -- Nom du nœud de départ.

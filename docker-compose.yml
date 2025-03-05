@@ -1,0 +1,25 @@
+services:
+  redis:
+    image: redis:latest
+    container_name: redis_container
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./Redis/data:/data  
+    command: ["redis-server", "--save", "60", "1", "--appendonly", "yes", "--dir", "/data"]
+    networks:
+      - redis_network
+
+  app:
+    build:
+       dockerfile: ./Python/Dockerfile
+    container_name: app_container
+    depends_on:
+      - redis
+    restart: "no"
+    networks:
+      - redis_network
+
+networks:
+  redis_network:
+    driver: bridge

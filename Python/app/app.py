@@ -4,26 +4,24 @@ import requests
 import api
 import utils
 
-def strategic_resolution(node1, relation, node2, type_ids):
+def strategic_resolution(node1, relation_id, node2, type_ids):
     """
-        Effectue une inférence entre deux nœuds (node1, relation, node2) en utilisant une stratégie
+        Effectue une inférence entre deux nœuds (node1, relation, node2) en utilisant une stratégie.
         
         Arguments :
         node1 -- Nom du nœud de départ.
-        relation -- Nom de la relation à tester.
+        relation_id -- Identifiant de la relation à tester.
         node2 -- Nom du nœud cible.
-        type_ids -- Identifiant du type de la strategie
+        type_ids -- Identifiant du type de la stratégie.
     """
 
     parameters1 = {'types_ids': str(type_ids)}
     nodes_of_node1 = api.get_relations_from(node1, parameters1)
 
     parameters2 = {'type_ids': str(relation_id)}
-    result = api.get_relations_to(node2)
+    result = api.get_relations_to(node2, parameters2)
 
-    W = []
-    max_score = -float('inf')
-    best_reasoning = []
+    inferences = []
 
     if "relations" in result and result["relations"]:
         for relation_data in result["relations"]:
@@ -34,32 +32,21 @@ def strategic_resolution(node1, relation, node2, type_ids):
                     generic_node_id = generic_node["node2"]
 
                     if generic_node_id == source_node:
-                        relation_weight_generic = generic_node["w"]
-                        relation_weight_current = relation_data["w"]  
+                        relation_weight2 = generic_node["w"]
+                        relation_weight1 = relation_data["w"]  
 
-                        if relation_weight_generic < 0 or relation_weight_current < 0:
-                            continue
+                        if (relation_weight1 < 0) or (relation_weight2 < 0):
+                            score = -math.sqrt(abs(relation_weight1 * relation_weight2))
+                        else: 
+                            score = math.sqrt(abs(relation_weight1 * relation_weight2))
 
-                        score = math.sqrt(relation_weight_generic * relation_weight_current)
-                        if score > max_score:
-                            max_score = score
-                            reasoning_steps = [
-                                f"{node1} r-isa {utils.get_node_name_by_id(generic_node_id)}",
-                                f"{utils.get_node_name_by_id(generic_node_id)} {relation} {node2}"
-                            ]
-                            best_reasoning = reasoning_steps
+                        type_name = utils.get_relation_name_by_id(type_ids)
+                        relation_name = utils.get_relation_name_by_id(relation_id)
+                        explanation = f"{node1} {type_name} ({relation_weight1}) {utils.get_node_name_by_id(generic_node_id)} & {utils.get_node_name_by_id(generic_node_id)} {relation_name} ({relation_weight2}) {node2}"
+                        
+                        inferences.append((explanation, score))
 
-        if best_reasoning:
-            return [node1, relation, node2, best_reasoning, score]
-            print(f"✅ Lien trouvé pour {node1} {relation} {node2} | Score : {max_score}")
-            print(" & ".join(best_reasoning))
-        else:
-            return None
-    else:
-        return None
-
-
-
+    return inferences
 
 
 if __name__ == "__main__":
@@ -69,25 +56,28 @@ if __name__ == "__main__":
         if len(argv) == 3:
             node1, relation, node2 = argv
 
-            relation_id = utils.get_id_by_name(relation)
+            relation_id = utils.get_relation_id_by_name(relation)
             if relation_id is None:
                 print(f"❌ Relation inconnue : {relation}")
             else:
-                results = [
-                    strategic_resolution(node1, relation, node2, 6), # deduction
-                    strategic_resolution(node1, relation, node2, 8), # induction
-                    strategic_resolution(node1, relation, node2, 5) # synonyme
-                ]
+                results = []
+                results.extend(strategic_resolution(node1, relation_id, node2, 6))  # Déduction
+                results.extend(strategic_resolution(node1, relation_id, node2, 8))  # Induction
+                results.extend(strategic_resolution(node1, relation_id, node2, 5))  # Synonyme
+                results.extend(strategic_resolution(node1, relation_id, node2, relation_id)) # Transitivité
 
-                valid_results = [res for res in results if res]
-                best_result = max(valid_results, key=lambda x: x[-1]) if valid_results else None
+                # On trie par score décroissant et prendre les 10 meilleurs
+                results = sorted(results, key=lambda x: x[1], reverse=True)[:10]
 
-                if (best_result is None):
+                if not results:
                     print("❌ Aucun lien trouvé.")
                 else:
-                    print(f"✅ Lien trouvé pour {best_result[0]} {best_result[1]} {best_result[2]} | Score : {best_result[4]}")
-                    print(" & ".join(best_result[3]))
-            
+                    max_score = results[0][1] if results else 1  # On évite une division par zéro
+                    normalized_results = [(exp, score / max_score) for exp, score in results]
+
+                    for i, (explanation, score) in enumerate(normalized_results, start=1):
+                        print(f"{i} | oui | {explanation} | {round(score, 2)}")
+        
         else:
             print("Usage: script.py <node1_name> <relation> <node2_name>")
 

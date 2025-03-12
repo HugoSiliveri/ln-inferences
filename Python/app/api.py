@@ -69,13 +69,13 @@ def get_relations_from_to(node1_name, node2_name, parameters):
         store_in_redis(cache_key, result)
         return result
 
-def get_relations_to(node_name):
-    cache_key = f"relations_to:{node_name}"
+def get_relations_to(node_name, parameters):
+    cache_key = f"relations_to:{node_name}_{json.dumps(parameters)}"
     result = get_from_redis(cache_key)
     if result:
         return result
     else:
-        response = requests.get(f"{url}/v0/relations/to/{node_name}", verify=False)
+        response = requests.get(f"{url}/v0/relations/to/{node_name}", params=parameters, verify=False)
         response.raise_for_status()
         result = response.json()
         store_in_redis(cache_key, result)

@@ -32,13 +32,9 @@ def strategic_resolution(node1, relation_id, node2, type_ids):
                     generic_node_id = generic_node["node2"]
 
                     if generic_node_id == source_node:
-                        relation_weight2 = generic_node["w"]
-                        relation_weight1 = relation_data["w"]  
-
-                        if (relation_weight1 < 0) or (relation_weight2 < 0):
-                            score = -math.sqrt(abs(relation_weight1 * relation_weight2))
-                        else: 
-                            score = math.sqrt(abs(relation_weight1 * relation_weight2))
+                        relation_weight1 = relation_data["w"] 
+                        relation_weight2 = generic_node["w"] 
+                        score = utils.get_score(relation_weight1, relation_weight2)
 
                         type_name = utils.get_relation_name_by_id(type_ids)
                         relation_name = utils.get_relation_name_by_id(relation_id)

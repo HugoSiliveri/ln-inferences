@@ -29,7 +29,7 @@ docker exec -it app_container sh
 
 La commande pour réaliser une inférence est : 
 ```bash
-python app.py objet1 relation objet2
+python app.py
 ```
 
 
@@ -39,12 +39,12 @@ python app.py objet1 relation objet2
 
 ### Comment lancer les conteneurs Docker ?
 ```bash
-docker-compose up -d --build
+docker compose up -d --build
 ```
 
 ### Comment arrêter les conteneurs Docker ?
 ```bash
-docker-compose down
+docker compose down
 ```
 
 ### Comment reset les conteneurs Docker ?

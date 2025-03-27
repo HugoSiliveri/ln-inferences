@@ -18,35 +18,66 @@ def strategic_resolution(nodeA, relationR_id, nodeB, type_ids):
             R1     R
         A       R       B
     """
+    try :
+        # Récupération des relations
+        nodes_of_nodeA = api.get_relations_from(nodeA, {'types_ids': str(type_ids),'min_weight': str(1)})  # A -R1-> C
+        result = api.get_relations_to(nodeB, {'type_ids': str(relationR_id),'min_weight': str(1)})  # C -R-> B
+    except requests.exceptions.RequestException as e: # Je pense pas que ça vas marcher en toute honnêtetée, a mon avis il faut avoir 
+        return  [] 
 
-    # Récupération des relations
-    nodes_of_nodeA = api.get_relations_from(nodeA, {'types_ids': str(type_ids)})  # A -R1-> C
-    result = api.get_relations_to(nodeB, {'type_ids': str(relationR_id)})  # C -R-> B
-
-    if not nodes_of_nodeA.get("relations") or not result.get("relations"):
-        return []
 
     # Normalisation des poids
-    max_weight1 = max((rel["w"] for rel in result["relations"] if rel["type"] == relationR_id), default=1)
-    max_weight2 = max((rel["w"] for rel in nodes_of_nodeA["relations"]), default=1)
+    try :
+        max_weight1 = max((rel["w"] for rel in result["relations"] if rel["type"] == relationR_id), default=1)
+        max_weight2 = max((rel["w"] for rel in nodes_of_nodeA["relations"]), default=1)
+    except KeyError:
+        return  []
 
-    # Création d'un set pour une recherche rapide
-    nodesC_from_B = {rel["node1"]: rel["w"] for rel in result["relations"] if rel["type"] == relationR_id}
+    # Création d'un dictionnaire pour une recherche rapide
+    nodesC_from_B = {rel["node1"]: [rel["w"], rel["id"]] for rel in result["relations"] if rel["type"] == relationR_id}
 
     inferences = []
+    
+    #format de aTraiter : liste de dico de la forme ["relations"]["0"]
+    aTraiter = nodes_of_nodeA["relations"]
 
     for relationR_data in nodes_of_nodeA["relations"]:
         nodeC_id = relationR_data["node2"]
         if nodeC_id in nodesC_from_B:
-            # Récupérer les poids normalisés
-            relation_weight1 = nodesC_from_B[nodeC_id] / max_weight1
-            relation_weight2 = relationR_data["w"] / max_weight2
-            score = utils.get_score(relation_weight1, relation_weight2)
+            #On récupère les annotations de la première prémisse
+            try :
+                annotations_premisse1 = api.get_relations_from(":r"+str(relationR_data["id"]), {'types_ids': str(998)})
+            except requests.exceptions.RequestException as e:
+                annotations1_names = []
+            else:
+                try :
+                    annotations1_names = [e["name"] for e in annotations_premisse1["nodes"]]
+                except KeyError:
+                    annotations1_names = []
 
-            nodeC_name = utils.get_node_name_by_id(nodeC_id)
-            explanation = f"{nodeA} {utils.get_relation_name_by_id(type_ids)} ({relation_weight1:.2f}) {nodeC_name} & {nodeC_name} {utils.get_relation_name_by_id(relationR_id)} ({relation_weight2:.2f}) {nodeB}"
-
-            inferences.append((explanation, score))
+            if not("contrastif" in annotations1_names):# Test d'existance de l'annotation contrastif sur P1
+                #Si la premisse est contrastive ca ne sert a rien de chercher les raffinnements du mots qui sont en relation avec A, ils sont dejà dans la liste nodes_ofnoeA["relations"]
+                try :
+                    annotations_premisse2 = api.get_relations_from(":r"+str(nodesC_from_B[nodeC_id][1]), {'types_ids': str(998)})
+                except requests.exceptions.RequestException as e:
+                    annotations2_names = []
+                else :
+                    try :
+                        annotations2_names = [e["name"] for e in annotations_premisse2["nodes"]]
+                    except KeyError :
+                        annotations2_names = []
+                        print("le dico renvoyer par la requête https://jdm-api.demo.lirmm.fr/v0/relations/from/"+str(nodesC_from_B[nodeC_id][1])+"?types_ids=998 a eu un format inattendu")
+                
+                if not("contrastif" in annotations2_names):#On teste si P2 est contrastif
+                    # Récupérer les poids normalisés
+                    relation_weight1 = nodesC_from_B[nodeC_id][0] / max_weight1
+                    relation_weight2 = relationR_data["w"] / max_weight2
+                    score = utils.get_score(relation_weight1, relation_weight2)
+        
+                    nodeC_name = utils.get_node_name_by_id(nodeC_id)
+                    explanation = f"{nodeA} {utils.get_relation_name_by_id(type_ids)} ({relation_weight1:.2f}) {nodeC_name} & {nodeC_name} {utils.get_relation_name_by_id(relationR_id)} ({relation_weight2:.2f}) {nodeB}"
+        
+                    inferences.append((explanation, score))
 
     return inferences
 

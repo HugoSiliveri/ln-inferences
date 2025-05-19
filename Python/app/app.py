@@ -22,7 +22,7 @@ def strategic_resolution(nodeA, relationR_id, nodeB, type_ids):
         # Récupération des relations
         nodes_of_nodeA = api.get_relations_from(nodeA, {'types_ids': str(type_ids),'min_weight': str(1)})  # A -R1-> C
         result = api.get_relations_to(nodeB, {'type_ids': str(relationR_id),'min_weight': str(1)})  # C -R-> B
-    except requests.exceptions.RequestException as e: # Je pense pas que ça vas marcher en toute honnêtetée, a mon avis il faut avoir 
+    except requests.exceptions.RequestException as e:
         return  [] 
 
 
@@ -38,8 +38,6 @@ def strategic_resolution(nodeA, relationR_id, nodeB, type_ids):
 
     inferences = []
     
-    #format de aTraiter : liste de dico de la forme ["relations"]["0"]
-    aTraiter = nodes_of_nodeA["relations"]
 
     for relationR_data in nodes_of_nodeA["relations"]:
         nodeC_id = relationR_data["node2"]
@@ -86,14 +84,14 @@ if __name__ == "__main__":
     try:
         while True:
             user_input = input("Entrez '<nodeA> <relation> <nodeB>' (ou 'exit' pour quitter) : ").strip()
-            
+
             if user_input.lower() == "exit":
                 break
-            
+
             nodeA, relation, nodeB = utils.parse_input(user_input)
 
             if not nodeA or not relation or not nodeB:
-                print("Format invalide \n")
+                print("Format invalide\n")
                 continue
 
             relationR_id = utils.get_relation_id_by_name(relation)
@@ -101,12 +99,37 @@ if __name__ == "__main__":
                 print(f"Relation inconnue : {relation}\n")
                 continue
 
-            type_ids_list = [6, 8, 5, relationR_id]  # Déduction, Induction, Synonyme, Transitivité
+            # Définir les stratégies disponibles
+            strategies = {
+                "Déduction": 6,
+                "Induction": 8,
+                "Synonyme": 5,
+                "Transitivité": relationR_id
+            }
+
+            # Demander à l'utilisateur de choisir les stratégies
+            print("Choisissez les stratégies à utiliser (1 = oui, 0 = non) :")
+            chosen_flags = []
+            for name in strategies:
+                while True:
+                    choice = input(f"Utiliser la stratégie '{name}' ? (1/0) : ").strip()
+                    if choice in ["0", "1"]:
+                        chosen_flags.append(int(choice))
+                        break
+                    else:
+                        print("Veuillez entrer 1 (oui) ou 0 (non).")
+
+            # Construire la liste filtrée
+            type_ids_list = [strategy_id for (flag, (_, strategy_id)) in zip(chosen_flags, strategies.items()) if flag == 1]
+
+            if not type_ids_list:
+                print("Aucune stratégie sélectionnée.\n")
+                continue
+
             results = list(chain.from_iterable(
                 strategic_resolution(nodeA, relationR_id, nodeB, type_id) for type_id in type_ids_list
             ))
 
-            # Trier et prendre les 10 meilleurs
             results = sorted(results, key=lambda x: x[1], reverse=True)[:10]
 
             if not results:

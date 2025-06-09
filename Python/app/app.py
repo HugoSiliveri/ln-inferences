@@ -22,8 +22,13 @@ def strategic_resolution(nodeA, relationR_id, nodeB, type_ids):
         # Récupération des relations
         nodes_of_nodeA = api.get_relations_from(nodeA, {'types_ids': str(type_ids),'min_weight': str(1)})  # A -R1-> C
         result = api.get_relations_to(nodeB, {'type_ids': str(relationR_id),'min_weight': str(1)})  # C -R-> B
+<<<<<<< HEAD
     except requests.exceptions.RequestException as e: # Je pense pas que ça vas marcher en toute honnêtetée, a mon avis il faut avoir
         return  []
+=======
+    except requests.exceptions.RequestException as e:
+        return  [] 
+>>>>>>> c3ffaca5b6103009e267775d7dfeb5cbfd309b4c
 
 
     # Normalisation des poids
@@ -38,8 +43,6 @@ def strategic_resolution(nodeA, relationR_id, nodeB, type_ids):
 
     inferences = []
     
-    #format de aTraiter : liste de dico de la forme ["relations"]["0"]
-    aTraiter = nodes_of_nodeA["relations"]
 
     for relationR_data in nodes_of_nodeA["relations"]:
         nodeC_id = relationR_data["node2"]
@@ -93,14 +96,14 @@ if __name__ == "__main__":
     try:
         while True:
             user_input = input("Entrez '<nodeA> <relation> <nodeB>' (ou 'exit' pour quitter) : ").strip()
-            
+
             if user_input.lower() == "exit":
                 break
-            
+
             nodeA, relation, nodeB = utils.parse_input(user_input)
 
             if not nodeA or not relation or not nodeB:
-                print("Format invalide \n")
+                print("Format invalide\n")
                 continue
 
             relationR_id = utils.get_relation_id_by_name(relation)
@@ -138,7 +141,6 @@ if __name__ == "__main__":
                 strategic_resolution(nodeA, relationR_id, nodeB, type_id) for type_id in type_ids_list
             ))
 
-            # Trier et prendre les 10 meilleurs
             results = sorted(results, key=lambda x: x[1], reverse=True)[:10]
 
             if not results:

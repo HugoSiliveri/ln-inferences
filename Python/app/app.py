@@ -101,12 +101,11 @@ def strategic_resolution(nodeA, relationR_id, nodeB, type_ids, acceptedAnnotatio
                     nodeC_name = utils.get_node_name_by_id(nodeC_id)
                     explanation = f"{nodeA} {utils.get_relation_name_by_id(type_ids)} ({relation_weight1:.2f}) {nodeC_name} & {nodeC_name} {utils.get_relation_name_by_id(relationR_id)} ({relation_weight2:.2f}) {nodeB}"
         
-                    #TODO récupéré les annotations et les mettres dans le dico pour s'en servir de filtre.
                     allAnotations = annotations1_names
                     for e in annotations2_names:
                         if(not(e in allAnotations)):
                             allAnotations.append(e)
-                    if(hasCommonAnnotation(allAnotations,acceptedAnnotations)):
+                    if(acceptedAnnotations == [""] or hasCommonAnnotation(allAnotations,acceptedAnnotations)):
                         inferences.append((explanation, score))
 
     return inferences

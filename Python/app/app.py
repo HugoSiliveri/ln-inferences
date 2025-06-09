@@ -3,7 +3,33 @@ import api
 import utils
 from itertools import chain
 
-def strategic_resolution(nodeA, relationR_id, nodeB, type_ids):
+def levenshtein_distance(a, b): #code d'origine https://dev.to/jmegnidro/distance-de-levenshtein-le-guide-ultime-pour-mesurer-la-similarite-textuelle-3m7f
+    n, m = len(a), len(b)
+    dp = [[0] * (m + 1) for _ in range(n + 1)]
+
+    for i in range(n + 1):
+        for j in range(m + 1):
+            if i == 0:
+                dp[i][j] = j
+            elif j == 0:
+                dp[i][j] = i
+            elif a[i - 1] == b[j - 1]:
+                dp[i][j] = dp[i - 1][j - 1]
+            else:
+                dp[i][j] = 1 + min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1])
+
+    return dp[n][m]
+
+def hasCommonAnnotation(liste1,liste2):
+    for e1 in liste1:
+        for e2 in liste2:
+            lv = levenshtein_distance(e1,e2)
+            if(lv < 2):
+                return True
+    return False
+
+
+def strategic_resolution(nodeA, relationR_id, nodeB, type_ids, acceptedAnnotations):
     """
         Effectue une inférence entre deux nœuds (nodeA, relationR, nodeB) en utilisant une stratégie.
         
@@ -22,13 +48,8 @@ def strategic_resolution(nodeA, relationR_id, nodeB, type_ids):
         # Récupération des relations
         nodes_of_nodeA = api.get_relations_from(nodeA, {'types_ids': str(type_ids),'min_weight': str(1)})  # A -R1-> C
         result = api.get_relations_to(nodeB, {'type_ids': str(relationR_id),'min_weight': str(1)})  # C -R-> B
-<<<<<<< HEAD
     except requests.exceptions.RequestException as e: # Je pense pas que ça vas marcher en toute honnêtetée, a mon avis il faut avoir
         return  []
-=======
-    except requests.exceptions.RequestException as e:
-        return  [] 
->>>>>>> c3ffaca5b6103009e267775d7dfeb5cbfd309b4c
 
 
     # Normalisation des poids
@@ -58,7 +79,6 @@ def strategic_resolution(nodeA, relationR_id, nodeB, type_ids):
                     annotations1_names.pop(annotations1_names.index(":r"+str(relationR_data["id"])))
                 except KeyError:
                     annotations1_names = []
-                print(annotations1_names)
             if not("contrastif" in annotations1_names):# Test d'existance de l'annotation contrastif sur P1
                 #Si la premisse est contrastive ca ne sert a rien de chercher les raffinnements du mots qui sont en relation avec A, ils sont dejà dans la liste nodes_ofnoeA["relations"]
                 try :
@@ -86,8 +106,8 @@ def strategic_resolution(nodeA, relationR_id, nodeB, type_ids):
                     for e in annotations2_names:
                         if(not(e in allAnotations)):
                             allAnotations.append(e)
-                    print("toutes les annotations :"+str(allAnotations))
-                    inferences.append((explanation, score, allAnotations))
+                    if(hasCommonAnnotation(allAnotations,acceptedAnnotations)):
+                        inferences.append((explanation, score))
 
     return inferences
 
@@ -137,8 +157,12 @@ if __name__ == "__main__":
             if not type_ids_list:
                 print("Aucune stratégie sélectionnée.\n")
                 continue
+
+            liste = input(f"Entrez une liste des annotations à inspecter (séprarées par des points virgules), si vide renvoie toutes les relations trouvées : ").strip()
+            liste = liste.split(";")
+
             results = list(chain.from_iterable(
-                strategic_resolution(nodeA, relationR_id, nodeB, type_id) for type_id in type_ids_list
+                strategic_resolution(nodeA, relationR_id, nodeB, type_id, liste) for type_id in type_ids_list
             ))
 
             results = sorted(results, key=lambda x: x[1], reverse=True)[:10]
@@ -146,7 +170,8 @@ if __name__ == "__main__":
             if not results:
                 print("Aucun lien trouvé.\n")
             else:
-                for i, (explanation, score, allAnotations) in enumerate(results, start=1):
+                cpt = 0
+                for i, (explanation, score) in enumerate(results, start=1):
                     print(f"{i} | oui | {explanation} | {round(score, 4)}")
                 print("\n")
 

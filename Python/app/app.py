@@ -108,7 +108,32 @@ if __name__ == "__main__":
                 print(f"Relation inconnue : {relation}\n")
                 continue
 
-            type_ids_list = [6, 8, 5, relationR_id]  # Déduction, Induction, Synonyme, Transitivité
+            # Définir les stratégies disponibles
+            strategies = {
+                "Déduction": 6,
+                "Induction": 8,
+                "Synonyme": 5,
+                "Transitivité": relationR_id
+            }
+
+            # Demander à l'utilisateur de choisir les stratégies
+            print("Choisissez les stratégies à utiliser (1 = oui, 0 = non) :")
+            chosen_flags = []
+            for name in strategies:
+                while True:
+                    choice = input(f"Utiliser la stratégie '{name}' ? (1/0) : ").strip()
+                    if choice in ["0", "1"]:
+                        chosen_flags.append(int(choice))
+                        break
+                    else:
+                        print("Veuillez entrer 1 (oui) ou 0 (non).")
+
+            # Construire la liste filtrée
+            type_ids_list = [strategy_id for (flag, (_, strategy_id)) in zip(chosen_flags, strategies.items()) if flag == 1]
+
+            if not type_ids_list:
+                print("Aucune stratégie sélectionnée.\n")
+                continue
             results = list(chain.from_iterable(
                 strategic_resolution(nodeA, relationR_id, nodeB, type_id) for type_id in type_ids_list
             ))

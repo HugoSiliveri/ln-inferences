@@ -48,7 +48,7 @@ def strategic_resolution(nodeA, relationR_id, nodeB, type_ids, acceptedAnnotatio
         # Récupération des relations
         nodes_of_nodeA = api.get_relations_from(nodeA, {'types_ids': str(type_ids),'min_weight': str(1)})  # A -R1-> C
         result = api.get_relations_to(nodeB, {'type_ids': str(relationR_id),'min_weight': str(1)})  # C -R-> B
-    except requests.exceptions.RequestException as e: # Je pense pas que ça vas marcher en toute honnêtetée, a mon avis il faut avoir
+    except requests.exceptions.RequestException as e:
         return  []
 
 

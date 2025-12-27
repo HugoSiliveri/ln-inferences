@@ -1,0 +1,76 @@
+expression,étiquette
+poème d' amour,r_topic
+bouteille de lait,r_objet>matière
+musée d' art moderne,r_topic
+jeu de sport,r_topic
+livre d' histoire,r_topic
+lampe de bureau,r_lieu
+foule de gens,r_quantification
+courant de pensée,r_topic
+bouteille de parfum,r_objet>matière
+jet d' eau,r_product_of
+Reportage d' une tradition,r_topic
+Aquarelle d' un lac,r_depict
+Narration d' un exploit,r_topic
+Dessin d' un animal,r_depict
+Récit d' une exploration,r_topic
+Dette de l' emprunt,r_has_causatif
+Incendie du court-circuit,r_has_causatif
+Anxiété de l' attente,r_has_causatif
+Protestations des citoyens,r_processus_agent
+Insomnie de la peur,r_has_causatif
+Générosité du mécène,r_processus_agent
+Sincérité du confident,r_processus_agent
+Pessimisme du critique,r_processus_agent
+Délicatesse du diplomate,r_processus_agent
+Sournoiserie du politicien,r_processus_agent
+Filtre du café,r_processus>instr-1
+Verre de la fenêtre,r_holo
+Corde de la guitare,r_holo
+Nageoire du dauphin,r_holo
+Toile du tableau,r_holo
+Porte de Brandenburg,r_lieu>origine
+Aéroport d' Heathrow,r_lieu>origine
+Parc de Yellowstone,r_lieu>origine
+Falaise de Douvres,r_lieu>origine
+Château de Dracula,r_lieu>origine
+Piment d' Espelette,r_lieu>origine
+Anchois du Pérou,r_lieu>origine
+Vanille de Madagascar,r_lieu>origine
+Moutarde de Dijon,r_lieu>origine
+Couscous du Maroc,r_lieu>origine
+Matelas de mousse,r_objet>matière
+Boîte de fer,r_objet>matière
+Bol de grès,r_objet>matière
+Bateau de bois,r_objet>matière
+Robe de velours,r_objet>matière
+Toile du peintre,r_processus>instr-1
+Drapeau du pays,r_own-1
+Robe de la mariée,r_own-1
+Badge du policier,r_own-1
+Sacoche du facteur,r_own-1
+Étude du chimiste,r_processus_agent
+Rassemblement du leader,r_processus_agent
+Plan du stratège,r_processus_agent
+Capture du pêcheur,r_processus_agent
+Jugement du magistrat,r_processus_agent
+Pinceau du maquillage,r_processus>instr-1
+Chaudron de cuisson,r_processus>instr-1
+Plume de calligraphie,r_processus>instr-1
+Couteau de coupe,r_processus>instr-1
+Crayon d' écriture,r_processus>instr-1
+Piratage du compte,r_processus_patient
+Perquisition du domicile,r_processus_patient
+Abolition de la loi,r_processus_patient
+Perte du contrôle,r_processus_patient
+Exploitation du travailleur,r_processus_patient
+Sel de la mine,r_lieu>origine
+Animation de Pixar,r_product_of
+Chaussures de Nike,r_product_of
+Tissu du tisserand,r_product_of
+Ordinateur de Dell,r_product_of
+Photographe du mariage,r_social_tie
+Guide du groupe,r_social_tie
+Interprète du discours,r_social_tie
+Réalisateur du projet,r_social_tie
+Ambassadeur de la nation,r_social_tie

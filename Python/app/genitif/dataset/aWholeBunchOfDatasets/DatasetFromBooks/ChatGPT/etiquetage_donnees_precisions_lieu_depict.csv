@@ -1,0 +1,76 @@
+﻿expression,etiquette
+poème d'amour,r_topic
+bouteille de lait,r_objet>matière
+musée d'art moderne,r_topic
+jeu de sport,r_topic
+livre d'histoire,r_topic
+lampe de bureau,r_lieu
+foule de gens,r_holo
+courant de pensée,r_topic
+bouteille de parfum,r_objet>matière
+jet d'eau,r_objet>matière
+reportage d'une tradition,r_topic
+aquarelle d'un lac,r_depict
+narration d'un exploit,r_depict
+dessin d'un animal,r_depict
+récit d'une exploration,r_depict
+dette de l'emprunt,r_has_causatif
+incendie du court-circuit,r_has_causatif
+anxiété de l'attente,r_has_causatif
+protestations des citoyens,r_processus_agent
+insomnie de la peur,r_has_causatif
+générosité du mécène,r_has_property-1
+sincérité du confident,r_has_property-1
+pessimisme du critique,r_has_property-1
+délicatesse du diplomate,r_has_property-1
+sournoiserie du politicien,r_has_property-1
+filtre du café,r_processus>instr-1
+verre de la fenêtre,r_holo
+corde de la guitare,r_holo
+nageoire du dauphin,r_holo
+toile du tableau,r_holo
+porte de Brandenburg,r_lieu>origine
+aéroport d'Heathrow,r_lieu>origine
+parc de Yellowstone,r_lieu>origine
+falaise de Douvres,r_lieu>origine
+château de Dracula,r_lieu>origine
+piment d'Espelette,r_lieu>origine
+anchois du Pérou,r_lieu>origine
+vanille de Madagascar,r_lieu>origine
+moutarde de Dijon,r_lieu>origine
+couscous du Maroc,r_lieu>origine
+matelas de mousse,r_objet>matière
+boîte de fer,r_objet>matière
+bol de grès,r_objet>matière
+bateau de bois,r_objet>matière
+robe de velours,r_objet>matière
+toile du peintre,r_own-1
+drapeau du pays,r_own-1
+robe de la mariée,r_own-1
+badge du policier,r_own-1
+sacoche du facteur,r_own-1
+étude du chimiste,r_processus_agent
+rassemblement du leader,r_processus_agent
+plan du stratège,r_processus_agent
+capture du pêcheur,r_processus_agent
+jugement du magistrat,r_processus_agent
+pinceau du maquillage,r_processus>instr-1
+chaudron de cuisson,r_processus>instr-1
+plume de calligraphie,r_processus>instr-1
+couteau de coupe,r_processus>instr-1
+crayon d'écriture,r_processus>instr-1
+piratage du compte,r_processus_patient
+perquisition du domicile,r_processus_patient
+abolition de la loi,r_processus_patient
+perte du contrôle,r_processus_patient
+exploitation du travailleur,r_processus_patient
+sel de la mine,r_lieu
+animation de Pixar,r_product_of
+chaussures de Nike,r_product_of
+tissu du tisserand,r_product_of
+ordinateur de Dell,r_product_of
+photographe du mariage,r_lieu
+guide du groupe,r_social_tie
+interprète du discours,r_processus_agent
+réalisateur du projet,r_processus_agent
+ambassadeur de la nation,r_social_tie

@@ -1,0 +1,118 @@
+A,R,B,type_relation
+télégramme,de l',asile,r_lieu
+asile,de,vieillards,r_topic
+deux jours,de,congé,r_quantificateur
+odeur,d',essence,r_topic
+réverbération,de la,route,r_has_causatif
+réverbération,du,ciel,r_has_causatif
+dossier,de,votre mère,r_own-1
+intérêts,d',un autre temps,r_lieu>origine
+cause,de l',habitude,r_topic
+jacassement assourdi,de,perruches,r_product_of
+brou,de,noix,r_objet>matiere
+couleur vive,du,foulard,r_has_property-1
+blancheur,du,bandeau,r_has_property-1
+asile,de,Marengo,r_lieu
+place,de,concierge,r_own-1
+éclaboussement soudain,de la,lumière,r_product_of
+amis,de,Madame votre mère,r_social_tie
+éclat,de la,lumière,r_product_of
+mouvement,de,ses bras,r_processus_agent
+amis,de,maman,r_social_tie
+détail,de,leurs visages,r_holo
+nombril,du,ventre,r_holo
+une,de,ses compagnes,r_quantificateur
+silence,de,tous ces gens,r_processus_agent
+quelques-uns,d',entre les vieillards,r_quantificateur
+un,des,vieillards,r_quantificateur
+visages,de,cendre,r_objet>matiere
+peu,de,toilette,r_quantificateur
+plein,de,rougeurs,r_quantificateur
+employés,des,pompes funèbres,r_topic
+question,d',humanité,r_topic
+vieil ami,de,maman,r_social_tie
+mort,de,Mme Meursault,r_processus_patient
+conseil,du,médecin visiteur,r_product_of
+fenêtre,de,son bureau,r_holo
+curé,de,Marengo,r_lieu
+trois quarts,d',heure de marche,r_quantificateur
+un,de,ceux-ci,r_quantificateur
+longueur de la chaîne,d',argent,r_has_property-1
+plein,de,soleil,r_quantificateur
+nuée,de,chaleur,r_objet>matiere
+chant,des,insectes,r_product_of
+cinquantaine,de,mètres,r_quantificateur
+gouttes,de,sueur,r_objet>matiere
+ligne blanche,de la,route,r_holo
+chapeau,du,cocher,r_own-1
+monotonie,de,ces couleurs,r_has_property-1
+noir gluant,du,goudron,r_has_property-1
+noir terne,des,habits,r_has_property-1
+noir laque,de la,voiture,r_has_property-1
+odeur de cuir et de crottin,de la,voiture,r_has_property-1
+odeur,de,cuir et de crottin,r_product_of
+fatigue,d',une nuit d'insomnie,r_has_causatif
+tant,de,précipitation,r_quantificateur
+pas,d',issue,r_quantificateur
+quelques images,de,cette journée,r_depict
+visage,de,Pérez,r_holo
+grosses larmes,d',énervement et de peine,r_has_causatif
+vernis,d',eau,r_objet>matiere
+évanouissement,de,Pérez,r_processus_patient
+bière,de,maman,r_own-1
+chair blanche,des,racines,r_holo
+incessant ronflement,du,moteur,r_product_of
+incessant ronflement,du,moteur,r_processus_agent
+nid de lumières,d',Alger,r_lieu
+deux jours,de,congé,r_quantificateur
+quatre jours,de,vacances,r_quantificateur
+fatigue de ma journée,d',hier,r_has_causatif
+beaucoup,de,jeunes gens,r_quantificateur
+ventre,de,Marie,r_holo
+odeur,de,sel,r_product_of
+cheveux,de,Marie,r_holo
+table,de la,salle à manger,r_lieu
+chaises,de,paille,r_objet>matiere
+table,de,toilette,r_processus>instr-1
+lit,de,cuivre,r_objet>matiere
+rue principale,du,faubourg,r_holo
+rue principale,du,faubourg,r_lieu
+robe,de,soie,r_objet>matiere
+jeunes gens,du,faubourg,r_lieu>origine
+cinémas,du,centre,r_lieu
+morceau,de,chocolat,r_holo
+passage,des,nuées,r_processus_agent
+promesse,de,pluie,r_topic
+stylo,du,marchand de tabac,r_own-1
+chargement,d',hommes,r_quantificateur
+bracelet,d',argent,r_objet>matiere
+dos,de la,chaise,r_holo
+morceaux,de,pain,r_holo
+fracas,de,chaînes,r_processus_patient
+élan désordonné,de la,course,r_has_property-1
+maladie,de,peau,r_topic
+rue,de,Lyon,r_lieu
+fuir,de,frayeur,r_has_causatif
+traînée,de,petites gouttes,r_quantificateur
+nez,de,boxeur,r_holo
+coups,de,pied,r_processus>instr-1
+coup,de,genou,r_processus>instr-1
+bain,de,vin,r_objet>matiere
+photos,de,champions,r_depict
+clichés,de,femmes nues,r_depict
+bouteilles,de,vin,r_quantificateur
+frère,de,cette femme,r_social_tie
+paire,de,bas,r_quantificateur
+billet,de,loterie,r_topic
+indication,du,mont-de-piété,r_topic
+existence,de,ces bracelets,r_has_property-1
+mèche,de la,lampe,r_holo
+un litre,de,vin,r_quantificateur
+cigarettes,de,Raymond,r_own-1
+bruits maintenant lointains,du,faubourg,r_processus_agent
+peu,de,boudin froid,r_quantificateur
+toile cirée,de la,table,r_holo
+tiroir,de la,table,r_holo
+quadrillage,de la,feuille,r_holo
+porte-plume,de,bois,r_objet>matiere
+nom,de la,femme,r_has_property-1

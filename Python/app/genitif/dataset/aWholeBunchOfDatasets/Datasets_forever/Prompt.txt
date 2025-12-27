@@ -1,0 +1,14 @@
+Bonjour, je veux que tu génère des données de la forme suivante : A d B avec A et B des termes et d un déterminant de la liste suivante[ de, du, de la, des, d']. Attention les triplés doivent avoir d sens. Il faut qu'ils puissent exister sous cette forme (même ordre, sans ajout de mots au millieu du triplé) dans une phrase grammaticalement correcte ou qui pourrait être prononcée à l'oral de manière naturelle.
+
+Définition pas mal mais il faut ajouter le truc du sens des triplés avant le fait qu'ils soient correct. Et par la même occasion préciser qu'on ne prend pas tout les triplés possibles.
+
+Bonjour, je veux que tu génère des données de la forme suivante : A d B avec "A" et "B" des noms du language français et "d" est un déterminant de la liste suivante[ de, du, de la, des, d'un,d'une, d']. Tout les triplés doivent être sous forme génitive, (le terme A est un nom qui sert d'adjectif à B ou l'inverse). Il faut que les triplés puissent exister sous cette forme (même ordre, sans ajout de mots au millieu du triplé) dans une phrase grammaticalement correcte. De plus, les triplés eux-mêmes doivent avoir du sens, par exemple : cours de mathématiques est un triplé qui a du sens, en revanche cours de goudrons n'as pas de sens.
+Par la suite je vais te demmander de générer un certain nombre de ces triplés en fonction de la relation entre A et B. Je préciserai le nom de la relation, son sens sémantique et je donnerai quelques exemples. Lors de la génération des triplés privilégie des triplés pour lesquels les termes A et B sont formé d'un seul mot.
+Ce premier prompt doit te servir comme contexte pour répondre aux prochains prompt, tu de vras donc systématique de réferer a ce prompt et respecter scrupuleusement les contraintes qui y sont énoncées.
+Enfin pour chaque génération de triplés pense a bien mettre un espace entre les termes A et B et le déterminant quand c'est nécessaire.
+
+
+Je voudrais que tu génère 50 triplés pour la relation r_topic, cette relation se définit par le fait que le terme A a pour thème (ou sujet) le terme B. C'est à dire que le terme A doit être la nomination d'un objet qui peut avoir un thème et B doit être un thème acceptable pour A.
+Voici quelques exemples : restaurant de sushis, film d'horreur, Narration d'un exploit.
+
+Remarque sur le prompt de Claude : ne pas utiliser des mots trop compliqués, mettre les (un, une) dans la colonne déterminant du fichier csv.

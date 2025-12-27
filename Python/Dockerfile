@@ -1,6 +1,6 @@
 FROM python:3.9-slim
 
-RUN pip install redis requests
+RUN pip install redis requests pandas scikit-learn
 
 COPY ./Python/app /app
 

@@ -18,17 +18,19 @@ OUTPUT_FILE = "adeb/dataset/preProcessed_Vectorized.csv"
 def get_vector_for_term(term: str, side: str):
     """
     Récupère les relations JDM pour un terme donné (A ou B).
-    Met aussi en cache le résultat complet.
+    Gère les erreurs Redis de manière non-bloquante pour éviter l'arrêt du script.
     """
     term = str(term).strip().lower()
     cache_key = f"vectorized_term:{term}"
 
-    cached_result = api.get_from_redis(cache_key)
-    if cached_result:
-        return cached_result
+    try:
+        cached_result = api.get_from_redis(cache_key)
+        if cached_result:
+            return cached_result
+    except Exception as e:
+        print(f"Cache inaccessible (lecture) pour '{term}': {e}")
 
     all_relations = []
-
     for rtype in REL_TYPES:
         params = {"rel": rtype}
         try:
@@ -38,11 +40,10 @@ def get_vector_for_term(term: str, side: str):
                 continue
 
             for rel in data["relations"][:MAX_REL]:
-                # Récupération du nom réel du target via l'ID
                 try:
-                    target_name = utils.get_node_name_by_id(rel["node2"])  # node2 est le terme lié
+                    target_name = utils.get_node_name_by_id(rel["node2"])
                 except (KeyError, AttributeError):
-                    target_name = ""  # fallback si API renvoie un format inattendu
+                    target_name = ""
 
                 all_relations.append({
                     "side": side,
@@ -52,13 +53,16 @@ def get_vector_for_term(term: str, side: str):
                 })
 
         except Exception as e:
-            # Une seule erreur API et on skip ce terme
-            print(f"Erreur API pour le terme '{term}' type {rtype}: {e}")
+            print(f"Erreur API JDM pour le terme '{term}' type {rtype}: {e}")
             raise RuntimeError(f"Term '{term}' skipped à cause d'une erreur API") from e
 
-        time.sleep(0.15)  # évite de surcharger l'API
+        time.sleep(0.15)  # Respect du quota API
+    if all_relations:
+        try:
+            api.store_in_redis(cache_key, all_relations)
+        except Exception as e:
+            print(f"Cache inaccessible (écriture) pour '{term}': {e}")
 
-    api.store_in_redis(cache_key, all_relations)
     return all_relations
 
 

@@ -10,6 +10,7 @@ sys.path.append(str(Path(__file__).resolve().parent.parent))
 import api
 import utils
 import vectorizer
+from Models.Tree import Forest_Model
 
 list_rel = ["r_has_causatif","r_has_property-1","r_objet>matiere","r_lieu>origine","r_topic","r_depict","r_holo","r_lieu","r_processus_agent","r_processus_patient","r_processus>instr-1","r_own-1","r_quantificateur","r_social_tie","r_product_of"]
 dico_rel = {e:list_rel.index(e) for e in list_rel}

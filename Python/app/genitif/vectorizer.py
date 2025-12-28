@@ -11,8 +11,8 @@ import utils
 
 REL_TYPES = [0, 3, 5, 6, 17]       # Types de relations à extraire (0: r_associated, 3: r_domain, 5: r_syn, 6: r_isa, 17: r_carac)
 MAX_REL = 10                   # Limite de relations par type
-INPUT_FILE = "adeb/dataset/preProcessed_Dataset.csv"
-OUTPUT_FILE = "adeb/dataset/preProcessed_Vectorized.csv"
+INPUT_FILE = "./dataset/preProcessed_Dataset.csv"
+OUTPUT_FILE = "./dataset/preProcessed_Vectorized.csv"
 
 
 def get_vector_for_term(term: str, side: str):
@@ -56,7 +56,7 @@ def get_vector_for_term(term: str, side: str):
             print(f"Erreur API JDM pour le terme '{term}' type {rtype}: {e}")
             raise RuntimeError(f"Term '{term}' skipped à cause d'une erreur API") from e
 
-        time.sleep(0.15)  # Respect du quota API
+        time.sleep(0.4)  # Respect du quota API
     if all_relations:
         try:
             api.store_in_redis(cache_key, all_relations)
@@ -66,7 +66,7 @@ def get_vector_for_term(term: str, side: str):
     return all_relations
 
 
-def create_sample_dataset(input_file=INPUT_FILE, output_file="adeb/dataset/sample_Dataset.json", sample_size=50):
+def create_sample_dataset(input_file=INPUT_FILE, output_file="./dataset/sample_Dataset.json", sample_size=50):
     """
     Crée un petit dataset aléatoire à partir du dataset complet.
     """
@@ -182,8 +182,9 @@ def convert_to_tree_structure(flat_features_list):
     return tree
 
 if __name__ == "__main__":
-    print("Création d'un petit dataset aléatoire pour test")
-    sample_file = create_sample_dataset(sample_size=50)
+    #print("Création d'un petit dataset aléatoire pour test")
+    #sample_file = create_sample_dataset(sample_size=50)
 
     print("Démarrage de la vectorisation via API JeuxDeMots")
-    vectorize_dataset(input_file=sample_file)
+    #vectorize_dataset(input_file=sample_file)
+    vectorize_dataset()

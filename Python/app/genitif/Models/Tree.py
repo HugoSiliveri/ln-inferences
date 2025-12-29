@@ -24,14 +24,20 @@ class Tree:
             self.Build_Tree(List_Vector)
     def compute_scores(self,v1,v2):
         #Pour chaque donnée du vecteur v1 on cherche si elle existe dans v2
-        done = {"A":{},"B":{}}
-        v3 = {"A":{},"B":{}}
+        done = {"A":{},"B":{},"R":{}}
+        v3 = {"A":{},"B":{},"R":{}}
         sim = []
-        for k0 in ["A","B"]:
+        for k0 in ["A","B","R"]:
             for k1 in v1[k0].keys():
                 v3[k0][k1]={}
                 if not(k1 in done[k0].keys()):
-                    done[k0][k1] = {key:False for key in v2[k0][k1].keys()}#Hopefully ça marche
+                    try :
+                        done[k0][k1] = {key:False for key in v2[k0][k1].keys()}#Hopefully ça marche
+                    except KeyError :
+                        print(done)
+                        print(v2)
+                        print("liste des index a suivre dans leur ordre")
+                        print("0 : "+str(k0)+" , 1 : "+str(k1))
                 for word in v1[k0][k1].keys():
                     leafs = v2[k0][k1].keys()
                     if word in leafs:
@@ -41,7 +47,7 @@ class Tree:
                     else:
                         v3[k0][k1][word] = v1[k0][k1][word]/2
                         sim.append(abs(v1[k0][k1][word]))
-        for k0 in ["A","B"]:
+        for k0 in ["A","B","R"]:
             for k1 in v2[k0].keys():
                 for word in v2[k0][k1]:
                     if not(done[k0][k1][word]):
@@ -135,13 +141,4 @@ class Forest_Model:
         return true/len(prediction)
     def save(self):
         with open('models/forestModel.pk1',"wb") as f:
-<<<<<<< HEAD
             pickle.dump(self,f,pickle.HIGHEST_PROTOCOL)
-=======
-            pickle.dump(self,f,pickle.HIGHEST_PROTOCOL)
-
-
-
-#Trouver comment faire les calculs sur le GPI
-
->>>>>>> d15d5e2 (ajout de mes fichiers de dataset)

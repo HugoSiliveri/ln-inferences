@@ -17,8 +17,10 @@ dico_rel = {e:list_rel.index(e) for e in list_rel}
 
 if __name__ == "__main__":
     
-    print("[1] Vectorisation du jeu de données")
-    dataset = vectorizer.vectorize_dataset(input_file="./dataset/preProcessed_Dataset.csv")
+    #print("[1] Vectorisation du jeu de données")
+    #dataset = vectorizer.vectorize_dataset(input_file="./dataset/preProcessed_Vectorized.json")
+    with open("./genitif/dataset/preProcessed_Vectorized.json") as f:      #Modif faite pour les tests (pour pas avoir à refaire la putain de vectorization)
+        dataset = json.load(f)
     print("[2] Entrainement du modèle")
     df = pd.DataFrame.from_records(dataset)
     df["type_relation"] = df["type_relation"].map(dico_rel)

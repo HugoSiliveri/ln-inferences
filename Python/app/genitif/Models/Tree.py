@@ -135,4 +135,13 @@ class Forest_Model:
         return true/len(prediction)
     def save(self):
         with open('models/forestModel.pk1',"wb") as f:
+<<<<<<< HEAD
             pickle.dump(self,f,pickle.HIGHEST_PROTOCOL)
+=======
+            pickle.dump(self,f,pickle.HIGHEST_PROTOCOL)
+
+
+
+#Trouver comment faire les calculs sur le GPI
+
+>>>>>>> d15d5e2 (ajout de mes fichiers de dataset)

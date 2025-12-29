@@ -1,0 +1,626 @@
+A,determinant,B
+avocat,d',une femme
+chef,du,groupe
+médecin,du,garçon
+professeur,de la,classe
+directeur,de l',école
+maire,de la,ville
+président,du,pays
+ministre,du,gouvernement
+député,de la,circonscription
+sénateur,de la,région
+conseiller,de la,municipalité
+juge,du,tribunal
+procureur,de la,république
+avocat,de l',accusé
+notaire,de la,famille
+huissier,du,tribunal
+greffier,de la,cour
+commissaire,du,quartier
+inspecteur,de l',enquête
+agent,du,secteur
+gardien,de la,prison
+surveillant,du,lycée
+proviseur,du,lycée
+principal,du,collège
+recteur,de l',académie
+inspecteur,de l',éducation
+enseignant,de l',école
+instituteur,de la,classe
+maître,des,élèves
+professeur,des,étudiants
+tuteur,de l',enfant
+précepteur,du,prince
+gouvernante,des,enfants
+nourrice,du,bébé
+baby-sitter,de la,famille
+éducateur,des,jeunes
+moniteur,du,camp
+entraîneur,de l',équipe
+coach,du,sportif
+capitaine,de l',équipe
+chef,de la,brigade
+commandant,du,bataillon
+colonel,du,régiment
+général,de l',armée
+amiral,de la,flotte
+capitaine,du,navire
+commandant,de l',avion
+pilote,de l',appareil
+contrôleur,du,vol
+steward,des,passagers
+hôtesse,du,vol
+guide,du,groupe
+accompagnateur,des,touristes
+gardien,du,musée
+conservateur,du,musée
+bibliothécaire,de la,bibliothèque
+archiviste,des,archives
+documentaliste,du,centre
+secrétaire,du,directeur
+assistant,du,professeur
+aide,du,chirurgien
+infirmière,du,patient
+aide-soignant,du,malade
+kinésithérapeute,du,blessé
+psychologue,du,patient
+psychiatre,du,malade
+thérapeute,du,patient
+pharmacien,du,quartier
+dentiste,du,patient
+vétérinaire,de l',animal
+éleveur,du,troupeau
+berger,des,moutons
+gardien,du,troupeau
+palefrenier,des,chevaux
+dresseur,du,chien
+maître,de l',animal
+propriétaire,du,chien
+jardinier,du,parc
+gardien,de l',immeuble
+concierge,de l',immeuble
+portier,de l',hôtel
+réceptionniste,de l',hôtel
+serveur,du,restaurant
+sommelier,du,restaurant
+chef,de la,cuisine
+cuisinier,du,restaurant
+pâtissier,de la,boutique
+boulanger,du,village
+boucher,du,quartier
+poissonnier,du,marché
+épicier,du,coin
+commerçant,du,quartier
+vendeur,du,magasin
+gérant,de la,boutique
+patron,du,café
+barman,du,bar
+tenancier,de l',auberge
+hôtelier,de l',hôtel
+aubergiste,de l',auberge
+cabaretier,du,cabaret
+animateur,de l',émission
+présentateur,du,journal
+journaliste,du,journal
+reporter,du,journal
+correspondant,de la,région
+chroniqueur,de l',émission
+rédacteur,du,magazine
+éditorialiste,du,journal
+critique,du,journal
+commentateur,de l',émission
+consultant,de l',émission
+expert,de l',émission
+analyste,du,débat
+modérateur,du,forum
+médiateur,du,conflit
+arbitre,du,match
+juge,de la,compétition
+commissaire,de la,course
+chronométreur,de l',épreuve
+contrôleur,de la,compétition
+délégué,de la,fédération
+responsable,de la,section
+coordinateur,du,projet
+superviseur,de l',équipe
+manager,de l',équipe
+dirigeant,de l',entreprise
+président,de l',entreprise
+directeur,de l',entreprise
+administrateur,de la,société
+gérant,de la,société
+chef,de l',entreprise
+patron,de l',entreprise
+employeur,des,salariés
+contremaître,de l',atelier
+chef,de l',atelier
+chef,du,chantier
+conducteur,des,travaux
+architecte,du,projet
+ingénieur,du,projet
+technicien,du,service
+ouvrier,du,chantier
+artisan,de l',atelier
+compagnon,de l',atelier
+apprenti,du,maître
+stagiaire,de l',entreprise
+employé,de l',entreprise
+salarié,de l',entreprise
+collaborateur,de l',équipe
+collègue,du,bureau
+associé,de l',entreprise
+partenaire,de l',affaire
+actionnaire,de la,société
+investisseur,du,projet
+sponsor,de l',événement
+mécène,de l',artiste
+bienfaiteur,de la,fondation
+donateur,de l',association
+membre,de l',association
+adhérent,du,club
+sociétaire,de la,coopérative
+cotisant,de la,mutuelle
+abonné,du,théâtre
+spectateur,du,spectacle
+auditeur,de la,conférence
+participant,du,séminaire
+intervenant,du,colloque
+conférencier,du,congrès
+orateur,de la,cérémonie
+speaker,de l',événement
+représentant,de l',entreprise
+délégué,du,syndicat
+syndiqué,du,syndicat
+militant,du,parti
+partisan,du,mouvement
+sympathisant,du,parti
+électeur,de la,circonscription
+citoyen,de la,nation
+habitant,de la,ville
+résident,du,quartier
+locataire,de l',appartement
+propriétaire,de la,maison
+copropriétaire,de l',immeuble
+bailleur,du,logement
+voisin,de l',immeuble
+riverain,de la,rue
+commerçant,de la,rue
+artisan,du,quartier
+professionnel,du,secteur
+spécialiste,du,domaine
+expert,du,domaine
+consultant,de l',entreprise
+conseiller,du,président
+attaché,de l',ambassade
+diplomate,de l',ambassade
+ambassadeur,du,pays
+consul,de la,ville
+chargé,de l',affaire
+délégué,de la,mission
+envoyé,du,gouvernement
+émissaire,du,roi
+messager,du,prince
+héraut,du,roi
+porte-parole,du,gouvernement
+communicant,de l',entreprise
+attaché,de,presse
+agent,de l',artiste
+impresario,du,chanteur
+producteur,du,film
+réalisateur,du,film
+metteur,de la,scène
+régisseur,du,théâtre
+directeur,du,théâtre
+scénographe,du,spectacle
+décorateur,du,plateau
+costumier,de la,pièce
+maquilleur,de l',acteur
+coiffeur,de l',actrice
+accessoiriste,du,tournage
+éclairagiste,du,spectacle
+sonoriseur,du,concert
+ingénieur,du,son
+preneur,du,son
+machiniste,du,théâtre
+technicien,du,plateau
+cadreur,du,film
+cameraman,du,tournage
+opérateur,de la,caméra
+directeur,de la,photographie
+monteur,du,film
+chef,du,montage
+mixeur,du,son
+compositeur,de la,musique
+chef,de l',orchestre
+premier,de l',orchestre
+soliste,de l',orchestre
+musicien,de l',orchestre
+instrumentiste,de l',ensemble
+violoniste,de l',orchestre
+altiste,de l',orchestre
+violoncelliste,de l',orchestre
+contrebassiste,de l',orchestre
+flûtiste,de l',orchestre
+hautboïste,de l',orchestre
+clarinettiste,de l',orchestre
+bassoniste,de l',orchestre
+corniste,de l',orchestre
+trompettiste,de l',orchestre
+tromboniste,de l',orchestre
+tubiste,de l',orchestre
+timbalier,de l',orchestre
+percussionniste,de l',orchestre
+harpiste,de l',orchestre
+pianiste,de l',orchestre
+organiste,de l',église
+chantre,de l',église
+maître,de la,chapelle
+choriste,de la,chorale
+soprano,de la,chorale
+alto,de la,chorale
+ténor,de la,chorale
+basse,de la,chorale
+chef,du,chœur
+directeur,de la,chorale
+soliste,du,concert
+chanteur,du,groupe
+leader,du,groupe
+guitariste,du,groupe
+bassiste,du,groupe
+batteur,du,groupe
+claviériste,du,groupe
+saxophoniste,du,groupe
+trompettiste,du,groupe
+danseur,de la,troupe
+ballerine,du,ballet
+étoile,du,ballet
+premier,du,ballet
+coryphée,du,ballet
+sujet,du,ballet
+quadrille,du,ballet
+figurant,du,ballet
+mime,de la,troupe
+clown,du,cirque
+acrobate,du,cirque
+équilibriste,du,cirque
+jongleur,du,cirque
+trapéziste,du,cirque
+funambule,du,cirque
+prestidigitateur,du,spectacle
+illusionniste,du,spectacle
+magicien,du,spectacle
+ventriloque,du,spectacle
+dompteur,du,cirque
+dresseur,des,fauves
+montreur,des,animaux
+directeur,du,cirque
+Monsieur,du,cirque
+présentateur,du,numéro
+meneur,du,jeu
+animateur,de la,soirée
+disc-jockey,de la,soirée
+programmateur,de la,salle
+directeur,de la,salle
+gérant,de la,salle
+placeur,du,théâtre
+ouvreuse,du,cinéma
+contrôleur,de la,salle
+vigile,de la,salle
+agent,de,sécurité
+garde,du,corps
+gorille,du,président
+escorte,du,ministre
+garde,du,roi
+sentinelle,du,palais
+faction,du,poste
+veilleur,de,nuit
+rondier,de,nuit
+gardien,de,nuit
+surveillant,de,nuit
+veilleur,du,site
+gardien,du,site
+responsable,du,site
+chef,de la,sécurité
+directeur,de la,sécurité
+préfet,du,département
+sous-préfet,de l',arrondissement
+gouverneur,de la,province
+intendant,de la,province
+vice-roi,de la,colonie
+résident,de la,colonie
+administrateur,de la,colonie
+commissaire,de la,colonie
+délégué,de la,colonie
+chancelier,de l',empire
+premier,du,roi
+vizir,du,sultan
+grand,du,sultan
+pacha,de la,province
+bey,de la,province
+caïd,de la,tribu
+cheik,de la,tribu
+émir,de la,principauté
+sultan,de l',empire
+calife,de l',empire
+imam,de la,mosquée
+muezzin,de la,mosquée
+mollah,de la,communauté
+ayatollah,de la,communauté
+mufti,de la,communauté
+rabbin,de la,synagogue
+grand,de la,synagogue
+chantre,de la,synagogue
+hazzan,de la,synagogue
+cohen,de la,communauté
+lévite,de la,communauté
+prêtre,de l',église
+curé,de la,paroisse
+vicaire,de la,paroisse
+doyen,du,chapitre
+chanoine,de la,cathédrale
+archiprêtre,du,diocèse
+évêque,du,diocèse
+archevêque,de la,province
+métropolite,de la,province
+patriarche,de l',église
+primat,de l',église
+cardinal,de l',église
+pape,de l',église
+légat,du,pape
+nonce,du,pape
+vicaire,du,pape
+abbé,de l',abbaye
+prieur,du,prieuré
+moine,du,monastère
+frère,de la,communauté
+religieux,de l',ordre
+père,de l',ordre
+supérieur,de l',ordre
+général,de l',ordre
+provincial,de la,province
+gardien,du,couvent
+custode,du,couvent
+définiteur,de l',ordre
+visiteur,de l',ordre
+chapelain,de la,chapelle
+aumônier,de l',armée
+confesseur,du,roi
+directeur,de,conscience
+père,de la,confession
+prédicateur,de la,mission
+missionnaire,de la,mission
+évangéliste,de la,communauté
+pasteur,de l',église
+ministre,du,culte
+diacre,de l',église
+ancien,de l',église
+évêque,de la,communauté
+superintendant,de l',église
+modérateur,de l',assemblée
+prophète,de la,communauté
+apôtre,de la,communauté
+disciple,du,maître
+adepte,du,gourou
+fidèle,de l',église
+paroissien,de la,paroisse
+ouaille,du,troupeau
+croyant,de la,religion
+pratiquant,du,culte
+dévot,du,saint
+pèlerin,du,sanctuaire
+visiteur,du,sanctuaire
+gardien,du,temple
+desservant,de la,chapelle
+sacristain,de l',église
+bedeau,de l',église
+suisse,de l',église
+marguillier,de la,paroisse
+chantre,de la,paroisse
+organiste,de la,paroisse
+sonneur,de l',église
+carillonneur,de l',église
+fossoyeur,du,cimetière
+gardien,du,cimetière
+conservateur,du,cimetière
+chef,de la,famille
+père,de la,famille
+mère,de la,famille
+parent,de l',enfant
+grand-père,de la,famille
+grand-mère,de la,famille
+aïeul,de la,famille
+ancêtre,de la,lignée
+patriarche,de la,famille
+matriarche,de la,famille
+chef,du,clan
+doyen,de la,famille
+aîné,de la,famille
+fils,de la,famille
+fille,de la,famille
+enfant,de la,famille
+frère,de la,fratrie
+sœur,de la,fratrie
+jumeau,de la,paire
+oncle,de la,famille
+tante,de la,famille
+neveu,de la,famille
+nièce,de la,famille
+cousin,de la,famille
+cousine,de la,famille
+parrain,du,filleul
+marraine,de la,filleule
+filleul,du,parrain
+filleule,de la,marraine
+tuteur,de l',orphelin
+tutrice,de l',orpheline
+pupille,du,tuteur
+protégé,du,tuteur
+protégée,de la,tutrice
+gardien,de l',enfant
+responsable,de l',enfant
+parent,de l',élève
+représentant,de l',élève
+beau-père,de la,famille
+belle-mère,de la,famille
+beau-fils,de la,famille
+belle-fille,de la,famille
+gendre,de la,famille
+bru,de la,famille
+beau-frère,de la,famille
+belle-sœur,de la,famille
+demi-frère,de la,fratrie
+demi-sœur,de la,fratrie
+conjoint,du,couple
+époux,du,couple
+épouse,du,couple
+mari,de la,femme
+femme,du,mari
+compagnon,de la,compagne
+compagne,du,compagnon
+fiancé,de la,fiancée
+fiancée,du,fiancé
+promis,de la,promise
+promise,du,promis
+prétendant,de la,dame
+soupirant,de la,dame
+amant,de la,maîtresse
+maîtresse,de l',amant
+amoureux,de la,belle
+amoureuse,du,beau
+bien-aimé,de la,bien-aimée
+bien-aimée,du,bien-aimé
+ami,de l',ami
+amie,de l',amie
+copain,du,copain
+copine,de la,copine
+camarade,du,camarade
+pote,du,pote
+confident,de la,confidente
+confidente,du,confident
+complice,du,complice
+allié,de l',allié
+allié,du,camp
+partisan,du,chef
+fidèle,du,seigneur
+vassal,du,suzerain
+suzerain,du,vassal
+féal,du,seigneur
+homme,du,seigneur
+chevalier,du,roi
+écuyer,du,chevalier
+page,du,chevalier
+valet,du,maître
+serviteur,du,maître
+domestique,de la,maison
+employé,de,maison
+homme,de,peine
+femme,de,ménage
+bonne,de la,maison
+soubrette,de la,maison
+camériste,de la,dame
+suivante,de la,dame
+demoiselle,de la,reine
+dame,de la,reine
+dame,de,compagnie
+lectrice,de la,reine
+intendant,de la,maison
+majordome,de la,maison
+maître,de la,maison
+sommelier,de la,cour
+échanson,du,roi
+panetier,du,roi
+queux,du,roi
+cuisinier,de la,cour
+chef,de la,cour
+pâtissier,de la,cour
+rôtisseur,de la,cour
+saucier,de la,cour
+écuyer,de la,cuisine
+marmiton,de la,cuisine
+aide,de la,cuisine
+plongeur,du,restaurant
+garçon,du,restaurant
+commis,de la,cuisine
+apprenti,de la,cuisine
+chef,de,partie
+second,de la,cuisine
+sous-chef,de la,cuisine
+chef,de la,brigade
+saucier,de la,brigade
+poissonnier,de la,brigade
+rôtisseur,de la,brigade
+garde-manger,de la,brigade
+entremétier,de la,brigade
+pâtissier,de la,brigade
+glacier,de la,brigade
+confiseur,de la,brigade
+boulanger,de la,brigade
+chef,de,rang
+chef,de la,salle
+maître,de la,salle
+maître,de l',hôtel
+sommelier,de la,cave
+caviste,de la,cave
+barman,du,restaurant
+barista,du,café
+serveur,de la,terrasse
+garçon,du,café
+limonadier,du,café
+cafetier,du,café
+bistrotier,du,bistrot
+tavernier,de la,taverne
+cabaretier,de la,guinguette
+guinguettier,de la,guinguette
+aubergiste,de la,table
+restaurateur,de l',établissement
+traiteur,du,service
+organisateur,de la,réception
+wedding,du,mariage
+coach,de la,mariée
+témoin,du,mariage
+garçon,du,cortège
+demoiselle,du,cortège
+page,du,cortège
+bouquetière,du,cortège
+porteur,des,alliances
+cérémoniaire,de la,cérémonie
+maître,de la,cérémonie
+officiant,de la,cérémonie
+célébrant,de la,messe
+diacre,de la,messe
+sous-diacre,de la,messe
+servant,de la,messe
+enfant,du,chœur
+acolyte,du,prêtre
+thuriféraire,de la,procession
+porte-croix,de la,procession
+porte-bannière,de la,procession
+dais,de la,procession
+porte-dais,de la,procession
+bedeau,de la,procession
+suisse,de la,procession
+huissier,de la,cérémonie
+chambellan,de la,cour
+grand,de la,cour
+veneur,du,roi
+fauconnier,du,roi
+louvetier,du,roi
+garde,de la,chasse
+piqueur,de la,chasse
+valet,de la,chasse
+rabatteur,de la,chasse
+traqueur,de la,chasse
+limier,de la,chasse
+veneur,de la,meute
+maître,de la,meute
+piqueur,de la,meute
+fouet,de la,meute
+valet,de,chiens
+garde,des,animaux
+soigneur,des,animaux
+gardien,de la,ménagerie
+conservateur,de la,ménagerie
+directeur,du,zoo
+vétérinaire,du,zoo
+soigneur,du,zoo
+gardien,du,zoo

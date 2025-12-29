@@ -20,7 +20,8 @@ services:
     networks:
       - redis_network
     volumes:
-      - ./Python/app/adeb/dataset:/app/adeb/dataset
+      - ./Python/app/genitif/dataset:/app/genitif/dataset
+      - ./app/genitif/models:/app/genitif/models
 
 volumes:
   redis_data:

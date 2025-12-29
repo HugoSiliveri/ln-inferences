@@ -17,9 +17,9 @@ dico_rel = {e:list_rel.index(e) for e in list_rel}
 
 if __name__ == "__main__":
     
-    print("Vectorisation du jeu de données")
-    dataset = vectorizer.vectorize_dataset(input_file="genitif/dataset/preProcessed_Dataset.csv")
-    print("Entrainement du modèle")
+    print("[1] Vectorisation du jeu de données")
+    dataset = vectorizer.vectorize_dataset(input_file="./dataset/preProcessed_Dataset.csv")
+    print("[2] Entrainement du modèle")
     df = pd.DataFrame.from_records(dataset)
     df["type_relation"] = df["type_relation"].map(dico_rel)
     forest = Forest_Model(15)

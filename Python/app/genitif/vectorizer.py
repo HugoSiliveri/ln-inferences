@@ -3,6 +3,7 @@ import json
 import time
 import csv
 import pandas as pd
+import unicodedata
 from pathlib import Path
 
 sys.path.append(str(Path(__file__).resolve().parent.parent))
@@ -10,9 +11,9 @@ import api
 import utils
 
 REL_TYPES = [0, 3, 5, 6, 17]       # Types de relations à extraire (0: r_associated, 3: r_domain, 5: r_syn, 6: r_isa, 17: r_carac)
-MAX_REL = 10                   # Limite de relations par type
+MAX_REL = 5                   # Limite de relations par type
 INPUT_FILE = "./dataset/preProcessed_Dataset.csv"
-OUTPUT_FILE = "./dataset/preProcessed_Vectorized.csv"
+OUTPUT_FILE = "./dataset/preProcessed_Vectorized.json"
 
 
 def get_vector_for_term(term: str, side: str):
@@ -20,8 +21,9 @@ def get_vector_for_term(term: str, side: str):
     Récupère les relations JDM pour un terme donné (A ou B).
     Gère les erreurs Redis de manière non-bloquante pour éviter l'arrêt du script.
     """
-    term = str(term).strip().lower()
+    term = str(term).strip()
     cache_key = f"vectorized_term:{term}"
+    term = unicodedata.normalize('NFC', term)
 
     try:
         cached_result = api.get_from_redis(cache_key)
@@ -53,7 +55,7 @@ def get_vector_for_term(term: str, side: str):
                 })
 
         except Exception as e:
-            print(f"Erreur API JDM pour le terme '{term}' type {rtype}: {e}")
+            print(f"\nErreur API JDM pour le terme '{term}' type {rtype}: {e}")
             raise RuntimeError(f"Term '{term}' skipped à cause d'une erreur API") from e
 
         time.sleep(0.4)  # Respect du quota API
@@ -88,7 +90,7 @@ def create_sample_dataset(input_file=INPUT_FILE, output_file="./dataset/sample_D
 
 def vectorize_dataset(input_file=INPUT_FILE, output_file=OUTPUT_FILE):
     """
-    Lit le dataset, crée un CSV vectorisé basé sur les relations JDM,
+    Lit le dataset, crée un JSON vectorisé basé sur les relations JDM,
     normalise les poids (Min-Max) JDM ligne par ligne, et ajoute la relation R (poids 1.0).
     """
     df = pd.read_csv(input_file)
@@ -104,14 +106,16 @@ def vectorize_dataset(input_file=INPUT_FILE, output_file=OUTPUT_FILE):
         B = str(row["B"]).strip()
         rel_type = row["type_relation"]
 
-        print(f"[{i+1}/{total_rows}] Traitement : {A} {R} {B}")
+        status_line = f"[{i+1}/{total_rows}] {A} {R} {B}"
+        sys.stdout.write(f"\r{status_line:<80}") 
+        sys.stdout.flush()
 
         try:
             vec_A = get_vector_for_term(A, "A")
             vec_B = get_vector_for_term(B, "B")
         except RuntimeError:
             skipped += 1
-            print(f"Skipping la ligne {i+1} ({A}, {B}) à cause d'une erreur API")
+            print(f"Skip de la ligne {i+1} ({A}, {B}) à cause d'une erreur API")
             continue
 
         processed += 1
@@ -150,6 +154,7 @@ def vectorize_dataset(input_file=INPUT_FILE, output_file=OUTPUT_FILE):
             "type_relation": rel_type,
             "features": tree_structure
         })
+    print("\n")
     with open(output_file,"w") as f:
         json.dump(results,f)
     #pd.DataFrame(results).to_csv(output_file, index=False, encoding="utf-8")

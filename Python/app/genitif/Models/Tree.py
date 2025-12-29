@@ -22,6 +22,42 @@ class Tree:
             self.root=List_Vector
         if(type(List_Vector) is list):
             self.Build_Tree(List_Vector)
+
+    """
+    Version de Gemini
+    """
+    def compute_scores(self, v1, v2):
+        # On prend toutes les clés présentes (A, B, et R)
+        all_sides = set(v1.keys()) | set(v2.keys())
+        v3 = {}
+        sim = []
+
+        for side in all_sides:
+            v3[side] = {}
+            # On récupère les types de relations pour ce côté (ex: '0', '5', 'prep')
+            v1_types = v1.get(side, {})
+            v2_types = v2.get(side, {})
+            all_types = set(v1_types.keys()) | set(v2_types.keys())
+
+            for r_type in all_types:
+                v3[side][r_type] = {}
+                nodes1 = v1_types.get(r_type, {})
+                nodes2 = v2_types.get(r_type, {})
+                all_nodes = set(nodes1.keys()) | set(nodes2.keys())
+
+                for node in all_nodes:
+                    w1 = nodes1.get(node, 0)
+                    w2 = nodes2.get(node, 0)
+                    
+                    # Calcul de la moyenne pour le nouveau noeud (v3)
+                    v3[side][r_type][node] = (w1 + w2) / 2
+                    # Calcul de la distance (sim)
+                    sim.append(abs(w1 - w2))
+
+        score = sum(sim) / len(sim) if sim else 1.0
+        return v3, score
+    """
+    Version de Lucien
     def compute_scores(self,v1,v2):
         #Pour chaque donnée du vecteur v1 on cherche si elle existe dans v2
         done = {"A":{},"B":{}}
@@ -48,6 +84,7 @@ class Tree:
                         v3[k0][k1][word] = v2[k0][k1][word]/2
                         sim.append(abs(v2[k0][k1][word]))
         return v3 , sum(sim) / len(sim)
+    """
     def Build_Tree(self,List_Vector):
         def find_closest_to_first(List_Vector):#Cherche systématiquement le vecteur le proche de celui en position 0
             #Trouve les vecteurs les plus proche

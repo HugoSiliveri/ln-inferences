@@ -70,7 +70,7 @@ def get_relations_from(node_name, parameters):
     full_url = f"{BASE_URL}/v0/relations/from/{node_name}?{query_string}"
     
     try:
-        response = requests.get(full_url, verify=False, timeout=TIMEOUT_VALUE)
+        response = requests.get(full_url, params=parameters, verify=False, timeout=TIMEOUT_VALUE)
         response.raise_for_status()
         result = response.json()
         store_in_redis(cache_key, result)
@@ -91,7 +91,7 @@ def get_relations_from_to(node1_name, node2_name, parameters):
     full_url = f"{BASE_URL}/v0/relations/from/{node1_name}/to/{node2_name}?{query_string}"
     
     try:
-        response = requests.get(full_url, verify=False, timeout=TIMEOUT_VALUE)
+        response = requests.get(full_url, params=parameters, verify=False, timeout=TIMEOUT_VALUE)
         response.raise_for_status()
         result = response.json()
         store_in_redis(cache_key, result)
@@ -111,7 +111,7 @@ def get_relations_to(node_name, parameters):
     full_url = f"{BASE_URL}/v0/relations/to/{node_name}?{query_string}"
     
     try:
-        response = requests.get(full_url, verify=False, timeout=TIMEOUT_VALUE)
+        response = requests.get(full_url, params=parameters, verify=False, timeout=TIMEOUT_VALUE)
         response.raise_for_status()
         result = response.json()
         store_in_redis(cache_key, result)

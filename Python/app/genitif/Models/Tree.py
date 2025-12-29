@@ -23,39 +23,38 @@ class Tree:
         if(type(List_Vector) is list):
             self.Build_Tree(List_Vector)
 
-    """
-    Version de Gemini
-    """
-    def compute_scores(self, v1, v2):
-        # On prend toutes les clés présentes (A, B, et R)
-        all_sides = set(v1.keys()) | set(v2.keys())
-        v3 = {}
+    def compute_scores(self,v1,v2):
+        #Pour chaque donnée du vecteur v1 on cherche si elle existe dans v2
+        done = {"A":{},"B":{},"R":{}}
+        v3 = {"A":{},"B":{},"R":{}}
         sim = []
-
-        for side in all_sides:
-            v3[side] = {}
-            # On récupère les types de relations pour ce côté (ex: '0', '5', 'prep')
-            v1_types = v1.get(side, {})
-            v2_types = v2.get(side, {})
-            all_types = set(v1_types.keys()) | set(v2_types.keys())
-
-            for r_type in all_types:
-                v3[side][r_type] = {}
-                nodes1 = v1_types.get(r_type, {})
-                nodes2 = v2_types.get(r_type, {})
-                all_nodes = set(nodes1.keys()) | set(nodes2.keys())
-
-                for node in all_nodes:
-                    w1 = nodes1.get(node, 0)
-                    w2 = nodes2.get(node, 0)
-                    
-                    # Calcul de la moyenne pour le nouveau noeud (v3)
-                    v3[side][r_type][node] = (w1 + w2) / 2
-                    # Calcul de la distance (sim)
-                    sim.append(abs(w1 - w2))
-
-        score = sum(sim) / len(sim) if sim else 1.0
-        return v3, score
+        for k0 in ["A","B","R"]:
+            for k1 in v1[k0].keys():
+                v3[k0][k1]={}
+                if not(k1 in done[k0].keys()):
+                    try :
+                        done[k0][k1] = {key:False for key in v2[k0][k1].keys()}#Hopefully ça marche
+                    except KeyError :
+                        print(done)
+                        print(v2)
+                        print("liste des index a suivre dans leur ordre")
+                        print("0 : "+str(k0)+" , 1 : "+str(k1))
+                for word in v1[k0][k1].keys():
+                    leafs = v2[k0][k1].keys()
+                    if word in leafs:
+                        v3[k0][k1][word] = (v1[k0][k1][word] + v2[k0][k1][word])/2
+                        sim.append(abs(v1[k0][k1][word] - v2[k0][k1][word]))
+                        done[k0][k1][word]=True
+                    else:
+                        v3[k0][k1][word] = v1[k0][k1][word]/2
+                        sim.append(abs(v1[k0][k1][word]))
+        for k0 in ["A","B","R"]:
+            for k1 in v2[k0].keys():
+                for word in v2[k0][k1]:
+                    if not(done[k0][k1][word]):
+                        v3[k0][k1][word] = v2[k0][k1][word]/2
+                        sim.append(abs(v2[k0][k1][word]))
+        return v3 , sum(sim) / len(sim)
     """
     Version de Lucien
     def compute_scores(self,v1,v2):
@@ -153,7 +152,7 @@ class Forest_Model:
         result = []
         for d in data:
             list_sim = [e.inference(d) for e in self.Trees]
-            print(list_sim)
+            #print(list_sim)
             min_sim = list_sim[0]
             index = 0
             for i in range(1,len(list_sim)):

@@ -11,16 +11,12 @@ import api
 import utils
 
 REL_TYPES = [0, 3, 5, 6, 17]       # Types de relations à extraire (0: r_associated, 3: r_domain, 5: r_syn, 6: r_isa, 17: r_carac)
-MAX_REL = 5                   # Limite de relations par type
+MAX_REL = 10                   # Limite de relations par type
 INPUT_FILE = "./dataset/preProcessed_Dataset.csv"
 OUTPUT_FILE = "./dataset/preProcessed_Vectorized.json"
 
 
 def get_vector_for_term(term: str, side: str):
-    """
-    Récupère les relations JDM pour un terme donné (A ou B).
-    Gère les erreurs Redis de manière non-bloquante pour éviter l'arrêt du script.
-    """
     term = str(term).strip()
     cache_key = f"vectorized_term:{term}"
     term = unicodedata.normalize('NFC', term)
@@ -34,14 +30,13 @@ def get_vector_for_term(term: str, side: str):
 
     all_relations = []
     for rtype in REL_TYPES:
-        params = {"rel": rtype}
+        params = {"rel": rtype, "limit": MAX_REL} 
         try:
             data = api.get_relations_from(term, params)
 
             if not data or "relations" not in data:
                 continue
-
-            for rel in data["relations"][:MAX_REL]:
+            for rel in data["relations"]:
                 try:
                     target_name = utils.get_node_name_by_id(rel["node2"])
                 except (KeyError, AttributeError):
@@ -56,16 +51,15 @@ def get_vector_for_term(term: str, side: str):
 
         except Exception as e:
             print(f"\nErreur API JDM pour le terme '{term}' type {rtype}: {e}")
-            raise RuntimeError(f"Term '{term}' skipped à cause d'une erreur API") from e
-
-        time.sleep(0.4)  # Respect du quota API
+            raise RuntimeError(f"Term '{term}' skipped") from e
+        time.sleep(0.4) 
     if all_relations:
         try:
             api.store_in_redis(cache_key, all_relations)
         except Exception as e:
             print(f"Cache inaccessible (écriture) pour '{term}': {e}")
 
-    return all_relations
+    return all_relations # Retourne [] si aucune relation trouvée
 
 
 def create_sample_dataset(input_file=INPUT_FILE, output_file="./dataset/sample_Dataset.json", sample_size=50):
@@ -90,36 +84,39 @@ def create_sample_dataset(input_file=INPUT_FILE, output_file="./dataset/sample_D
 
 def vectorize_dataset(input_file=INPUT_FILE, output_file=OUTPUT_FILE):
     """
-    Lit le dataset, crée un JSON vectorisé basé sur les relations JDM,
-    normalise les poids (Min-Max) JDM ligne par ligne, et ajoute la relation R (poids 1.0).
+    Lit le dataset, crée un JSON vectorisé basé sur les relations JDM.
+    Ignore les triplets dont l'un des termes n'a aucune relation JDM.
     """
     df = pd.read_csv(input_file)
     results = []
 
     total_rows = len(df)
     processed = 0
-    skipped = 0
+    skipped_no_rel = 0
+    skipped_error = 0
 
     for i, row in df.iterrows():
         A = str(row["A"]).strip()
-        R = str(row["R"]).strip().lower()
+        R = str(row["R"]).strip()
         B = str(row["B"]).strip()
         rel_type = row["type_relation"]
 
-        status_line = f"[{i+1}/{total_rows}] {A} {R} {B}"
-        sys.stdout.write(f"\r{status_line:<80}") 
+        status_line = f"[{i+1}/{total_rows}] {A}, {R}, {B}"
+        sys.stdout.write(f"\r{status_line:<100}") 
         sys.stdout.flush()
 
         try:
             vec_A = get_vector_for_term(A, "A")
             vec_B = get_vector_for_term(B, "B")
+            if not vec_A or not vec_B:
+                skipped_no_rel += 1
+                continue
+
         except RuntimeError:
-            skipped += 1
-            print(f"Skip de la ligne {i+1} ({A}, {B}) à cause d'une erreur API")
+            skipped_error += 1
             continue
 
         processed += 1
-        
         combined_jdm = vec_A + vec_B
         
         jdm_weights = [f["weight"] for f in combined_jdm if f["weight"] > 0]
@@ -132,21 +129,17 @@ def vectorize_dataset(input_file=INPUT_FILE, output_file=OUTPUT_FILE):
                 range_w = max_w - min_w
                 for f in combined_jdm:
                     if f["weight"] > 0:
-                        # Formule de Normalisation: (X - Min) / (Max - Min)
                         f["weight"] = (f["weight"] - min_w) / range_w
-            # Cas où tous les poids sont identiques mais > 0
             elif max_w > 0:
                 for f in combined_jdm:
                     if f["weight"] > 0:
-                        f["weight"] = 1.0 # Tous les poids égaux deviennent 1.0
+                        f["weight"] = 1.0
 
         combined_features = combined_jdm
         combined_features.append({"side": "R", "r_type": "prep", "target": R, "weight": 1.0})
 
         tree_structure = convert_to_tree_structure(combined_features)
 
-        #features_json_string = json.dumps(tree_structure, ensure_ascii=False)
-        
         results.append({
             "A": A,
             "R": R,
@@ -154,15 +147,18 @@ def vectorize_dataset(input_file=INPUT_FILE, output_file=OUTPUT_FILE):
             "type_relation": rel_type,
             "features": tree_structure
         })
-    print("\n")
-    with open(output_file,"w") as f:
-        json.dump(results,f)
-    #pd.DataFrame(results).to_csv(output_file, index=False, encoding="utf-8")
 
-    print(f"Vectorisation terminée : {output_file}")
-    print(f"Lignes totales : {total_rows}")
-    print(f"Lignes traitées : {processed}")
-    print(f"Lignes ignorées : {skipped}")
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=4)
+
+    print("\n")
+    print("-" * 30)
+    print(f"Lignes totales lues   : {total_rows}")
+    print(f"Lignes sauvegardées   : {processed}")
+    print(f"Lignes sans relations : {skipped_no_rel}")
+    print(f"Lignes erreurs API    : {skipped_error}")
+    print("-" * 30)
+    
     return results
 
 def convert_to_tree_structure(flat_features_list):

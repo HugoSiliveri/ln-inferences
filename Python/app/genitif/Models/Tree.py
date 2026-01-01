@@ -22,10 +22,8 @@ class Tree:
             self.root=List_Vector
         if(type(List_Vector) is list):
             self.Build_Tree(List_Vector)
-
     """
     Version de Gemini
-    """
     def compute_scores(self, v1, v2):
         # On prend toutes les clés présentes (A, B, et R)
         all_sides = set(v1.keys()) | set(v2.keys())
@@ -57,7 +55,7 @@ class Tree:
         score = sum(sim) / len(sim) if sim else 1.0
         return v3, score
     """
-    Version de Lucien
+    #Version de Lucien
     def compute_scores(self,v1,v2):
         #Pour chaque donnée du vecteur v1 on cherche si elle existe dans v2
         done = {"A":{},"B":{},"R":{}}
@@ -90,7 +88,6 @@ class Tree:
                         v3[k0][k1][word] = v2[k0][k1][word]/2
                         sim.append(abs(v2[k0][k1][word]))
         return v3 , sum(sim) / len(sim)
-    """
     def Build_Tree(self,List_Vector):
         def find_closest_to_first(List_Vector):#Cherche systématiquement le vecteur le proche de celui en position 0
             #Trouve les vecteurs les plus proche

@@ -4,6 +4,7 @@ import time
 import csv
 import pandas as pd
 import unicodedata
+import copy
 from pathlib import Path
 
 sys.path.append(str(Path(__file__).resolve().parent.parent))
@@ -18,13 +19,14 @@ OUTPUT_FILE = "./dataset/preProcessed_Vectorized.json"
 
 def get_vector_for_term(term: str, side: str):
     term = str(term).strip()
-    cache_key = f"vectorized_term:{term}"
     term = unicodedata.normalize('NFC', term)
+    cache_key = f"vectorized_term:{term}"
 
     try:
         cached_result = api.get_from_redis(cache_key)
         if cached_result:
-            return cached_result
+            # Utilisation de deepcopy pour éviter de muter les données partagées
+            return copy.deepcopy(cached_result)
     except Exception as e:
         print(f"Cache inaccessible (lecture) pour '{term}': {e}")
 
@@ -34,58 +36,65 @@ def get_vector_for_term(term: str, side: str):
         try:
             data = api.get_relations_from(term, params)
 
-            if not data or "relations" not in data:
+            if not isinstance(data, dict) or "relations" not in data:
                 continue
-            for rel in data["relations"]:
+            
+            relations_list = data.get("relations", [])
+            
+            for rel in relations_list:
                 try:
                     target_name = utils.get_node_name_by_id(rel["node2"])
                 except (KeyError, AttributeError):
                     target_name = ""
 
-                all_relations.append({
-                    "side": side,
-                    "r_type": rtype,
-                    "target": target_name,
-                    "weight": rel.get("w", 0)
-                })
+                if target_name:
+                    all_relations.append({
+                        "side": side,
+                        "r_type": rtype,
+                        "target": target_name,
+                        "weight": float(rel.get("w", 0))
+                    })
 
         except Exception as e:
             print(f"\nErreur API JDM pour le terme '{term}' type {rtype}: {e}")
             raise RuntimeError(f"Term '{term}' skipped") from e
-        time.sleep(0.4) 
+        
+        time.sleep(0.2) 
+
     if all_relations:
         try:
             api.store_in_redis(cache_key, all_relations)
         except Exception as e:
             print(f"Cache inaccessible (écriture) pour '{term}': {e}")
 
-    return all_relations # Retourne [] si aucune relation trouvée
+    return copy.deepcopy(all_relations)
 
-
-def create_sample_dataset(input_file=INPUT_FILE, output_file="./dataset/sample_Dataset.json", sample_size=50):
+def normalize_features(features_list):
     """
-    Crée un petit dataset aléatoire à partir du dataset complet.
+    Normalise les poids d'une liste de caractéristiques entre 0 et 1.
     """
-    if not Path(output_file).exists():
-        df = pd.read_csv(input_file)
+    if not features_list:
+        return []
         
-        if sample_size > len(df):
-            sample_size = len(df)
-        
-        sample_df = df.sample(n=sample_size, random_state=42).reset_index(drop=True)
-        sample_df.to_csv(output_file, index=False, encoding="utf-8", quoting=csv.QUOTE_ALL)
-        
-        print(f"Sample de {sample_size} lignes créé : {output_file}")
-    else:
-        print(f"Le sample existe déjà")
+    weights = [f["weight"] for f in features_list if f["weight"] > 0]
     
-    return output_file
-
+    if weights:
+        min_w = min(weights)
+        max_w = max(weights)
+        range_w = max_w - min_w
+        
+        for f in features_list:
+            if f["weight"] > 0:
+                if range_w > 0:
+                    f["weight"] = (f["weight"] - min_w) / range_w
+                else:
+                    f["weight"] = 1.0
+    return features_list
 
 def vectorize_dataset(input_file=INPUT_FILE, output_file=OUTPUT_FILE):
     """
-    Lit le dataset, crée un JSON vectorisé basé sur les relations JDM.
-    Ignore les triplets dont l'un des termes n'a aucune relation JDM.
+    Lit le dataset, crée un JSON vectorisé et filtre strictement les triplets.
+    Affiche la progression via sys.stdout.write.
     """
     df = pd.read_csv(input_file)
     results = []
@@ -94,6 +103,9 @@ def vectorize_dataset(input_file=INPUT_FILE, output_file=OUTPUT_FILE):
     processed = 0
     skipped_no_rel = 0
     skipped_error = 0
+    skipped_incomplete = 0
+
+    required_types = [str(rtype) for rtype in REL_TYPES]
 
     for i, row in df.iterrows():
         A = str(row["A"]).strip()
@@ -106,47 +118,39 @@ def vectorize_dataset(input_file=INPUT_FILE, output_file=OUTPUT_FILE):
         sys.stdout.flush()
 
         try:
-            vec_A = get_vector_for_term(A, "A")
-            vec_B = get_vector_for_term(B, "B")
-            if not vec_A or not vec_B:
+            raw_vec_A = get_vector_for_term(A, "A")
+            raw_vec_B = get_vector_for_term(B, "B")
+            
+            if not raw_vec_A or not raw_vec_B:
                 skipped_no_rel += 1
                 continue
+            norm_A = normalize_features(raw_vec_A)
+            norm_B = normalize_features(raw_vec_B)
+
+            combined = norm_A + norm_B
+            combined.append({"side": "R", "r_type": "prep", "target": R, "weight": 1.0})
+
+            tree_structure = convert_to_tree_structure(combined)
+
+            has_A = all(t in tree_structure.get("A", {}) for t in required_types)
+            has_B = all(t in tree_structure.get("B", {}) for t in required_types)
+            has_R = "R" in tree_structure
+
+            if has_A and has_B and has_R:
+                processed += 1
+                results.append({
+                    "A": A,
+                    "R": R,
+                    "B": B,
+                    "type_relation": rel_type,
+                    "features": tree_structure
+                })
+            else:
+                skipped_incomplete += 1
 
         except RuntimeError:
             skipped_error += 1
             continue
-
-        processed += 1
-        combined_jdm = vec_A + vec_B
-        
-        jdm_weights = [f["weight"] for f in combined_jdm if f["weight"] > 0]
-        
-        if jdm_weights:
-            min_w = min(jdm_weights)
-            max_w = max(jdm_weights)
-            
-            if max_w > min_w:
-                range_w = max_w - min_w
-                for f in combined_jdm:
-                    if f["weight"] > 0:
-                        f["weight"] = (f["weight"] - min_w) / range_w
-            elif max_w > 0:
-                for f in combined_jdm:
-                    if f["weight"] > 0:
-                        f["weight"] = 1.0
-
-        combined_features = combined_jdm
-        combined_features.append({"side": "R", "r_type": "prep", "target": R, "weight": 1.0})
-
-        tree_structure = convert_to_tree_structure(combined_features)
-
-        results.append({
-            "A": A,
-            "R": R,
-            "B": B,
-            "type_relation": rel_type,
-            "features": tree_structure
-        })
 
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=4)
@@ -156,6 +160,7 @@ def vectorize_dataset(input_file=INPUT_FILE, output_file=OUTPUT_FILE):
     print(f"Lignes totales lues   : {total_rows}")
     print(f"Lignes sauvegardées   : {processed}")
     print(f"Lignes sans relations : {skipped_no_rel}")
+    print(f"Lignes incomplètes    : {skipped_incomplete}")
     print(f"Lignes erreurs API    : {skipped_error}")
     print("-" * 30)
     
@@ -174,18 +179,16 @@ def convert_to_tree_structure(flat_features_list):
         
         if side not in tree:
             tree[side] = {}
-        
         if r_type not in tree[side]:
             tree[side][r_type] = {}
             
         tree[side][r_type][target] = weight
-        
     return tree
 
 if __name__ == "__main__":
     #print("Création d'un petit dataset aléatoire pour test")
     #sample_file = create_sample_dataset(sample_size=50)
 
-    print("Démarrage de la vectorisation via API JeuxDeMots")
+    #print("Démarrage de la vectorisation via API JeuxDeMots")
     #vectorize_dataset(input_file=sample_file)
     vectorize_dataset()

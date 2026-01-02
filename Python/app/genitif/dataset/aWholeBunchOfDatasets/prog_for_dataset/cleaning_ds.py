@@ -1,4 +1,5 @@
 import re
+import os
 import pandas as pd
 L = ["des","de la","de","du","d'un","d'une","d'"]
 
@@ -60,16 +61,28 @@ def preprocess_r_depict(file_path):
     df.to_csv("../Datasets_forever/r_depict_new.csv",index=False)
 
 
-def add_relation_tag(repertory_path,files_names):
-    #files_names et une liste de nom de fichier (noms qui seront utilisés pour ajouter les relations)
-    #repertory_path le chemin vers le repertoire qui contient les fichiers
+def add_relation_tag(repertory_path, files_names):
     for fn in files_names:
-        df = pd.read_csv(repertory_path+fn)
-        df.insert(len(df.columns),"type_relation",[fn[:fn.index(".")]]*df.shape[0])
-        df.to_csv(repertory_path+fn,index=False)
+        file_path = os.path.join(repertory_path, fn)
+        df = pd.read_csv(file_path)
 
+        if "type_relation" in df.columns:
+            df = df.drop(columns=["type_relation"])
 
-add_relation_tag("../Datasets_forever/",["r_depict.csv"])
+        base_name = fn[:fn.index(".")]
+        if base_name == "r_objet_matière":
+            tag = "r_objet>matière"
+        elif base_name == "r_lieu_origine":
+            tag = "r_lieu>origine"
+        elif base_name == "r_processus_instr-1":
+            tag = "r_processus>instr-1"
+        else:
+            tag = base_name
+
+        df.insert(len(df.columns), "type_relation", [tag] * df.shape[0])
+        df.to_csv(file_path, index=False)
+
+#add_relation_tag("../Datasets_forever/",["r_depict.csv"])
 #preprocess_r_depict("../Datasets_forever/r_depict.csv")
 #preprocess_r_objet_matière("../Datasets_forever/r_product_of.csv")
 #preprocess_topictxt("../Datasets_forever/r_topic.txt")

@@ -23,38 +23,47 @@ class Tree:
         if(type(List_Vector) is list):
             self.Build_Tree(List_Vector)
 
-    def compute_scores(self,v1,v2):
-        #Pour chaque donnée du vecteur v1 on cherche si elle existe dans v2
-        done = {"A":{},"B":{},"R":{}}
-        v3 = {"A":{},"B":{},"R":{}}
+    # Version de Gemini qui fixe le prob de KeyError
+    def compute_scores(self, v1, v2):
+        done = {"A": {}, "B": {}, "R": {}}
+        v3 = {"A": {}, "B": {}, "R": {}}
         sim = []
-        for k0 in ["A","B","R"]:
+        
+        for k0 in ["A", "B", "R"]:
             for k1 in v1[k0].keys():
-                v3[k0][k1]={}
-                if not(k1 in done[k0].keys()):
-                    try :
-                        done[k0][k1] = {key:False for key in v2[k0][k1].keys()}#Hopefully ça marche
-                    except KeyError :
-                        print(done)
-                        print(v2)
-                        print("liste des index a suivre dans leur ordre")
-                        print("0 : "+str(k0)+" , 1 : "+str(k1))
-                for word in v1[k0][k1].keys():
-                    leafs = v2[k0][k1].keys()
-                    if word in leafs:
-                        v3[k0][k1][word] = (v1[k0][k1][word] + v2[k0][k1][word])/2
-                        sim.append(abs(v1[k0][k1][word] - v2[k0][k1][word]))
-                        done[k0][k1][word]=True
-                    else:
-                        v3[k0][k1][word] = v1[k0][k1][word]/2
+                v3[k0][k1] = {}
+                # VERIFICATION : si la relation (ex: '3') n'est pas dans v2, on ne peut pas faire de dictionnaire done
+                if k1 in v2[k0]:
+                    if k1 not in done[k0]:
+                        done[k0][k1] = {key: False for key in v2[k0][k1].keys()}
+                    
+                    for word in v1[k0][k1].keys():
+                        leafs = v2[k0][k1].keys()
+                        if word in leafs:
+                            v3[k0][k1][word] = (v1[k0][k1][word] + v2[k0][k1][word]) / 2
+                            sim.append(abs(v1[k0][k1][word] - v2[k0][k1][word]))
+                            done[k0][k1][word] = True
+                        else:
+                            v3[k0][k1][word] = v1[k0][k1][word] / 2
+                            sim.append(abs(v1[k0][k1][word]))
+                else:
+                    # Cas où k1 est dans v1 mais pas dans v2
+                    for word in v1[k0][k1].keys():
+                        v3[k0][k1][word] = v1[k0][k1][word] / 2
                         sim.append(abs(v1[k0][k1][word]))
-        for k0 in ["A","B","R"]:
+
+        # Second passage pour v2
+        for k0 in ["A", "B", "R"]:
             for k1 in v2[k0].keys():
+                if k1 not in v3[k0]:
+                    v3[k0][k1] = {}
                 for word in v2[k0][k1]:
-                    if not(done[k0][k1][word]):
-                        v3[k0][k1][word] = v2[k0][k1][word]/2
+                    # Utilisation de .get() sécurisé pour éviter KeyError
+                    if k1 not in done[k0] or not done[k0][k1].get(word, False):
+                        v3[k0][k1][word] = v2[k0][k1][word] / 2
                         sim.append(abs(v2[k0][k1][word]))
-        return v3 , sum(sim) / len(sim)
+        
+        return v3, sum(sim) / len(sim) if sim else 0
     """
     Version de Lucien
     def compute_scores(self,v1,v2):

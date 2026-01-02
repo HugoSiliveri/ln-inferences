@@ -1,1323 +1,1323 @@
-A,determinant,B
-coque,du,bateau
-écaille,du,poisson
-vitre,de la,fenêtre
-bras,du,général
-roue,de la,voiture
-toit,de la,maison
-page,du,livre
-pétale,de la,fleur
-branche,de l',arbre
-aile,de l',avion
-porte,de la,chambre
-jambe,de la,chaise
-écran,du,téléphone
-moteur,de la,moto
-fenêtre,de l',appartement
-clavier,de l',ordinateur
-manche,de la,guitare
-poignée,de la,porte
-plume,de l',oiseau
-corde,de la,guitare
-volant,de la,voiture
-capot,de la,voiture
-cadran,de la,montre
-fond,de la,bouteille
-couvercle,de la,casserole
-tiroir,du,bureau
-bouton,de la,chemise
-poche,du,pantalon
-semelle,de la,chaussure
-mur,de la,pièce
-antenne,de la,radio
-lame,du,couteau
-dossier,de la,chaise
-fil,de la,lampe
-couvercle,du,pot
-rayon,de la,roue
-coque,du,téléphone
-touche,du,piano
-pédale,du,vélo
-guidon,du,vélo
-pare-brise,de la,voiture
-tronc,de l',arbre
-racine,de la,plante
-bec,de l',oiseau
-nageoire,du,poisson
-griffe,du,chat
-queue,du,chien
-corne,de la,vache
-sabot,du,cheval
-épine,de la,rose
-tige,de la,fleur
-feuille,de l',arbre
-écorce,de l',arbre
-goutte,de,pluie
-flocon,de,neige
-rayon,de,soleil
-vague,de,mer
-nuage,du,ciel
-pierre,du,mur
-brique,du,mur
-tuile,du,toit
-marche,de l',escalier
-barreau,de l',échelle
-poteau,de la,clôture
-planche,du,plancher
-carreau,de la,fenêtre
-poignée,du,tiroir
-pied,de la,table
-accoudoir,du,fauteuil
-coussin,du,canapé
-matelas,du,lit
-oreiller,du,lit
-drap,du,lit
-couverture,du,lit
-housse,du,coussin
-nappe,de la,table
-rideau,de la,fenêtre
-store,de la,fenêtre
-volet,de la,fenêtre
-gond,de la,porte
-serrure,de la,porte
-clé,de la,serrure
-sonnette,de la,porte
-verrou,de la,porte
-chaîne,de la,porte
-judas,de la,porte
-seuil,de la,porte
-cadre,de la,porte
-battant,de la,porte
-loquet,de la,fenêtre
-croisillon,de la,fenêtre
-rebord,de la,fenêtre
-appui,de la,fenêtre
-garde-corps,du,balcon
-rambarde,du,balcon
-balustrade,du,balcon
-terrasse,de l',appartement
-cave,de la,maison
-grenier,de la,maison
-comble,de la,maison
-fondation,de la,maison
-façade,de la,maison
-pignon,de la,maison
-gouttière,du,toit
-cheminée,de la,maison
-tuyau,de la,cheminée
-fumée,de la,cheminée
-âtre,de la,cheminée
-manteau,de la,cheminée
-foyer,de la,cheminée
-cendre,du,feu
-braise,du,feu
-flamme,du,feu
-bûche,du,feu
-tison,du,feu
-étincelle,du,feu
-lueur,du,feu
-chaleur,du,feu
-bouche,d'une,personne
-nez,du,menteur
-oreille,de la,secrétaire
-œil,d'une,personne
-sourcil,d'une,personne
-cil,du,visage
-paupière,de l',œil
-joue,d'un, enfant
-front,du,soldat
-menton,du,bourreau
-lèvre,d'une,personne
-dent,du,requin
-langue,d'une,vipère
-gorge,d'une,reine
-cou,d'une,femme
-épaule,d'une,femme
-bras,d'un,homme
-coude,d'un,sportif
-poignet,d'un,général
-main,d'une,personne
-doigt,d'une,femme
-ongle,de la,main
-pouce,de l',humain
-index,de la,main
-paume,de la,main
-dos,de la,main
-poitrine,d'une,princesse
-torse,d'un,prince
-ventre,d'un,roi
-hanche,d'une,femme
-dos,d'une,femme
-taille,d'une,femme
-jambe,d'une,femme
-cuisse,d'une,femme
-genou,d'une,fille
-mollet,d'une,fille
-cheville,d'une,fille
-pied,d'un,garçon
-orteil,d'un,garçon
-talon,du,pied
-plante,du,pied
-cheveu,d'un,garçon
-mèche,de,cheveux
-peau,d'une,personne
-poil,d'une,personne
-barbe,d'un,homme
-moustache,d'un,homme
-sang,du,mort
-os,du,mort
-muscle,du,garçon
-nerf,d'un,garçon
-veine,d'une,princesse
-artère,du,roi
-cœur,de la,reine
-poumon,d'une,personne
-foie,du,roi
-estomac,de l',homme
-intestin,d',humain
-rein,d'une,reine
-cerveau,d'une,personne
-crâne,d'une,personne
-côte,d'une,personne
-colonne,d'une,personne
-vertèbre,de la,colonne
-membre,d'une,personne
-tête,d'une,personne
-visage,d'une,personne
-trait,du,visage
-ride,du,visage
-grain,de,peau
-pore,de,peau
-tache,de,peau
-cicatrice,de,peau
-voix,d'une,personne
-sabre,d'un,général
-cicatrice,d'une,combattante
-salive,de la,bouche
-larme,de l',œil
-sueur,du,sportif
-capuchon,du,manteau
-manche,du,manteau
-col,de la,chemise
-pli,du,pantalon
-couture,du,vêtement
-ourlet,de la,robe
-fermeture,de la,veste
-zip,de la,veste
-bouton,du,manteau
-bride,du,vêtement
-patte,de la,chemise
-revers,de la,veste
-doublure,du,manteau
-poche,de la,veste
-ceinture,du,pantalon
-passant,du,pantalon
-braguette,du,pantalon
-jambe,du,pantalon
-entrejambe,du,pantalon
-bretelle,du,pantalon
-bandoulière,du,sac
-anse,du,sac
-fermeture,du,sac
-poche,du,sac
-fond,du,sac
-doublure,du,sac
-languette,de la,chaussure
-lacet,de la,chaussure
-œillet,de la,chaussure
-talon,de la,chaussure
-bout,de la,chaussure
-semelle,du,soulier
-languette,du,soulier
-contrefort,de la,chaussure
-empeigne,de la,chaussure
-tige,de la,botte
-monture,des,lunettes
-verre,des,lunettes
-branche,des,lunettes
-pont,des,lunettes
-plaquette,des,lunettes
-charnière,des,lunettes
-embout,des,lunettes
-cadran,de l',horloge
-aiguille,de l',horloge
-balancier,de l',horloge
-ressort,de l',horloge
-mécanisme,de l',horloge
-pendule,de l',horloge
-carillon,de l',horloge
-sonnerie,de l',horloge
-bracelet,de la,montre
-boîtier,de la,montre
-couronne,de la,montre
-verre,de la,montre
-aiguille,de la,montre
-index,de la,montre
-compteur,de la,montre
-bouton,de la,montre
-fermoir,du,bracelet
-maillon,du,bracelet
-chaîne,du,collier
-pendentif,du,collier
-fermoir,du,collier
-perle,du,collier
-pierre,de la,bague
-monture,de la,bague
-anneau,de la,bague
-chaton,de la,bague
-jonc,de la,bague
-agrafe,de la,broche
-épingle,de la,broche
-crochet,de la,boucle
-attache,de la,boucle
-tige,de la,boucle
-fermoir,de la,boucle
-carrosserie,de la,voiture
-châssis,de la,voiture
-radiateur,de la,voiture
-batterie,de la,voiture
-alternateur,de la,voiture
-démarreur,de la,voiture
-bougie,de la,voiture
-filtre,de la,voiture
-huile,de la,voiture
-essence,de la,voiture
-réservoir,de la,voiture
-tuyau,de la,voiture
-durite,de la,voiture
-courroie,de la,voiture
-chaîne,de la,voiture
-piston,du,moteur
-cylindre,du,moteur
-soupape,du,moteur
-culasse,du,moteur
-vilebrequin,du,moteur
-arbre,du,moteur
-joint,du,moteur
-carter,du,moteur
-volant,de l',auto
-pédale,de l',auto
-frein,de l',auto
-embrayage,de l',auto
-accélérateur,de l',auto
-levier,de l',auto
-boîte,de l',auto
-vitesse,de l',auto
-transmission,de l',auto
-différentiel,de l',auto
-essieu,de l',auto
-suspension,de l',auto
-amortisseur,de l',auto
-ressort,de l',auto
-roue,du,véhicule
-pneu,de la,roue
-jante,de la,roue
-moyeu,de la,roue
-valve,du,pneu
-chambre,du,pneu
-bande,du,pneu
-sculpture,du,pneu
-flanc,du,pneu
-pare-chocs,de l',auto
-aile,de l',auto
-portière,de l',auto
-hayon,de l',auto
-coffre,de l',auto
-toit,du,véhicule
-vitre,de l',auto
-glace,de l',auto
-rétroviseur,de l',auto
-essuie-glace,de l',auto
-balai,de l',essuie-glace
-lave-glace,de l',auto
-phare,de l',auto
-feu,de l',auto
-clignotant,de l',auto
-veilleuse,de l',auto
-stop,de l',auto
-plaque,de l',auto
-immatriculation,de l',auto
-tableau,de l',auto
-compteur,de l',auto
-jauge,de l',auto
-voyant,de l',auto
-manette,de l',auto
-bouton,de l',auto
-commande,de l',auto
-klaxon,de l',auto
-chauffage,de l',auto
-climatisation,de l',auto
-ventilation,de l',auto
-radio,de l',auto
-haut-parleur,de l',auto
-antenne,de l',auto
-siège,de l',auto
-dossier,du,siège
-assise,du,siège
-appui-tête,du,siège
-ceinture,du,siège
-boucle,de la,ceinture
-sangle,de la,ceinture
-attache,de la,ceinture
-tapis,de l',auto
-moquette,de l',auto
-vide-poche,de l',auto
-porte-gobelet,de l',auto
-cendrier,de l',auto
-allume-cigare,de l',auto
-pommeau,du,levier
-soufflet,du,levier
-cadre,du,vélo
-fourche,du,vélo
-roue,du,vélo
-pneu,du,vélo
-jante,du,vélo
-rayon,du,vélo
-moyeu,du,vélo
-pédale,du,vélo
-manivelle,du,vélo
-plateau,du,vélo
-chaîne,du,vélo
-pignon,du,vélo
-dérailleur,du,vélo
-cassette,du,vélo
-roue-libre,du,vélo
-frein,du,vélo
-câble,du,vélo
-gaine,du,vélo
-poignée,du,vélo
-sonnette,du,vélo
-phare,du,vélo
-catadioptre,du,vélo
-garde-boue,du,vélo
-porte-bagage,du,vélo
-béquille,du,vélo
-selle,du,vélo
-tige,de la,selle
-ressort,de la,selle
-guidon,de la,moto
-réservoir,de la,moto
-carénage,de la,moto
-pot,de la,moto
-échappement,de la,moto
-repose-pied,de la,moto
-cale-pied,de la,moto
-selle,de la,moto
-coffre,de la,moto
-sacoches,de la,moto
-casque,du,motard
-visière,du,casque
-jugulaire,du,casque
-mousse,du,casque
-coque,du,casque
-ventilation,du,casque
-écran,du,casque
-fuselage,de l',avion
-cockpit,de l',avion
-carlingue,de l',avion
-hublot,de l',avion
-porte,de l',avion
-soute,de l',avion
-train,de l',avion
-roue,de l',avion
-moteur,de l',avion
-hélice,de l',avion
-turbine,de l',avion
-réacteur,de l',avion
-tuyère,du,réacteur
-aileron,de l',avion
-volet,de l',avion
-gouvernail,de l',avion
-dérive,de l',avion
-empennage,de l',avion
-queue,de l',avion
-nez,de l',avion
-pointe,de l',avion
-bout,de l',aile
-bord,de l',aile
-extrados,de l',aile
-intrados,de l',aile
-nervure,de l',aile
-longeron,de l',aile
-revêtement,de l',aile
-mât,du,bateau
-voile,du,bateau
-grand-voile,du,bateau
-foc,du,bateau
-génois,du,bateau
-spinnaker,du,bateau
-vergue,du,bateau
-bôme,du,bateau
-gui,du,bateau
-hauban,du,bateau
-étai,du,bateau
-drisse,du,bateau
-écoute,du,bateau
-amarre,du,bateau
-câble,du,bateau
-cordage,du,bateau
-manœuvre,du,bateau
-gréement,du,bateau
-pont,du,bateau
-coque,du,navire
-proue,du,bateau
-poupe,du,bateau
-étrave,du,bateau
-quille,du,bateau
-safran,du,bateau
-gouvernail,du,navire
-barre,du,bateau
-timonerie,du,bateau
-cabine,du,bateau
-cale,du,bateau
-soute,du,bateau
-écoutille,du,bateau
-hublot,du,bateau
-passerelle,du,bateau
-dunette,du,bateau
-château,du,bateau
-gaillard,du,bateau
-lisse,du,bateau
-bastingage,du,bateau
-filière,du,bateau
-chandelier,du,bateau
-ancre,du,bateau
-chaîne,de l',ancre
-jas,de l',ancre
-patte,de l',ancre
-tige,de l',ancre
-organeau,de l',ancre
-bouée,du,bateau
-flotteur,du,bateau
-défense,du,bateau
-pare-battage,du,bateau
-pavillon,du,bateau
-drapeau,du,bateau
-fanion,du,bateau
-flamme,du,bateau
-corne,du,bateau
-sirène,du,bateau
-feu,du,bateau
-phare,du,navire
-lanterne,du,bateau
-fanal,du,bateau
-boussole,du,bateau
-compas,du,bateau
-sextant,du,bateau
-loch,du,bateau
-sonde,du,bateau
-baromètre,du,bateau
-anémomètre,du,bateau
-girouette,du,bateau
-carte,du,bateau
-aviron,du,bateau
-rame,du,bateau
-pagaie,du,bateau
-gouverne,du,bateau
-hélice,du,bateau
-moteur,du,navire
-machine,du,navire
-chaudière,du,navire
-cheminée,du,bateau
-tuyau,du,bateau
-canon,du,navire
-affût,du,canon
-tourelle,du,navire
-blindage,du,navire
-cuirasse,du,navire
-sabord,du,navire
-meurtrière,du,navire
-cloche,du,navire
-écran,de l',ordinateur
-clavier,de l',appareil
-souris,de l',ordinateur
-pavé,de l',ordinateur
-touche,du,clavier
-espace,du,clavier
-entrée,du,clavier
-barre,du,clavier
-curseur,de l',ordinateur
-pointeur,de la,souris
-bouton,de la,souris
-molette,de la,souris
-roulette,de la,souris
-câble,de la,souris
-processeur,de l',ordinateur
-puce,de l',ordinateur
-mémoire,de l',ordinateur
-disque,de l',ordinateur
-carte,de l',ordinateur
-port,de l',ordinateur
-prise,de l',ordinateur
-connecteur,de l',ordinateur
-ventilateur,de l',ordinateur
-radiateur,de l',ordinateur
-refroidissement,de l',ordinateur
-alimentation,de l',ordinateur
-batterie,de l',ordinateur
-chargeur,de l',ordinateur
-adaptateur,de l',ordinateur
-boîtier,de l',ordinateur
-tour,de l',ordinateur
-façade,de l',ordinateur
-panneau,de l',ordinateur
-lecteur,de l',ordinateur
-graveur,de l',ordinateur
-haut-parleur,de l',ordinateur
-micro,de l',ordinateur
-webcam,de l',ordinateur
-caméra,de l',ordinateur
-écouteur,du,téléphone
-casque,du,téléphone
-jack,du,téléphone
-prise,du,téléphone
-câble,du,téléphone
-chargeur,du,téléphone
-batterie,du,mobile
-écran,du,mobile
-vitre,du,mobile
-coque,du,mobile
-housse,du,téléphone
-étui,du,téléphone
-bouton,du,mobile
-micro,du,mobile
-haut-parleur,du,mobile
-caméra,du,mobile
-flash,du,mobile
-objectif,de la,caméra
-lentille,de l',objectif
-capteur,de la,caméra
-viseur,de la,caméra
-déclencheur,de l',appareil
-obturateur,de l',appareil
-diaphragme,de l',appareil
-zoom,de l',appareil
-mise,de l',appareil
-bague,de l',objectif
-pare-soleil,de l',objectif
-filtre,de l',objectif
-monture,de l',objectif
-boîtier,de l',appareil
-poignée,de l',appareil
-dragonne,de l',appareil
-trépied,de l',appareil
-rotule,du,trépied
-colonne,du,trépied
-jambe,du,trépied
-pied,du,trépied
-embout,du,trépied
-pointe,du,trépied
-sabot,du,trépied
-plateau,du,trépied
-vis,du,trépied
-blocage,du,trépied
-levier,du,trépied
-manivelle,du,trépied
-molette,du,trépied
-cran,du,trépied
-corde,de la,raquette
-tamis,de la,raquette
-cadre,de la,raquette
-manche,de la,raquette
-grip,de la,raquette
-poignée,de la,raquette
-housse,de la,raquette
-cordage,de la,raquette
-tension,de la,raquette
-filet,du,court
-poteau,du,filet
-sangle,du,filet
-câble,du,filet
-maille,du,filet
-trame,du,filet
-feutre,de la,balle
-caoutchouc,de la,balle
-cuir,de la,balle
-toile,de la,balle
-surface,de la,balle
-couture,de la,balle
-rembourrage,de la,balle
-enveloppe,de la,balle
-grain,de la,balle
-peau,de la,balle
-recouvrement,de la,balle
-valves,de la,balle
-vessie,de la,balle
-chambre,de la,balle
-air,de la,balle
-pression,de la,balle
-picots,de la,raquette
-mousse,de la,raquette
-bois,de la,raquette
-revêtement,de la,raquette
-palette,de la,raquette
-lame,de la,raquette
-manche,de la,palette
-pommeau,de la,palette
-col,de la,raquette
-tête,de la,raquette
-cœur,de la,raquette
-œillet,de la,raquette
-renfort,de la,raquette
-pare-chocs,de la,raquette
-barre,de la,raquette
-pont,de la,raquette
-âme,de la,raquette
-tranche,de la,raquette
-talon,de la,raquette
-pointe,de la,raquette
-bout,de la,raquette
-extrémité,de la,raquette
-embout,de la,raquette
-capuchon,de la,raquette
-touche,de la,guitare
-case,de la,guitare
-frette,de la,guitare
-sillet,de la,guitare
-chevalet,de la,guitare
-table,de la,guitare
-caisse,de la,guitare
-éclisse,de la,guitare
-fond,de la,guitare
-rosace,de la,guitare
-ouïe,de la,guitare
-bouche,de la,guitare
-trou,de la,guitare
-barrage,de la,guitare
-âme,de la,guitare
-renfort,de la,guitare
-manche,de l',instrument
-tête,de la,guitare
-volute,de la,guitare
-cheville,de la,guitare
-clé,de la,guitare
-mécaniques,de la,guitare
-tendeur,de la,guitare
-vis,de la,guitare
-bouton,de la,guitare
-attache,de la,guitare
-sangle,de la,guitare
-courroie,de la,guitare
-jack,de la,guitare
-micro,de la,guitare
-bobine,du,micro
-aimant,du,micro
-noyau,du,micro
-fil,de la,bobine
-enroulement,de la,bobine
-potentiomètre,de la,guitare
-sélecteur,de la,guitare
-interrupteur,de la,guitare
-commande,de la,guitare
-molette,de la,guitare
-bouton,de l',ampli
-potard,de l',ampli
-canal,de l',ampli
-entrée,de l',ampli
-sortie,de l',ampli
-prise,de l',ampli
-jack,de l',ampli
-membrane,du,haut-parleur
-cône,du,haut-parleur
-bobine,du,haut-parleur
-suspension,du,haut-parleur
-spider,du,haut-parleur
-cache,du,haut-parleur
-grille,du,haut-parleur
-baffle,du,haut-parleur
-enceinte,du,système
-caisson,de l',enceinte
-évent,de l',enceinte
-tweeter,de l',enceinte
-woofer,de l',enceinte
-médium,de l',enceinte
-filtre,de l',enceinte
-crossover,de l',enceinte
-câblage,de l',enceinte
-bornier,de l',enceinte
-connecteur,de l',enceinte
-fiche,de la,prise
-broche,de la,fiche
-plot,de la,fiche
-contact,de la,fiche
-isolant,de la,fiche
-corps,de la,fiche
-coquille,de la,fiche
-capot,de la,fiche
-serre-câble,de la,fiche
-pince,de la,fiche
-vis,de la,fiche
-borne,de la,prise
-alvéole,de la,prise
-trou,de la,prise
-boîtier,de la,prise
-plaque,de la,prise
-enjoliveur,de la,prise
-cache,de la,prise
-couvercle,de la,prise
-obturateur,de la,prise
-volet,de la,prise
-terre,de la,prise
-phase,de la,prise
-neutre,de la,prise
-conducteur,du,câble
-fil,du,câble
-âme,du,câble
-gaine,du,câble
-isolant,du,câble
-blindage,du,câble
-tresse,du,câble
-écran,du,câble
-protection,du,câble
-enveloppe,du,câble
-onglet,du,classeur
-couverture,du,cahier
-spirale,du,cahier
-anneau,du,classeur
-pochette,du,classeur
-intercalaire,du,classeur
-séparateur,du,classeur
-perforation,de la,feuille
-marge,de la,feuille
-ligne,de la,page
-colonne,de la,page
-paragraphe,du,texte
-phrase,du,texte
-mot,de la,phrase
-lettre,du,mot
-syllabe,du,mot
-accent,de la,lettre
-point,de la,phrase
-virgule,de la,phrase
-tiret,du,texte
-guillemet,du,texte
-parenthèse,du,texte
-crochet,du,texte
-apostrophe,du,mot
-trait,de la,lettre
-barre,de la,lettre
-point,de la,lettre
-boucle,de la,lettre
-hampe,de la,lettre
-empattement,de la,lettre
-titre,du,chapitre
-sous-titre,du,chapitre
-section,du,document
-partie,du,livre
-tome,de la,collection
-volume,de la,série
-édition,du,livre
-impression,du,livre
-tirage,du,livre
-pagination,du,document
-numérotation,des,pages
-foliotage,du,manuscrit
-index,du,livre
-sommaire,du,livre
-table,du,livre
-glossaire,du,livre
-bibliographie,du,livre
-annexe,du,livre
-note,de la,page
-référence,du,texte
-citation,du,texte
-extrait,du,texte
-passage,du,livre
-chapitre,du,roman
-acte,de la,pièce
-scène,de l',acte
-réplique,de la,scène
-tirade,de la,scène
-monologue,de la,pièce
-dialogue,de la,scène
-aparté,de la,scène
-didascalie,de la,pièce
-couvercle,de la,boîte
-fond,de la,boîte
-paroi,de la,boîte
-angle,de la,boîte
-coin,de la,boîte
-bord,de la,boîte
-rebord,du,verre
-pied,du,verre
-jambe,du,verre
-calice,du,verre
-vasque,du,verre
-anse,de la,tasse
-poignée,de la,tasse
-bec,de la,théière
-couvercle,de la,théière
-anse,de la,théière
-verseur,de la,cafetière
-filtre,de la,cafetière
-réservoir,de la,cafetière
-socle,de la,lampe
-abat-jour,de la,lampe
-ampoule,de la,lampe
-douille,de la,lampe
-culot,de l',ampoule
-filament,de l',ampoule
-verre,de l',ampoule
-gaz,de l',ampoule
-interrupteur,de la,lampe
-variateur,de la,lampe
-gradateur,de la,lampe
-bras,de la,lampe
-pied,de la,lampe
-base,de la,lampe
-prise,de la,lampe
-cordon,de la,lampe
-housse,de la,couette
-taie,de l',oreiller
-drap-housse,du,matelas
-ressort,du,matelas
-mousse,du,matelas
-garniture,du,matelas
-coutil,du,matelas
-sommier,du,lit
-lattes,du,sommier
-pieds,du,lit
-tête,du,lit
-montant,du,lit
-traverse,du,lit
-rouleau,du,store
-toile,du,store
-mécanisme,du,store
-chaînette,du,store
-cordon,du,store
-rail,du,rideau
-tringle,du,rideau
-anneau,du,rideau
-crochet,du,rideau
-pince,du,rideau
-embrasse,du,rideau
-gland,du,rideau
-frange,du,rideau
-ourlet,du,rideau
-doublure,du,rideau
-tissu,du,rideau
-lé,du,rideau
-pli,du,rideau
-plissé,du,rideau
-fronce,du,rideau
-patte,du,rideau
-œillet,du,rideau
-passant,du,rideau
-ruflette,du,rideau
-galon,du,rideau
-bordure,du,rideau
-lisière,du,tissu
-chaîne,du,tissu
-trame,du,tissu
-armure,du,tissu
-tissage,du,tissu
-texture,du,tissu
-motif,du,tissu
-impression,du,tissu
-teinture,du,tissu
-apprêt,du,tissu
-finition,du,tissu
-fil,du,tissu
-fibre,du,tissu
-brin,du,fil
-torsion,du,fil
-épaisseur,du,fil
-titre,du,fil
-tension,du,fil
-élasticité,du,fil
-résistance,du,fil
-pointe,du,crayon
-mine,du,crayon
-corps,du,crayon
-bois,du,crayon
-vernis,du,crayon
-gomme,du,crayon
-embout,du,crayon
-taille,du,crayon
-pointe,du,stylo
-bille,du,stylo
-cartouche,du,stylo
-encre,du,stylo
-réservoir,du,stylo
-capuchon,du,stylo
-clip,du,stylo
-corps,du,stylo
-bouchon,du,stylo
-plume,du,stylo
-bec,de la,plume
-fente,de la,plume
-iridium,de la,plume
-aileron,de la,plume
-talon,de la,plume
-évent,de la,plume
-pointe,du,compas
-mine,du,compas
-branche,du,compas
-vis,du,compas
-articulation,du,compas
-pointe-sèche,du,compas
-porte-mine,du,compas
-graduation,de la,règle
-bord,de la,règle
-face,de la,règle
-extrémité,de la,règle
-zéro,de la,règle
-échelle,de la,règle
-division,de la,règle
-trait,de la,règle
-repère,de la,règle
-index,de la,règle
-curseur,de la,règle
-vernier,de la,règle
-molette,de la,règle
-entablure,des,ciseaux
-tranchant,des,ciseaux
-pointe,des,ciseaux
-branche,des,ciseaux
-anneau,des,ciseaux
-lame,des,ciseaux
-pivot,des,ciseaux
-vis,des,ciseaux
-ressort,des,ciseaux
-poignée,des,ciseaux
-manche,du,marteau
-tête,du,marteau
-panne,du,marteau
-table,du,marteau
-œil,du,marteau
-coin,du,marteau
-manche,du,tournevis
-lame,du,tournevis
-tige,du,tournevis
-embout,du,tournevis
-pointe,du,tournevis
-tête,du,tournevis
-poignée,du,tournevis
-virole,du,tournevis
-manche,de la,pince
-mâchoire,de la,pince
-bec,de la,pince
-tranchant,de la,pince
-pivot,de la,pince
-articulation,de la,pince
-ressort,de la,pince
-branche,de la,pince
-poignée,de la,pince
-manche,de la,clé
-tête,de la,clé
-fourche,de la,clé
-ouverture,de la,clé
-mâchoire,de la,clé
-cliquet,de la,clé
-cran,de la,clé
-molette,de la,clé
-vis,de la,clé
-poignée,de la,clé
-manche,de la,scie
-lame,de la,scie
-denture,de la,scie
-dent,de la,scie
-dos,de la,scie
-tranchant,de la,scie
-poignée,de la,scie
-monture,de la,scie
-tenon,de la,scie
-talon,de la,scie
-pointe,de la,scie
-manche,du,rabot
-fer,du,rabot
-lame,du,rabot
-semelle,du,rabot
-fût,du,rabot
-joue,du,rabot
-lumière,du,rabot
-coin,du,rabot
-contre-fer,du,rabot
-poignée,du,rabot
-bouton,du,rabot
-réglage,du,rabot
-manche,de la,lime
-corps,de la,lime
-taille,de la,lime
-strie,de la,lime
-grain,de la,lime
-face,de la,lime
-arête,de la,lime
-pointe,de la,lime
-talon,de la,lime
-soie,de la,lime
-virole,de la,lime
-manche,du,ciseau
-lame,du,ciseau
-fer,du,ciseau
-biseau,du,ciseau
-tranchant,du,ciseau
-dos,du,ciseau
-talon,du,ciseau
-soie,du,ciseau
-virole,du,ciseau
-poignée,du,ciseau
-culot,du,ciseau
-manche,de la,hache
-fer,de la,hache
-lame,de la,hache
-tranchant,de la,hache
-tête,de la,hache
-œil,de la,hache
-talon,de la,hache
-barbe,de la,hache
-joue,de la,hache
-dos,de la,hache
-biseau,de la,hache
-manche,de la,pioche
-fer,de la,pioche
-pic,de la,pioche
-panne,de la,pioche
-tête,de la,pioche
-œil,de la,pioche
-pointe,de la,pioche
-manche,de la,pelle
-fer,de la,pelle
-lame,de la,pelle
-godet,de la,pelle
-tranchant,de la,pelle
-bord,de la,pelle
-dos,de la,pelle
-poignée,de la,pelle
-béquille,de la,pelle
-collet,de la,pelle
-douille,de la,pelle
-manche,du,balai
-tête,du,balai
-brosse,du,balai
-soie,du,balai
-poil,du,balai
-fibre,du,balai
-monture,du,balai
-douille,du,balai
-virole,du,balai
-embout,du,balai
-accroche,du,balai
-manche,du,râteau
-tête,du,râteau
-dent,du,râteau
-peigne,du,râteau
-traverse,du,râteau
-douille,du,râteau
-poignée,du,râteau
-manche,de la,serpillière
-frange,de la,serpillière
-tissu,de la,serpillière
-tête,de la,serpillière
-fixation,de la,serpillière
-seau,de la,serpillière
-anse,du,seau
-fond,du,seau
-paroi,du,seau
-bord,du,seau
-bec,du,seau
-poignée,du,seau
-couvercle,du,seau
-anse,du,panier
-fond,du,panier
-paroi,du,panier
-bord,du,panier
-tressage,du,panier
-osier,du,panier
-vannerie,du,panier
-couvercle,du,panier
-poignée,du,panier
-manche,de la,brosse
-tête,de la,brosse
-soie,de la,brosse
-poil,de la,brosse
-fibre,de la,brosse
-monture,de la,brosse
-dos,de la,brosse
-face,de la,brosse
-accroche,de la,brosse
-embout,de la,brosse
-manche,de l',éponge
-face,de l',éponge
-alvéole,de l',éponge
-pore,de l',éponge
-abrasif,de l',éponge
-grattoir,de l',éponge
-couche,de l',éponge
-face-grattante,de l',éponge
-bec,de l',arrosoir
-anse,de l',arrosoir
-réservoir,de l',arrosoir
-pomme,de l',arrosoir
-trou,de la,pomme
-cuve,de l',arrosoir
-col,de l',arrosoir
-couvercle,de l',arrosoir
-poignée,de l',arrosoir
-lame,de la,tondeuse
-carter,de la,tondeuse
-moteur,de la,tondeuse
-roue,de la,tondeuse
-guidon,de la,tondeuse
-poignée,de la,tondeuse
-bac,de la,tondeuse
-châssis,de la,tondeuse
-démarreur,de la,tondeuse
-réservoir,de la,tondeuse
-filtre,de la,tondeuse
-bougie,de la,tondeuse
-silencieux,de la,tondeuse
-chaîne,de la,tronçonneuse
-guide,de la,tronçonneuse
-moteur,de la,tronçonneuse
-réservoir,de la,tronçonneuse
-poignée,de la,tronçonneuse
-gâchette,de la,tronçonneuse
-frein,de la,tronçonneuse
-carter,de la,tronçonneuse
-chaîne,de la,bicyclette
-maillon,de la,chaîne
-axe,de la,chaîne
-rouleau,de la,chaîne
-plaque,de la,chaîne
-rivet,de la,chaîne
-attache,de la,chaîne
-rayons,de la,roue
-écrou,du,rayon
-téton,du,rayon
-tête,du,rayon
-coude,du,rayon
-corps,du,rayon
-filetage,du,rayon
-valve,de la,chambre
-capuchon,de la,valve
-corps,de la,valve
-obturateur,de la,valve
-joint,de la,valve
-écrou,de la,valve
-base,de la,valve
-tige,de la,valve
-bande,du,pneu
-gomme,du,pneu
-toile,du,pneu
-armature,du,pneu
-nappe,du,pneu
-tringle,du,pneu
-talon,du,pneu
-épaulement,du,pneu
-nervure,du,pneu
-rainure,du,pneu
-lamelle,du,pneu
-crampons,du,pneu
-voile,de la,jante
-fond,de la,jante
-rebord,de la,jante
-flanc,de la,jante
-gorge,de la,jante
-trou,de la,jante
-perçage,de la,jante
-alésage,de la,jante
-corps,du,moyeu
-flasque,du,moyeu
-axe,du,moyeu
-cône,du,moyeu
-roulement,du,moyeu
-bille,du,roulement
-cage,du,roulement
-anneau,du,roulement
-piste,du,roulement
-joint,du,moyeu
-écrou,du,moyeu
-contre-écrou,du,moyeu
-blocage,du,moyeu
-serrage,du,moyeu
-corps,du,dérailleur
-chape,du,dérailleur
-galet,du,dérailleur
-ressort,du,dérailleur
-vis,du,dérailleur
-câble,du,dérailleur
-gaine,du,câble
-embout,du,câble
-serre-câble,du,dérailleur
-butée,du,dérailleur
-réglage,du,dérailleur
-mâchoire,du,frein
-patin,du,frein
-porte-patin,du,frein
-ressort,du,frein
-étrier,du,frein
-câble,du,frein
-levier,du,frein
-poignée,du,frein
-gaine,du,frein
-vis,du,frein
-écrou,du,frein
-rondelle,du,frein
-axe,du,frein
-pivot,du,frein
-bras,du,frein
-corps,de la,pédale
-axe,de la,pédale
-cage,de la,pédale
-roulement,de la,pédale
-cale-pied,de la,pédale
-courroie,de la,pédale
-réflecteur,de la,pédale
-vis,de la,pédale
-écrou,de la,pédale
-filetage,de la,pédale
-corps,du,pédalier
-manivelle,du,pédalier
-axe,du,pédalier
-roulement,du,pédalier
-cuvette,du,pédalier
-contre-écrou,du,pédalier
-vis,du,pédalier
-dent,du,plateau
-couronne,du,plateau
-bras,du,plateau
-fixation,du,plateau
-vis,du,plateau
-écrou,du,plateau
-potence,du,guidon
-cintre,du,guidon
-poignée,du,guidon
-bouchon,du,guidon
-ruban,du,guidon
-grip,du,guidon
-embout,du,guidon
-collier,de la,potence
-vis,de la,potence
-axe,de la,potence
-tube,de la,potence
-angle,de la,potence
-pivot,de la,fourche
-plongeur,de la,fourche
-tube,de la,fourche
-fourreau,de la,fourche
-patte,de la,fourche
-œil,de la,fourche
-couronne,de la,fourche
-pattes,de la,fourche
-axe,de la,fourche
-ressort,de la,fourche
-huile,de la,fourche
-joint,de la,fourche
-bague,de la,fourche
-tube,du,cadre
-haut,du,cadre
-bas,du,cadre
-oblique,du,cadre
-vertical,du,cadre
-hauban,du,cadre
-base,du,cadre
-boîte,du,cadre
-douille,du,cadre
-patte,du,cadre
-œillet,du,cadre
-raccord,du,cadre
-brasure,du,cadre
-soudure,du,cadre
-peinture,du,cadre
-vernis,du,cadre
+A,determinant,B,type_relation
+coque,du,bateau,r_holo
+écaille,du,poisson,r_holo
+vitre,de la,fenêtre,r_holo
+bras,du,général,r_holo
+roue,de la,voiture,r_holo
+toit,de la,maison,r_holo
+page,du,livre,r_holo
+pétale,de la,fleur,r_holo
+branche,de l',arbre,r_holo
+aile,de l',avion,r_holo
+porte,de la,chambre,r_holo
+jambe,de la,chaise,r_holo
+écran,du,téléphone,r_holo
+moteur,de la,moto,r_holo
+fenêtre,de l',appartement,r_holo
+clavier,de l',ordinateur,r_holo
+manche,de la,guitare,r_holo
+poignée,de la,porte,r_holo
+plume,de l',oiseau,r_holo
+corde,de la,guitare,r_holo
+volant,de la,voiture,r_holo
+capot,de la,voiture,r_holo
+cadran,de la,montre,r_holo
+fond,de la,bouteille,r_holo
+couvercle,de la,casserole,r_holo
+tiroir,du,bureau,r_holo
+bouton,de la,chemise,r_holo
+poche,du,pantalon,r_holo
+semelle,de la,chaussure,r_holo
+mur,de la,pièce,r_holo
+antenne,de la,radio,r_holo
+lame,du,couteau,r_holo
+dossier,de la,chaise,r_holo
+fil,de la,lampe,r_holo
+couvercle,du,pot,r_holo
+rayon,de la,roue,r_holo
+coque,du,téléphone,r_holo
+touche,du,piano,r_holo
+pédale,du,vélo,r_holo
+guidon,du,vélo,r_holo
+pare-brise,de la,voiture,r_holo
+tronc,de l',arbre,r_holo
+racine,de la,plante,r_holo
+bec,de l',oiseau,r_holo
+nageoire,du,poisson,r_holo
+griffe,du,chat,r_holo
+queue,du,chien,r_holo
+corne,de la,vache,r_holo
+sabot,du,cheval,r_holo
+épine,de la,rose,r_holo
+tige,de la,fleur,r_holo
+feuille,de l',arbre,r_holo
+écorce,de l',arbre,r_holo
+goutte,de,pluie,r_holo
+flocon,de,neige,r_holo
+rayon,de,soleil,r_holo
+vague,de,mer,r_holo
+nuage,du,ciel,r_holo
+pierre,du,mur,r_holo
+brique,du,mur,r_holo
+tuile,du,toit,r_holo
+marche,de l',escalier,r_holo
+barreau,de l',échelle,r_holo
+poteau,de la,clôture,r_holo
+planche,du,plancher,r_holo
+carreau,de la,fenêtre,r_holo
+poignée,du,tiroir,r_holo
+pied,de la,table,r_holo
+accoudoir,du,fauteuil,r_holo
+coussin,du,canapé,r_holo
+matelas,du,lit,r_holo
+oreiller,du,lit,r_holo
+drap,du,lit,r_holo
+couverture,du,lit,r_holo
+housse,du,coussin,r_holo
+nappe,de la,table,r_holo
+rideau,de la,fenêtre,r_holo
+store,de la,fenêtre,r_holo
+volet,de la,fenêtre,r_holo
+gond,de la,porte,r_holo
+serrure,de la,porte,r_holo
+clé,de la,serrure,r_holo
+sonnette,de la,porte,r_holo
+verrou,de la,porte,r_holo
+chaîne,de la,porte,r_holo
+judas,de la,porte,r_holo
+seuil,de la,porte,r_holo
+cadre,de la,porte,r_holo
+battant,de la,porte,r_holo
+loquet,de la,fenêtre,r_holo
+croisillon,de la,fenêtre,r_holo
+rebord,de la,fenêtre,r_holo
+appui,de la,fenêtre,r_holo
+garde-corps,du,balcon,r_holo
+rambarde,du,balcon,r_holo
+balustrade,du,balcon,r_holo
+terrasse,de l',appartement,r_holo
+cave,de la,maison,r_holo
+grenier,de la,maison,r_holo
+comble,de la,maison,r_holo
+fondation,de la,maison,r_holo
+façade,de la,maison,r_holo
+pignon,de la,maison,r_holo
+gouttière,du,toit,r_holo
+cheminée,de la,maison,r_holo
+tuyau,de la,cheminée,r_holo
+fumée,de la,cheminée,r_holo
+âtre,de la,cheminée,r_holo
+manteau,de la,cheminée,r_holo
+foyer,de la,cheminée,r_holo
+cendre,du,feu,r_holo
+braise,du,feu,r_holo
+flamme,du,feu,r_holo
+bûche,du,feu,r_holo
+tison,du,feu,r_holo
+étincelle,du,feu,r_holo
+lueur,du,feu,r_holo
+chaleur,du,feu,r_holo
+bouche,d'une,personne,r_holo
+nez,du,menteur,r_holo
+oreille,de la,secrétaire,r_holo
+œil,d'une,personne,r_holo
+sourcil,d'une,personne,r_holo
+cil,du,visage,r_holo
+paupière,de l',œil,r_holo
+joue,d'un, enfant,r_holo
+front,du,soldat,r_holo
+menton,du,bourreau,r_holo
+lèvre,d'une,personne,r_holo
+dent,du,requin,r_holo
+langue,d'une,vipère,r_holo
+gorge,d'une,reine,r_holo
+cou,d'une,femme,r_holo
+épaule,d'une,femme,r_holo
+bras,d'un,homme,r_holo
+coude,d'un,sportif,r_holo
+poignet,d'un,général,r_holo
+main,d'une,personne,r_holo
+doigt,d'une,femme,r_holo
+ongle,de la,main,r_holo
+pouce,de l',humain,r_holo
+index,de la,main,r_holo
+paume,de la,main,r_holo
+dos,de la,main,r_holo
+poitrine,d'une,princesse,r_holo
+torse,d'un,prince,r_holo
+ventre,d'un,roi,r_holo
+hanche,d'une,femme,r_holo
+dos,d'une,femme,r_holo
+taille,d'une,femme,r_holo
+jambe,d'une,femme,r_holo
+cuisse,d'une,femme,r_holo
+genou,d'une,fille,r_holo
+mollet,d'une,fille,r_holo
+cheville,d'une,fille,r_holo
+pied,d'un,garçon,r_holo
+orteil,d'un,garçon,r_holo
+talon,du,pied,r_holo
+plante,du,pied,r_holo
+cheveu,d'un,garçon,r_holo
+mèche,de,cheveux,r_holo
+peau,d'une,personne,r_holo
+poil,d'une,personne,r_holo
+barbe,d'un,homme,r_holo
+moustache,d'un,homme,r_holo
+sang,du,mort,r_holo
+os,du,mort,r_holo
+muscle,du,garçon,r_holo
+nerf,d'un,garçon,r_holo
+veine,d'une,princesse,r_holo
+artère,du,roi,r_holo
+cœur,de la,reine,r_holo
+poumon,d'une,personne,r_holo
+foie,du,roi,r_holo
+estomac,de l',homme,r_holo
+intestin,d',humain,r_holo
+rein,d'une,reine,r_holo
+cerveau,d'une,personne,r_holo
+crâne,d'une,personne,r_holo
+côte,d'une,personne,r_holo
+colonne,d'une,personne,r_holo
+vertèbre,de la,colonne,r_holo
+membre,d'une,personne,r_holo
+tête,d'une,personne,r_holo
+visage,d'une,personne,r_holo
+trait,du,visage,r_holo
+ride,du,visage,r_holo
+grain,de,peau,r_holo
+pore,de,peau,r_holo
+tache,de,peau,r_holo
+cicatrice,de,peau,r_holo
+voix,d'une,personne,r_holo
+sabre,d'un,général,r_holo
+cicatrice,d'une,combattante,r_holo
+salive,de la,bouche,r_holo
+larme,de l',œil,r_holo
+sueur,du,sportif,r_holo
+capuchon,du,manteau,r_holo
+manche,du,manteau,r_holo
+col,de la,chemise,r_holo
+pli,du,pantalon,r_holo
+couture,du,vêtement,r_holo
+ourlet,de la,robe,r_holo
+fermeture,de la,veste,r_holo
+zip,de la,veste,r_holo
+bouton,du,manteau,r_holo
+bride,du,vêtement,r_holo
+patte,de la,chemise,r_holo
+revers,de la,veste,r_holo
+doublure,du,manteau,r_holo
+poche,de la,veste,r_holo
+ceinture,du,pantalon,r_holo
+passant,du,pantalon,r_holo
+braguette,du,pantalon,r_holo
+jambe,du,pantalon,r_holo
+entrejambe,du,pantalon,r_holo
+bretelle,du,pantalon,r_holo
+bandoulière,du,sac,r_holo
+anse,du,sac,r_holo
+fermeture,du,sac,r_holo
+poche,du,sac,r_holo
+fond,du,sac,r_holo
+doublure,du,sac,r_holo
+languette,de la,chaussure,r_holo
+lacet,de la,chaussure,r_holo
+œillet,de la,chaussure,r_holo
+talon,de la,chaussure,r_holo
+bout,de la,chaussure,r_holo
+semelle,du,soulier,r_holo
+languette,du,soulier,r_holo
+contrefort,de la,chaussure,r_holo
+empeigne,de la,chaussure,r_holo
+tige,de la,botte,r_holo
+monture,des,lunettes,r_holo
+verre,des,lunettes,r_holo
+branche,des,lunettes,r_holo
+pont,des,lunettes,r_holo
+plaquette,des,lunettes,r_holo
+charnière,des,lunettes,r_holo
+embout,des,lunettes,r_holo
+cadran,de l',horloge,r_holo
+aiguille,de l',horloge,r_holo
+balancier,de l',horloge,r_holo
+ressort,de l',horloge,r_holo
+mécanisme,de l',horloge,r_holo
+pendule,de l',horloge,r_holo
+carillon,de l',horloge,r_holo
+sonnerie,de l',horloge,r_holo
+bracelet,de la,montre,r_holo
+boîtier,de la,montre,r_holo
+couronne,de la,montre,r_holo
+verre,de la,montre,r_holo
+aiguille,de la,montre,r_holo
+index,de la,montre,r_holo
+compteur,de la,montre,r_holo
+bouton,de la,montre,r_holo
+fermoir,du,bracelet,r_holo
+maillon,du,bracelet,r_holo
+chaîne,du,collier,r_holo
+pendentif,du,collier,r_holo
+fermoir,du,collier,r_holo
+perle,du,collier,r_holo
+pierre,de la,bague,r_holo
+monture,de la,bague,r_holo
+anneau,de la,bague,r_holo
+chaton,de la,bague,r_holo
+jonc,de la,bague,r_holo
+agrafe,de la,broche,r_holo
+épingle,de la,broche,r_holo
+crochet,de la,boucle,r_holo
+attache,de la,boucle,r_holo
+tige,de la,boucle,r_holo
+fermoir,de la,boucle,r_holo
+carrosserie,de la,voiture,r_holo
+châssis,de la,voiture,r_holo
+radiateur,de la,voiture,r_holo
+batterie,de la,voiture,r_holo
+alternateur,de la,voiture,r_holo
+démarreur,de la,voiture,r_holo
+bougie,de la,voiture,r_holo
+filtre,de la,voiture,r_holo
+huile,de la,voiture,r_holo
+essence,de la,voiture,r_holo
+réservoir,de la,voiture,r_holo
+tuyau,de la,voiture,r_holo
+durite,de la,voiture,r_holo
+courroie,de la,voiture,r_holo
+chaîne,de la,voiture,r_holo
+piston,du,moteur,r_holo
+cylindre,du,moteur,r_holo
+soupape,du,moteur,r_holo
+culasse,du,moteur,r_holo
+vilebrequin,du,moteur,r_holo
+arbre,du,moteur,r_holo
+joint,du,moteur,r_holo
+carter,du,moteur,r_holo
+volant,de l',auto,r_holo
+pédale,de l',auto,r_holo
+frein,de l',auto,r_holo
+embrayage,de l',auto,r_holo
+accélérateur,de l',auto,r_holo
+levier,de l',auto,r_holo
+boîte,de l',auto,r_holo
+vitesse,de l',auto,r_holo
+transmission,de l',auto,r_holo
+différentiel,de l',auto,r_holo
+essieu,de l',auto,r_holo
+suspension,de l',auto,r_holo
+amortisseur,de l',auto,r_holo
+ressort,de l',auto,r_holo
+roue,du,véhicule,r_holo
+pneu,de la,roue,r_holo
+jante,de la,roue,r_holo
+moyeu,de la,roue,r_holo
+valve,du,pneu,r_holo
+chambre,du,pneu,r_holo
+bande,du,pneu,r_holo
+sculpture,du,pneu,r_holo
+flanc,du,pneu,r_holo
+pare-chocs,de l',auto,r_holo
+aile,de l',auto,r_holo
+portière,de l',auto,r_holo
+hayon,de l',auto,r_holo
+coffre,de l',auto,r_holo
+toit,du,véhicule,r_holo
+vitre,de l',auto,r_holo
+glace,de l',auto,r_holo
+rétroviseur,de l',auto,r_holo
+essuie-glace,de l',auto,r_holo
+balai,de l',essuie-glace,r_holo
+lave-glace,de l',auto,r_holo
+phare,de l',auto,r_holo
+feu,de l',auto,r_holo
+clignotant,de l',auto,r_holo
+veilleuse,de l',auto,r_holo
+stop,de l',auto,r_holo
+plaque,de l',auto,r_holo
+immatriculation,de l',auto,r_holo
+tableau,de l',auto,r_holo
+compteur,de l',auto,r_holo
+jauge,de l',auto,r_holo
+voyant,de l',auto,r_holo
+manette,de l',auto,r_holo
+bouton,de l',auto,r_holo
+commande,de l',auto,r_holo
+klaxon,de l',auto,r_holo
+chauffage,de l',auto,r_holo
+climatisation,de l',auto,r_holo
+ventilation,de l',auto,r_holo
+radio,de l',auto,r_holo
+haut-parleur,de l',auto,r_holo
+antenne,de l',auto,r_holo
+siège,de l',auto,r_holo
+dossier,du,siège,r_holo
+assise,du,siège,r_holo
+appui-tête,du,siège,r_holo
+ceinture,du,siège,r_holo
+boucle,de la,ceinture,r_holo
+sangle,de la,ceinture,r_holo
+attache,de la,ceinture,r_holo
+tapis,de l',auto,r_holo
+moquette,de l',auto,r_holo
+vide-poche,de l',auto,r_holo
+porte-gobelet,de l',auto,r_holo
+cendrier,de l',auto,r_holo
+allume-cigare,de l',auto,r_holo
+pommeau,du,levier,r_holo
+soufflet,du,levier,r_holo
+cadre,du,vélo,r_holo
+fourche,du,vélo,r_holo
+roue,du,vélo,r_holo
+pneu,du,vélo,r_holo
+jante,du,vélo,r_holo
+rayon,du,vélo,r_holo
+moyeu,du,vélo,r_holo
+pédale,du,vélo,r_holo
+manivelle,du,vélo,r_holo
+plateau,du,vélo,r_holo
+chaîne,du,vélo,r_holo
+pignon,du,vélo,r_holo
+dérailleur,du,vélo,r_holo
+cassette,du,vélo,r_holo
+roue-libre,du,vélo,r_holo
+frein,du,vélo,r_holo
+câble,du,vélo,r_holo
+gaine,du,vélo,r_holo
+poignée,du,vélo,r_holo
+sonnette,du,vélo,r_holo
+phare,du,vélo,r_holo
+catadioptre,du,vélo,r_holo
+garde-boue,du,vélo,r_holo
+porte-bagage,du,vélo,r_holo
+béquille,du,vélo,r_holo
+selle,du,vélo,r_holo
+tige,de la,selle,r_holo
+ressort,de la,selle,r_holo
+guidon,de la,moto,r_holo
+réservoir,de la,moto,r_holo
+carénage,de la,moto,r_holo
+pot,de la,moto,r_holo
+échappement,de la,moto,r_holo
+repose-pied,de la,moto,r_holo
+cale-pied,de la,moto,r_holo
+selle,de la,moto,r_holo
+coffre,de la,moto,r_holo
+sacoches,de la,moto,r_holo
+casque,du,motard,r_holo
+visière,du,casque,r_holo
+jugulaire,du,casque,r_holo
+mousse,du,casque,r_holo
+coque,du,casque,r_holo
+ventilation,du,casque,r_holo
+écran,du,casque,r_holo
+fuselage,de l',avion,r_holo
+cockpit,de l',avion,r_holo
+carlingue,de l',avion,r_holo
+hublot,de l',avion,r_holo
+porte,de l',avion,r_holo
+soute,de l',avion,r_holo
+train,de l',avion,r_holo
+roue,de l',avion,r_holo
+moteur,de l',avion,r_holo
+hélice,de l',avion,r_holo
+turbine,de l',avion,r_holo
+réacteur,de l',avion,r_holo
+tuyère,du,réacteur,r_holo
+aileron,de l',avion,r_holo
+volet,de l',avion,r_holo
+gouvernail,de l',avion,r_holo
+dérive,de l',avion,r_holo
+empennage,de l',avion,r_holo
+queue,de l',avion,r_holo
+nez,de l',avion,r_holo
+pointe,de l',avion,r_holo
+bout,de l',aile,r_holo
+bord,de l',aile,r_holo
+extrados,de l',aile,r_holo
+intrados,de l',aile,r_holo
+nervure,de l',aile,r_holo
+longeron,de l',aile,r_holo
+revêtement,de l',aile,r_holo
+mât,du,bateau,r_holo
+voile,du,bateau,r_holo
+grand-voile,du,bateau,r_holo
+foc,du,bateau,r_holo
+génois,du,bateau,r_holo
+spinnaker,du,bateau,r_holo
+vergue,du,bateau,r_holo
+bôme,du,bateau,r_holo
+gui,du,bateau,r_holo
+hauban,du,bateau,r_holo
+étai,du,bateau,r_holo
+drisse,du,bateau,r_holo
+écoute,du,bateau,r_holo
+amarre,du,bateau,r_holo
+câble,du,bateau,r_holo
+cordage,du,bateau,r_holo
+manœuvre,du,bateau,r_holo
+gréement,du,bateau,r_holo
+pont,du,bateau,r_holo
+coque,du,navire,r_holo
+proue,du,bateau,r_holo
+poupe,du,bateau,r_holo
+étrave,du,bateau,r_holo
+quille,du,bateau,r_holo
+safran,du,bateau,r_holo
+gouvernail,du,navire,r_holo
+barre,du,bateau,r_holo
+timonerie,du,bateau,r_holo
+cabine,du,bateau,r_holo
+cale,du,bateau,r_holo
+soute,du,bateau,r_holo
+écoutille,du,bateau,r_holo
+hublot,du,bateau,r_holo
+passerelle,du,bateau,r_holo
+dunette,du,bateau,r_holo
+château,du,bateau,r_holo
+gaillard,du,bateau,r_holo
+lisse,du,bateau,r_holo
+bastingage,du,bateau,r_holo
+filière,du,bateau,r_holo
+chandelier,du,bateau,r_holo
+ancre,du,bateau,r_holo
+chaîne,de l',ancre,r_holo
+jas,de l',ancre,r_holo
+patte,de l',ancre,r_holo
+tige,de l',ancre,r_holo
+organeau,de l',ancre,r_holo
+bouée,du,bateau,r_holo
+flotteur,du,bateau,r_holo
+défense,du,bateau,r_holo
+pare-battage,du,bateau,r_holo
+pavillon,du,bateau,r_holo
+drapeau,du,bateau,r_holo
+fanion,du,bateau,r_holo
+flamme,du,bateau,r_holo
+corne,du,bateau,r_holo
+sirène,du,bateau,r_holo
+feu,du,bateau,r_holo
+phare,du,navire,r_holo
+lanterne,du,bateau,r_holo
+fanal,du,bateau,r_holo
+boussole,du,bateau,r_holo
+compas,du,bateau,r_holo
+sextant,du,bateau,r_holo
+loch,du,bateau,r_holo
+sonde,du,bateau,r_holo
+baromètre,du,bateau,r_holo
+anémomètre,du,bateau,r_holo
+girouette,du,bateau,r_holo
+carte,du,bateau,r_holo
+aviron,du,bateau,r_holo
+rame,du,bateau,r_holo
+pagaie,du,bateau,r_holo
+gouverne,du,bateau,r_holo
+hélice,du,bateau,r_holo
+moteur,du,navire,r_holo
+machine,du,navire,r_holo
+chaudière,du,navire,r_holo
+cheminée,du,bateau,r_holo
+tuyau,du,bateau,r_holo
+canon,du,navire,r_holo
+affût,du,canon,r_holo
+tourelle,du,navire,r_holo
+blindage,du,navire,r_holo
+cuirasse,du,navire,r_holo
+sabord,du,navire,r_holo
+meurtrière,du,navire,r_holo
+cloche,du,navire,r_holo
+écran,de l',ordinateur,r_holo
+clavier,de l',appareil,r_holo
+souris,de l',ordinateur,r_holo
+pavé,de l',ordinateur,r_holo
+touche,du,clavier,r_holo
+espace,du,clavier,r_holo
+entrée,du,clavier,r_holo
+barre,du,clavier,r_holo
+curseur,de l',ordinateur,r_holo
+pointeur,de la,souris,r_holo
+bouton,de la,souris,r_holo
+molette,de la,souris,r_holo
+roulette,de la,souris,r_holo
+câble,de la,souris,r_holo
+processeur,de l',ordinateur,r_holo
+puce,de l',ordinateur,r_holo
+mémoire,de l',ordinateur,r_holo
+disque,de l',ordinateur,r_holo
+carte,de l',ordinateur,r_holo
+port,de l',ordinateur,r_holo
+prise,de l',ordinateur,r_holo
+connecteur,de l',ordinateur,r_holo
+ventilateur,de l',ordinateur,r_holo
+radiateur,de l',ordinateur,r_holo
+refroidissement,de l',ordinateur,r_holo
+alimentation,de l',ordinateur,r_holo
+batterie,de l',ordinateur,r_holo
+chargeur,de l',ordinateur,r_holo
+adaptateur,de l',ordinateur,r_holo
+boîtier,de l',ordinateur,r_holo
+tour,de l',ordinateur,r_holo
+façade,de l',ordinateur,r_holo
+panneau,de l',ordinateur,r_holo
+lecteur,de l',ordinateur,r_holo
+graveur,de l',ordinateur,r_holo
+haut-parleur,de l',ordinateur,r_holo
+micro,de l',ordinateur,r_holo
+webcam,de l',ordinateur,r_holo
+caméra,de l',ordinateur,r_holo
+écouteur,du,téléphone,r_holo
+casque,du,téléphone,r_holo
+jack,du,téléphone,r_holo
+prise,du,téléphone,r_holo
+câble,du,téléphone,r_holo
+chargeur,du,téléphone,r_holo
+batterie,du,mobile,r_holo
+écran,du,mobile,r_holo
+vitre,du,mobile,r_holo
+coque,du,mobile,r_holo
+housse,du,téléphone,r_holo
+étui,du,téléphone,r_holo
+bouton,du,mobile,r_holo
+micro,du,mobile,r_holo
+haut-parleur,du,mobile,r_holo
+caméra,du,mobile,r_holo
+flash,du,mobile,r_holo
+objectif,de la,caméra,r_holo
+lentille,de l',objectif,r_holo
+capteur,de la,caméra,r_holo
+viseur,de la,caméra,r_holo
+déclencheur,de l',appareil,r_holo
+obturateur,de l',appareil,r_holo
+diaphragme,de l',appareil,r_holo
+zoom,de l',appareil,r_holo
+mise,de l',appareil,r_holo
+bague,de l',objectif,r_holo
+pare-soleil,de l',objectif,r_holo
+filtre,de l',objectif,r_holo
+monture,de l',objectif,r_holo
+boîtier,de l',appareil,r_holo
+poignée,de l',appareil,r_holo
+dragonne,de l',appareil,r_holo
+trépied,de l',appareil,r_holo
+rotule,du,trépied,r_holo
+colonne,du,trépied,r_holo
+jambe,du,trépied,r_holo
+pied,du,trépied,r_holo
+embout,du,trépied,r_holo
+pointe,du,trépied,r_holo
+sabot,du,trépied,r_holo
+plateau,du,trépied,r_holo
+vis,du,trépied,r_holo
+blocage,du,trépied,r_holo
+levier,du,trépied,r_holo
+manivelle,du,trépied,r_holo
+molette,du,trépied,r_holo
+cran,du,trépied,r_holo
+corde,de la,raquette,r_holo
+tamis,de la,raquette,r_holo
+cadre,de la,raquette,r_holo
+manche,de la,raquette,r_holo
+grip,de la,raquette,r_holo
+poignée,de la,raquette,r_holo
+housse,de la,raquette,r_holo
+cordage,de la,raquette,r_holo
+tension,de la,raquette,r_holo
+filet,du,court,r_holo
+poteau,du,filet,r_holo
+sangle,du,filet,r_holo
+câble,du,filet,r_holo
+maille,du,filet,r_holo
+trame,du,filet,r_holo
+feutre,de la,balle,r_holo
+caoutchouc,de la,balle,r_holo
+cuir,de la,balle,r_holo
+toile,de la,balle,r_holo
+surface,de la,balle,r_holo
+couture,de la,balle,r_holo
+rembourrage,de la,balle,r_holo
+enveloppe,de la,balle,r_holo
+grain,de la,balle,r_holo
+peau,de la,balle,r_holo
+recouvrement,de la,balle,r_holo
+valves,de la,balle,r_holo
+vessie,de la,balle,r_holo
+chambre,de la,balle,r_holo
+air,de la,balle,r_holo
+pression,de la,balle,r_holo
+picots,de la,raquette,r_holo
+mousse,de la,raquette,r_holo
+bois,de la,raquette,r_holo
+revêtement,de la,raquette,r_holo
+palette,de la,raquette,r_holo
+lame,de la,raquette,r_holo
+manche,de la,palette,r_holo
+pommeau,de la,palette,r_holo
+col,de la,raquette,r_holo
+tête,de la,raquette,r_holo
+cœur,de la,raquette,r_holo
+œillet,de la,raquette,r_holo
+renfort,de la,raquette,r_holo
+pare-chocs,de la,raquette,r_holo
+barre,de la,raquette,r_holo
+pont,de la,raquette,r_holo
+âme,de la,raquette,r_holo
+tranche,de la,raquette,r_holo
+talon,de la,raquette,r_holo
+pointe,de la,raquette,r_holo
+bout,de la,raquette,r_holo
+extrémité,de la,raquette,r_holo
+embout,de la,raquette,r_holo
+capuchon,de la,raquette,r_holo
+touche,de la,guitare,r_holo
+case,de la,guitare,r_holo
+frette,de la,guitare,r_holo
+sillet,de la,guitare,r_holo
+chevalet,de la,guitare,r_holo
+table,de la,guitare,r_holo
+caisse,de la,guitare,r_holo
+éclisse,de la,guitare,r_holo
+fond,de la,guitare,r_holo
+rosace,de la,guitare,r_holo
+ouïe,de la,guitare,r_holo
+bouche,de la,guitare,r_holo
+trou,de la,guitare,r_holo
+barrage,de la,guitare,r_holo
+âme,de la,guitare,r_holo
+renfort,de la,guitare,r_holo
+manche,de l',instrument,r_holo
+tête,de la,guitare,r_holo
+volute,de la,guitare,r_holo
+cheville,de la,guitare,r_holo
+clé,de la,guitare,r_holo
+mécaniques,de la,guitare,r_holo
+tendeur,de la,guitare,r_holo
+vis,de la,guitare,r_holo
+bouton,de la,guitare,r_holo
+attache,de la,guitare,r_holo
+sangle,de la,guitare,r_holo
+courroie,de la,guitare,r_holo
+jack,de la,guitare,r_holo
+micro,de la,guitare,r_holo
+bobine,du,micro,r_holo
+aimant,du,micro,r_holo
+noyau,du,micro,r_holo
+fil,de la,bobine,r_holo
+enroulement,de la,bobine,r_holo
+potentiomètre,de la,guitare,r_holo
+sélecteur,de la,guitare,r_holo
+interrupteur,de la,guitare,r_holo
+commande,de la,guitare,r_holo
+molette,de la,guitare,r_holo
+bouton,de l',ampli,r_holo
+potard,de l',ampli,r_holo
+canal,de l',ampli,r_holo
+entrée,de l',ampli,r_holo
+sortie,de l',ampli,r_holo
+prise,de l',ampli,r_holo
+jack,de l',ampli,r_holo
+membrane,du,haut-parleur,r_holo
+cône,du,haut-parleur,r_holo
+bobine,du,haut-parleur,r_holo
+suspension,du,haut-parleur,r_holo
+spider,du,haut-parleur,r_holo
+cache,du,haut-parleur,r_holo
+grille,du,haut-parleur,r_holo
+baffle,du,haut-parleur,r_holo
+enceinte,du,système,r_holo
+caisson,de l',enceinte,r_holo
+évent,de l',enceinte,r_holo
+tweeter,de l',enceinte,r_holo
+woofer,de l',enceinte,r_holo
+médium,de l',enceinte,r_holo
+filtre,de l',enceinte,r_holo
+crossover,de l',enceinte,r_holo
+câblage,de l',enceinte,r_holo
+bornier,de l',enceinte,r_holo
+connecteur,de l',enceinte,r_holo
+fiche,de la,prise,r_holo
+broche,de la,fiche,r_holo
+plot,de la,fiche,r_holo
+contact,de la,fiche,r_holo
+isolant,de la,fiche,r_holo
+corps,de la,fiche,r_holo
+coquille,de la,fiche,r_holo
+capot,de la,fiche,r_holo
+serre-câble,de la,fiche,r_holo
+pince,de la,fiche,r_holo
+vis,de la,fiche,r_holo
+borne,de la,prise,r_holo
+alvéole,de la,prise,r_holo
+trou,de la,prise,r_holo
+boîtier,de la,prise,r_holo
+plaque,de la,prise,r_holo
+enjoliveur,de la,prise,r_holo
+cache,de la,prise,r_holo
+couvercle,de la,prise,r_holo
+obturateur,de la,prise,r_holo
+volet,de la,prise,r_holo
+terre,de la,prise,r_holo
+phase,de la,prise,r_holo
+neutre,de la,prise,r_holo
+conducteur,du,câble,r_holo
+fil,du,câble,r_holo
+âme,du,câble,r_holo
+gaine,du,câble,r_holo
+isolant,du,câble,r_holo
+blindage,du,câble,r_holo
+tresse,du,câble,r_holo
+écran,du,câble,r_holo
+protection,du,câble,r_holo
+enveloppe,du,câble,r_holo
+onglet,du,classeur,r_holo
+couverture,du,cahier,r_holo
+spirale,du,cahier,r_holo
+anneau,du,classeur,r_holo
+pochette,du,classeur,r_holo
+intercalaire,du,classeur,r_holo
+séparateur,du,classeur,r_holo
+perforation,de la,feuille,r_holo
+marge,de la,feuille,r_holo
+ligne,de la,page,r_holo
+colonne,de la,page,r_holo
+paragraphe,du,texte,r_holo
+phrase,du,texte,r_holo
+mot,de la,phrase,r_holo
+lettre,du,mot,r_holo
+syllabe,du,mot,r_holo
+accent,de la,lettre,r_holo
+point,de la,phrase,r_holo
+virgule,de la,phrase,r_holo
+tiret,du,texte,r_holo
+guillemet,du,texte,r_holo
+parenthèse,du,texte,r_holo
+crochet,du,texte,r_holo
+apostrophe,du,mot,r_holo
+trait,de la,lettre,r_holo
+barre,de la,lettre,r_holo
+point,de la,lettre,r_holo
+boucle,de la,lettre,r_holo
+hampe,de la,lettre,r_holo
+empattement,de la,lettre,r_holo
+titre,du,chapitre,r_holo
+sous-titre,du,chapitre,r_holo
+section,du,document,r_holo
+partie,du,livre,r_holo
+tome,de la,collection,r_holo
+volume,de la,série,r_holo
+édition,du,livre,r_holo
+impression,du,livre,r_holo
+tirage,du,livre,r_holo
+pagination,du,document,r_holo
+numérotation,des,pages,r_holo
+foliotage,du,manuscrit,r_holo
+index,du,livre,r_holo
+sommaire,du,livre,r_holo
+table,du,livre,r_holo
+glossaire,du,livre,r_holo
+bibliographie,du,livre,r_holo
+annexe,du,livre,r_holo
+note,de la,page,r_holo
+référence,du,texte,r_holo
+citation,du,texte,r_holo
+extrait,du,texte,r_holo
+passage,du,livre,r_holo
+chapitre,du,roman,r_holo
+acte,de la,pièce,r_holo
+scène,de l',acte,r_holo
+réplique,de la,scène,r_holo
+tirade,de la,scène,r_holo
+monologue,de la,pièce,r_holo
+dialogue,de la,scène,r_holo
+aparté,de la,scène,r_holo
+didascalie,de la,pièce,r_holo
+couvercle,de la,boîte,r_holo
+fond,de la,boîte,r_holo
+paroi,de la,boîte,r_holo
+angle,de la,boîte,r_holo
+coin,de la,boîte,r_holo
+bord,de la,boîte,r_holo
+rebord,du,verre,r_holo
+pied,du,verre,r_holo
+jambe,du,verre,r_holo
+calice,du,verre,r_holo
+vasque,du,verre,r_holo
+anse,de la,tasse,r_holo
+poignée,de la,tasse,r_holo
+bec,de la,théière,r_holo
+couvercle,de la,théière,r_holo
+anse,de la,théière,r_holo
+verseur,de la,cafetière,r_holo
+filtre,de la,cafetière,r_holo
+réservoir,de la,cafetière,r_holo
+socle,de la,lampe,r_holo
+abat-jour,de la,lampe,r_holo
+ampoule,de la,lampe,r_holo
+douille,de la,lampe,r_holo
+culot,de l',ampoule,r_holo
+filament,de l',ampoule,r_holo
+verre,de l',ampoule,r_holo
+gaz,de l',ampoule,r_holo
+interrupteur,de la,lampe,r_holo
+variateur,de la,lampe,r_holo
+gradateur,de la,lampe,r_holo
+bras,de la,lampe,r_holo
+pied,de la,lampe,r_holo
+base,de la,lampe,r_holo
+prise,de la,lampe,r_holo
+cordon,de la,lampe,r_holo
+housse,de la,couette,r_holo
+taie,de l',oreiller,r_holo
+drap-housse,du,matelas,r_holo
+ressort,du,matelas,r_holo
+mousse,du,matelas,r_holo
+garniture,du,matelas,r_holo
+coutil,du,matelas,r_holo
+sommier,du,lit,r_holo
+lattes,du,sommier,r_holo
+pieds,du,lit,r_holo
+tête,du,lit,r_holo
+montant,du,lit,r_holo
+traverse,du,lit,r_holo
+rouleau,du,store,r_holo
+toile,du,store,r_holo
+mécanisme,du,store,r_holo
+chaînette,du,store,r_holo
+cordon,du,store,r_holo
+rail,du,rideau,r_holo
+tringle,du,rideau,r_holo
+anneau,du,rideau,r_holo
+crochet,du,rideau,r_holo
+pince,du,rideau,r_holo
+embrasse,du,rideau,r_holo
+gland,du,rideau,r_holo
+frange,du,rideau,r_holo
+ourlet,du,rideau,r_holo
+doublure,du,rideau,r_holo
+tissu,du,rideau,r_holo
+lé,du,rideau,r_holo
+pli,du,rideau,r_holo
+plissé,du,rideau,r_holo
+fronce,du,rideau,r_holo
+patte,du,rideau,r_holo
+œillet,du,rideau,r_holo
+passant,du,rideau,r_holo
+ruflette,du,rideau,r_holo
+galon,du,rideau,r_holo
+bordure,du,rideau,r_holo
+lisière,du,tissu,r_holo
+chaîne,du,tissu,r_holo
+trame,du,tissu,r_holo
+armure,du,tissu,r_holo
+tissage,du,tissu,r_holo
+texture,du,tissu,r_holo
+motif,du,tissu,r_holo
+impression,du,tissu,r_holo
+teinture,du,tissu,r_holo
+apprêt,du,tissu,r_holo
+finition,du,tissu,r_holo
+fil,du,tissu,r_holo
+fibre,du,tissu,r_holo
+brin,du,fil,r_holo
+torsion,du,fil,r_holo
+épaisseur,du,fil,r_holo
+titre,du,fil,r_holo
+tension,du,fil,r_holo
+élasticité,du,fil,r_holo
+résistance,du,fil,r_holo
+pointe,du,crayon,r_holo
+mine,du,crayon,r_holo
+corps,du,crayon,r_holo
+bois,du,crayon,r_holo
+vernis,du,crayon,r_holo
+gomme,du,crayon,r_holo
+embout,du,crayon,r_holo
+taille,du,crayon,r_holo
+pointe,du,stylo,r_holo
+bille,du,stylo,r_holo
+cartouche,du,stylo,r_holo
+encre,du,stylo,r_holo
+réservoir,du,stylo,r_holo
+capuchon,du,stylo,r_holo
+clip,du,stylo,r_holo
+corps,du,stylo,r_holo
+bouchon,du,stylo,r_holo
+plume,du,stylo,r_holo
+bec,de la,plume,r_holo
+fente,de la,plume,r_holo
+iridium,de la,plume,r_holo
+aileron,de la,plume,r_holo
+talon,de la,plume,r_holo
+évent,de la,plume,r_holo
+pointe,du,compas,r_holo
+mine,du,compas,r_holo
+branche,du,compas,r_holo
+vis,du,compas,r_holo
+articulation,du,compas,r_holo
+pointe-sèche,du,compas,r_holo
+porte-mine,du,compas,r_holo
+graduation,de la,règle,r_holo
+bord,de la,règle,r_holo
+face,de la,règle,r_holo
+extrémité,de la,règle,r_holo
+zéro,de la,règle,r_holo
+échelle,de la,règle,r_holo
+division,de la,règle,r_holo
+trait,de la,règle,r_holo
+repère,de la,règle,r_holo
+index,de la,règle,r_holo
+curseur,de la,règle,r_holo
+vernier,de la,règle,r_holo
+molette,de la,règle,r_holo
+entablure,des,ciseaux,r_holo
+tranchant,des,ciseaux,r_holo
+pointe,des,ciseaux,r_holo
+branche,des,ciseaux,r_holo
+anneau,des,ciseaux,r_holo
+lame,des,ciseaux,r_holo
+pivot,des,ciseaux,r_holo
+vis,des,ciseaux,r_holo
+ressort,des,ciseaux,r_holo
+poignée,des,ciseaux,r_holo
+manche,du,marteau,r_holo
+tête,du,marteau,r_holo
+panne,du,marteau,r_holo
+table,du,marteau,r_holo
+œil,du,marteau,r_holo
+coin,du,marteau,r_holo
+manche,du,tournevis,r_holo
+lame,du,tournevis,r_holo
+tige,du,tournevis,r_holo
+embout,du,tournevis,r_holo
+pointe,du,tournevis,r_holo
+tête,du,tournevis,r_holo
+poignée,du,tournevis,r_holo
+virole,du,tournevis,r_holo
+manche,de la,pince,r_holo
+mâchoire,de la,pince,r_holo
+bec,de la,pince,r_holo
+tranchant,de la,pince,r_holo
+pivot,de la,pince,r_holo
+articulation,de la,pince,r_holo
+ressort,de la,pince,r_holo
+branche,de la,pince,r_holo
+poignée,de la,pince,r_holo
+manche,de la,clé,r_holo
+tête,de la,clé,r_holo
+fourche,de la,clé,r_holo
+ouverture,de la,clé,r_holo
+mâchoire,de la,clé,r_holo
+cliquet,de la,clé,r_holo
+cran,de la,clé,r_holo
+molette,de la,clé,r_holo
+vis,de la,clé,r_holo
+poignée,de la,clé,r_holo
+manche,de la,scie,r_holo
+lame,de la,scie,r_holo
+denture,de la,scie,r_holo
+dent,de la,scie,r_holo
+dos,de la,scie,r_holo
+tranchant,de la,scie,r_holo
+poignée,de la,scie,r_holo
+monture,de la,scie,r_holo
+tenon,de la,scie,r_holo
+talon,de la,scie,r_holo
+pointe,de la,scie,r_holo
+manche,du,rabot,r_holo
+fer,du,rabot,r_holo
+lame,du,rabot,r_holo
+semelle,du,rabot,r_holo
+fût,du,rabot,r_holo
+joue,du,rabot,r_holo
+lumière,du,rabot,r_holo
+coin,du,rabot,r_holo
+contre-fer,du,rabot,r_holo
+poignée,du,rabot,r_holo
+bouton,du,rabot,r_holo
+réglage,du,rabot,r_holo
+manche,de la,lime,r_holo
+corps,de la,lime,r_holo
+taille,de la,lime,r_holo
+strie,de la,lime,r_holo
+grain,de la,lime,r_holo
+face,de la,lime,r_holo
+arête,de la,lime,r_holo
+pointe,de la,lime,r_holo
+talon,de la,lime,r_holo
+soie,de la,lime,r_holo
+virole,de la,lime,r_holo
+manche,du,ciseau,r_holo
+lame,du,ciseau,r_holo
+fer,du,ciseau,r_holo
+biseau,du,ciseau,r_holo
+tranchant,du,ciseau,r_holo
+dos,du,ciseau,r_holo
+talon,du,ciseau,r_holo
+soie,du,ciseau,r_holo
+virole,du,ciseau,r_holo
+poignée,du,ciseau,r_holo
+culot,du,ciseau,r_holo
+manche,de la,hache,r_holo
+fer,de la,hache,r_holo
+lame,de la,hache,r_holo
+tranchant,de la,hache,r_holo
+tête,de la,hache,r_holo
+œil,de la,hache,r_holo
+talon,de la,hache,r_holo
+barbe,de la,hache,r_holo
+joue,de la,hache,r_holo
+dos,de la,hache,r_holo
+biseau,de la,hache,r_holo
+manche,de la,pioche,r_holo
+fer,de la,pioche,r_holo
+pic,de la,pioche,r_holo
+panne,de la,pioche,r_holo
+tête,de la,pioche,r_holo
+œil,de la,pioche,r_holo
+pointe,de la,pioche,r_holo
+manche,de la,pelle,r_holo
+fer,de la,pelle,r_holo
+lame,de la,pelle,r_holo
+godet,de la,pelle,r_holo
+tranchant,de la,pelle,r_holo
+bord,de la,pelle,r_holo
+dos,de la,pelle,r_holo
+poignée,de la,pelle,r_holo
+béquille,de la,pelle,r_holo
+collet,de la,pelle,r_holo
+douille,de la,pelle,r_holo
+manche,du,balai,r_holo
+tête,du,balai,r_holo
+brosse,du,balai,r_holo
+soie,du,balai,r_holo
+poil,du,balai,r_holo
+fibre,du,balai,r_holo
+monture,du,balai,r_holo
+douille,du,balai,r_holo
+virole,du,balai,r_holo
+embout,du,balai,r_holo
+accroche,du,balai,r_holo
+manche,du,râteau,r_holo
+tête,du,râteau,r_holo
+dent,du,râteau,r_holo
+peigne,du,râteau,r_holo
+traverse,du,râteau,r_holo
+douille,du,râteau,r_holo
+poignée,du,râteau,r_holo
+manche,de la,serpillière,r_holo
+frange,de la,serpillière,r_holo
+tissu,de la,serpillière,r_holo
+tête,de la,serpillière,r_holo
+fixation,de la,serpillière,r_holo
+seau,de la,serpillière,r_holo
+anse,du,seau,r_holo
+fond,du,seau,r_holo
+paroi,du,seau,r_holo
+bord,du,seau,r_holo
+bec,du,seau,r_holo
+poignée,du,seau,r_holo
+couvercle,du,seau,r_holo
+anse,du,panier,r_holo
+fond,du,panier,r_holo
+paroi,du,panier,r_holo
+bord,du,panier,r_holo
+tressage,du,panier,r_holo
+osier,du,panier,r_holo
+vannerie,du,panier,r_holo
+couvercle,du,panier,r_holo
+poignée,du,panier,r_holo
+manche,de la,brosse,r_holo
+tête,de la,brosse,r_holo
+soie,de la,brosse,r_holo
+poil,de la,brosse,r_holo
+fibre,de la,brosse,r_holo
+monture,de la,brosse,r_holo
+dos,de la,brosse,r_holo
+face,de la,brosse,r_holo
+accroche,de la,brosse,r_holo
+embout,de la,brosse,r_holo
+manche,de l',éponge,r_holo
+face,de l',éponge,r_holo
+alvéole,de l',éponge,r_holo
+pore,de l',éponge,r_holo
+abrasif,de l',éponge,r_holo
+grattoir,de l',éponge,r_holo
+couche,de l',éponge,r_holo
+face-grattante,de l',éponge,r_holo
+bec,de l',arrosoir,r_holo
+anse,de l',arrosoir,r_holo
+réservoir,de l',arrosoir,r_holo
+pomme,de l',arrosoir,r_holo
+trou,de la,pomme,r_holo
+cuve,de l',arrosoir,r_holo
+col,de l',arrosoir,r_holo
+couvercle,de l',arrosoir,r_holo
+poignée,de l',arrosoir,r_holo
+lame,de la,tondeuse,r_holo
+carter,de la,tondeuse,r_holo
+moteur,de la,tondeuse,r_holo
+roue,de la,tondeuse,r_holo
+guidon,de la,tondeuse,r_holo
+poignée,de la,tondeuse,r_holo
+bac,de la,tondeuse,r_holo
+châssis,de la,tondeuse,r_holo
+démarreur,de la,tondeuse,r_holo
+réservoir,de la,tondeuse,r_holo
+filtre,de la,tondeuse,r_holo
+bougie,de la,tondeuse,r_holo
+silencieux,de la,tondeuse,r_holo
+chaîne,de la,tronçonneuse,r_holo
+guide,de la,tronçonneuse,r_holo
+moteur,de la,tronçonneuse,r_holo
+réservoir,de la,tronçonneuse,r_holo
+poignée,de la,tronçonneuse,r_holo
+gâchette,de la,tronçonneuse,r_holo
+frein,de la,tronçonneuse,r_holo
+carter,de la,tronçonneuse,r_holo
+chaîne,de la,bicyclette,r_holo
+maillon,de la,chaîne,r_holo
+axe,de la,chaîne,r_holo
+rouleau,de la,chaîne,r_holo
+plaque,de la,chaîne,r_holo
+rivet,de la,chaîne,r_holo
+attache,de la,chaîne,r_holo
+rayons,de la,roue,r_holo
+écrou,du,rayon,r_holo
+téton,du,rayon,r_holo
+tête,du,rayon,r_holo
+coude,du,rayon,r_holo
+corps,du,rayon,r_holo
+filetage,du,rayon,r_holo
+valve,de la,chambre,r_holo
+capuchon,de la,valve,r_holo
+corps,de la,valve,r_holo
+obturateur,de la,valve,r_holo
+joint,de la,valve,r_holo
+écrou,de la,valve,r_holo
+base,de la,valve,r_holo
+tige,de la,valve,r_holo
+bande,du,pneu,r_holo
+gomme,du,pneu,r_holo
+toile,du,pneu,r_holo
+armature,du,pneu,r_holo
+nappe,du,pneu,r_holo
+tringle,du,pneu,r_holo
+talon,du,pneu,r_holo
+épaulement,du,pneu,r_holo
+nervure,du,pneu,r_holo
+rainure,du,pneu,r_holo
+lamelle,du,pneu,r_holo
+crampons,du,pneu,r_holo
+voile,de la,jante,r_holo
+fond,de la,jante,r_holo
+rebord,de la,jante,r_holo
+flanc,de la,jante,r_holo
+gorge,de la,jante,r_holo
+trou,de la,jante,r_holo
+perçage,de la,jante,r_holo
+alésage,de la,jante,r_holo
+corps,du,moyeu,r_holo
+flasque,du,moyeu,r_holo
+axe,du,moyeu,r_holo
+cône,du,moyeu,r_holo
+roulement,du,moyeu,r_holo
+bille,du,roulement,r_holo
+cage,du,roulement,r_holo
+anneau,du,roulement,r_holo
+piste,du,roulement,r_holo
+joint,du,moyeu,r_holo
+écrou,du,moyeu,r_holo
+contre-écrou,du,moyeu,r_holo
+blocage,du,moyeu,r_holo
+serrage,du,moyeu,r_holo
+corps,du,dérailleur,r_holo
+chape,du,dérailleur,r_holo
+galet,du,dérailleur,r_holo
+ressort,du,dérailleur,r_holo
+vis,du,dérailleur,r_holo
+câble,du,dérailleur,r_holo
+gaine,du,câble,r_holo
+embout,du,câble,r_holo
+serre-câble,du,dérailleur,r_holo
+butée,du,dérailleur,r_holo
+réglage,du,dérailleur,r_holo
+mâchoire,du,frein,r_holo
+patin,du,frein,r_holo
+porte-patin,du,frein,r_holo
+ressort,du,frein,r_holo
+étrier,du,frein,r_holo
+câble,du,frein,r_holo
+levier,du,frein,r_holo
+poignée,du,frein,r_holo
+gaine,du,frein,r_holo
+vis,du,frein,r_holo
+écrou,du,frein,r_holo
+rondelle,du,frein,r_holo
+axe,du,frein,r_holo
+pivot,du,frein,r_holo
+bras,du,frein,r_holo
+corps,de la,pédale,r_holo
+axe,de la,pédale,r_holo
+cage,de la,pédale,r_holo
+roulement,de la,pédale,r_holo
+cale-pied,de la,pédale,r_holo
+courroie,de la,pédale,r_holo
+réflecteur,de la,pédale,r_holo
+vis,de la,pédale,r_holo
+écrou,de la,pédale,r_holo
+filetage,de la,pédale,r_holo
+corps,du,pédalier,r_holo
+manivelle,du,pédalier,r_holo
+axe,du,pédalier,r_holo
+roulement,du,pédalier,r_holo
+cuvette,du,pédalier,r_holo
+contre-écrou,du,pédalier,r_holo
+vis,du,pédalier,r_holo
+dent,du,plateau,r_holo
+couronne,du,plateau,r_holo
+bras,du,plateau,r_holo
+fixation,du,plateau,r_holo
+vis,du,plateau,r_holo
+écrou,du,plateau,r_holo
+potence,du,guidon,r_holo
+cintre,du,guidon,r_holo
+poignée,du,guidon,r_holo
+bouchon,du,guidon,r_holo
+ruban,du,guidon,r_holo
+grip,du,guidon,r_holo
+embout,du,guidon,r_holo
+collier,de la,potence,r_holo
+vis,de la,potence,r_holo
+axe,de la,potence,r_holo
+tube,de la,potence,r_holo
+angle,de la,potence,r_holo
+pivot,de la,fourche,r_holo
+plongeur,de la,fourche,r_holo
+tube,de la,fourche,r_holo
+fourreau,de la,fourche,r_holo
+patte,de la,fourche,r_holo
+œil,de la,fourche,r_holo
+couronne,de la,fourche,r_holo
+pattes,de la,fourche,r_holo
+axe,de la,fourche,r_holo
+ressort,de la,fourche,r_holo
+huile,de la,fourche,r_holo
+joint,de la,fourche,r_holo
+bague,de la,fourche,r_holo
+tube,du,cadre,r_holo
+haut,du,cadre,r_holo
+bas,du,cadre,r_holo
+oblique,du,cadre,r_holo
+vertical,du,cadre,r_holo
+hauban,du,cadre,r_holo
+base,du,cadre,r_holo
+boîte,du,cadre,r_holo
+douille,du,cadre,r_holo
+patte,du,cadre,r_holo
+œillet,du,cadre,r_holo
+raccord,du,cadre,r_holo
+brasure,du,cadre,r_holo
+soudure,du,cadre,r_holo
+peinture,du,cadre,r_holo
+vernis,du,cadre,r_holo

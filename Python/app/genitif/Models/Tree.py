@@ -140,7 +140,6 @@ class Tree:
     def print(self):
         self.root.print()
 
-#TODO tester la putain de classe avec tout les arbres et trouver comment save le bordel
 class Forest_Model:
     def __init__(self,nbClasses):
         self.nbClasses = nbClasses

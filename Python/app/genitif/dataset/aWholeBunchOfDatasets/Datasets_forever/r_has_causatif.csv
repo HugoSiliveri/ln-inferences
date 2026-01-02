@@ -1,1107 +1,1107 @@
-A,determinant,B
-dégâts,du,vent
-dégâts,de la,pluie
-dégâts,du,soleil
-dégâts,de la,neige
-dégâts,du,gel
-dégâts,de la,tempête
-dégâts,d',orage
-dégâts,de la,foudre
-dégâts,du,séisme
-dégâts,du,volcan
-dégâts,du,feu
-dégâts,du,moteur
-dégâts,de la,machine
-dégâts,d',usine
-dégâts,du,choc
-dégâts,d',impact
-dégâts,de la,vitesse
-dégâts,de la,pression
-dégâts,du,poids
-dégâts,de la,chaleur
-traces,du,vent
-traces,de la,pluie
-traces,du,soleil
-traces,de la,neige
-traces,du,gel
-traces,de la,tempête
-traces,d',orage
-traces,de la,foudre
-traces,du,séisme
-traces,du,volcan
-traces,du,feu
-traces,du,moteur
-traces,de la,machine
-traces,d',usine
-traces,du,choc
-traces,d',impact
-traces,de la,vitesse
-traces,de la,pression
-traces,du,poids
-traces,de la,chaleur
-marques,du,vent
-marques,de la,pluie
-marques,du,soleil
-marques,de la,neige
-marques,du,gel
-marques,de la,tempête
-marques,d',orage
-marques,de la,foudre
-marques,du,séisme
-marques,du,volcan
-marques,du,feu
-marques,du,moteur
-marques,de la,machine
-marques,d',usine
-marques,du,choc
-marques,d',impact
-marques,de la,vitesse
-marques,de la,pression
-marques,du,poids
-marques,de la,chaleur
-bruits,du,vent
-bruits,de la,pluie
-bruits,du,moteur
-bruits,de la,machine
-bruits,d',usine
-bruits,du,choc
-bruits,du,travail
-bruits,du,sport
-bruits,de la,marche
-bruits,de la,course
-bruits,du,combat
-bruits,de la,fête
-bruits,du,hasard
-bruits,du,cri
-bruits,du,rire
-bruits,de la,marée
-bruits,du,cyclone
-bruits,du,gaz
-bruits,de la,vapeur
-bruits,du,départ
-odeurs,du,soleil
-odeurs,du,feu
-odeurs,de la,cuisine
-odeurs,d',usine
-odeurs,de la,chaleur
-odeurs,du,froid
-odeurs,du,poison
-odeurs,de l',alcool
-odeurs,du,tabac
-odeurs,du,gaz
-odeurs,de la,vapeur
-odeurs,de la,fumée
-odeurs,de la,poussière
-odeurs,de la,boue
-odeurs,de la,marée
-fumée,du,feu
-fumée,du,volcan
-fumée,d',usine
-fumée,du,moteur
-fumée,du,tabac
-fumée,du,combat
-fumée,de la,guerre
-fumée,du,gaz
-chaleur,du,soleil
-chaleur,du,feu
-chaleur,du,moteur
-chaleur,de la,machine
-chaleur,d',usine
-chaleur,du,travail
-chaleur,de l',effort
-chaleur,du,sport
-chaleur,du,stress
-chaleur,de la,fièvre
-chaleur,du,cyclone
-chaleur,de la,vapeur
-froid,de la,neige
-froid,du,gel
-froid,du,vent
-froid,de l',hiver
-froid,de la,peur
-froid,de la,mort
-froid,de l',ombre
-douleur,du,choc
-douleur,d',impact
-douleur,du,travail
-douleur,de l',effort
-douleur,du,sport
-douleur,du,combat
-douleur,de la,guerre
-douleur,de l',accident
-douleur,de la,maladie
-douleur,du,poison
-douleur,de la,chute
-douleur,de la,blessure
-douleur,de la,faim
-douleur,de la,soif
-douleur,de la,fessée
-fatigue,du,travail
-fatigue,de l',effort
-fatigue,du,sport
-fatigue,de la,marche
-fatigue,de la,course
-fatigue,de l',étude
-fatigue,du,stress
-fatigue,du,sommeil
-fatigue,de la,maladie
-fatigue,de la,vie
-fatigue,de l',âge
-peur,du,vent
-peur,de la,tempête
-peur,de l',orage
-peur,de la,foudre
-peur,du,séisme
-peur,du,volcan
-peur,du,feu
-peur,du,noir
-peur,du,virus
-peur,du,poison
-peur,de la,guerre
-peur,du,combat
-peur,de l',accident
-peur,de la,crise
-peur,de la,mort
-joie,du,sport
-joie,de l',étude
-joie,du,succès
-joie,du,gain
-joie,de la,fête
-joie,du,hasard
-joie,de la,chance
-joie,de l',amour
-joie,de la,naissance
-joie,de la,vie
-cri,de la,peur
-cri,de la,joie
-cri,de la,haine
-cri,de la,douleur
-cri,du,combat
-cri,de la,guerre
-cri,de l',accident
-cri,de la,chute
-cri,de la,naissance
-cri,du,sport
-pleurs,de la,peur
-pleurs,de la,douleur
-pleurs,de la,haine
-pleurs,de la,perte
-pleurs,de l',échec
-pleurs,de la,chute
-pleurs,de la,fin
-pleurs,de la,mort
-pleurs,de la,naissance
-rire,de la,joie
-rire,de la,fête
-rire,de l',erreur
-rire,de la,faute
-rire,du,hasard
-rire,de la,chance
-rire,de l',amour
-rire,du,succès
-rire,du,jeu
-cendre,du,volcan
-cendre,du,feu
-cendre,du,tabac
-cendre,d',usine
-débris,du,séisme
-débris,du,choc
-débris,d',impact
-débris,de l',accident
-débris,de la,guerre
-débris,du,combat
-débris,de la,tempête
-débris,de la,chute
-ruine,du,séisme
-ruine,du,volcan
-ruine,du,feu
-ruine,de la,guerre
-ruine,de la,crise
-ruine,de l',échec
-ruine,du,temps
-perte,du,match
-perte,du,poids
-perte,du,gain
-perte,de la,guerre
-perte,de la,crise
-perte,de l',impôt
-perte,du,hasard
-perte,de l',accident
-perte,de la,vie
-gain,du,travail
-gain,du,sport
-gain,du,gain
-gain,de la,hausse
-gain,du,succès
-gain,du,hasard
-gain,de la,chance
-gain,du,commerce
-profit,du,travail
-profit,de la,hausse
-profit,du,succès
-profit,de la,loi
-profit,du,commerce
-profit,de la,vente
-hausse,de la,pression
-hausse,de la,chaleur
-hausse,de la,vitesse
-hausse,de l',effort
-hausse,du,stress
-hausse,du,prix
-hausse,du,coût
-hausse,de la,demande
-baisse,de la,pression
-baisse,du,froid
-baisse,de la,vitesse
-baisse,de la,force
-baisse,du,gain
-baisse,du,prix
-baisse,du,coût
-baisse,de la,tension
-ralentissement,du,vent
-ralentissement,du,moteur
-ralentissement,du,travail
-ralentissement,de l',étude
-ralentissement,du,stress
-ralentissement,de la,crise
-ralentissement,de l',âge
-ralentissement,du,poids
-accélération,du,vent
-accélération,du,moteur
-accélération,de la,vitesse
-accélération,du,travail
-accélération,du,sport
-accélération,du,succès
-accélération,du,hasard
-arrêt,du,moteur
-arrêt,de la,machine
-arrêt,du,travail
-arrêt,du,sport
-arrêt,de la,marche
-arrêt,de la,course
-arrêt,de la,grève
-arrêt,de la,loi
-arrêt,de la,vie
-arrêt,du,bus
-départ,du,moteur
-départ,du,travail
-départ,du,sport
-départ,de la,course
-départ,de la,fête
-départ,de la,vie
-fin,de la,tempête
-fin,de l',orage
-fin,du,feu
-fin,du,travail
-fin,de l',étude
-fin,du,sport
-fin,de la,marche
-fin,de la,course
-fin,de la,guerre
-fin,du,combat
-fin,de la,crise
-fin,de la,loi
-fin,de la,fête
-fin,de l',amour
-fin,de la,vie
-fin,du,monde
-début,du,vent
-début,de la,pluie
-début,de la,neige
-début,de la,tempête
-début,de l',orage
-début,du,feu
-début,du,travail
-début,de l',étude
-début,du,sport
-début,de la,marche
-début,de la,course
-début,de la,guerre
-début,du,combat
-début,de l',accident
-début,de la,grève
-début,de la,crise
-début,de la,fête
-début,de l',amour
-début,de la,vie
-reste,du,feu
-reste,du,repas
-reste,du,travail
-reste,du,gain
-reste,de la,fête
-reste,de la,vie
-reste,du,mort
-marque,du,choc
-marque,d',impact
-marque,du,poids
-marque,du,travail
-marque,de l',effort
-marque,du,sport
-marque,du,temps
-marque,de l',âge
-marque,du,virus
-marque,du,poison
-marque,de la,maladie
-marque,de la,brûlure
-marque,de la,blessure
-tache,du,soleil
-tache,du,feu
-tache,du,virus
-tache,du,poison
-tache,de la,maladie
-tache,de la,boue
-tache,de la,sueur
-tache,du,sang
-tache,de l',encre
-tache,du,vin
-cicatrice,du,choc
-cicatrice,d',impact
-cicatrice,du,combat
-cicatrice,de la,guerre
-cicatrice,de l',accident
-cicatrice,de la,maladie
-cicatrice,de la,brûlure
-cicatrice,de la,blessure
-cicatrice,de la,chirurgie
-blessure,du,choc
-blessure,d',impact
-blessure,du,combat
-blessure,de la,guerre
-blessure,de l',accident
-blessure,du,sport
-blessure,de la,chute
-blessure,du,hasard
-mort,du,séisme
-mort,du,volcan
-mort,du,feu
-mort,du,virus
-mort,du,poison
-mort,de l',alcool
-mort,du,tabac
-mort,de la,guerre
-mort,du,combat
-mort,de l',accident
-mort,de la,maladie
-mort,de la,vieillesse
-mort,de la,faim
-mort,de la,soif
-mort,du,froid
-naissance,du,hasard
-naissance,de la,chance
-naissance,de l',amour
-naissance,de la,joie
-naissance,de la,vie
-naissance,du,printemps
-vie,du,soleil
-vie,du,hasard
-vie,de la,chance
-vie,de l',amour
-vie,de la,nature
-vie,de la,terre
-force,du,vent
-force,de la,pluie
-force,de la,tempête
-force,du,séisme
-force,du,volcan
-force,du,feu
-force,du,moteur
-force,de la,machine
-force,du,choc
-force,d', impact
-force,de la,vitesse
-force,de la,pression
-force,du,poids
-force,du,travail
-force,de l',effort
-force,du,sport
-force,du,combat
-force,de la,loi
-force,de la,marée
-force,du,cyclone
-faiblesse,de l',âge
-faiblesse,de la,faim
-faiblesse,de la,soif
-faiblesse,du,sommeil
-faiblesse,de la,maladie
-faiblesse,du,froid
-faiblesse,de la,peur
-succès,du,travail
-succès,de l',étude
-succès,du,sport
-succès,de la,marche
-succès,de l',effort
-succès,du,hasard
-succès,de la,chance
-succès,de l',amour
-échec,de l',étude
-échec,du,sport
-échec,du,hasard
-échec,de la,faute
-échec,de l',erreur
-échec,du,stress
-échec,de la,crise
-chute,du,vent
-chute,de la,pluie
-chute,de la,neige
-chute,du,gel
-chute,de la,tempête
-chute,du,poids
-chute,de la,pression
-chute,du,sport
-chute,de la,marche
-chute,de la,course
-chute,de l',accident
-chute,du,hasard
-chute,de la,hausse
-chute,de la,bourse
-reflet,du,soleil
-reflet,du,feu
-reflet,de la,lumière
-reflet,de la,glace
-reflet,de l',eau
-reflet,du,miroir
-écho,du,vent
-écho,du,cri
-écho,du,choc
-écho,du,bruit
-écho,de la,montagne
-sueur,de la,chaleur
-sueur,du,travail
-sueur,de l',effort
-sueur,du,sport
-sueur,de la,marche
-sueur,de la,course
-sueur,du,stress
-sueur,de la,fièvre
-sueur,de la,peur
-larme,de la,douleur
-larme,de la,peur
-larme,de la,joie
-larme,de la,haine
-larme,de l',amour
-larme,du,vent
-larme,du,froid
-larme,du,rire
-fièvre,du,virus
-fièvre,de la,maladie
-fièvre,du,poison
-fièvre,de l',effort
-fièvre,du,stress
-fièvre,de la,fatigue
-malaise,de la,chaleur
-malaise,du,travail
-malaise,de l',effort
-malaise,du,stress
-malaise,du,sommeil
-malaise,de la,maladie
-malaise,du,virus
-malaise,du,poison
-malaise,de l',alcool
-malaise,du,tabac
-malaise,de la,peur
-ride,de l',âge
-ride,du,temps
-ride,du,souci
-ride,du,rire
-ride,du,soleil
-poussière,du,vent
-poussière,du,travail
-poussière,d',usine
-poussière,de la,route
-poussière,du,temps
-boue,de la,pluie
-boue,de la,neige
-boue,de la,tempête
-boue,de la,route
-retards,de la,pluie
-retards,de la,neige
-retards,de la,tempête
-retards,du,travail
-retards,de l',étude
-retards,du,sport
-retards,de l',accident
-retards,de la,grève
-retards,de la,crise
-retards,du,hasard
-retards,de la,circulation
-pannes,du,moteur
-pannes,de la,machine
-pannes,d',usine
-pannes,du,froid
-pannes,de l',âge
-pannes,de l',usure
-ombre,du,soleil
-ombre,du,nuage
-ombre,de la,lune
-ombre,de la,lumière
-ombre,de l',arbre
-ombre,du,mur
-odeur,du,vent
-odeur,de la,pluie
-odeur,du,feu
-odeur,du,moteur
-odeur,d',usine
-odeur,du,sport
-odeur,de la,cuisine
-odeur,du,poison
-odeur,de l',alcool
-odeur,du,tabac
-odeur,de la,fleur
-saveur,du,soleil
-saveur,du,feu
-saveur,du,travail
-saveur,du,fruit
-saveur,du,miel
-saveur,du,sel
-goût,du,soleil
-goût,du,feu
-goût,du,poison
-goût,de l',alcool
-goût,du,tabac
-goût,du,fruit
-goût,du,miel
-souffle,du,vent
-souffle,de la,tempête
-souffle,du,moteur
-souffle,du,coureur
-impact,du,vent
-impact,du,choc
-impact,de la,balle
-impact,du,poids
-impact,de la,vitesse
-impact,de la,loi
-impact,de la,crise
-choc,du,vent
-choc,du,moteur
-choc,de la,machine
-choc,du,combat
-choc,de l',accident
-choc,de la,chute
-choc,du,hasard
-choc,de la,nouvelle
-dérive,du,vent
-dérive,du,courant
-dérive,du,hasard
-dérive,de la,loi
-dérive,du,succès
-usure,du,travail
-usure,du,temps
-usure,du,moteur
-usure,de la,machine
-usure,du,poids
-usure,du,sport
-usure,de la,marche
-usure,de l',âge
-vieillissement,du,temps
-vieillissement,du,soleil
-vieillissement,de l',alcool
-vieillissement,du,tabac
-vieillissement,de la,maladie
-vieillissement,de la,peau
-vieillissement,du,vin
-détérioration,de la,pluie
-détérioration,du,soleil
-détérioration,du,gel
-détérioration,du,temps
-détérioration,de l',usure
-détérioration,du,virus
-embouteillage,de la,pluie
-embouteillage,de la,neige
-embouteillage,de l',accident
-embouteillage,de la,grève
-embouteillage,de la,fête
-embouteillage,du,départ
-embouteillage,des,vacances
-congestion,du,froid
-congestion,du,stress
-congestion,du,virus
-congestion,de la,maladie
-congestion,du,trafic
-progrès,du,travail
-progrès,de l',étude
-progrès,de la,science
-progrès,de la,loi
-progrès,de l',âge
-évolution,du,travail
-évolution,de l',étude
-évolution,de la,loi
-évolution,du,hasard
-évolution,de la,vie
-désordre,du,vent
-désordre,de la,tempête
-désordre,du,combat
-désordre,de la,guerre
-désordre,de l',accident
-désordre,de la,grève
-désordre,de la,crise
-désordre,de la,fête
-désordre,du,hasard
-chaos,de la,tempête
-chaos,du,séisme
-chaos,du,volcan
-chaos,de la,guerre
-chaos,de l',accident
-chaos,de la,crise
-équilibre,du,poids
-équilibre,de la,force
-équilibre,de la,nature
-pollution,d',usine
-pollution,du,moteur
-pollution,du,trafic
-pollution,du,gaz
-pollution,du,plastique
-pollution,de l',eau
-pollution,de l',air
-nuisance,du,vent
-nuisance,du,bruit
-nuisance,du,moteur
-nuisance,d',usine
-nuisance,du,trafic
-nuisance,du,voisin
-avantage,du,travail
-avantage,du,sport
-avantage,de l',étude
-avantage,du,succès
-avantage,du,hasard
-avantage,de la,loi
-inconvénient,du,travail
-inconvénient,du,froid
-inconvénient,du,bruit
-inconvénient,du,progrès
-inconvénient,de la,loi
-prix,du,travail
-prix,de l',effort
-prix,du,succès
-prix,du,hasard
-prix,de la,victoire
-prix,de la,faute
-coût,du,travail
-coût,du,moteur
-coût,de l',accident
-coût,de la,grève
-coût,de la,crise
-coût,de la,vie
-vibrations,du,frottement
-vibrations,de la,traction
-vibrations,de la,rotation
-vibrations,de la,vibration
-vibrations,du,courant
-vibrations,d',onde
-vibrations,de la,rumeur
-vibrations,du,scandale
-vibrations,du,décret
-vibrations,du,vote
-vibrations,de la,réforme
-vibrations,de la,sécheresse
-vibrations,d',inondation
-vibrations,de la,gelée
-vibrations,du,tonnerre
-frissons,d',érosion
-frissons,du,moteur
-frissons,du,réveil
-frissons,du,rappel
-frissons,d',oubli
-frissons,du,mensonge
-frissons,de la,vérité
-frissons,de la,honte
-frissons,du,courage
-frissons,du,doute
-frissons,d',espoir
-frissons,du,désir
-frissons,du,besoin
-frissons,du,luxe
-frissons,de la,misère
-frissons,de la,famine
-sursauts,de la,peste
-sursauts,du,remède
-sursauts,du,soin
-sursauts,du,vaccin
-sursauts,du,yoga
-sursauts,de la,danse
-sursauts,du,chant
-sursauts,de la,lecture
-sursauts,du,silence
-sursauts,du,fracas
-sursauts,du,sifflement
-sursauts,du,craquement
-sursauts,du,grincement
-sursauts,du,claquement
-éclats,du,battement
-éclats,du,tremblement
-éclats,de la,déchirure
-éclats,de la,brûlure
-éclats,de la,gelure
-éclats,de la,piqûre
-éclats,de la,morsure
-éclats,d',égratignure
-éclats,de la,coupure
-éclats,du,saignement
-éclats,du,gonflement
-éclats,d',irritation
-éclats,d',allergie
-éclats,d',intoxication
-éclats,d',épuisement
-étincelles,d',insomnie
-étincelles,du,cauchemar
-étincelles,d',angoisse
-étincelles,de la,phobie
-étincelles,de la,colère
-étincelles,de la,tristesse
-étincelles,de la,mélancolie
-étincelles,de la,nostalgie
-étincelles,de la,fierté
-étincelles,de la,satisfaction
-étincelles,du,ravissement
-étincelles,d',émerveillement
-étincelles,de la,surprise
-étincelles,de la,déception
-étincelles,de la,frustration
-vestiges,d',impatience
-vestiges,d',agacement
-vestiges,de la,révolte
-vestiges,d',indignation
-vestiges,de la,pitié
-vestiges,de la,compassion
-vestiges,d',admiration
-vestiges,du,respect
-vestiges,d',obéissance
-vestiges,de la,liberté
-vestiges,de la,contrainte
-vestiges,d',obligation
-vestiges,du,droit
-vestiges,du,devoir
-vestiges,de la,vertu
-vestiges,du,vice
-empreintes,du,péché
-empreintes,du,pardon
-empreintes,de la,vengeance
-empreintes,de la,punition
-empreintes,de la,récompense
-empreintes,d',honneur
-empreintes,du,mépris
-empreintes,de la,gloire
-empreintes,de la,victoire
-empreintes,d',échec
-empreintes,du,success
-empreintes,du,match
-empreintes,du,jeu
-séquelles,du,frottement
-séquelles,de la,traction
-séquelles,de la,rotation
-séquelles,de la,vibration
-séquelles,du,courant
-symptômes,d',onde
-symptômes,de la,rumeur
-symptômes,du,scandale
-symptômes,du,décret
-symptômes,du,vote
-symptômes,de la,réforme
-symptômes,de la,sécheresse
-symptômes,d',inondation
-symptômes,de la,gelée
-symptômes,du,tonnerre
-murmures,d',érosion
-murmures,du,moteur
-murmures,du,réveil
-murmures,du,rappel
-murmures,d',oubli
-murmures,du,mensonge
-murmures,de la,vérité
-murmures,de la,honte
-murmures,du,courage
-murmures,du,doute
-murmures,d',espoir
-rumeurs,du,désir
-rumeurs,du,besoin
-rumeurs,du,luxe
-rumeurs,de la,misère
-rumeurs,de la,famine
-rumeurs,de la,peste
-rumeurs,du,remède
-rumeurs,du,soin
-rumeurs,du,vaccin
-rumeurs,du,yoga
-rumeurs,de la,danse
-secrets,du,chant
-secrets,de la,lecture
-secrets,du,silence
-secrets,du,fracas
-secrets,du,sifflement
-secrets,du,craquement
-secrets,du,grincement
-secrets,du,claquement
-secrets,du,battement
-secrets,du,tremblement
-secrets,de la,déchirure
-aveux,de la,brûlure
-aveux,de la,gelure
-aveux,de la,piqûre
-aveux,de la,morsure
-aveux,d',égratignure
-aveux,de la,coupure
-aveux,du,saignement
-aveux,du,gonflement
-aveux,d',irritation
-aveux,d',allergie
-regrets,d',intoxication
-regrets,d',épuisement
-regrets,d',insomnie
-regrets,du,cauchemar
-regrets,d',angoisse
-regrets,de la,phobie
-regrets,de la,colère
-regrets,de la,tristesse
-regrets,de la,mélancolie
-regrets,de la,nostalgie
-regrets,de la,fierté
-regrets,de la,satisfaction
-remords,du,ravissement
-remords,d',émerveillement
-remords,de la,surprise
-remords,de la,déception
-remords,de la,frustration
-remords,d',impatience
-remords,d',agacement
-remords,de la,révolte
-remords,d',indignation
-remords,de la,pitié
-remords,de la,compassion
-sanglots,d',admiration
-sanglots,du,respect
-sanglots,d',obéissance
-sanglots,de la,liberté
-sanglots,de la,contrainte
-sanglots,d',obligation
-sanglots,du,droit
-sanglots,du,devoir
-sanglots,de la,vertu
-sanglots,du,vice
-sanglots,du,péché
-sanglots,du,pardon
-soupirs,de la,vengeance
-soupirs,de la,punition
-soupirs,de la,récompense
-soupirs,d',honneur
-soupirs,du,mépris
-soupirs,de la,gloire
-soupirs,de la,victoire
-soupirs,d',échec
-soupirs,du,success
-soupirs,du,match
-soupirs,du,jeu
-soupirs,du,frottement
-vertiges,de la,traction
-vertiges,de la,rotation
-vertiges,de la,vibration
-vertiges,du,courant
-vertiges,d',onde
-vertiges,de la,rumeur
-vertiges,du,scandale
-vertiges,du,décret
-vertiges,du,vote
-vertiges,de la,réforme
-nausées,de la,sécheresse
-nausées,d',inondation
-nausées,de la,gelée
-nausées,du,tonnerre
-nausées,d',érosion
-nausées,du,moteur
-nausées,du,réveil
-nausées,du,rappel
-nausées,d',oubli
-nausées,du,mensonge
-nausées,de la,vérité
-aigreurs,de la,honte
-aigreurs,du,courage
-aigreurs,du,doute
-aigreurs,d',espoir
-aigreurs,du,désir
-aigreurs,du,besoin
-aigreurs,du,luxe
-aigreurs,de la,misère
-aigreurs,de la,famine
-aigreurs,de la,peste
-aigreurs,du,remède
-courbatures,du,soin
-courbatures,du,vaccin
-courbatures,du,yoga
-courbatures,de la,danse
-courbatures,du,chant
-courbatures,de la,lecture
-courbatures,du,silence
-courbatures,du,fracas
-courbatures,du,sifflement
-courbatures,du,craquement
-ampoules,du,grincement
-ampoules,du,claquement
-ampoules,du,battement
-ampoules,du,tremblement
-ampoules,de la,déchirure
-ampoules,de la,brûlure
-ampoules,de la,gelure
-ampoules,de la,piqûre
-ampoules,de la,morsure
-ampoules,d',égratignure
-ampoules,de la,coupure
-rougeurs,du,saignement
-rougeurs,du,gonflement
-rougeurs,d',irritation
-rougeurs,d',allergie
-rougeurs,d',intoxication
-rougeurs,d',épuisement
-rougeurs,d',insomnie
-rougeurs,du,cauchemar
-rougeurs,d',angoisse
-rougeurs,de la,phobie
-cernes,de la,colère
-cernes,de la,tristesse
-cernes,de la,mélancolie
-cernes,de la,nostalgie
-cernes,de la,fierté
-cernes,de la,satisfaction
-cernes,du,ravissement
-cernes,d',émerveillement
-cernes,de la,surprise
-cernes,de la,déception
-cernes,de la,frustration
-plis,d',impatience
-plis,d',agacement
-plis,de la,révolte
-plis,d',indignation
-plis,de la,pitié
-plis,de la,compassion
-plis,d',admiration
-plis,du,respect
-plis,d',obéissance
-plis,de la,liberté
-plis,de la,contrainte
-fêlures,d',obligation
-fêlures,du,droit
-fêlures,du,devoir
-fêlures,de la,vertu
-fêlures,du,vice
-fêlures,du,péché
-fêlures,du,pardon
-fêlures,de la,vengeance
-fêlures,de la,punition
-fêlures,de la,récompense
-fêlures,d',honneur
-bris,du,mépris
-bris,de la,gloire
-bris,de la,victoire
-bris,d',échec
-bris,du,success
-bris,du,match
-bris,du,jeu
-bris,du,frottement
-bris,de la,traction
-bris,de la,rotation
-cassures,de la,vibration
-cassures,du,courant
-cassures,d',onde
-cassures,de la,rumeur
-cassures,du,scandale
-cassures,du,décret
-cassures,du,vote
-cassures,de la,réforme
-cassures,de la,sécheresse
-cassures,d',inondation
-fuites,de la,gelée
-fuites,du,tonnerre
-fuites,d',érosion
-fuites,du,moteur
-fuites,du,réveil
-fuites,du,rappel
-fuites,d',oubli
-fuites,du,mensonge
-fuites,de la,vérité
-fuites,de la,honte
-fuites,du,courage
-coulées,du,doute
-coulées,d',espoir
-coulées,du,désir
-coulées,du,besoin
-coulées,du,luxe
-coulées,de la,misère
-coulées,de la,famine
-coulées,de la,peste
-coulées,du,remède
-coulées,du,soin
-coulées,du,vaccin
-glissements,du,yoga
-glissements,de la,danse
-glissements,du,chant
-glissements,de la,lecture
-glissements,du,silence
-glissements,du,fracas
-glissements,du,sifflement
-glissements,du,craquement
-glissements,du,grincement
-glissements,du,claquement
-glissements,du,battement
-bonds,du,tremblement
-bonds,de la,déchirure
-bonds,de la,brûlure
-bonds,de la,gelure
-bonds,de la,piqûre
-bonds,de la,morsure
-bonds,d',égratignure
-bonds,de la,coupure
-bonds,du,saignement
-bonds,du,gonflement
-bonds,d',irritation
-envols,d',allergie
-envols,d',intoxication
-envols,d',épuisement
-envols,d',insomnie
-envols,du,cauchemar
-envols,d',angoisse
-envols,de la,phobie
-envols,de la,colère
-envols,de la,tristesse
-envols,de la,mélancolie
-envols,de la,nostalgie
-chants,de la,fierté
-chants,de la,satisfaction
-chants,du,ravissement
-chants,d',émerveillement
-chants,de la,surprise
-chants,de la,déception
-chants,de la,frustration
-chants,d',impatience
-chants,d',agacement
-chants,de la,révolte
-chants,d',indignation
-appels,de la,pitié
-appels,de la,compassion
-appels,d',admiration
-appels,du,respect
-appels,d',obéissance
-appels,de la,liberté
-appels,de la,contrainte
-appels,d',obligation
-appels,du,droit
-appels,du,devoir
-appels,de la,vertu
-silences,du,vice
-silences,du,péché
-silences,du,pardon
-silences,de la,vengeance
-silences,de la,punition
-silences,de la,récompense
-silences,d',honneur
-silences,du,mépris
-silences,de la,gloire
-silences,de la,victoire
-silences,d',échec
-lueurs,du,success
-lueurs,du,match
-lueurs,du,jeu
-lueurs,du,frottement
-lueurs,de la,traction
-lueurs,de la,rotation
-lueurs,de la,vibration
-lueurs,du,courant
-lueurs,d',onde
-lueurs,de la,rumeur
-lueurs,du,scandale
+A,determinant,B,type_relation
+dégâts,du,vent,r_has_causatif
+dégâts,de la,pluie,r_has_causatif
+dégâts,du,soleil,r_has_causatif
+dégâts,de la,neige,r_has_causatif
+dégâts,du,gel,r_has_causatif
+dégâts,de la,tempête,r_has_causatif
+dégâts,d',orage,r_has_causatif
+dégâts,de la,foudre,r_has_causatif
+dégâts,du,séisme,r_has_causatif
+dégâts,du,volcan,r_has_causatif
+dégâts,du,feu,r_has_causatif
+dégâts,du,moteur,r_has_causatif
+dégâts,de la,machine,r_has_causatif
+dégâts,d',usine,r_has_causatif
+dégâts,du,choc,r_has_causatif
+dégâts,d',impact,r_has_causatif
+dégâts,de la,vitesse,r_has_causatif
+dégâts,de la,pression,r_has_causatif
+dégâts,du,poids,r_has_causatif
+dégâts,de la,chaleur,r_has_causatif
+traces,du,vent,r_has_causatif
+traces,de la,pluie,r_has_causatif
+traces,du,soleil,r_has_causatif
+traces,de la,neige,r_has_causatif
+traces,du,gel,r_has_causatif
+traces,de la,tempête,r_has_causatif
+traces,d',orage,r_has_causatif
+traces,de la,foudre,r_has_causatif
+traces,du,séisme,r_has_causatif
+traces,du,volcan,r_has_causatif
+traces,du,feu,r_has_causatif
+traces,du,moteur,r_has_causatif
+traces,de la,machine,r_has_causatif
+traces,d',usine,r_has_causatif
+traces,du,choc,r_has_causatif
+traces,d',impact,r_has_causatif
+traces,de la,vitesse,r_has_causatif
+traces,de la,pression,r_has_causatif
+traces,du,poids,r_has_causatif
+traces,de la,chaleur,r_has_causatif
+marques,du,vent,r_has_causatif
+marques,de la,pluie,r_has_causatif
+marques,du,soleil,r_has_causatif
+marques,de la,neige,r_has_causatif
+marques,du,gel,r_has_causatif
+marques,de la,tempête,r_has_causatif
+marques,d',orage,r_has_causatif
+marques,de la,foudre,r_has_causatif
+marques,du,séisme,r_has_causatif
+marques,du,volcan,r_has_causatif
+marques,du,feu,r_has_causatif
+marques,du,moteur,r_has_causatif
+marques,de la,machine,r_has_causatif
+marques,d',usine,r_has_causatif
+marques,du,choc,r_has_causatif
+marques,d',impact,r_has_causatif
+marques,de la,vitesse,r_has_causatif
+marques,de la,pression,r_has_causatif
+marques,du,poids,r_has_causatif
+marques,de la,chaleur,r_has_causatif
+bruits,du,vent,r_has_causatif
+bruits,de la,pluie,r_has_causatif
+bruits,du,moteur,r_has_causatif
+bruits,de la,machine,r_has_causatif
+bruits,d',usine,r_has_causatif
+bruits,du,choc,r_has_causatif
+bruits,du,travail,r_has_causatif
+bruits,du,sport,r_has_causatif
+bruits,de la,marche,r_has_causatif
+bruits,de la,course,r_has_causatif
+bruits,du,combat,r_has_causatif
+bruits,de la,fête,r_has_causatif
+bruits,du,hasard,r_has_causatif
+bruits,du,cri,r_has_causatif
+bruits,du,rire,r_has_causatif
+bruits,de la,marée,r_has_causatif
+bruits,du,cyclone,r_has_causatif
+bruits,du,gaz,r_has_causatif
+bruits,de la,vapeur,r_has_causatif
+bruits,du,départ,r_has_causatif
+odeurs,du,soleil,r_has_causatif
+odeurs,du,feu,r_has_causatif
+odeurs,de la,cuisine,r_has_causatif
+odeurs,d',usine,r_has_causatif
+odeurs,de la,chaleur,r_has_causatif
+odeurs,du,froid,r_has_causatif
+odeurs,du,poison,r_has_causatif
+odeurs,de l',alcool,r_has_causatif
+odeurs,du,tabac,r_has_causatif
+odeurs,du,gaz,r_has_causatif
+odeurs,de la,vapeur,r_has_causatif
+odeurs,de la,fumée,r_has_causatif
+odeurs,de la,poussière,r_has_causatif
+odeurs,de la,boue,r_has_causatif
+odeurs,de la,marée,r_has_causatif
+fumée,du,feu,r_has_causatif
+fumée,du,volcan,r_has_causatif
+fumée,d',usine,r_has_causatif
+fumée,du,moteur,r_has_causatif
+fumée,du,tabac,r_has_causatif
+fumée,du,combat,r_has_causatif
+fumée,de la,guerre,r_has_causatif
+fumée,du,gaz,r_has_causatif
+chaleur,du,soleil,r_has_causatif
+chaleur,du,feu,r_has_causatif
+chaleur,du,moteur,r_has_causatif
+chaleur,de la,machine,r_has_causatif
+chaleur,d',usine,r_has_causatif
+chaleur,du,travail,r_has_causatif
+chaleur,de l',effort,r_has_causatif
+chaleur,du,sport,r_has_causatif
+chaleur,du,stress,r_has_causatif
+chaleur,de la,fièvre,r_has_causatif
+chaleur,du,cyclone,r_has_causatif
+chaleur,de la,vapeur,r_has_causatif
+froid,de la,neige,r_has_causatif
+froid,du,gel,r_has_causatif
+froid,du,vent,r_has_causatif
+froid,de l',hiver,r_has_causatif
+froid,de la,peur,r_has_causatif
+froid,de la,mort,r_has_causatif
+froid,de l',ombre,r_has_causatif
+douleur,du,choc,r_has_causatif
+douleur,d',impact,r_has_causatif
+douleur,du,travail,r_has_causatif
+douleur,de l',effort,r_has_causatif
+douleur,du,sport,r_has_causatif
+douleur,du,combat,r_has_causatif
+douleur,de la,guerre,r_has_causatif
+douleur,de l',accident,r_has_causatif
+douleur,de la,maladie,r_has_causatif
+douleur,du,poison,r_has_causatif
+douleur,de la,chute,r_has_causatif
+douleur,de la,blessure,r_has_causatif
+douleur,de la,faim,r_has_causatif
+douleur,de la,soif,r_has_causatif
+douleur,de la,fessée,r_has_causatif
+fatigue,du,travail,r_has_causatif
+fatigue,de l',effort,r_has_causatif
+fatigue,du,sport,r_has_causatif
+fatigue,de la,marche,r_has_causatif
+fatigue,de la,course,r_has_causatif
+fatigue,de l',étude,r_has_causatif
+fatigue,du,stress,r_has_causatif
+fatigue,du,sommeil,r_has_causatif
+fatigue,de la,maladie,r_has_causatif
+fatigue,de la,vie,r_has_causatif
+fatigue,de l',âge,r_has_causatif
+peur,du,vent,r_has_causatif
+peur,de la,tempête,r_has_causatif
+peur,de l',orage,r_has_causatif
+peur,de la,foudre,r_has_causatif
+peur,du,séisme,r_has_causatif
+peur,du,volcan,r_has_causatif
+peur,du,feu,r_has_causatif
+peur,du,noir,r_has_causatif
+peur,du,virus,r_has_causatif
+peur,du,poison,r_has_causatif
+peur,de la,guerre,r_has_causatif
+peur,du,combat,r_has_causatif
+peur,de l',accident,r_has_causatif
+peur,de la,crise,r_has_causatif
+peur,de la,mort,r_has_causatif
+joie,du,sport,r_has_causatif
+joie,de l',étude,r_has_causatif
+joie,du,succès,r_has_causatif
+joie,du,gain,r_has_causatif
+joie,de la,fête,r_has_causatif
+joie,du,hasard,r_has_causatif
+joie,de la,chance,r_has_causatif
+joie,de l',amour,r_has_causatif
+joie,de la,naissance,r_has_causatif
+joie,de la,vie,r_has_causatif
+cri,de la,peur,r_has_causatif
+cri,de la,joie,r_has_causatif
+cri,de la,haine,r_has_causatif
+cri,de la,douleur,r_has_causatif
+cri,du,combat,r_has_causatif
+cri,de la,guerre,r_has_causatif
+cri,de l',accident,r_has_causatif
+cri,de la,chute,r_has_causatif
+cri,de la,naissance,r_has_causatif
+cri,du,sport,r_has_causatif
+pleurs,de la,peur,r_has_causatif
+pleurs,de la,douleur,r_has_causatif
+pleurs,de la,haine,r_has_causatif
+pleurs,de la,perte,r_has_causatif
+pleurs,de l',échec,r_has_causatif
+pleurs,de la,chute,r_has_causatif
+pleurs,de la,fin,r_has_causatif
+pleurs,de la,mort,r_has_causatif
+pleurs,de la,naissance,r_has_causatif
+rire,de la,joie,r_has_causatif
+rire,de la,fête,r_has_causatif
+rire,de l',erreur,r_has_causatif
+rire,de la,faute,r_has_causatif
+rire,du,hasard,r_has_causatif
+rire,de la,chance,r_has_causatif
+rire,de l',amour,r_has_causatif
+rire,du,succès,r_has_causatif
+rire,du,jeu,r_has_causatif
+cendre,du,volcan,r_has_causatif
+cendre,du,feu,r_has_causatif
+cendre,du,tabac,r_has_causatif
+cendre,d',usine,r_has_causatif
+débris,du,séisme,r_has_causatif
+débris,du,choc,r_has_causatif
+débris,d',impact,r_has_causatif
+débris,de l',accident,r_has_causatif
+débris,de la,guerre,r_has_causatif
+débris,du,combat,r_has_causatif
+débris,de la,tempête,r_has_causatif
+débris,de la,chute,r_has_causatif
+ruine,du,séisme,r_has_causatif
+ruine,du,volcan,r_has_causatif
+ruine,du,feu,r_has_causatif
+ruine,de la,guerre,r_has_causatif
+ruine,de la,crise,r_has_causatif
+ruine,de l',échec,r_has_causatif
+ruine,du,temps,r_has_causatif
+perte,du,match,r_has_causatif
+perte,du,poids,r_has_causatif
+perte,du,gain,r_has_causatif
+perte,de la,guerre,r_has_causatif
+perte,de la,crise,r_has_causatif
+perte,de l',impôt,r_has_causatif
+perte,du,hasard,r_has_causatif
+perte,de l',accident,r_has_causatif
+perte,de la,vie,r_has_causatif
+gain,du,travail,r_has_causatif
+gain,du,sport,r_has_causatif
+gain,du,gain,r_has_causatif
+gain,de la,hausse,r_has_causatif
+gain,du,succès,r_has_causatif
+gain,du,hasard,r_has_causatif
+gain,de la,chance,r_has_causatif
+gain,du,commerce,r_has_causatif
+profit,du,travail,r_has_causatif
+profit,de la,hausse,r_has_causatif
+profit,du,succès,r_has_causatif
+profit,de la,loi,r_has_causatif
+profit,du,commerce,r_has_causatif
+profit,de la,vente,r_has_causatif
+hausse,de la,pression,r_has_causatif
+hausse,de la,chaleur,r_has_causatif
+hausse,de la,vitesse,r_has_causatif
+hausse,de l',effort,r_has_causatif
+hausse,du,stress,r_has_causatif
+hausse,du,prix,r_has_causatif
+hausse,du,coût,r_has_causatif
+hausse,de la,demande,r_has_causatif
+baisse,de la,pression,r_has_causatif
+baisse,du,froid,r_has_causatif
+baisse,de la,vitesse,r_has_causatif
+baisse,de la,force,r_has_causatif
+baisse,du,gain,r_has_causatif
+baisse,du,prix,r_has_causatif
+baisse,du,coût,r_has_causatif
+baisse,de la,tension,r_has_causatif
+ralentissement,du,vent,r_has_causatif
+ralentissement,du,moteur,r_has_causatif
+ralentissement,du,travail,r_has_causatif
+ralentissement,de l',étude,r_has_causatif
+ralentissement,du,stress,r_has_causatif
+ralentissement,de la,crise,r_has_causatif
+ralentissement,de l',âge,r_has_causatif
+ralentissement,du,poids,r_has_causatif
+accélération,du,vent,r_has_causatif
+accélération,du,moteur,r_has_causatif
+accélération,de la,vitesse,r_has_causatif
+accélération,du,travail,r_has_causatif
+accélération,du,sport,r_has_causatif
+accélération,du,succès,r_has_causatif
+accélération,du,hasard,r_has_causatif
+arrêt,du,moteur,r_has_causatif
+arrêt,de la,machine,r_has_causatif
+arrêt,du,travail,r_has_causatif
+arrêt,du,sport,r_has_causatif
+arrêt,de la,marche,r_has_causatif
+arrêt,de la,course,r_has_causatif
+arrêt,de la,grève,r_has_causatif
+arrêt,de la,loi,r_has_causatif
+arrêt,de la,vie,r_has_causatif
+arrêt,du,bus,r_has_causatif
+départ,du,moteur,r_has_causatif
+départ,du,travail,r_has_causatif
+départ,du,sport,r_has_causatif
+départ,de la,course,r_has_causatif
+départ,de la,fête,r_has_causatif
+départ,de la,vie,r_has_causatif
+fin,de la,tempête,r_has_causatif
+fin,de l',orage,r_has_causatif
+fin,du,feu,r_has_causatif
+fin,du,travail,r_has_causatif
+fin,de l',étude,r_has_causatif
+fin,du,sport,r_has_causatif
+fin,de la,marche,r_has_causatif
+fin,de la,course,r_has_causatif
+fin,de la,guerre,r_has_causatif
+fin,du,combat,r_has_causatif
+fin,de la,crise,r_has_causatif
+fin,de la,loi,r_has_causatif
+fin,de la,fête,r_has_causatif
+fin,de l',amour,r_has_causatif
+fin,de la,vie,r_has_causatif
+fin,du,monde,r_has_causatif
+début,du,vent,r_has_causatif
+début,de la,pluie,r_has_causatif
+début,de la,neige,r_has_causatif
+début,de la,tempête,r_has_causatif
+début,de l',orage,r_has_causatif
+début,du,feu,r_has_causatif
+début,du,travail,r_has_causatif
+début,de l',étude,r_has_causatif
+début,du,sport,r_has_causatif
+début,de la,marche,r_has_causatif
+début,de la,course,r_has_causatif
+début,de la,guerre,r_has_causatif
+début,du,combat,r_has_causatif
+début,de l',accident,r_has_causatif
+début,de la,grève,r_has_causatif
+début,de la,crise,r_has_causatif
+début,de la,fête,r_has_causatif
+début,de l',amour,r_has_causatif
+début,de la,vie,r_has_causatif
+reste,du,feu,r_has_causatif
+reste,du,repas,r_has_causatif
+reste,du,travail,r_has_causatif
+reste,du,gain,r_has_causatif
+reste,de la,fête,r_has_causatif
+reste,de la,vie,r_has_causatif
+reste,du,mort,r_has_causatif
+marque,du,choc,r_has_causatif
+marque,d',impact,r_has_causatif
+marque,du,poids,r_has_causatif
+marque,du,travail,r_has_causatif
+marque,de l',effort,r_has_causatif
+marque,du,sport,r_has_causatif
+marque,du,temps,r_has_causatif
+marque,de l',âge,r_has_causatif
+marque,du,virus,r_has_causatif
+marque,du,poison,r_has_causatif
+marque,de la,maladie,r_has_causatif
+marque,de la,brûlure,r_has_causatif
+marque,de la,blessure,r_has_causatif
+tache,du,soleil,r_has_causatif
+tache,du,feu,r_has_causatif
+tache,du,virus,r_has_causatif
+tache,du,poison,r_has_causatif
+tache,de la,maladie,r_has_causatif
+tache,de la,boue,r_has_causatif
+tache,de la,sueur,r_has_causatif
+tache,du,sang,r_has_causatif
+tache,de l',encre,r_has_causatif
+tache,du,vin,r_has_causatif
+cicatrice,du,choc,r_has_causatif
+cicatrice,d',impact,r_has_causatif
+cicatrice,du,combat,r_has_causatif
+cicatrice,de la,guerre,r_has_causatif
+cicatrice,de l',accident,r_has_causatif
+cicatrice,de la,maladie,r_has_causatif
+cicatrice,de la,brûlure,r_has_causatif
+cicatrice,de la,blessure,r_has_causatif
+cicatrice,de la,chirurgie,r_has_causatif
+blessure,du,choc,r_has_causatif
+blessure,d',impact,r_has_causatif
+blessure,du,combat,r_has_causatif
+blessure,de la,guerre,r_has_causatif
+blessure,de l',accident,r_has_causatif
+blessure,du,sport,r_has_causatif
+blessure,de la,chute,r_has_causatif
+blessure,du,hasard,r_has_causatif
+mort,du,séisme,r_has_causatif
+mort,du,volcan,r_has_causatif
+mort,du,feu,r_has_causatif
+mort,du,virus,r_has_causatif
+mort,du,poison,r_has_causatif
+mort,de l',alcool,r_has_causatif
+mort,du,tabac,r_has_causatif
+mort,de la,guerre,r_has_causatif
+mort,du,combat,r_has_causatif
+mort,de l',accident,r_has_causatif
+mort,de la,maladie,r_has_causatif
+mort,de la,vieillesse,r_has_causatif
+mort,de la,faim,r_has_causatif
+mort,de la,soif,r_has_causatif
+mort,du,froid,r_has_causatif
+naissance,du,hasard,r_has_causatif
+naissance,de la,chance,r_has_causatif
+naissance,de l',amour,r_has_causatif
+naissance,de la,joie,r_has_causatif
+naissance,de la,vie,r_has_causatif
+naissance,du,printemps,r_has_causatif
+vie,du,soleil,r_has_causatif
+vie,du,hasard,r_has_causatif
+vie,de la,chance,r_has_causatif
+vie,de l',amour,r_has_causatif
+vie,de la,nature,r_has_causatif
+vie,de la,terre,r_has_causatif
+force,du,vent,r_has_causatif
+force,de la,pluie,r_has_causatif
+force,de la,tempête,r_has_causatif
+force,du,séisme,r_has_causatif
+force,du,volcan,r_has_causatif
+force,du,feu,r_has_causatif
+force,du,moteur,r_has_causatif
+force,de la,machine,r_has_causatif
+force,du,choc,r_has_causatif
+force,d', impact,r_has_causatif
+force,de la,vitesse,r_has_causatif
+force,de la,pression,r_has_causatif
+force,du,poids,r_has_causatif
+force,du,travail,r_has_causatif
+force,de l',effort,r_has_causatif
+force,du,sport,r_has_causatif
+force,du,combat,r_has_causatif
+force,de la,loi,r_has_causatif
+force,de la,marée,r_has_causatif
+force,du,cyclone,r_has_causatif
+faiblesse,de l',âge,r_has_causatif
+faiblesse,de la,faim,r_has_causatif
+faiblesse,de la,soif,r_has_causatif
+faiblesse,du,sommeil,r_has_causatif
+faiblesse,de la,maladie,r_has_causatif
+faiblesse,du,froid,r_has_causatif
+faiblesse,de la,peur,r_has_causatif
+succès,du,travail,r_has_causatif
+succès,de l',étude,r_has_causatif
+succès,du,sport,r_has_causatif
+succès,de la,marche,r_has_causatif
+succès,de l',effort,r_has_causatif
+succès,du,hasard,r_has_causatif
+succès,de la,chance,r_has_causatif
+succès,de l',amour,r_has_causatif
+échec,de l',étude,r_has_causatif
+échec,du,sport,r_has_causatif
+échec,du,hasard,r_has_causatif
+échec,de la,faute,r_has_causatif
+échec,de l',erreur,r_has_causatif
+échec,du,stress,r_has_causatif
+échec,de la,crise,r_has_causatif
+chute,du,vent,r_has_causatif
+chute,de la,pluie,r_has_causatif
+chute,de la,neige,r_has_causatif
+chute,du,gel,r_has_causatif
+chute,de la,tempête,r_has_causatif
+chute,du,poids,r_has_causatif
+chute,de la,pression,r_has_causatif
+chute,du,sport,r_has_causatif
+chute,de la,marche,r_has_causatif
+chute,de la,course,r_has_causatif
+chute,de l',accident,r_has_causatif
+chute,du,hasard,r_has_causatif
+chute,de la,hausse,r_has_causatif
+chute,de la,bourse,r_has_causatif
+reflet,du,soleil,r_has_causatif
+reflet,du,feu,r_has_causatif
+reflet,de la,lumière,r_has_causatif
+reflet,de la,glace,r_has_causatif
+reflet,de l',eau,r_has_causatif
+reflet,du,miroir,r_has_causatif
+écho,du,vent,r_has_causatif
+écho,du,cri,r_has_causatif
+écho,du,choc,r_has_causatif
+écho,du,bruit,r_has_causatif
+écho,de la,montagne,r_has_causatif
+sueur,de la,chaleur,r_has_causatif
+sueur,du,travail,r_has_causatif
+sueur,de l',effort,r_has_causatif
+sueur,du,sport,r_has_causatif
+sueur,de la,marche,r_has_causatif
+sueur,de la,course,r_has_causatif
+sueur,du,stress,r_has_causatif
+sueur,de la,fièvre,r_has_causatif
+sueur,de la,peur,r_has_causatif
+larme,de la,douleur,r_has_causatif
+larme,de la,peur,r_has_causatif
+larme,de la,joie,r_has_causatif
+larme,de la,haine,r_has_causatif
+larme,de l',amour,r_has_causatif
+larme,du,vent,r_has_causatif
+larme,du,froid,r_has_causatif
+larme,du,rire,r_has_causatif
+fièvre,du,virus,r_has_causatif
+fièvre,de la,maladie,r_has_causatif
+fièvre,du,poison,r_has_causatif
+fièvre,de l',effort,r_has_causatif
+fièvre,du,stress,r_has_causatif
+fièvre,de la,fatigue,r_has_causatif
+malaise,de la,chaleur,r_has_causatif
+malaise,du,travail,r_has_causatif
+malaise,de l',effort,r_has_causatif
+malaise,du,stress,r_has_causatif
+malaise,du,sommeil,r_has_causatif
+malaise,de la,maladie,r_has_causatif
+malaise,du,virus,r_has_causatif
+malaise,du,poison,r_has_causatif
+malaise,de l',alcool,r_has_causatif
+malaise,du,tabac,r_has_causatif
+malaise,de la,peur,r_has_causatif
+ride,de l',âge,r_has_causatif
+ride,du,temps,r_has_causatif
+ride,du,souci,r_has_causatif
+ride,du,rire,r_has_causatif
+ride,du,soleil,r_has_causatif
+poussière,du,vent,r_has_causatif
+poussière,du,travail,r_has_causatif
+poussière,d',usine,r_has_causatif
+poussière,de la,route,r_has_causatif
+poussière,du,temps,r_has_causatif
+boue,de la,pluie,r_has_causatif
+boue,de la,neige,r_has_causatif
+boue,de la,tempête,r_has_causatif
+boue,de la,route,r_has_causatif
+retards,de la,pluie,r_has_causatif
+retards,de la,neige,r_has_causatif
+retards,de la,tempête,r_has_causatif
+retards,du,travail,r_has_causatif
+retards,de l',étude,r_has_causatif
+retards,du,sport,r_has_causatif
+retards,de l',accident,r_has_causatif
+retards,de la,grève,r_has_causatif
+retards,de la,crise,r_has_causatif
+retards,du,hasard,r_has_causatif
+retards,de la,circulation,r_has_causatif
+pannes,du,moteur,r_has_causatif
+pannes,de la,machine,r_has_causatif
+pannes,d',usine,r_has_causatif
+pannes,du,froid,r_has_causatif
+pannes,de l',âge,r_has_causatif
+pannes,de l',usure,r_has_causatif
+ombre,du,soleil,r_has_causatif
+ombre,du,nuage,r_has_causatif
+ombre,de la,lune,r_has_causatif
+ombre,de la,lumière,r_has_causatif
+ombre,de l',arbre,r_has_causatif
+ombre,du,mur,r_has_causatif
+odeur,du,vent,r_has_causatif
+odeur,de la,pluie,r_has_causatif
+odeur,du,feu,r_has_causatif
+odeur,du,moteur,r_has_causatif
+odeur,d',usine,r_has_causatif
+odeur,du,sport,r_has_causatif
+odeur,de la,cuisine,r_has_causatif
+odeur,du,poison,r_has_causatif
+odeur,de l',alcool,r_has_causatif
+odeur,du,tabac,r_has_causatif
+odeur,de la,fleur,r_has_causatif
+saveur,du,soleil,r_has_causatif
+saveur,du,feu,r_has_causatif
+saveur,du,travail,r_has_causatif
+saveur,du,fruit,r_has_causatif
+saveur,du,miel,r_has_causatif
+saveur,du,sel,r_has_causatif
+goût,du,soleil,r_has_causatif
+goût,du,feu,r_has_causatif
+goût,du,poison,r_has_causatif
+goût,de l',alcool,r_has_causatif
+goût,du,tabac,r_has_causatif
+goût,du,fruit,r_has_causatif
+goût,du,miel,r_has_causatif
+souffle,du,vent,r_has_causatif
+souffle,de la,tempête,r_has_causatif
+souffle,du,moteur,r_has_causatif
+souffle,du,coureur,r_has_causatif
+impact,du,vent,r_has_causatif
+impact,du,choc,r_has_causatif
+impact,de la,balle,r_has_causatif
+impact,du,poids,r_has_causatif
+impact,de la,vitesse,r_has_causatif
+impact,de la,loi,r_has_causatif
+impact,de la,crise,r_has_causatif
+choc,du,vent,r_has_causatif
+choc,du,moteur,r_has_causatif
+choc,de la,machine,r_has_causatif
+choc,du,combat,r_has_causatif
+choc,de l',accident,r_has_causatif
+choc,de la,chute,r_has_causatif
+choc,du,hasard,r_has_causatif
+choc,de la,nouvelle,r_has_causatif
+dérive,du,vent,r_has_causatif
+dérive,du,courant,r_has_causatif
+dérive,du,hasard,r_has_causatif
+dérive,de la,loi,r_has_causatif
+dérive,du,succès,r_has_causatif
+usure,du,travail,r_has_causatif
+usure,du,temps,r_has_causatif
+usure,du,moteur,r_has_causatif
+usure,de la,machine,r_has_causatif
+usure,du,poids,r_has_causatif
+usure,du,sport,r_has_causatif
+usure,de la,marche,r_has_causatif
+usure,de l',âge,r_has_causatif
+vieillissement,du,temps,r_has_causatif
+vieillissement,du,soleil,r_has_causatif
+vieillissement,de l',alcool,r_has_causatif
+vieillissement,du,tabac,r_has_causatif
+vieillissement,de la,maladie,r_has_causatif
+vieillissement,de la,peau,r_has_causatif
+vieillissement,du,vin,r_has_causatif
+détérioration,de la,pluie,r_has_causatif
+détérioration,du,soleil,r_has_causatif
+détérioration,du,gel,r_has_causatif
+détérioration,du,temps,r_has_causatif
+détérioration,de l',usure,r_has_causatif
+détérioration,du,virus,r_has_causatif
+embouteillage,de la,pluie,r_has_causatif
+embouteillage,de la,neige,r_has_causatif
+embouteillage,de l',accident,r_has_causatif
+embouteillage,de la,grève,r_has_causatif
+embouteillage,de la,fête,r_has_causatif
+embouteillage,du,départ,r_has_causatif
+embouteillage,des,vacances,r_has_causatif
+congestion,du,froid,r_has_causatif
+congestion,du,stress,r_has_causatif
+congestion,du,virus,r_has_causatif
+congestion,de la,maladie,r_has_causatif
+congestion,du,trafic,r_has_causatif
+progrès,du,travail,r_has_causatif
+progrès,de l',étude,r_has_causatif
+progrès,de la,science,r_has_causatif
+progrès,de la,loi,r_has_causatif
+progrès,de l',âge,r_has_causatif
+évolution,du,travail,r_has_causatif
+évolution,de l',étude,r_has_causatif
+évolution,de la,loi,r_has_causatif
+évolution,du,hasard,r_has_causatif
+évolution,de la,vie,r_has_causatif
+désordre,du,vent,r_has_causatif
+désordre,de la,tempête,r_has_causatif
+désordre,du,combat,r_has_causatif
+désordre,de la,guerre,r_has_causatif
+désordre,de l',accident,r_has_causatif
+désordre,de la,grève,r_has_causatif
+désordre,de la,crise,r_has_causatif
+désordre,de la,fête,r_has_causatif
+désordre,du,hasard,r_has_causatif
+chaos,de la,tempête,r_has_causatif
+chaos,du,séisme,r_has_causatif
+chaos,du,volcan,r_has_causatif
+chaos,de la,guerre,r_has_causatif
+chaos,de l',accident,r_has_causatif
+chaos,de la,crise,r_has_causatif
+équilibre,du,poids,r_has_causatif
+équilibre,de la,force,r_has_causatif
+équilibre,de la,nature,r_has_causatif
+pollution,d',usine,r_has_causatif
+pollution,du,moteur,r_has_causatif
+pollution,du,trafic,r_has_causatif
+pollution,du,gaz,r_has_causatif
+pollution,du,plastique,r_has_causatif
+pollution,de l',eau,r_has_causatif
+pollution,de l',air,r_has_causatif
+nuisance,du,vent,r_has_causatif
+nuisance,du,bruit,r_has_causatif
+nuisance,du,moteur,r_has_causatif
+nuisance,d',usine,r_has_causatif
+nuisance,du,trafic,r_has_causatif
+nuisance,du,voisin,r_has_causatif
+avantage,du,travail,r_has_causatif
+avantage,du,sport,r_has_causatif
+avantage,de l',étude,r_has_causatif
+avantage,du,succès,r_has_causatif
+avantage,du,hasard,r_has_causatif
+avantage,de la,loi,r_has_causatif
+inconvénient,du,travail,r_has_causatif
+inconvénient,du,froid,r_has_causatif
+inconvénient,du,bruit,r_has_causatif
+inconvénient,du,progrès,r_has_causatif
+inconvénient,de la,loi,r_has_causatif
+prix,du,travail,r_has_causatif
+prix,de l',effort,r_has_causatif
+prix,du,succès,r_has_causatif
+prix,du,hasard,r_has_causatif
+prix,de la,victoire,r_has_causatif
+prix,de la,faute,r_has_causatif
+coût,du,travail,r_has_causatif
+coût,du,moteur,r_has_causatif
+coût,de l',accident,r_has_causatif
+coût,de la,grève,r_has_causatif
+coût,de la,crise,r_has_causatif
+coût,de la,vie,r_has_causatif
+vibrations,du,frottement,r_has_causatif
+vibrations,de la,traction,r_has_causatif
+vibrations,de la,rotation,r_has_causatif
+vibrations,de la,vibration,r_has_causatif
+vibrations,du,courant,r_has_causatif
+vibrations,d',onde,r_has_causatif
+vibrations,de la,rumeur,r_has_causatif
+vibrations,du,scandale,r_has_causatif
+vibrations,du,décret,r_has_causatif
+vibrations,du,vote,r_has_causatif
+vibrations,de la,réforme,r_has_causatif
+vibrations,de la,sécheresse,r_has_causatif
+vibrations,d',inondation,r_has_causatif
+vibrations,de la,gelée,r_has_causatif
+vibrations,du,tonnerre,r_has_causatif
+frissons,d',érosion,r_has_causatif
+frissons,du,moteur,r_has_causatif
+frissons,du,réveil,r_has_causatif
+frissons,du,rappel,r_has_causatif
+frissons,d',oubli,r_has_causatif
+frissons,du,mensonge,r_has_causatif
+frissons,de la,vérité,r_has_causatif
+frissons,de la,honte,r_has_causatif
+frissons,du,courage,r_has_causatif
+frissons,du,doute,r_has_causatif
+frissons,d',espoir,r_has_causatif
+frissons,du,désir,r_has_causatif
+frissons,du,besoin,r_has_causatif
+frissons,du,luxe,r_has_causatif
+frissons,de la,misère,r_has_causatif
+frissons,de la,famine,r_has_causatif
+sursauts,de la,peste,r_has_causatif
+sursauts,du,remède,r_has_causatif
+sursauts,du,soin,r_has_causatif
+sursauts,du,vaccin,r_has_causatif
+sursauts,du,yoga,r_has_causatif
+sursauts,de la,danse,r_has_causatif
+sursauts,du,chant,r_has_causatif
+sursauts,de la,lecture,r_has_causatif
+sursauts,du,silence,r_has_causatif
+sursauts,du,fracas,r_has_causatif
+sursauts,du,sifflement,r_has_causatif
+sursauts,du,craquement,r_has_causatif
+sursauts,du,grincement,r_has_causatif
+sursauts,du,claquement,r_has_causatif
+éclats,du,battement,r_has_causatif
+éclats,du,tremblement,r_has_causatif
+éclats,de la,déchirure,r_has_causatif
+éclats,de la,brûlure,r_has_causatif
+éclats,de la,gelure,r_has_causatif
+éclats,de la,piqûre,r_has_causatif
+éclats,de la,morsure,r_has_causatif
+éclats,d',égratignure,r_has_causatif
+éclats,de la,coupure,r_has_causatif
+éclats,du,saignement,r_has_causatif
+éclats,du,gonflement,r_has_causatif
+éclats,d',irritation,r_has_causatif
+éclats,d',allergie,r_has_causatif
+éclats,d',intoxication,r_has_causatif
+éclats,d',épuisement,r_has_causatif
+étincelles,d',insomnie,r_has_causatif
+étincelles,du,cauchemar,r_has_causatif
+étincelles,d',angoisse,r_has_causatif
+étincelles,de la,phobie,r_has_causatif
+étincelles,de la,colère,r_has_causatif
+étincelles,de la,tristesse,r_has_causatif
+étincelles,de la,mélancolie,r_has_causatif
+étincelles,de la,nostalgie,r_has_causatif
+étincelles,de la,fierté,r_has_causatif
+étincelles,de la,satisfaction,r_has_causatif
+étincelles,du,ravissement,r_has_causatif
+étincelles,d',émerveillement,r_has_causatif
+étincelles,de la,surprise,r_has_causatif
+étincelles,de la,déception,r_has_causatif
+étincelles,de la,frustration,r_has_causatif
+vestiges,d',impatience,r_has_causatif
+vestiges,d',agacement,r_has_causatif
+vestiges,de la,révolte,r_has_causatif
+vestiges,d',indignation,r_has_causatif
+vestiges,de la,pitié,r_has_causatif
+vestiges,de la,compassion,r_has_causatif
+vestiges,d',admiration,r_has_causatif
+vestiges,du,respect,r_has_causatif
+vestiges,d',obéissance,r_has_causatif
+vestiges,de la,liberté,r_has_causatif
+vestiges,de la,contrainte,r_has_causatif
+vestiges,d',obligation,r_has_causatif
+vestiges,du,droit,r_has_causatif
+vestiges,du,devoir,r_has_causatif
+vestiges,de la,vertu,r_has_causatif
+vestiges,du,vice,r_has_causatif
+empreintes,du,péché,r_has_causatif
+empreintes,du,pardon,r_has_causatif
+empreintes,de la,vengeance,r_has_causatif
+empreintes,de la,punition,r_has_causatif
+empreintes,de la,récompense,r_has_causatif
+empreintes,d',honneur,r_has_causatif
+empreintes,du,mépris,r_has_causatif
+empreintes,de la,gloire,r_has_causatif
+empreintes,de la,victoire,r_has_causatif
+empreintes,d',échec,r_has_causatif
+empreintes,du,success,r_has_causatif
+empreintes,du,match,r_has_causatif
+empreintes,du,jeu,r_has_causatif
+séquelles,du,frottement,r_has_causatif
+séquelles,de la,traction,r_has_causatif
+séquelles,de la,rotation,r_has_causatif
+séquelles,de la,vibration,r_has_causatif
+séquelles,du,courant,r_has_causatif
+symptômes,d',onde,r_has_causatif
+symptômes,de la,rumeur,r_has_causatif
+symptômes,du,scandale,r_has_causatif
+symptômes,du,décret,r_has_causatif
+symptômes,du,vote,r_has_causatif
+symptômes,de la,réforme,r_has_causatif
+symptômes,de la,sécheresse,r_has_causatif
+symptômes,d',inondation,r_has_causatif
+symptômes,de la,gelée,r_has_causatif
+symptômes,du,tonnerre,r_has_causatif
+murmures,d',érosion,r_has_causatif
+murmures,du,moteur,r_has_causatif
+murmures,du,réveil,r_has_causatif
+murmures,du,rappel,r_has_causatif
+murmures,d',oubli,r_has_causatif
+murmures,du,mensonge,r_has_causatif
+murmures,de la,vérité,r_has_causatif
+murmures,de la,honte,r_has_causatif
+murmures,du,courage,r_has_causatif
+murmures,du,doute,r_has_causatif
+murmures,d',espoir,r_has_causatif
+rumeurs,du,désir,r_has_causatif
+rumeurs,du,besoin,r_has_causatif
+rumeurs,du,luxe,r_has_causatif
+rumeurs,de la,misère,r_has_causatif
+rumeurs,de la,famine,r_has_causatif
+rumeurs,de la,peste,r_has_causatif
+rumeurs,du,remède,r_has_causatif
+rumeurs,du,soin,r_has_causatif
+rumeurs,du,vaccin,r_has_causatif
+rumeurs,du,yoga,r_has_causatif
+rumeurs,de la,danse,r_has_causatif
+secrets,du,chant,r_has_causatif
+secrets,de la,lecture,r_has_causatif
+secrets,du,silence,r_has_causatif
+secrets,du,fracas,r_has_causatif
+secrets,du,sifflement,r_has_causatif
+secrets,du,craquement,r_has_causatif
+secrets,du,grincement,r_has_causatif
+secrets,du,claquement,r_has_causatif
+secrets,du,battement,r_has_causatif
+secrets,du,tremblement,r_has_causatif
+secrets,de la,déchirure,r_has_causatif
+aveux,de la,brûlure,r_has_causatif
+aveux,de la,gelure,r_has_causatif
+aveux,de la,piqûre,r_has_causatif
+aveux,de la,morsure,r_has_causatif
+aveux,d',égratignure,r_has_causatif
+aveux,de la,coupure,r_has_causatif
+aveux,du,saignement,r_has_causatif
+aveux,du,gonflement,r_has_causatif
+aveux,d',irritation,r_has_causatif
+aveux,d',allergie,r_has_causatif
+regrets,d',intoxication,r_has_causatif
+regrets,d',épuisement,r_has_causatif
+regrets,d',insomnie,r_has_causatif
+regrets,du,cauchemar,r_has_causatif
+regrets,d',angoisse,r_has_causatif
+regrets,de la,phobie,r_has_causatif
+regrets,de la,colère,r_has_causatif
+regrets,de la,tristesse,r_has_causatif
+regrets,de la,mélancolie,r_has_causatif
+regrets,de la,nostalgie,r_has_causatif
+regrets,de la,fierté,r_has_causatif
+regrets,de la,satisfaction,r_has_causatif
+remords,du,ravissement,r_has_causatif
+remords,d',émerveillement,r_has_causatif
+remords,de la,surprise,r_has_causatif
+remords,de la,déception,r_has_causatif
+remords,de la,frustration,r_has_causatif
+remords,d',impatience,r_has_causatif
+remords,d',agacement,r_has_causatif
+remords,de la,révolte,r_has_causatif
+remords,d',indignation,r_has_causatif
+remords,de la,pitié,r_has_causatif
+remords,de la,compassion,r_has_causatif
+sanglots,d',admiration,r_has_causatif
+sanglots,du,respect,r_has_causatif
+sanglots,d',obéissance,r_has_causatif
+sanglots,de la,liberté,r_has_causatif
+sanglots,de la,contrainte,r_has_causatif
+sanglots,d',obligation,r_has_causatif
+sanglots,du,droit,r_has_causatif
+sanglots,du,devoir,r_has_causatif
+sanglots,de la,vertu,r_has_causatif
+sanglots,du,vice,r_has_causatif
+sanglots,du,péché,r_has_causatif
+sanglots,du,pardon,r_has_causatif
+soupirs,de la,vengeance,r_has_causatif
+soupirs,de la,punition,r_has_causatif
+soupirs,de la,récompense,r_has_causatif
+soupirs,d',honneur,r_has_causatif
+soupirs,du,mépris,r_has_causatif
+soupirs,de la,gloire,r_has_causatif
+soupirs,de la,victoire,r_has_causatif
+soupirs,d',échec,r_has_causatif
+soupirs,du,success,r_has_causatif
+soupirs,du,match,r_has_causatif
+soupirs,du,jeu,r_has_causatif
+soupirs,du,frottement,r_has_causatif
+vertiges,de la,traction,r_has_causatif
+vertiges,de la,rotation,r_has_causatif
+vertiges,de la,vibration,r_has_causatif
+vertiges,du,courant,r_has_causatif
+vertiges,d',onde,r_has_causatif
+vertiges,de la,rumeur,r_has_causatif
+vertiges,du,scandale,r_has_causatif
+vertiges,du,décret,r_has_causatif
+vertiges,du,vote,r_has_causatif
+vertiges,de la,réforme,r_has_causatif
+nausées,de la,sécheresse,r_has_causatif
+nausées,d',inondation,r_has_causatif
+nausées,de la,gelée,r_has_causatif
+nausées,du,tonnerre,r_has_causatif
+nausées,d',érosion,r_has_causatif
+nausées,du,moteur,r_has_causatif
+nausées,du,réveil,r_has_causatif
+nausées,du,rappel,r_has_causatif
+nausées,d',oubli,r_has_causatif
+nausées,du,mensonge,r_has_causatif
+nausées,de la,vérité,r_has_causatif
+aigreurs,de la,honte,r_has_causatif
+aigreurs,du,courage,r_has_causatif
+aigreurs,du,doute,r_has_causatif
+aigreurs,d',espoir,r_has_causatif
+aigreurs,du,désir,r_has_causatif
+aigreurs,du,besoin,r_has_causatif
+aigreurs,du,luxe,r_has_causatif
+aigreurs,de la,misère,r_has_causatif
+aigreurs,de la,famine,r_has_causatif
+aigreurs,de la,peste,r_has_causatif
+aigreurs,du,remède,r_has_causatif
+courbatures,du,soin,r_has_causatif
+courbatures,du,vaccin,r_has_causatif
+courbatures,du,yoga,r_has_causatif
+courbatures,de la,danse,r_has_causatif
+courbatures,du,chant,r_has_causatif
+courbatures,de la,lecture,r_has_causatif
+courbatures,du,silence,r_has_causatif
+courbatures,du,fracas,r_has_causatif
+courbatures,du,sifflement,r_has_causatif
+courbatures,du,craquement,r_has_causatif
+ampoules,du,grincement,r_has_causatif
+ampoules,du,claquement,r_has_causatif
+ampoules,du,battement,r_has_causatif
+ampoules,du,tremblement,r_has_causatif
+ampoules,de la,déchirure,r_has_causatif
+ampoules,de la,brûlure,r_has_causatif
+ampoules,de la,gelure,r_has_causatif
+ampoules,de la,piqûre,r_has_causatif
+ampoules,de la,morsure,r_has_causatif
+ampoules,d',égratignure,r_has_causatif
+ampoules,de la,coupure,r_has_causatif
+rougeurs,du,saignement,r_has_causatif
+rougeurs,du,gonflement,r_has_causatif
+rougeurs,d',irritation,r_has_causatif
+rougeurs,d',allergie,r_has_causatif
+rougeurs,d',intoxication,r_has_causatif
+rougeurs,d',épuisement,r_has_causatif
+rougeurs,d',insomnie,r_has_causatif
+rougeurs,du,cauchemar,r_has_causatif
+rougeurs,d',angoisse,r_has_causatif
+rougeurs,de la,phobie,r_has_causatif
+cernes,de la,colère,r_has_causatif
+cernes,de la,tristesse,r_has_causatif
+cernes,de la,mélancolie,r_has_causatif
+cernes,de la,nostalgie,r_has_causatif
+cernes,de la,fierté,r_has_causatif
+cernes,de la,satisfaction,r_has_causatif
+cernes,du,ravissement,r_has_causatif
+cernes,d',émerveillement,r_has_causatif
+cernes,de la,surprise,r_has_causatif
+cernes,de la,déception,r_has_causatif
+cernes,de la,frustration,r_has_causatif
+plis,d',impatience,r_has_causatif
+plis,d',agacement,r_has_causatif
+plis,de la,révolte,r_has_causatif
+plis,d',indignation,r_has_causatif
+plis,de la,pitié,r_has_causatif
+plis,de la,compassion,r_has_causatif
+plis,d',admiration,r_has_causatif
+plis,du,respect,r_has_causatif
+plis,d',obéissance,r_has_causatif
+plis,de la,liberté,r_has_causatif
+plis,de la,contrainte,r_has_causatif
+fêlures,d',obligation,r_has_causatif
+fêlures,du,droit,r_has_causatif
+fêlures,du,devoir,r_has_causatif
+fêlures,de la,vertu,r_has_causatif
+fêlures,du,vice,r_has_causatif
+fêlures,du,péché,r_has_causatif
+fêlures,du,pardon,r_has_causatif
+fêlures,de la,vengeance,r_has_causatif
+fêlures,de la,punition,r_has_causatif
+fêlures,de la,récompense,r_has_causatif
+fêlures,d',honneur,r_has_causatif
+bris,du,mépris,r_has_causatif
+bris,de la,gloire,r_has_causatif
+bris,de la,victoire,r_has_causatif
+bris,d',échec,r_has_causatif
+bris,du,success,r_has_causatif
+bris,du,match,r_has_causatif
+bris,du,jeu,r_has_causatif
+bris,du,frottement,r_has_causatif
+bris,de la,traction,r_has_causatif
+bris,de la,rotation,r_has_causatif
+cassures,de la,vibration,r_has_causatif
+cassures,du,courant,r_has_causatif
+cassures,d',onde,r_has_causatif
+cassures,de la,rumeur,r_has_causatif
+cassures,du,scandale,r_has_causatif
+cassures,du,décret,r_has_causatif
+cassures,du,vote,r_has_causatif
+cassures,de la,réforme,r_has_causatif
+cassures,de la,sécheresse,r_has_causatif
+cassures,d',inondation,r_has_causatif
+fuites,de la,gelée,r_has_causatif
+fuites,du,tonnerre,r_has_causatif
+fuites,d',érosion,r_has_causatif
+fuites,du,moteur,r_has_causatif
+fuites,du,réveil,r_has_causatif
+fuites,du,rappel,r_has_causatif
+fuites,d',oubli,r_has_causatif
+fuites,du,mensonge,r_has_causatif
+fuites,de la,vérité,r_has_causatif
+fuites,de la,honte,r_has_causatif
+fuites,du,courage,r_has_causatif
+coulées,du,doute,r_has_causatif
+coulées,d',espoir,r_has_causatif
+coulées,du,désir,r_has_causatif
+coulées,du,besoin,r_has_causatif
+coulées,du,luxe,r_has_causatif
+coulées,de la,misère,r_has_causatif
+coulées,de la,famine,r_has_causatif
+coulées,de la,peste,r_has_causatif
+coulées,du,remède,r_has_causatif
+coulées,du,soin,r_has_causatif
+coulées,du,vaccin,r_has_causatif
+glissements,du,yoga,r_has_causatif
+glissements,de la,danse,r_has_causatif
+glissements,du,chant,r_has_causatif
+glissements,de la,lecture,r_has_causatif
+glissements,du,silence,r_has_causatif
+glissements,du,fracas,r_has_causatif
+glissements,du,sifflement,r_has_causatif
+glissements,du,craquement,r_has_causatif
+glissements,du,grincement,r_has_causatif
+glissements,du,claquement,r_has_causatif
+glissements,du,battement,r_has_causatif
+bonds,du,tremblement,r_has_causatif
+bonds,de la,déchirure,r_has_causatif
+bonds,de la,brûlure,r_has_causatif
+bonds,de la,gelure,r_has_causatif
+bonds,de la,piqûre,r_has_causatif
+bonds,de la,morsure,r_has_causatif
+bonds,d',égratignure,r_has_causatif
+bonds,de la,coupure,r_has_causatif
+bonds,du,saignement,r_has_causatif
+bonds,du,gonflement,r_has_causatif
+bonds,d',irritation,r_has_causatif
+envols,d',allergie,r_has_causatif
+envols,d',intoxication,r_has_causatif
+envols,d',épuisement,r_has_causatif
+envols,d',insomnie,r_has_causatif
+envols,du,cauchemar,r_has_causatif
+envols,d',angoisse,r_has_causatif
+envols,de la,phobie,r_has_causatif
+envols,de la,colère,r_has_causatif
+envols,de la,tristesse,r_has_causatif
+envols,de la,mélancolie,r_has_causatif
+envols,de la,nostalgie,r_has_causatif
+chants,de la,fierté,r_has_causatif
+chants,de la,satisfaction,r_has_causatif
+chants,du,ravissement,r_has_causatif
+chants,d',émerveillement,r_has_causatif
+chants,de la,surprise,r_has_causatif
+chants,de la,déception,r_has_causatif
+chants,de la,frustration,r_has_causatif
+chants,d',impatience,r_has_causatif
+chants,d',agacement,r_has_causatif
+chants,de la,révolte,r_has_causatif
+chants,d',indignation,r_has_causatif
+appels,de la,pitié,r_has_causatif
+appels,de la,compassion,r_has_causatif
+appels,d',admiration,r_has_causatif
+appels,du,respect,r_has_causatif
+appels,d',obéissance,r_has_causatif
+appels,de la,liberté,r_has_causatif
+appels,de la,contrainte,r_has_causatif
+appels,d',obligation,r_has_causatif
+appels,du,droit,r_has_causatif
+appels,du,devoir,r_has_causatif
+appels,de la,vertu,r_has_causatif
+silences,du,vice,r_has_causatif
+silences,du,péché,r_has_causatif
+silences,du,pardon,r_has_causatif
+silences,de la,vengeance,r_has_causatif
+silences,de la,punition,r_has_causatif
+silences,de la,récompense,r_has_causatif
+silences,d',honneur,r_has_causatif
+silences,du,mépris,r_has_causatif
+silences,de la,gloire,r_has_causatif
+silences,de la,victoire,r_has_causatif
+silences,d',échec,r_has_causatif
+lueurs,du,success,r_has_causatif
+lueurs,du,match,r_has_causatif
+lueurs,du,jeu,r_has_causatif
+lueurs,du,frottement,r_has_causatif
+lueurs,de la,traction,r_has_causatif
+lueurs,de la,rotation,r_has_causatif
+lueurs,de la,vibration,r_has_causatif
+lueurs,du,courant,r_has_causatif
+lueurs,d',onde,r_has_causatif
+lueurs,de la,rumeur,r_has_causatif
+lueurs,du,scandale,r_has_causatif

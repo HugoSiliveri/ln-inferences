@@ -1,4 +1,6 @@
 import sys
+import os
+import glob
 import json
 import time
 import csv
@@ -12,10 +14,8 @@ import api
 import utils
 
 REL_TYPES = [0, 3, 5, 6, 17]       # Types de relations à extraire (0: r_associated, 3: r_domain, 5: r_syn, 6: r_isa, 17: r_carac)
-MAX_REL = 10                   # Limite de relations par type
-INPUT_FILE = "./dataset/preProcessed_Dataset.csv"
+MAX_REL = 50                   # Limite de relations par type
 OUTPUT_FILE = "./dataset/preProcessed_Vectorized.json"
-
 
 def get_vector_for_term(term: str, side: str):
     term = str(term).strip()
@@ -44,6 +44,7 @@ def get_vector_for_term(term: str, side: str):
             for rel in relations_list:
                 try:
                     target_name = utils.get_node_name_by_id(rel["node2"])
+                    target_name = clean_term(target_name)
                 except (KeyError, AttributeError):
                     target_name = ""
 
@@ -86,83 +87,85 @@ def normalize_features(features_list):
         for f in features_list:
             if f["weight"] > 0:
                 if range_w > 0:
-                    f["weight"] = (f["weight"] - min_w) / range_w
+                    f["weight"] = f["weight"] / max_w
                 else:
                     f["weight"] = 1.0
     return features_list
 
-def vectorize_dataset(input_file=INPUT_FILE, output_file=OUTPUT_FILE):
+def vectorize_all_datasets(input_dir="../Datasets_forever/", output_file=OUTPUT_FILE):
     """
-    Lit le dataset, crée un JSON vectorisé et filtre strictement les triplets.
-    Affiche la progression via sys.stdout.write.
+    Vectorise tous les fichiers CSV du dossier et affiche les statistiques globales.
     """
-    df = pd.read_csv(input_file)
+    all_files = glob.glob(os.path.join(input_dir, "*.csv"))
     results = []
+    global_idx = 0
+    total_rows = sum([len(pd.read_csv(f)) for f in all_files])
+    
+    stats = {
+        "total_rows": 0,
+        "processed": 0,
+        "skipped_no_rel": 0,
+        "skipped_incomplete": 0,
+        "skipped_error": 0
+    }
 
-    total_rows = len(df)
-    processed = 0
-    skipped_no_rel = 0
-    skipped_error = 0
-    skipped_incomplete = 0
-
-    required_types = [str(rtype) for rtype in REL_TYPES]
-
-    for i, row in df.iterrows():
-        A = str(row["A"]).strip()
-        R = str(row["R"]).strip()
-        B = str(row["B"]).strip()
-        rel_type = row["type_relation"]
-
-        status_line = f"[{i+1}/{total_rows}] {A}, {R}, {B}"
-        sys.stdout.write(f"\r{status_line:<100}") 
-        sys.stdout.flush()
-
+    for file_path in all_files:
         try:
-            raw_vec_A = get_vector_for_term(A, "A")
-            raw_vec_B = get_vector_for_term(B, "B")
-            
-            if not raw_vec_A or not raw_vec_B:
-                skipped_no_rel += 1
-                continue
-            norm_A = normalize_features(raw_vec_A)
-            norm_B = normalize_features(raw_vec_B)
-
-            combined = norm_A + norm_B
-            combined.append({"side": "R", "r_type": "prep", "target": R, "weight": 1.0})
-
-            tree_structure = convert_to_tree_structure(combined)
-
-            has_A = all(t in tree_structure.get("A", {}) for t in required_types)
-            has_B = all(t in tree_structure.get("B", {}) for t in required_types)
-            has_R = "R" in tree_structure
-
-            if has_A and has_B and has_R:
-                processed += 1
-                results.append({
-                    "A": A,
-                    "R": R,
-                    "B": B,
-                    "type_relation": rel_type,
-                    "features": tree_structure
-                })
-            else:
-                skipped_incomplete += 1
-
-        except RuntimeError:
-            skipped_error += 1
+            df = pd.read_csv(file_path)
+            stats["total_rows"] += len(df)
+        except Exception:
             continue
+
+        for i, row in df.iterrows():
+            global_idx += 1
+            A = clean_term(str(row["A"]))
+            B = clean_term(str(row["B"]))
+            R = str(row.get("determinant", "de")).strip()
+            rel_type = row.get("type_relation", "unknown")
+
+            status = f"[{global_idx}/{total_rows}] {A}, {R}, {B}"
+            sys.stdout.write(f"\r{status:<100}")
+            sys.stdout.flush()
+
+            try:
+                raw_vec_A = get_vector_for_term(A, "A")
+                raw_vec_B = get_vector_for_term(B, "B")
+                
+                if not raw_vec_A or not raw_vec_B:
+                    stats["skipped_no_rel"] += 1
+                    continue
+
+                norm_A = normalize_features(raw_vec_A)
+                norm_B = normalize_features(raw_vec_B)
+                combined = norm_A + norm_B
+                combined.append({"side": "R", "r_type": "prep", "target": R, "weight": 1.0})
+                
+                tree_structure = convert_to_tree_structure(combined)
+
+                if all(k in tree_structure for k in ["A", "B", "R"]):
+                    results.append({
+                        "A": A, "R": R, "B": B,
+                        "type_relation": rel_type,
+                        "features": tree_structure
+                    })
+                    stats["processed"] += 1
+                else:
+                    stats["skipped_incomplete"] += 1
+            except Exception:
+                stats["skipped_error"] += 1
+                continue
 
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=4)
 
     print("\n")
-    print("-" * 30)
-    print(f"Lignes totales lues   : {total_rows}")
-    print(f"Lignes sauvegardées   : {processed}")
-    print(f"Lignes sans relations : {skipped_no_rel}")
-    print(f"Lignes incomplètes    : {skipped_incomplete}")
-    print(f"Lignes erreurs API    : {skipped_error}")
-    print("-" * 30)
+    print("-" * 35)
+    print(f"Lignes totales lues     : {stats['total_rows']}")
+    print(f"Lignes sauvegardées     : {stats['processed']}")
+    print(f"Lignes sans relations   : {stats['skipped_no_rel']}")
+    print(f"Lignes incomplètes      : {stats['skipped_incomplete']}")
+    print(f"Lignes erreurs API      : {stats['skipped_error']}")
+    print("-" * 35)
     
     return results
 
@@ -170,25 +173,33 @@ def convert_to_tree_structure(flat_features_list):
     """
     Convertit la liste plate de dictionnaires en une structure arborescente (dict imbriqué).
     """
-    tree = {}
+    tree = {"A": {}, "B": {}, "R": {}}
     for f in flat_features_list:
         side = f['side']
         r_type = str(f['r_type'])
         target = f['target']
         weight = f['weight']
         
-        if side not in tree:
-            tree[side] = {}
         if r_type not in tree[side]:
             tree[side][r_type] = {}
-            
         tree[side][r_type][target] = weight
     return tree
 
-if __name__ == "__main__":
-    #print("Création d'un petit dataset aléatoire pour test")
-    #sample_file = create_sample_dataset(sample_size=50)
+def clean_term(term):
+    """
+    Supprime les articles pour obtenir le mot seul.
+    Exemple: "le mannequin" -> "mannequin", "l'ouvrier" -> "ouvrier"
+    """
+    articles = ["le ", "la ", "les ", "l'", "un ", "une ", "des ", "du ", "au ", "d'"]
+    t = term.lower().strip()
+    for art in articles:
+        if t.startswith(art):
+            return term[len(art):].strip()
+    return term
 
-    #print("Démarrage de la vectorisation via API JeuxDeMots")
-    #vectorize_dataset(input_file=sample_file)
-    vectorize_dataset()
+
+#print("Création d'un petit dataset aléatoire pour test")
+#sample_file = create_sample_dataset(sample_size=50)
+
+#print("Démarrage de la vectorisation via API JeuxDeMots")
+#vectorize_dataset(input_file=sample_file)

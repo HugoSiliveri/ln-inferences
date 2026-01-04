@@ -16,6 +16,7 @@ class TreeNode:
 
 class Tree:
     def __init__(self,List_Vector=None):
+        self.distance_to_max_weight = 0.05
         if(List_Vector is None):
             self.root=None
         if(isinstance(List_Vector,TreeNode)):
@@ -28,10 +29,11 @@ class Tree:
         done = {"A": {}, "B": {}, "R": {}}
         v3 = {"A": {}, "B": {}, "R": {}}
         sim = []
-        
+        max_weight = {"A": {},"B": {},"R": {}}
         for k0 in ["A", "B", "R"]:
             for k1 in v1[k0].keys():
                 v3[k0][k1] = {}
+                max_weight[k0][k1] = 0
                 # VERIFICATION : si la relation (ex: '3') n'est pas dans v2, on ne peut pas faire de dictionnaire done
                 if k1 in v2[k0]:
                     if k1 not in done[k0]:
@@ -40,16 +42,25 @@ class Tree:
                     for word in v1[k0][k1].keys():
                         leafs = v2[k0][k1].keys()
                         if word in leafs:
-                            v3[k0][k1][word] = (v1[k0][k1][word] + v2[k0][k1][word]) / 2
+                            weight = (v1[k0][k1][word] + v2[k0][k1][word]) / 2
+                            v3[k0][k1][word] = weight
+                            if weight > max_weight[k0][k1]:
+                                max_weight[k0][k1] = weight
                             sim.append(abs(v1[k0][k1][word] - v2[k0][k1][word]))
                             done[k0][k1][word] = True
                         else:
-                            v3[k0][k1][word] = v1[k0][k1][word] / 2
+                            weight = v1[k0][k1][word] / 2
+                            if weight > max_weight[k0][k1]:
+                                max_weight[k0][k1] = weight
+                            v3[k0][k1][word] = weight
                             sim.append(abs(v1[k0][k1][word]))
                 else:
                     # Cas où k1 est dans v1 mais pas dans v2
                     for word in v1[k0][k1].keys():
-                        v3[k0][k1][word] = v1[k0][k1][word] / 2
+                        weight = v1[k0][k1][word] / 2
+                        v3[k0][k1][word] = weight
+                        if weight > max_weight[k0][k1]:
+                                max_weight[k0][k1] = weight
                         sim.append(abs(v1[k0][k1][word]))
 
         # Second passage pour v2
@@ -57,13 +68,25 @@ class Tree:
             for k1 in v2[k0].keys():
                 if k1 not in v3[k0]:
                     v3[k0][k1] = {}
+                    max_weight[k0][k1] = 0
                 for word in v2[k0][k1]:
                     # Utilisation de .get() sécurisé pour éviter KeyError
                     if k1 not in done[k0] or not done[k0][k1].get(word, False):
-                        v3[k0][k1][word] = v2[k0][k1][word] / 2
+                        weight = v2[k0][k1][word] / 2
+                        if weight > max_weight[k0][k1]:
+                                max_weight[k0][k1] = weight
+                        v3[k0][k1][word] = weight
                         sim.append(abs(v2[k0][k1][word]))
         
-        return v3, sum(sim) / len(sim) if sim else 0
+        #On enlève tout ce qui est trop loin du plus grand poid
+        final_vector = {"A": {}, "B": {}, "R": {}}
+        for k0 in ["A","B","R"]:
+            for k1 in v3[k0].keys():
+                final_vector[k0][k1] = {}
+                for word in v3[k0][k1]:
+                    if v3[k0][k1][word] > self.distance_to_max_weight * max_weight[k0][k1]:
+                        final_vector[k0][k1][word] = v3[k0][k1][word]
+        return final_vector, sum(sim) / len(sim) if sim else 0
     """
     Version de Lucien
     def compute_scores(self,v1,v2):

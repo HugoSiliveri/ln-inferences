@@ -21,7 +21,7 @@ def get_from_redis(key):
 
 ############### ROUTES API ###############
 
-requests.packages.urllib3.disable_warnings() 
+requests.packages.urllib3.disable_warnings()
 BASE_URL = "https://jdm-api.demo.lirmm.fr"
 TIMEOUT_VALUE = 10
 

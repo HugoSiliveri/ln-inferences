@@ -13,8 +13,8 @@ sys.path.append(str(Path(__file__).resolve().parent.parent))
 import api
 import utils
 
-REL_TYPES = [0, 3, 5, 6, 17]       # Types de relations à extraire (0: r_associated, 3: r_domain, 5: r_syn, 6: r_isa, 17: r_carac)
-MAX_REL = 50                   # Limite de relations par type
+REL_TYPES = [0, 6, 17]       # Types de relations à extraire (0: r_associated, 3: r_domain, 5: r_syn, 6: r_isa, 17: r_carac)
+MAX_REL = 10                   # Limite de relations par type
 OUTPUT_FILE = "./dataset/preProcessed_Vectorized.json"
 
 def get_vector_for_term(term: str, side: str):

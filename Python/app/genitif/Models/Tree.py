@@ -1,4 +1,5 @@
 import pickle
+import time
 
 class TreeNode:
     def __init__(self, data, left = None, right = None):
@@ -13,6 +14,93 @@ class TreeNode:
         print(prefix + ("└── " if is_left else "┌── ") + str(self.data))
         if self.left != None:
             self.left.print(prefix + ("    " if is_left else "│   "), True)
+    def distance_to(self, other):
+        """
+        Calcule la similarité entre self.data['features'] et un vecteur 'other'
+        en appliquant exactement la même logique que compute_scores(),
+        mais de manière optimisée et sans reconstruire v3.
+        """
+
+        f1 = self.data
+        f2 = other
+
+        sim = []
+
+        for k0 in ("A", "B", "R"):
+            block1 = f1.get(k0, {})
+            block2 = f2.get(k0, {})
+
+            # Ensemble des relations présentes dans au moins un des deux vecteurs
+            all_rel = set(block1.keys()) | set(block2.keys())
+
+            for k1 in all_rel:
+                rel1 = block1.get(k1, {})
+                rel2 = block2.get(k1, {})
+
+                # Mots présents dans au moins un des deux sous-vecteurs
+                all_words = set(rel1.keys()) | set(rel2.keys())
+
+                for w in all_words:
+                    v1 = rel1.get(w)
+                    v2 = rel2.get(w)
+
+                    # Cas 1 : mot présent dans les deux
+                    if v1 is not None and v2 is not None:
+                        sim.append(abs(v1 - v2))
+
+                    # Cas 2 : mot uniquement dans v1
+                    elif v1 is not None:
+                        sim.append(abs(v1))
+
+                    # Cas 3 : mot uniquement dans v2
+                    else:
+                        sim.append(abs(v2))
+
+        return sum(sim) / len(sim) if sim else 0
+    def min_distance_to_subtree(self,vector):
+        root_score = self.distance_to(vector)
+        if not(self.right is None) and not(self.left is None):
+            child_score = min(self.right.min_distance_to_subtree(vector),self.left.min_distance_to_subtree(vector))
+            return min(child_score,root_score)
+        if not(self.right is None) and (self.left is None):
+            return min(self.right.min_distance_to_subtree(vector),root_score)
+        if (self.right is None) and not(self.left is None):
+            return min(self.left.min_distance_to_subtree(vector),root_score)
+        if (self.right is None) and (self.left is None):
+            return root_score
+    def min_distance_to_min_path(self,vector,root_score):
+        print(root_score)
+        if not(self.right is None) and not(self.left is None):
+            distance_right = self.right.distance_to(vector)
+            distance_left = self.left.distance_to(vector)
+            if distance_right < distance_left :
+                return min(self.right.min_distance_to_min_path(vector,distance_right),root_score)
+            else :
+                return min(self.left.min_distance_to_min_path(vector,distance_right),root_score)
+        if not(self.right is None) and (self.left is None):
+            return min(self.right.min_distance_to_min_path(vector,self.right.distance_to(vector)),root_score)
+        if (self.right is None) and not(self.left is None):
+            min(self.left.min_distance_to_min_path(vector,self.left.distance_to(vector)),root_score)
+        if (self.right is None) and (self.left is None):
+            return root_score
+    def min_distance_to_min_path_initial_call(self,vector):
+        root_score = self.distance_to(vector)
+        print(root_score)
+        if not(self.right is None) and not(self.left is None):
+            distance_right = self.right.distance_to(vector)
+            distance_left = self.left.distance_to(vector)
+            if distance_right < distance_left :
+                return min(self.right.min_distance_to_min_path(vector,distance_right),root_score)
+            else :
+                return min(self.left.min_distance_to_min_path(vector,distance_right),root_score)
+        if not(self.right is None) and (self.left is None):
+            return min(self.right.min_distance_to_min_path(vector,self.right.distance_to(vector)),root_score)
+        if (self.right is None) and not(self.left is None):
+            min(self.left.min_distance_to_min_path(vector,self.left.distance_to(vector)),root_score)
+        if (self.right is None) and (self.left is None):
+            return root_score
+
+
 
 class Tree:
     def __init__(self,List_Vector=None):
@@ -154,6 +242,7 @@ class Tree:
         while len(current_level) > 1:
             current_level = Build_tree_level(current_level)
         self.root = current_level[0]
+    """
     def inference(self,data):
         if not(self.root is None):
             #La méthode prend une unique donnée en entrée et renvoie le score de similarité
@@ -169,6 +258,12 @@ class Tree:
                 return root_score
         else :
             return 10000 #Ca c'est vraiment brouillon mais tkt
+    """
+    def inference(self,data):
+        if not(self.root is None):
+            return self.root.min_distance_to_subtree(data)
+        else : #N'arrive que quand un arbre n'existe pas
+            return None
     def print(self):
         self.root.print()
 
@@ -184,7 +279,10 @@ class Forest_Model:
             if(len(List_Vector) < 1):
                 print("il n'y a pas de données pour la classe : "+str(i))
             else :
+                start = time.time()
                 self.Trees[i].Build_Tree(List_Vector)
+                end = time.time()
+                print("fin de la création de l'arbre de classe "+str(i)+" en temps : "+str(end-start))
     def predict(self,data):
         result = []
         for d in data:
@@ -207,5 +305,5 @@ class Forest_Model:
                 true +=1
         return true/len(prediction)
     def save(self):
-        with open('models/forestModel.pk1',"wb") as f:
+        with open('forestModel.pk1',"wb") as f:
             pickle.dump(self,f,pickle.HIGHEST_PROTOCOL)

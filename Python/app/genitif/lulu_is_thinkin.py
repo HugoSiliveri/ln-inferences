@@ -1,13 +1,14 @@
 import pickle
 from Models.Tree import Forest_Model
 from train import train_model
-
+from sklearn.model_selection import train_test_split
+import pandas as pd
 import pickle
-
+import time
 import json
 
-with open('dataset/.json') as f:
-        dataset = json.load(f)
+#with open('dataset/.json') as f:
+#        dataset = json.load(f)
 
 LIST_REL = [
         "r_has_causatif", 
@@ -27,10 +28,10 @@ LIST_REL = [
         "r_product_of"
 ]
 DICO_REL = {e: LIST_REL.index(e) for e in LIST_REL}
-df = pd.DataFrame.from_records(dataset)
-df["type_relation"] = df["type_relation"].map(DICO_REL)
-forest = Forest_Model(len(list_rel))
-forest.fit(df)
+#df = pd.DataFrame.from_records(dataset)
+#df["type_relation"] = df["type_relation"].map(DICO_REL)
+#forest = Forest_Model(len(list_rel))
+#forest.fit(df)
 
 class MyCustomUnpickler(pickle.Unpickler):
         def find_class(self, module, name):
@@ -38,13 +39,30 @@ class MyCustomUnpickler(pickle.Unpickler):
                         module = "Models.Tree"
                 return super().find_class(module, name)
 
-with open("Python/app/genitif/Models/forestModel.pk1", 'rb') as f:
+with open("Python/app/genitif/Models/forestModel_full_training.pk1", 'rb') as f:
         unpickler = MyCustomUnpickler(f)
         forest = unpickler.load()
 
-print(forest.Trees[0].root.data)
-node = forest.Trees[1].root
-niveau = 0
+with open("Python/app/genitif/dataset/preProcessed_Vectorized.json") as json_file:
+        dataset = json.load(json_file)
+print(len(dataset))
+exit()
+df = pd.DataFrame.from_records(dataset)
+df["type_relation"] = df["type_relation"].map(DICO_REL)
+
+train_set, test_set = train_test_split(df,random_state=42,test_size=0.2)
+print(type(train_set))
+print(df.head())
+
+start = time.time()
+print(forest.evaluate(df))
+end = time.time()
+print("temps d'inférence : "+str(end-start))
+
+#forest.Trees[4].inference(dataset[0]["features"])
+
+#TODO afficher la cardinalité des classes après vectorization, puis changer la taille du jeu de test k-fold parce que vas y quoi ...
+
 #while not (node is None):
 #        vector = node.data
 #        print("niveau "+str(niveau))

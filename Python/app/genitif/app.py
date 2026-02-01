@@ -3,8 +3,11 @@ import glob
 import pandas as pd
 import json
 import sys
+import time
+import math
 from pathlib import Path
 from sklearn.model_selection import KFold
+from sklearn.model_selection import train_test_split
 
 CURRENT_DIR = Path(__file__).resolve().parent
 CLEANING_PATH = CURRENT_DIR / "dataset" / "aWholeBunchOfDatasets" / "prog_for_dataset"
@@ -89,18 +92,66 @@ def run_pipeline():
             print(f"Note : {initial_len - len(df)} lignes ignorées (labels inconnus).")
 
         forest = Forest_Model(len(LIST_REL))
-        kf = KFold(n_splits=5, shuffle=True, random_state=42)
+        #kf = KFold(n_splits=5, shuffle=True, random_state=42)
         dataX = df["features"].to_list()
         acc_scores = []
-        
+        count = df["type_relation"].value_counts()
+        print("nombre de données dans chaque classe : ")
+        print(count)
+        count = [count[i] for i in range(15)]
+        print(count)
+        avg_count = sum(count)/len(count)
+        ecart_type_count = math.sqrt(sum([(e-avg_count)**2 for e in count]) / len(count))
+        print("l'écart-type est de : "+str(ecart_type_count))
+        if (ecart_type_count > 50):
+            print("Rééquillibrage des classes pour améliorer les performances d'entraînements")
+            sigma_k = ecart_type_count
+            new_avg = avg_count
+            avg_k = avg_count
+            new_count = [c for c in count]
+            min = 0
+            max = 1
+            k = 1
+            while int(sigma_k) != 50: #On calcule un coefficient de réduction des classes dont la taille est supérieure à la moyenne
+                print(k,min,max,sigma_k)
+                if sigma_k < 50 :
+                    k = (max-k)/2
+                    min = k
+                else :
+                    k = (k-min)/2
+                    new_avg = avg_k
+                    max = k
+                for i in range(len(new_count)):
+                    if new_count[i] > new_avg:
+                        new_count[i] = new_avg + k*(new_count[i] - new_avg)
+                print(new_count)
+                avg_k = sum(new_count) / len(new_count)
+                sigma_k = math.sqrt(sum([(e-avg_k)**2 for e in new_count]) / len(new_count))
+            new_df_list = [df[df["type_relation"] == i].sample(int(new_count[i])) for i in range(15)]
+            df = pd.concat(new_df_list)
         print(f"Lancement du K-Fold sur {len(df)} échantillons...")
-        for fold, (train_ix, test_ix) in enumerate(kf.split(dataX), 1):
-            train_df = df.iloc[train_ix]
-            test_df = df.iloc[test_ix]
+        for fold in range(5):
+            train_df, test_df = train_test_split(df,random_state=42,test_size=0.05)
             forest.fit(train_df)
+            print("Lancement de l'évaluation sur "+str(len(df)*0.05)+" data")
+            start = time.time()
             score = forest.evaluate(test_df)
+            end = time.time()
+            print("fin de l'évaluation en temps : "+str(end - start))
             acc_scores.append(score)
             print(f"   Fold {fold}/5 | Accuracy : {score:.4f}")
+        #for fold, (train_ix, test_ix) in enumerate(kf.split(dataX), 1):
+        #    train_df = df.iloc[train_ix]
+        #    test_df = df.iloc[test_ix]
+        #    forest.fit(train_df)
+        #    forest.save()
+        #    print("Lancement de l'évaluation")
+        #    start = time.time()
+        #    score = forest.evaluate(test_df)
+        #    end = time.time()
+        #    print("fin de l'évaluation en temps : "+str(end - start))
+        #    acc_scores.append(score)
+        #    print(f"   Fold {fold}/5 | Accuracy : {score:.4f}")
         
         print("-" * 30)
         print(f"Accuracy Moyenne : {sum(acc_scores)/len(acc_scores):.4f}")

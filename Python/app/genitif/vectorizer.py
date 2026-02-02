@@ -197,6 +197,28 @@ def clean_term(term):
             return term[len(art):].strip()
     return term
 
+def vectorize_pair(t1, t2, determinant):
+    """
+    Transforme un couple de mots au format identique à celle du dataset d'entraînement.
+    """
+    A = clean_term(t1)
+    B = clean_term(t2)
+    R = determinant.strip()
+
+    # Récupération des vecteurs bruts
+    raw_vec_A = get_vector_for_term(A, "A")
+    raw_vec_B = get_vector_for_term(B, "B")
+
+    # Normalisation
+    norm_A = normalize_features(raw_vec_A)
+    norm_B = normalize_features(raw_vec_B)
+
+    # Combinaison et formatage en arbre
+    combined = norm_A + norm_B
+    combined.append({"side": "R", "r_type": "prep", "target": R, "weight": 1.0})
+    
+    return convert_to_tree_structure(combined)
+
 
 #print("Création d'un petit dataset aléatoire pour test")
 #sample_file = create_sample_dataset(sample_size=50)

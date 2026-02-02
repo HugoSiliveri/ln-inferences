@@ -5,6 +5,7 @@ import json
 import sys
 import time
 import math
+import predict
 from pathlib import Path
 from sklearn.model_selection import KFold
 from sklearn.model_selection import train_test_split
@@ -53,6 +54,7 @@ def run_pipeline():
     do_cleaning = ask("[1] Lancer le nettoyage des datasets ?")
     do_vectorization = ask("[2] Lancer la vectorisation ?")
     do_training = ask("[3] Lancer l'entrainement du modèle ?")
+    do_predict = ask("[4] Lancer la prédiction ?")
 
     if do_cleaning:
         print("\n>> Action : Nettoyage en cours...")
@@ -164,7 +166,18 @@ def run_pipeline():
         print("Entraînement final et sauvegarde du modèle...")
         forest.fit(df)
         forest.save()
-        print("Pipeline terminé avec succès.")
+
+    if do_predict:
+        try:
+            print("\n>> Action : Lancement de l'interface de prédiction...")
+            predict.run_inference() 
+            
+        except ImportError:
+            print("Erreur : Le fichier 'predict.py' est introuvable.")
+        except Exception as e:
+            print(f"Erreur lors de l'exécution de predict.py : {e}")
+    
+    print("Pipeline terminé avec succès.")
 
 if __name__ == "__main__":
     run_pipeline()

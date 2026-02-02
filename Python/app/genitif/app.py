@@ -54,7 +54,8 @@ def run_pipeline():
     do_cleaning = ask("[1] Lancer le nettoyage des datasets ?")
     do_vectorization = ask("[2] Lancer la vectorisation ?")
     do_training = ask("[3] Lancer l'entrainement du modèle ?")
-    do_predict = ask("[4] Lancer la prédiction ?")
+    do_kfold = ask("[4] Lancer le K-Fold lors de l'entrainement ?")
+    do_predict = ask("[5] Lancer la prédiction ?")
 
     if do_cleaning:
         print("\n>> Action : Nettoyage en cours...")
@@ -135,17 +136,20 @@ def run_pipeline():
             new_df_list = [df[df["type_relation"] == i].sample(int(new_count[i])) for i in range(15)]
             df = pd.concat(new_df_list)
             exit()
-        print(f"Lancement du K-Fold sur {len(df)} échantillons...")
-        for fold in range(5):
-            train_df, test_df = train_test_split(df,random_state=42,test_size=0.05)
-            forest.fit(train_df)
-            print("Lancement de l'évaluation sur "+str(int(len(df)*0.05))+" data")
-            start = time.time()
-            score = forest.evaluate(test_df)
-            end = time.time()
-            print("fin de l'évaluation en temps : "+str(end - start))
-            acc_scores.append(score)
-            print(f"   Fold {fold}/5 | Accuracy : {score:.4f}")
+        
+        if do_kfold:
+            print(f"Lancement du K-Fold sur {len(df)} échantillons...")
+            for fold in range(5):
+                train_df, test_df = train_test_split(df,random_state=42,test_size=0.05)
+                forest.fit(train_df)
+                print("Lancement de l'évaluation sur "+str(int(len(df)*0.05))+" data")
+                start = time.time()
+                score = forest.evaluate(test_df)
+                end = time.time()
+                print("fin de l'évaluation en temps : "+str(end - start))
+                acc_scores.append(score)
+                print(f"   Fold {fold}/5 | Accuracy : {score:.4f}")
+
         #for fold, (train_ix, test_ix) in enumerate(kf.split(dataX), 1):
         #    train_df = df.iloc[train_ix]
         #    test_df = df.iloc[test_ix]

@@ -163,9 +163,10 @@ def run_pipeline():
         #    acc_scores.append(score)
         #    print(f"   Fold {fold}/5 | Accuracy : {score:.4f}")
         
-        print("-" * 30)
-        print(f"Accuracy Moyenne : {sum(acc_scores)/len(acc_scores):.4f}")
-        print("-" * 30)
+        if acc_scores:
+            print("-" * 30)
+            print(f"Accuracy Moyenne : {sum(acc_scores)/len(acc_scores):.4f}")
+            print("-" * 30)
 
         print("Entraînement final et sauvegarde du modèle...")
         forest.fit(df)

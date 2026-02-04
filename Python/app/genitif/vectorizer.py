@@ -72,24 +72,22 @@ def get_vector_for_term(term: str, side: str):
 
 def normalize_features(features_list):
     """
-    Normalise les poids d'une liste de caractéristiques entre 0 et 1.
+    Normalise les poids positifs par terme (max à 1).
+    Les poids négatifs sont fixés à -1 sans normalisation.
     """
     if not features_list:
         return []
         
     weights = [f["weight"] for f in features_list if f["weight"] > 0]
+    max_w = max(weights) if weights else 0
     
-    if weights:
-        min_w = min(weights)
-        max_w = max(weights)
-        range_w = max_w - min_w
-        
-        for f in features_list:
-            if f["weight"] > 0:
-                if range_w > 0:
-                    f["weight"] = f["weight"] / max_w
-                else:
-                    f["weight"] = 1.0
+    for f in features_list:
+        w = f["weight"]
+        if w > 0:
+            f["weight"] = w / max_w if max_w > 0 else 1.0
+        elif w < 0:
+            f["weight"] = -1.0
+            
     return features_list
 
 def vectorize_all_datasets(input_dir="../Datasets_forever/", output_file=OUTPUT_FILE):

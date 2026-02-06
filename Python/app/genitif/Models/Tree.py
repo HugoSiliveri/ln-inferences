@@ -1,5 +1,19 @@
 import pickle
 import time
+from collections import Counter
+
+def insert_sorted_min(L,value,size):
+    if(len(L) < size):
+        L = [1] + L
+    if L[0] < value:
+        return L
+    i=1
+    while i < len(L) and L[i] > value and i < size:
+        if i != 0:
+            L[i-1] = L[i]
+        i+=1
+    L[i-1] = value
+    return L
 
 class TreeNode:
     def __init__(self, data, left = None, right = None):
@@ -57,17 +71,22 @@ class TreeNode:
                         sim.append(abs(v2))
 
         return sum(sim) / len(sim) if sim else 0
-    def min_distance_to_subtree(self,vector):
+    def min_distance_to_subtree(self,vector,size):
         root_score = self.distance_to(vector)
         if not(self.right is None) and not(self.left is None):
-            child_score = min(self.right.min_distance_to_subtree(vector),self.left.min_distance_to_subtree(vector))
-            return min(child_score,root_score)
+            list_right = self.right.min_distance_to_subtree(vector,size)
+            list_left = self.left.min_distance_to_subtree(vector,size)
+            for i in list_right:
+                list_left = insert_sorted_min(list_left,i,size)
+            return insert_sorted_min(list_left,root_score,size)
         if not(self.right is None) and (self.left is None):
-            return min(self.right.min_distance_to_subtree(vector),root_score)
+            list_right = self.right.min_distance_to_subtree(vector,size)
+            return insert_sorted_min(list_right,root_score,size)
         if (self.right is None) and not(self.left is None):
-            return min(self.left.min_distance_to_subtree(vector),root_score)
+            list_left = self.left.min_distance_to_subtree(vector,size)
+            return insert_sorted_min(list_left,root_score,size)
         if (self.right is None) and (self.left is None):
-            return root_score
+            return [root_score]
     def min_distance_to_min_path(self,vector,root_score):
         print(root_score)
         if not(self.right is None) and not(self.left is None):
@@ -261,7 +280,7 @@ class Tree:
     """
     def inference(self,data):
         if not(self.root is None):
-            return self.root.min_distance_to_subtree(data)
+            return self.root.min_distance_to_subtree(data,10)
         else : #N'arrive que quand un arbre n'existe pas
             return None
     def print(self):
@@ -284,17 +303,49 @@ class Forest_Model:
                 end = time.time()
                 print("fin de la création de l'arbre de classe "+str(i)+" en temps : "+str(end-start))
     def predict(self,data):
+        avg_scores_per_cat = [0.1306013,0.20405566,0.18749338,0.15407637,0.19266264,0.16641795,0.17236032,0.18704675,0.18230625,0.15071384,0.15495763,0.17754722,0.13939424,0.14471978,0.18204669]
+        size = 10
         result = []
         for d in data:
-            list_sim = [e.inference(d) for e in self.Trees]
+            list_sim = [e.inference(d) for e in self.Trees]#Avec la version k plus proches noeuds cette variables est une liste de taille 15 de listes de tailles k
+            for l in range(len(list_sim)):
+                list_sim[l] = [list_sim[l][i] + (0.21 - avg_scores_per_cat[l]) for i in range(len(list_sim[l]))]
+            #list_sim[12] = [e+0.05 for e in list_sim[12]]
+            
             #print(list_sim)
-            min_sim = list_sim[0]
-            index = 0
-            for i in range(1,len(list_sim)):
-                if min_sim > list_sim[i]:
-                    min_sim = list_sim[i]
-                    index = i
-            result.append(index)
+            #min_sim = list_sim[0]
+            #index = 0
+            #for i in range(1,len(list_sim)):
+            #    if min_sim > list_sim[i]:
+            #        min_sim = list_sim[i]
+            #        index = i
+            #result.append(index)
+            L = list_sim[0]
+            classe_resultats = [0]*size
+            for c in range(1,len(list_sim)):
+                for e in list_sim[c]:
+                    if L[0] > e:
+                        i=1
+                        while i < size and L[i] > e:
+                            L[i-1] = L[i]
+                            classe_resultats[i-1] = classe_resultats[i]
+                            i+=1
+                        L[i-1] = e
+                        classe_resultats[i-1] = c
+            counter_classes = Counter(classe_resultats)
+            predict = counter_classes.most_common()
+            #print(predict)
+            #min_list = min(list_sim)
+            #list_norm_1 = [m - min_list for m in list_sim]
+            #max_list = max(list_norm_1)
+            #predict = [m/max_list for m in list_norm_1] #on peut dire que si le poid de r_product_of est inférieur a 0.9 dans la liste max alors il est dans la classe
+            
+            #Il faut comparer les valeurs du millieu dans les listes ou le min est à 0 et le max à 1
+            #Les valeurs hautes quand le max n'est pas à 1
+            #Les valleurs basses quand le min n'est pas à 0
+            #result.append([sum(l)/len(l) for l in list_sim])
+            print(predict)
+            result.append(predict[0][0])
         return result
     def evaluate(self,dataframe):
         prediction = self.predict(dataframe["features"])
@@ -305,5 +356,5 @@ class Forest_Model:
                 true +=1
         return true/len(prediction)
     def save(self):
-        with open('forestModel.pk1',"wb") as f:
+        with open('genitif/models/forestModel.pk1',"wb") as f:
             pickle.dump(self,f,pickle.HIGHEST_PROTOCOL)

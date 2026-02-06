@@ -33,16 +33,54 @@ DICO_REL = {e: LIST_REL.index(e) for e in LIST_REL}
 #forest = Forest_Model(len(list_rel))
 #forest.fit(df)
 
+#df = pd.read_csv("Python/app/genitif/dataset/aWholeBunchOfDatasets/Datasets_forever/first_version/r_objet_matière_full.csv")
+#df = df.sample(1150)
+#df.to_csv("Python/app/genitif/dataset/aWholeBunchOfDatasets/Datasets_forever/r_objet_matière.csv")
+
 class MyCustomUnpickler(pickle.Unpickler):
         def find_class(self, module, name):
                 if module == "__main__":
                         module = "Models.Tree"
                 return super().find_class(module, name)
 
-with open("Python/app/genitif/Models/forestModel_full_training.pk1", 'rb') as f:
+with open("Python/app/genitif/models/forestModel.pk1", 'rb') as f:
         unpickler = MyCustomUnpickler(f)
         forest = unpickler.load()
 
+root_1_data = forest.Trees[0].root.data
+
+#for key in root_1_data["A"].keys():
+#        print(root_1_data["A"][key])
+
+
+#with open("Python/app/genitif/dataset/vectors.json") as json_file:
+#        dataset = json.load(json_file)
+
+dataset = pd.read_json("Python/app/genitif/dataset/vectors.json")
+
+count = dataset["type_relation"].value_counts()
+print(count)
+print(min(count))
+print(len(count))
+
+exit()
+sub_dataset = dataset.sample(10)
+print(sub_dataset["type_relation"].apply(lambda x: LIST_REL.index(x)))
+classif_results = forest.predict(sub_dataset["features"])
+for l in classif_results:
+        print(l.index(min(l)))
+
+avg = [0]*len(classif_results[0])
+for i in range(len(classif_results)):
+        for j in range(len(classif_results[i])):
+                avg[j]+= classif_results[i][j]
+
+avg = [e/len(classif_results[0]) for e in avg]
+
+print(avg)
+
+###### dont go below #####
+exit()
 with open("Python/app/genitif/dataset/preProcessed_Vectorized.json") as json_file:
         dataset = json.load(json_file)
 print(len(dataset))

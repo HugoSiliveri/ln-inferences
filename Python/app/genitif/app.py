@@ -102,72 +102,33 @@ def run_pipeline():
         print("nombre de données dans chaque classe : ")
         print(count)
         count = [count[i] for i in range(15)]
-        print(count)
         avg_count = sum(count)/len(count)
         ecart_type_count = math.sqrt(sum([(e-avg_count)**2 for e in count]) / len(count))
         print("l'écart-type est de : "+str(ecart_type_count))
-        if (False): # ecart_type_count > 50
-            print("Rééquillibrage des classes pour améliorer les performances d'entraînements")
-            sigma_k = ecart_type_count
-            new_avg = avg_count
-            avg_k = avg_count
-            new_count = [c for c in count]
-            min = 0
-            max = 1
-            k = 1
-            cpt = 0
-            while int(sigma_k) != 50 and min < max and cpt < 5: #On calcule un coefficient de réduction des classes dont la taille est supérieure à la moyenne
-                print(min,max,k,sigma_k)
-                if sigma_k < 50 :
-                    min = k
-                    k = (max-k)/2 + k
-                    new_avg = avg_k
-                else :
-                    max = k
-                    k = (k-min)/2
-                    new_avg = avg_k
-                for i in range(len(new_count)):
-                    if new_count[i] > new_avg:
-                        new_count[i] = new_avg + k*(new_count[i] - new_avg)
-                avg_k = sum(new_count) / len(new_count)
-                sigma_k = math.sqrt(sum([(e-avg_k)**2 for e in new_count]) / len(new_count))
-                print(new_count)
-                cpt+=1
-            new_df_list = [df[df["type_relation"] == i].sample(int(new_count[i])) for i in range(15)]
-            df = pd.concat(new_df_list)
-            exit()
-        
+        #min_size_class = min(count)
+        #df = pd.concat([df[df["type_relation"] == i].sample(min_size_class) for i in range(len(count))])
+        #print(df["type_relation"].value_counts())
         if do_kfold:
             print(f"Lancement du K-Fold sur {len(df)} échantillons...")
-            for fold in range(5):
+            for fold in range(3):
                 train_df, test_df = train_test_split(df,random_state=42,test_size=0.05)
                 forest.fit(train_df)
                 print("Lancement de l'évaluation sur "+str(int(len(df)*0.05))+" data")
+                #results = forest.predict(test_df["features"])
+                #sum_list = [0]*len(results[0])
+                #for L in results:
+                #    for c in range(len(L)):
+                #        sum_list[c] += L[c]
+                #print([sum/len(results) for sum in sum_list])
                 start = time.time()
                 score = forest.evaluate(test_df)
                 end = time.time()
                 print("fin de l'évaluation en temps : "+str(end - start))
                 acc_scores.append(score)
-                print(f"   Fold {fold}/5 | Accuracy : {score:.4f}")
-
-        #for fold, (train_ix, test_ix) in enumerate(kf.split(dataX), 1):
-        #    train_df = df.iloc[train_ix]
-        #    test_df = df.iloc[test_ix]
-        #    forest.fit(train_df)
-        #    forest.save()
-        #    print("Lancement de l'évaluation")
-        #    start = time.time()
-        #    score = forest.evaluate(test_df)
-        #    end = time.time()
-        #    print("fin de l'évaluation en temps : "+str(end - start))
-        #    acc_scores.append(score)
-        #    print(f"   Fold {fold}/5 | Accuracy : {score:.4f}")
-        
-        if acc_scores:
+                print(f"   Fold {fold}/3 | Accuracy : {score:.4f}")
             print("-" * 30)
             print(f"Accuracy Moyenne : {sum(acc_scores)/len(acc_scores):.4f}")
             print("-" * 30)
-
         print("Entraînement final et sauvegarde du modèle...")
         forest.fit(df)
         forest.save()

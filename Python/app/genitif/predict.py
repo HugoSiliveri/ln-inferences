@@ -23,10 +23,10 @@ def run_inference(forest=None):
     if forest is None:
         print("loading model")
         try:
-            with open("genitif/models/forestModel.pk1", "rb") as f:
+            with open("Models/forestModel.pk1", "rb") as f:
                 forest = pickle.load(f)
         except FileNotFoundError:
-            print("Erreur : Le fichier 'genitif/models/forestModel.pk1' est introuvable.")
+            print("Erreur : Le fichier 'Models/forestModel.pk1' est introuvable.")
             return
 
     print("Entrez vos triplets (format: 'N de N') ou 'exit' pour sortir.")

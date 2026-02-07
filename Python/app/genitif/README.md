@@ -1,4 +1,4 @@
-# 🔗 Mini projet : TALN 
+# 🔗 Mini projet : TALN 2
 Hugo SILIVERI - Lucien BOUBY
 
 ## 📂 Structure du projet
@@ -30,11 +30,22 @@ Pour accéder au shell du conteneur de l'application :
 docker exec -it app_container sh
 ```
 
-La commande pour réaliser une inférence est :
+Les commandes pour lancer l'application sont :
 ```bash
 cd genitif
 python app.py
 ```
+
+Vous aurez ensuite une boite de dialogue avec ces choix où il faut répondre 'o' pour oui et 'n' pour non selon ce que vous voulez faire : 
+
+```text
+[1] Lancer le nettoyage des datasets ? (o/n) : #Fonction qui servait à rajouter le type de relation pour chaque triplet du dataset
+[2] Lancer la vectorisation ? (o/n) :
+[3] Lancer l'entrainement du modèle ? (o/n) :
+[4] Lancer le K-Fold lors de l'entrainement ? (o/n) : 
+[5] Lancer la prédiction ? (o/n) : 
+```
+
 
 ## ❓ FAQ
 

@@ -356,5 +356,5 @@ class Forest_Model:
                 true +=1
         return true/len(prediction)
     def save(self):
-        with open('genitif/models/forestModel.pk1',"wb") as f:
+        with open('Models/forestModel.pk1',"wb") as f:
             pickle.dump(self,f,pickle.HIGHEST_PROTOCOL)

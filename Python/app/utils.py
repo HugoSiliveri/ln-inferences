@@ -3,6 +3,8 @@ import json
 import sys
 import api
 import math
+import sys
+import api
 
 def get_relation_id_by_name(name):
     with open('relations.json', 'r') as file:

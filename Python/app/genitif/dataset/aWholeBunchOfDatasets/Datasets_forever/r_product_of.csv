@@ -1,0 +1,1063 @@
+A,determinant,B,type_relation
+tableau,de,Van Gogh,r_product_of
+gâteau,du,pâtissier,r_product_of
+lait,de la,vache,r_product_of
+soupe,de,maman,r_product_of
+pain,du,boulanger,r_product_of
+fromage,du,fermier,r_product_of
+vin,du,vigneron,r_product_of
+bière,du,brasseur,r_product_of
+miel,de l',abeille,r_product_of
+œuf,de la,poule,r_product_of
+laine,du,mouton,r_product_of
+soie,du,ver,r_product_of
+cire,de l',abeille,r_product_of
+perle,de l',huître,r_product_of
+cuir,de la,vache,r_product_of
+fourrure,du,renard,r_product_of
+plume,de l',oie,r_product_of
+duvet,du,canard,r_product_of
+venin,du,serpent,r_product_of
+encre,de la,pieuvre,r_product_of
+parfum,du,parfumeur,r_product_of
+sculpture,du,sculpteur,r_product_of
+poème,du,poète,r_product_of
+roman,de l',écrivain,r_product_of
+chanson,du,chanteur,r_product_of
+symphonie,du,compositeur,r_product_of
+film,du,réalisateur,r_product_of
+photographie,du,photographe,r_product_of
+dessin,du,dessinateur,r_product_of
+peinture,du,peintre,r_product_of
+gravure,du,graveur,r_product_of
+fresque,du,fresquiste,r_product_of
+mosaïque,du,mosaïste,r_product_of
+tapisserie,du,tapissier,r_product_of
+broderie,de la,brodeuse,r_product_of
+dentelle,de la,dentellière,r_product_of
+tricot,de la,tricoteuse,r_product_of
+poterie,du,potier,r_product_of
+céramique,du,céramiste,r_product_of
+porcelaine,du,porcelainier,r_product_of
+faïence,du,faïencier,r_product_of
+verre,du,verrier,r_product_of
+cristal,du,cristallier,r_product_of
+vitrail,du,verrier,r_product_of
+forge,du,forgeron,r_product_of
+ferronnerie,du,ferronnier,r_product_of
+serrurerie,du,serrurier,r_product_of
+menuiserie,du,menuisier,r_product_of
+ébénisterie,de l',ébéniste,r_product_of
+charpente,du,charpentier,r_product_of
+maçonnerie,du,maçon,r_product_of
+plâtrerie,du,plâtrier,r_product_of
+couverture,du,couvreur,r_product_of
+toiture,du,couvreur,r_product_of
+vitrage,du,vitrier,r_product_of
+plomberie,du,plombier,r_product_of
+bijou,du,bijoutier,r_product_of
+orfèvrerie,de l',orfèvre,r_product_of
+joaillerie,du,joaillier,r_product_of
+horlogerie,de l',horloger,r_product_of
+montre,de l',horloger,r_product_of
+pendule,de l',horloger,r_product_of
+mécanisme,de l',horloger,r_product_of
+vêtement,du,tailleur,r_product_of
+costume,du,tailleur,r_product_of
+robe,de la,couturière,r_product_of
+manteau,du,tailleur,r_product_of
+chemise,de la,chemisière,r_product_of
+chapeau,du,chapelier,r_product_of
+chaussure,du,cordonnier,r_product_of
+botte,du,bottier,r_product_of
+soulier,du,cordonnier,r_product_of
+selle,du,sellier,r_product_of
+harnais,du,bourrelier,r_product_of
+maroquinerie,du,maroquinier,r_product_of
+sac,du,maroquinier,r_product_of
+ceinture,du,maroquinier,r_product_of
+gant,du,gantier,r_product_of
+livre,de l',auteur,r_product_of
+article,du,journaliste,r_product_of
+reportage,du,reporter,r_product_of
+plan,de l',architecte,r_product_of
+maquette,de l',architecte,r_product_of
+schéma,de l',ingénieur,r_product_of
+invention,de l',inventeur,r_product_of
+découverte,du,chercheur,r_product_of
+théorie,du,scientifique,r_product_of
+formule,du,mathématicien,r_product_of
+diagnostic,du,médecin,r_product_of
+ordonnance,du,médecin,r_product_of
+prescription,du,médecin,r_product_of
+soin,de l',infirmière,r_product_of
+réparation,du,mécanicien,r_product_of
+confection,du,confiseur,r_product_of
+pâtisserie,du,pâtissier,r_product_of
+viennoiserie,du,boulanger,r_product_of
+croissant,du,boulanger,r_product_of
+brioche,du,boulanger,r_product_of
+éclair,du,pâtissier,r_product_of
+macaron,du,pâtissier,r_product_of
+tarte,du,pâtissier,r_product_of
+gâteau,du,boulanger,r_product_of
+biscuit,du,biscuitier,r_product_of
+bonbon,du,confiseur,r_product_of
+chocolat,du,chocolatier,r_product_of
+praline,du,chocolatier,r_product_of
+truffe,du,chocolatier,r_product_of
+caramel,du,confiseur,r_product_of
+nougat,du,confiseur,r_product_of
+dragée,du,confiseur,r_product_of
+sucre,du,sucrier,r_product_of
+sirop,du,confiseur,r_product_of
+confiture,du,confiturier,r_product_of
+marmelade,du,confiturier,r_product_of
+gelée,du,confiturier,r_product_of
+compote,du,confiturier,r_product_of
+conserve,du,conserveur,r_product_of
+bocal,du,conserveur,r_product_of
+saumure,du,saumurier,r_product_of
+marinade,du,cuisinier,r_product_of
+sauce,du,cuisinier,r_product_of
+bouillon,du,cuisinier,r_product_of
+fond,du,cuisinier,r_product_of
+jus,du,cuisinier,r_product_of
+roux,du,cuisinier,r_product_of
+béchamel,du,cuisinier,r_product_of
+velouté,du,cuisinier,r_product_of
+consommé,du,cuisinier,r_product_of
+potage,du,cuisinier,r_product_of
+crème,du,cuisinier,r_product_of
+mousse,du,cuisinier,r_product_of
+flan,du,cuisinier,r_product_of
+crème,du,crémier,r_product_of
+beurre,du,crémier,r_product_of
+yaourt,du,crémier,r_product_of
+fromage,du,fromager,r_product_of
+tome,du,fromager,r_product_of
+tomme,du,fromager,r_product_of
+cantal,du,fromager,r_product_of
+comté,du,fromager,r_product_of
+gruyère,du,fromager,r_product_of
+emmental,du,fromager,r_product_of
+camembert,du,fromager,r_product_of
+brie,du,fromager,r_product_of
+roquefort,du,fromager,r_product_of
+bleu,du,fromager,r_product_of
+chèvre,du,fromager,r_product_of
+crottin,du,fromager,r_product_of
+caillé,du,fromager,r_product_of
+présure,du,fromager,r_product_of
+caillage,du,fromager,r_product_of
+affinage,du,fromager,r_product_of
+meule,du,fromager,r_product_of
+tomme,du,fermier,r_product_of
+lait,de la,chèvre,r_product_of
+lait,de la,brebis,r_product_of
+lait,de la,jument,r_product_of
+lait,de l',ânesse,r_product_of
+crème,de la,vache,r_product_of
+beurre,de la,vache,r_product_of
+babeurre,de la,vache,r_product_of
+petit-lait,de la,vache,r_product_of
+lactosérum,de la,vache,r_product_of
+caillé,de la,vache,r_product_of
+fromage,de la,chèvre,r_product_of
+fromage,de la,brebis,r_product_of
+viande,du,boucher,r_product_of
+steak,du,boucher,r_product_of
+côte,du,boucher,r_product_of
+entrecôte,du,boucher,r_product_of
+filet,du,boucher,r_product_of
+rôti,du,boucher,r_product_of
+gigot,du,boucher,r_product_of
+épaule,du,boucher,r_product_of
+poitrine,du,boucher,r_product_of
+jarret,du,boucher,r_product_of
+collier,du,boucher,r_product_of
+échine,du,boucher,r_product_of
+côtelette,du,boucher,r_product_of
+escalope,du,boucher,r_product_of
+pavé,du,boucher,r_product_of
+tournedos,du,boucher,r_product_of
+chateaubriand,du,boucher,r_product_of
+rumsteck,du,boucher,r_product_of
+faux-filet,du,boucher,r_product_of
+bavette,du,boucher,r_product_of
+onglet,du,boucher,r_product_of
+hampe,du,boucher,r_product_of
+araignée,du,boucher,r_product_of
+poire,du,boucher,r_product_of
+merlan,du,boucher,r_product_of
+saucisse,du,charcutier,r_product_of
+saucisson,du,charcutier,r_product_of
+boudin,du,charcutier,r_product_of
+andouille,du,charcutier,r_product_of
+andouillette,du,charcutier,r_product_of
+pâté,du,charcutier,r_product_of
+terrine,du,charcutier,r_product_of
+rillettes,du,charcutier,r_product_of
+rillons,du,charcutier,r_product_of
+jambon,du,charcutier,r_product_of
+lard,du,charcutier,r_product_of
+bacon,du,charcutier,r_product_of
+poitrine,du,charcutier,r_product_of
+travers,du,charcutier,r_product_of
+échine,du,charcutier,r_product_of
+palette,du,charcutier,r_product_of
+jambonneau,du,charcutier,r_product_of
+jarret,du,charcutier,r_product_of
+pie,du,charcutier,r_product_of
+museau,du,charcutier,r_product_of
+fromage,du,charcutier,r_product_of
+ballottine,du,charcutier,r_product_of
+galantine,du,charcutier,r_product_of
+cervelas,du,charcutier,r_product_of
+mortadelle,du,charcutier,r_product_of
+salami,du,charcutier,r_product_of
+rosette,du,charcutier,r_product_of
+saucisson,du,saucissier,r_product_of
+merguez,du,boucher,r_product_of
+chipolata,du,boucher,r_product_of
+volaille,du,volailler,r_product_of
+poulet,du,fermier,r_product_of
+poule,du,fermier,r_product_of
+coq,du,fermier,r_product_of
+chapon,du,fermier,r_product_of
+poularde,du,fermier,r_product_of
+coquelet,du,fermier,r_product_of
+canard,du,fermier,r_product_of
+caneton,du,fermier,r_product_of
+oie,de l',éleveur,r_product_of
+dinde,du,fermier,r_product_of
+dindon,du,fermier,r_product_of
+pintade,du,fermier,r_product_of
+pigeon,de l',éleveur,r_product_of
+caille,de l',éleveur,r_product_of
+faisan,de l',éleveur,r_product_of
+perdrix,de l',éleveur,r_product_of
+lapin,de l',éleveur,r_product_of
+lièvre,du,chasseur,r_product_of
+chevreuil,du,chasseur,r_product_of
+sanglier,du,chasseur,r_product_of
+cerf,du,chasseur,r_product_of
+biche,du,chasseur,r_product_of
+daim,du,chasseur,r_product_of
+gibier,du,chasseur,r_product_of
+venaison,du,chasseur,r_product_of
+peau,de la,bête,r_product_of
+fourrure,de la,bête,r_product_of
+poisson,du,pêcheur,r_product_of
+truite,du,pêcheur,r_product_of
+saumon,du,pêcheur,r_product_of
+brochet,du,pêcheur,r_product_of
+carpe,du,pêcheur,r_product_of
+perche,du,pêcheur,r_product_of
+tanche,du,pêcheur,r_product_of
+anguille,du,pêcheur,r_product_of
+thon,du,pêcheur,r_product_of
+sardine,du,pêcheur,r_product_of
+maquereau,du,pêcheur,r_product_of
+hareng,du,pêcheur,r_product_of
+morue,du,pêcheur,r_product_of
+cabillaud,du,pêcheur,r_product_of
+merlu,du,pêcheur,r_product_of
+sole,du,pêcheur,r_product_of
+turbot,du,pêcheur,r_product_of
+barbue,du,pêcheur,r_product_of
+raie,du,pêcheur,r_product_of
+lotte,du,pêcheur,r_product_of
+rouget,du,pêcheur,r_product_of
+daurade,du,pêcheur,r_product_of
+bar,du,pêcheur,r_product_of
+lieu,du,pêcheur,r_product_of
+colin,du,pêcheur,r_product_of
+églefin,du,pêcheur,r_product_of
+aiglefin,du,pêcheur,r_product_of
+limande,du,pêcheur,r_product_of
+plie,du,pêcheur,r_product_of
+carrelet,du,pêcheur,r_product_of
+flétan,du,pêcheur,r_product_of
+espadon,du,pêcheur,r_product_of
+roussette,du,pêcheur,r_product_of
+squale,du,pêcheur,r_product_of
+requin,du,pêcheur,r_product_of
+lamproie,du,pêcheur,r_product_of
+congre,du,pêcheur,r_product_of
+murène,du,pêcheur,r_product_of
+crevette,du,pêcheur,r_product_of
+gambas,du,pêcheur,r_product_of
+langoustine,du,pêcheur,r_product_of
+homard,du,pêcheur,r_product_of
+langouste,du,pêcheur,r_product_of
+crabe,du,pêcheur,r_product_of
+tourteau,du,pêcheur,r_product_of
+araignée,du,pêcheur,r_product_of
+étrille,du,pêcheur,r_product_of
+huître,de l',ostréiculteur,r_product_of
+moule,du,mytiliculteur,r_product_of
+coquille,du,pêcheur,r_product_of
+praire,du,pêcheur,r_product_of
+palourde,du,pêcheur,r_product_of
+clam,du,pêcheur,r_product_of
+coque,du,pêcheur,r_product_of
+couteau,du,pêcheur,r_product_of
+pétoncle,du,pêcheur,r_product_of
+vanasse,du,pêcheur,r_product_of
+bulot,du,pêcheur,r_product_of
+bigorneau,du,pêcheur,r_product_of
+escargot,de l',héliciculteur,r_product_of
+grenouille,du,ranaculteur,r_product_of
+caviar,de l',esturgeon,r_product_of
+œuf,de l',esturgeon,r_product_of
+œufs,de la,truite,r_product_of
+œufs,du,saumon,r_product_of
+laitance,du,poisson,r_product_of
+algue,du,cultivateur,r_product_of
+varech,du,cultivateur,r_product_of
+goémon,du,cultivateur,r_product_of
+nori,du,cultivateur,r_product_of
+wakame,du,cultivateur,r_product_of
+kombu,du,cultivateur,r_product_of
+spiruline,du,cultivateur,r_product_of
+légume,du,maraîcher,r_product_of
+salade,du,maraîcher,r_product_of
+laitue,du,maraîcher,r_product_of
+scarole,du,maraîcher,r_product_of
+frisée,du,maraîcher,r_product_of
+chicorée,du,maraîcher,r_product_of
+endive,du,maraîcher,r_product_of
+mâche,du,maraîcher,r_product_of
+roquette,du,maraîcher,r_product_of
+cresson,du,maraîcher,r_product_of
+épinard,du,maraîcher,r_product_of
+oseille,du,maraîcher,r_product_of
+blette,du,maraîcher,r_product_of
+bette,du,maraîcher,r_product_of
+carde,du,maraîcher,r_product_of
+cardon,du,maraîcher,r_product_of
+céleri,du,maraîcher,r_product_of
+chou,du,maraîcher,r_product_of
+chou-fleur,du,maraîcher,r_product_of
+brocoli,du,maraîcher,r_product_of
+chou-rave,du,maraîcher,r_product_of
+chou-navet,du,maraîcher,r_product_of
+navet,du,maraîcher,r_product_of
+radis,du,maraîcher,r_product_of
+carotte,du,maraîcher,r_product_of
+panais,du,maraîcher,r_product_of
+betterave,du,maraîcher,r_product_of
+rutabaga,du,maraîcher,r_product_of
+topinambour,du,maraîcher,r_product_of
+salsifis,du,maraîcher,r_product_of
+scorsonère,du,maraîcher,r_product_of
+poireau,du,maraîcher,r_product_of
+oignon,du,maraîcher,r_product_of
+échalote,du,maraîcher,r_product_of
+ail,du,maraîcher,r_product_of
+ciboule,du,maraîcher,r_product_of
+ciboulette,du,maraîcher,r_product_of
+tomate,du,maraîcher,r_product_of
+aubergine,du,maraîcher,r_product_of
+courgette,du,maraîcher,r_product_of
+courge,du,maraîcher,r_product_of
+potiron,du,maraîcher,r_product_of
+citrouille,du,maraîcher,r_product_of
+potimarron,du,maraîcher,r_product_of
+concombre,du,maraîcher,r_product_of
+cornichon,du,maraîcher,r_product_of
+poivron,du,maraîcher,r_product_of
+piment,du,maraîcher,r_product_of
+haricot,du,maraîcher,r_product_of
+fève,du,maraîcher,r_product_of
+pois,du,maraîcher,r_product_of
+lentille,du,maraîcher,r_product_of
+pois-chiche,du,maraîcher,r_product_of
+flageolet,du,maraîcher,r_product_of
+haricot,du,cultivateur,r_product_of
+mongette,du,maraîcher,r_product_of
+asperge,du,maraîcher,r_product_of
+artichaut,du,maraîcher,r_product_of
+fenouil,du,maraîcher,r_product_of
+pomme,du,verger,r_product_of
+poire,du,verger,r_product_of
+prune,du,verger,r_product_of
+cerise,du,verger,r_product_of
+abricot,du,verger,r_product_of
+pêche,du,verger,r_product_of
+nectarine,du,verger,r_product_of
+brugnon,du,verger,r_product_of
+mirabelle,du,verger,r_product_of
+quetsche,du,verger,r_product_of
+reine-claude,du,verger,r_product_of
+griotte,du,verger,r_product_of
+bigarreau,du,verger,r_product_of
+guigne,du,verger,r_product_of
+merise,du,verger,r_product_of
+figue,du,verger,r_product_of
+coing,du,verger,r_product_of
+nèfle,du,verger,r_product_of
+châtaigne,du,verger,r_product_of
+marron,du,verger,r_product_of
+noix,du,verger,r_product_of
+noisette,du,verger,r_product_of
+amande,du,verger,r_product_of
+olive,du,verger,r_product_of
+huile,de l',olivier,r_product_of
+huile,du,moulin,r_product_of
+raisin,de la,vigne,r_product_of
+vendange,de la,vigne,r_product_of
+grappe,de la,vigne,r_product_of
+grain,de la,vigne,r_product_of
+marc,du,vigneron,r_product_of
+eau-de-vie,du,distillateur,r_product_of
+alcool,du,distillateur,r_product_of
+cognac,du,distillateur,r_product_of
+armagnac,du,distillateur,r_product_of
+calvados,du,distillateur,r_product_of
+rhum,du,distillateur,r_product_of
+whisky,du,distillateur,r_product_of
+vodka,du,distillateur,r_product_of
+gin,du,distillateur,r_product_of
+liqueur,du,liquoriste,r_product_of
+absinthe,du,distillateur,r_product_of
+pastis,du,distillateur,r_product_of
+anisette,du,liquoriste,r_product_of
+chartreuse,du,liquoriste,r_product_of
+bénédictine,du,liquoriste,r_product_of
+cointreau,du,liquoriste,r_product_of
+curaçao,du,liquoriste,r_product_of
+kirsch,du,distillateur,r_product_of
+mirabelle,du,distillateur,r_product_of
+quetsche,du,distillateur,r_product_of
+poire,du,distillateur,r_product_of
+framboise,du,distillateur,r_product_of
+cassis,du,liquoriste,r_product_of
+crème,du,liquoriste,r_product_of
+sirop,du,siropier,r_product_of
+limonade,du,limonadier,r_product_of
+orangeade,du,fabricant,r_product_of
+citronnade,du,fabricant,r_product_of
+grenadine,du,fabricant,r_product_of
+menthe,du,fabricant,r_product_of
+orgeat,du,fabricant,r_product_of
+café,du,torréfacteur,r_product_of
+thé,du,planteur,r_product_of
+infusion,de l',herboriste,r_product_of
+tisane,de l',herboriste,r_product_of
+décoction,de l',herboriste,r_product_of
+chocolat,du,cacaoyer,r_product_of
+cacao,du,cacaoyer,r_product_of
+fève,du,cacaoyer,r_product_of
+cabosse,du,cacaoyer,r_product_of
+poudre,du,cacaoyer,r_product_of
+beurre,du,cacaoyer,r_product_of
+vanille,du,vanillier,r_product_of
+gousse,du,vanillier,r_product_of
+cannelle,du,cannelier,r_product_of
+écorce,du,cannelier,r_product_of
+poivre,du,poivrier,r_product_of
+grain,du,poivrier,r_product_of
+piment,du,pimentier,r_product_of
+muscade,du,muscadier,r_product_of
+noix,du,muscadier,r_product_of
+macis,du,muscadier,r_product_of
+girofle,du,giroflier,r_product_of
+clou,du,giroflier,r_product_of
+safran,du,crocus,r_product_of
+pistil,du,crocus,r_product_of
+anis,de l',anis,r_product_of
+badiane,du,badianier,r_product_of
+cardamome,du,cardamomier,r_product_of
+gingembre,du,gingembre,r_product_of
+curcuma,du,curcuma,r_product_of
+curry,du,fabricant,r_product_of
+paprika,du,fabricant,r_product_of
+poudre,du,fabricant,r_product_of
+mélange,du,fabricant,r_product_of
+condiment,du,fabricant,r_product_of
+épice,du,fabricant,r_product_of
+aromate,du,fabricant,r_product_of
+sel,de la,mer,r_product_of
+sel,du,marais,r_product_of
+sel,de la,mine,r_product_of
+fleur,du,marais,r_product_of
+gros,du,marais,r_product_of
+moutarde,du,moutardier,r_product_of
+vinaigre,du,vinaigrier,r_product_of
+cornichon,du,vinaigrier,r_product_of
+câpre,du,saumurier,r_product_of
+olive,du,confiseur,r_product_of
+anchois,du,saumurier,r_product_of
+hareng,du,saumurier,r_product_of
+fumé,du,fumeur,r_product_of
+saumon,du,fumeur,r_product_of
+truite,du,fumeur,r_product_of
+maquereau,du,fumeur,r_product_of
+anguille,du,fumeur,r_product_of
+morue,du,saumurier,r_product_of
+stockfish,du,sécheur,r_product_of
+merluche,du,sécheur,r_product_of
+poutargue,du,fabricant,r_product_of
+œufs,du,fabricant,r_product_of
+caviar,du,fabricant,r_product_of
+tarama,du,fabricant,r_product_of
+brandade,du,fabricant,r_product_of
+rillettes,du,fabricant,r_product_of
+terrine,du,charcutier,r_product_of
+foie,du,producteur,r_product_of
+foie-gras,du,producteur,r_product_of
+confit,du,producteur,r_product_of
+rillettes,du,producteur,r_product_of
+graisse,de l',oie,r_product_of
+graisse,du,canard,r_product_of
+saindoux,du,porc,r_product_of
+lard,du,porc,r_product_of
+boudin,du,porc,r_product_of
+couenne,du,porc,r_product_of
+jambon,du,porc,r_product_of
+peau,du,porc,r_product_of
+cuir,du,porc,r_product_of
+parchemin,du,mouton,r_product_of
+vélin,du,veau,r_product_of
+papier,du,papetier,r_product_of
+carton,du,cartonnier,r_product_of
+papyrus,du,papyrus,r_product_of
+feuille,du,papyrus,r_product_of
+tige,du,papyrus,r_product_of
+fibres,du,papyrus,r_product_of
+pâte,du,papetier,r_product_of
+pulpe,du,papetier,r_product_of
+cellulose,du,papetier,r_product_of
+lignine,du,papetier,r_product_of
+fibre,du,papetier,r_product_of
+chiffon,du,chiffonnier,r_product_of
+loque,du,chiffonnier,r_product_of
+haillon,du,chiffonnier,r_product_of
+torchon,du,tisserand,r_product_of
+serviette,du,tisserand,r_product_of
+nappe,du,tisserand,r_product_of
+drap,du,tisserand,r_product_of
+toile,du,tisserand,r_product_of
+tissu,du,tisserand,r_product_of
+étoffe,du,tisserand,r_product_of
+textile,du,tisserand,r_product_of
+fil,du,fileur,r_product_of
+fil,de la,fileuse,r_product_of
+écheveaux,de la,fileuse,r_product_of
+bobine,de la,fileuse,r_product_of
+fuseau,de la,fileuse,r_product_of
+quenouille,de la,fileuse,r_product_of
+filature,du,filateur,r_product_of
+tissage,du,tisserand,r_product_of
+trame,du,tisserand,r_product_of
+chaîne,du,tisserand,r_product_of
+armure,du,tisserand,r_product_of
+sergé,du,tisserand,r_product_of
+satin,du,tisserand,r_product_of
+taffetas,du,tisserand,r_product_of
+velours,du,tisserand,r_product_of
+peluche,du,tisserand,r_product_of
+velours,du,veloutier,r_product_of
+brocart,du,tisserand,r_product_of
+damas,du,tisserand,r_product_of
+lampas,du,tisserand,r_product_of
+moire,du,tisserand,r_product_of
+faille,du,tisserand,r_product_of
+ottoman,du,tisserand,r_product_of
+gros-grain,du,tisserand,r_product_of
+toile,du,toilier,r_product_of
+coutil,du,toilier,r_product_of
+basin,du,toilier,r_product_of
+futaine,du,tisserand,r_product_of
+batiste,du,tisserand,r_product_of
+linon,du,tisserand,r_product_of
+mousseline,du,tisserand,r_product_of
+organdi,du,tisserand,r_product_of
+percale,du,tisserand,r_product_of
+calicot,du,tisserand,r_product_of
+madras,du,tisserand,r_product_of
+vichy,du,tisserand,r_product_of
+indienne,du,tisserand,r_product_of
+cretonne,du,tisserand,r_product_of
+chintz,du,tisserand,r_product_of
+piqué,du,tisserand,r_product_of
+jersey,du,bonnetier,r_product_of
+tricot,du,bonnetier,r_product_of
+maille,du,bonnetier,r_product_of
+bonneterie,du,bonnetier,r_product_of
+chaussette,du,bonnetier,r_product_of
+bas,du,bonnetier,r_product_of
+collant,du,bonnetier,r_product_of
+caleçon,du,bonnetier,r_product_of
+culotte,du,bonnetier,r_product_of
+pantalon,du,bonnetier,r_product_of
+gilet,du,bonnetier,r_product_of
+maillot,du,bonnetier,r_product_of
+chandail,du,bonnetier,r_product_of
+pull,du,bonnetier,r_product_of
+cardigan,du,tricoteur,r_product_of
+cache-nez,du,tricoteur,r_product_of
+écharpe,du,tricoteur,r_product_of
+châle,du,tricoteur,r_product_of
+foulard,du,fabricant,r_product_of
+fichu,du,fabricant,r_product_of
+guimpe,du,fabricant,r_product_of
+voile,du,voilier,r_product_of
+mantille,du,fabricant,r_product_of
+coiffe,du,fabricant,r_product_of
+bonnet,du,bonnetier,r_product_of
+béret,du,béretier,r_product_of
+toque,du,fabricant,r_product_of
+turban,du,fabricant,r_product_of
+fez,du,fabricant,r_product_of
+chéchia,du,fabricant,r_product_of
+calot,du,fabricant,r_product_of
+calotte,du,fabricant,r_product_of
+barrette,du,fabricant,r_product_of
+bandeau,du,fabricant,r_product_of
+serre-tête,du,fabricant,r_product_of
+couronne,de l',orfèvre,r_product_of
+diadème,de l',orfèvre,r_product_of
+tiare,de l',orfèvre,r_product_of
+mitre,du,brodeur,r_product_of
+camail,du,tisserand,r_product_of
+chape,du,tisserand,r_product_of
+chasuble,du,tisserand,r_product_of
+dalmatique,du,tisserand,r_product_of
+aube,du,tisserand,r_product_of
+soutane,du,tailleur,r_product_of
+froc,du,tailleur,r_product_of
+bure,du,tisserand,r_product_of
+coule,du,tisserand,r_product_of
+scapulaire,du,tisserand,r_product_of
+tunique,du,tailleur,r_product_of
+robe,du,couturier,r_product_of
+jupe,de la,couturière,r_product_of
+corsage,de la,couturière,r_product_of
+blouse,de la,couturière,r_product_of
+chemisier,de la,couturière,r_product_of
+camisole,de la,couturière,r_product_of
+justaucorps,du,tailleur,r_product_of
+pourpoint,du,tailleur,r_product_of
+gilet,du,giletier,r_product_of
+veste,du,tailleur,r_product_of
+veston,du,tailleur,r_product_of
+habit,du,tailleur,r_product_of
+frac,du,tailleur,r_product_of
+jaquette,du,tailleur,r_product_of
+redingote,du,tailleur,r_product_of
+paletot,du,tailleur,r_product_of
+pardessus,du,tailleur,r_product_of
+manteau,du,manteauier,r_product_of
+pelisse,du,fourreur,r_product_of
+casaque,du,tailleur,r_product_of
+vareuse,du,tailleur,r_product_of
+caban,du,tailleur,r_product_of
+ciré,du,fabricant,r_product_of
+imperméable,du,fabricant,r_product_of
+trench,du,fabricant,r_product_of
+gabardine,du,tailleur,r_product_of
+loden,du,tailleur,r_product_of
+duffle-coat,du,tailleur,r_product_of
+anorak,du,fabricant,r_product_of
+parka,du,fabricant,r_product_of
+blouson,du,fabricant,r_product_of
+veste,du,fabricant,r_product_of
+doudoune,du,fabricant,r_product_of
+cape,du,tailleur,r_product_of
+pèlerine,du,tailleur,r_product_of
+poncho,du,fabricant,r_product_of
+burnous,du,tisserand,r_product_of
+djellaba,du,tisserand,r_product_of
+caftan,du,tisserand,r_product_of
+kimono,du,tisserand,r_product_of
+sari,du,tisserand,r_product_of
+sarong,du,tisserand,r_product_of
+paréo,du,tisserand,r_product_of
+pagne,du,tisserand,r_product_of
+toge,du,tisserand,r_product_of
+tunique,du,tisserand,r_product_of
+chiton,du,tisserand,r_product_of
+himation,du,tisserand,r_product_of
+tablier,du,fabricant,r_product_of
+sarrau,du,fabricant,r_product_of
+blouse,du,fabricant,r_product_of
+bleu,du,fabricant,r_product_of
+salopette,du,fabricant,r_product_of
+combinaison,du,fabricant,r_product_of
+A,determinant,B,r_product_of
+pantalon,du,tailleur,r_product_of
+culotte,du,culottier,r_product_of
+short,du,tailleur,r_product_of
+bermuda,du,tailleur,r_product_of
+jean,du,fabricant,r_product_of
+fuseau,du,tailleur,r_product_of
+guêtre,du,guêtrier,r_product_of
+jambière,du,fabricant,r_product_of
+bas,du,fabricant,r_product_of
+chaussette,du,fabricant,r_product_of
+socquette,du,fabricant,r_product_of
+mi-bas,du,fabricant,r_product_of
+jarretière,du,fabricant,r_product_of
+jarretelle,du,fabricant,r_product_of
+porte-jarretelles,du,fabricant,r_product_of
+corset,du,corsetier,r_product_of
+bustier,du,corsetier,r_product_of
+guêpière,du,corsetier,r_product_of
+soutien-gorge,du,lingère,r_product_of
+brassière,de la,lingère,r_product_of
+combinaison,de la,lingère,r_product_of
+jupon,de la,lingère,r_product_of
+cotillon,de la,lingère,r_product_of
+crinoline,de la,lingère,r_product_of
+vertugadin,de la,lingère,r_product_of
+panier,de la,lingère,r_product_of
+tournure,de la,lingère,r_product_of
+corsage,de la,modiste,r_product_of
+caraco,de la,couturière,r_product_of
+cache-corset,de la,lingère,r_product_of
+déshabillé,de la,lingère,r_product_of
+négligé,de la,lingère,r_product_of
+peignoir,de la,lingère,r_product_of
+robe-de-chambre,de la,lingère,r_product_of
+kimono,de la,couturière,r_product_of
+nuisette,de la,lingère,r_product_of
+chemise-de-nuit,de la,lingère,r_product_of
+liquette,de la,lingère,r_product_of
+chemise,du,chemisier,r_product_of
+caleçon,du,caleçonnier,r_product_of
+caleçon,du,fabricant,r_product_of
+slip,du,fabricant,r_product_of
+boxer,du,fabricant,r_product_of
+string,du,fabricant,r_product_of
+culotte,du,fabricant,r_product_of
+shorty,du,fabricant,r_product_of
+tanga,du,fabricant,r_product_of
+maillot,du,maillotier,r_product_of
+bikini,du,maillotier,r_product_of
+monokini,du,maillotier,r_product_of
+maillot-de-bain,du,maillotier,r_product_of
+slip-de-bain,du,maillotier,r_product_of
+short-de-bain,du,maillotier,r_product_of
+combinaison,du,fabricant,r_product_of
+bonnet,du,fabricant,r_product_of
+lunettes,du,lunetier,r_product_of
+lorgnon,du,lunetier,r_product_of
+monocle,du,lunetier,r_product_of
+binocle,du,lunetier,r_product_of
+besicles,du,lunetier,r_product_of
+pince-nez,du,lunetier,r_product_of
+face-à-main,du,lunetier,r_product_of
+jumelles,de l',opticien,r_product_of
+longue-vue,de l',opticien,r_product_of
+télescope,de l',opticien,r_product_of
+microscope,de l',opticien,r_product_of
+loupe,de l',opticien,r_product_of
+lentille,de l',opticien,r_product_of
+verre,de l',opticien,r_product_of
+monture,du,lunetier,r_product_of
+ombrelle,du,fabricant,r_product_of
+parasol,du,fabricant,r_product_of
+parapluie,du,parapluieur,r_product_of
+pépin,du,parapluieur,r_product_of
+riflard,du,parapluieur,r_product_of
+en-cas,du,parapluieur,r_product_of
+canne,du,cannier,r_product_of
+badine,du,cannier,r_product_of
+jonc,du,cannier,r_product_of
+stick,du,cannier,r_product_of
+bâton,du,bâtonnier,r_product_of
+houlette,du,fabricant,r_product_of
+crosse,du,fabricant,r_product_of
+sceptre,de l',orfèvre,r_product_of
+baguette,du,fabricant,r_product_of
+verge,du,fabricant,r_product_of
+férule,du,fabricant,r_product_of
+houssine,du,fabricant,r_product_of
+martinet,du,fabricant,r_product_of
+fouet,du,bourrelier,r_product_of
+cravache,du,sellier,r_product_of
+chambrière,du,sellier,r_product_of
+bride,du,bridier,r_product_of
+licol,du,bridier,r_product_of
+mors,du,bridier,r_product_of
+étrier,du,sellier,r_product_of
+étrille,du,fabricant,r_product_of
+brosse,du,brossier,r_product_of
+étrille,du,brossier,r_product_of
+peigne,du,peignier,r_product_of
+démêloir,du,peignier,r_product_of
+râteau,du,peignier,r_product_of
+carde,du,cardeur,r_product_of
+cardère,du,cardeur,r_product_of
+bâti,du,bâtisseur,r_product_of
+broderie,du,brodeur,r_product_of
+tapisserie,de la,tapissière,r_product_of
+canevas,de la,tapissière,r_product_of
+point,de la,brodeuse,r_product_of
+plumetis,de la,brodeuse,r_product_of
+jours,de la,brodeuse,r_product_of
+application,de la,brodeuse,r_product_of
+incrustation,de la,brodeuse,r_product_of
+appliqué,de la,brodeuse,r_product_of
+guipure,de la,dentellière,r_product_of
+macramé,de la,dentellière,r_product_of
+frivolité,de la,dentellière,r_product_of
+crochet,de la,crocheteuse,r_product_of
+lacet,de la,dentellière,r_product_of
+passement,du,passementier,r_product_of
+galon,du,passementier,r_product_of
+tresse,du,passementier,r_product_of
+cordon,du,passementier,r_product_of
+cordonnet,du,passementier,r_product_of
+ganse,du,passementier,r_product_of
+soutache,du,passementier,r_product_of
+brandebourg,du,passementier,r_product_of
+frange,du,passementier,r_product_of
+crépine,du,passementier,r_product_of
+gland,du,passementier,r_product_of
+pompon,du,passementier,r_product_of
+houppe,du,passementier,r_product_of
+effilé,du,passementier,r_product_of
+aiguillette,du,passementier,r_product_of
+embrasse,du,passementier,r_product_of
+cantonnière,de la,couturière,r_product_of
+lambrequin,de la,couturière,r_product_of
+draperie,de la,drapière,r_product_of
+tenture,de la,tapissière,r_product_of
+rideau,de la,couturière,r_product_of
+voilage,de la,couturière,r_product_of
+brise-bise,de la,couturière,r_product_of
+vitrage,de la,couturière,r_product_of
+store,du,fabricant,r_product_of
+jalousie,du,fabricant,r_product_of
+persienne,du,menuisier,r_product_of
+volet,du,menuisier,r_product_of
+contrevent,du,menuisier,r_product_of
+auvent,du,menuisier,r_product_of
+marquise,du,serrurier,r_product_of
+baldaquin,de la,tapissière,r_product_of
+ciel,de la,tapissière,r_product_of
+dais,de la,tapissière,r_product_of
+pavillon,de la,tapissière,r_product_of
+tente,du,tentier,r_product_of
+barnum,du,tentier,r_product_of
+chapiteau,du,tentier,r_product_of
+vélum,du,tentier,r_product_of
+bâche,du,bâcheur,r_product_of
+prélart,du,bâcheur,r_product_of
+toile,du,bâcheur,r_product_of
+ciré,du,toilier,r_product_of
+voile,du,voilier,r_product_of
+foc,du,voilier,r_product_of
+génois,du,voilier,r_product_of
+spi,du,voilier,r_product_of
+spinnaker,du,voilier,r_product_of
+grand-voile,du,voilier,r_product_of
+misaine,du,voilier,r_product_of
+artimon,du,voilier,r_product_of
+cacatois,du,voilier,r_product_of
+perroquet,du,voilier,r_product_of
+hunier,du,voilier,r_product_of
+voilure,du,voilier,r_product_of
+gréement,du,gréeur,r_product_of
+cordage,du,cordier,r_product_of
+manœuvre,du,cordier,r_product_of
+aussière,du,cordier,r_product_of
+amarre,du,cordier,r_product_of
+drisse,du,cordier,r_product_of
+écoute,du,cordier,r_product_of
+hauban,du,cordier,r_product_of
+étai,du,cordier,r_product_of
+pataras,du,cordier,r_product_of
+balancine,du,cordier,r_product_of
+bras,du,cordier,r_product_of
+cargue,du,cordier,r_product_of
+garcette,du,cordier,r_product_of
+ralingue,du,cordier,r_product_of
+bitord,du,cordier,r_product_of
+lusin,du,cordier,r_product_of
+grelin,du,cordier,r_product_of
+câblot,du,cordier,r_product_of
+touline,du,cordier,r_product_of
+filin,du,cordier,r_product_of
+bitture,du,cordier,r_product_of
+glène,du,cordier,r_product_of
+épissure,du,cordier,r_product_of
+nœud,du,cordier,r_product_of
+mât,du,mâteur,r_product_of
+vergue,du,mâteur,r_product_of
+bôme,du,mâteur,r_product_of
+gui,du,mâteur,r_product_of
+tangon,du,mâteur,r_product_of
+beaupré,du,mâteur,r_product_of
+bout-dehors,du,mâteur,r_product_of
+corne,du,mâteur,r_product_of
+pic,du,mâteur,r_product_of
+antenne,du,mâteur,r_product_of
+ancre,du,forgeron,r_product_of
+chaîne,du,chaînier,r_product_of
+chaînon,du,chaînier,r_product_of
+maillon,du,chaînier,r_product_of
+penture,du,ferronnier,r_product_of
+gond,du,ferronnier,r_product_of
+paumelle,du,ferronnier,r_product_of
+charnière,du,ferronnier,r_product_of
+fiche,du,ferronnier,r_product_of
+crapaudine,du,ferronnier,r_product_of
+pivot,du,ferronnier,r_product_of
+verrou,du,serrurier,r_product_of
+targette,du,serrurier,r_product_of
+crémone,du,serrurier,r_product_of
+loquet,du,serrurier,r_product_of
+loqueteau,du,serrurier,r_product_of
+bec-de-cane,du,serrurier,r_product_of
+béquille,du,serrurier,r_product_of
+poignée,du,serrurier,r_product_of
+bouton,du,serrurier,r_product_of
+pêne,du,serrurier,r_product_of
+gâche,du,serrurier,r_product_of
+pène,du,serrurier,r_product_of
+rossignol,du,serrurier,r_product_of
+crochet,du,serrurier,r_product_of
+clé,du,serrurier,r_product_of
+clef,du,serrurier,r_product_of
+passe-partout,du,serrurier,r_product_of
+cadenas,du,cadenaissier,r_product_of
+serrure,du,serrurier,r_product_of
+barillet,du,serrurier,r_product_of
+cylindre,du,serrurier,r_product_of
+combinaison,du,serrurier,r_product_of
+heurtoir,du,ferronnier,r_product_of
+marteau,du,ferronnier,r_product_of
+sonnette,du,ferronnier,r_product_of
+timbre,du,fondeur,r_product_of
+carillon,du,fondeur,r_product_of
+cloche,du,fondeur,r_product_of
+bourdon,du,fondeur,r_product_of
+campanile,du,fondeur,r_product_of
+beffroi,du,fondeur,r_product_of
+horloge,de l',horloger,r_product_of
+cadran,de l',horloger,r_product_of
+aiguille,de l',horloger,r_product_of
+balancier,de l',horloger,r_product_of
+échappement,de l',horloger,r_product_of
+ancre,de l',horloger,r_product_of
+roue,de l',horloger,r_product_of
+pignon,de l',horloger,r_product_of
+ressort,de l',horloger,r_product_of
+spiral,de l',horloger,r_product_of
+barillet,de l',horloger,r_product_of
+remontoir,de l',horloger,r_product_of
+couronne,de l',horloger,r_product_of
+poussoir,de l',horloger,r_product_of
+compteur,de l',horloger,r_product_of
+chronographe,de l',horloger,r_product_of
+calendrier,de l',horloger,r_product_of
+phases,de l',horloger,r_product_of
+répétition,de l',horloger,r_product_of
+sonnerie,de l',horloger,r_product_of
+réveil,de l',horloger,r_product_of
+alarme,de l',horloger,r_product_of
+carillon,de l',horloger,r_product_of
+mouvement,de l',horloger,r_product_of
+calibre,de l',horloger,r_product_of
+boîtier,de l',horloger,r_product_of
+bracelet,du,braceletier,r_product_of
+fermoir,du,braceletier,r_product_of
+boucle,du,boucletier,r_product_of
+ardillon,du,boucletier,r_product_of
+passant,du,maroquinier,r_product_of
+anneau,du,maroquinier,r_product_of
+dé,du,dier,r_product_of
+doigtier,du,fabricant,r_product_of
+étui,du,gainier,r_product_of
+gaine,du,gainier,r_product_of
+fourreau,du,gainier,r_product_of
+fourre,du,gainier,r_product_of
+housse,du,gainier,r_product_of
+enveloppe,du,gainier,r_product_of
+pochette,du,pochettier,r_product_of
+portefeuille,du,maroquinier,r_product_of
+porte-monnaie,du,maroquinier,r_product_of
+bourse,du,boursier,r_product_of
+escarcelle,du,fabricant,r_product_of
+aumônière,du,fabricant,r_product_of
+réticule,du,fabricant,r_product_of
+ridicule,du,fabricant,r_product_of
+balantine,du,fabricant,r_product_of
+gibecière,du,fabricant,r_product_of
+carnassière,du,fabricant,r_product_of
+carnier,du,fabricant,r_product_of
+musette,du,fabricant,r_product_of
+besace,du,fabricant,r_product_of
+bissac,du,fabricant,r_product_of
+havresac,du,fabricant,r_product_of
+sac,du,sacier,r_product_of
+sacoche,du,fabricant,r_product_of
+cartable,du,fabricant,r_product_of
+serviette,du,fabricant,r_product_of
+attaché-case,du,malletier,r_product_of
+valise,du,malletier,r_product_of
+malle,du,malletier,r_product_of
+cantine,du,malletier,r_product_of
+coffre,du,coffretier,r_product_of
+cassette,du,coffretier,r_product_of
+écrin,du,écrinier,r_product_of
+coffret,du,coffretier,r_product_of
+boîte,du,boîtier,r_product_of
+étui,du,étuitier,r_product_of
+trousse,du,fabricant,r_product_of
+nécessaire,du,fabricant,r_product_of
+vanity,du,fabricant,r_product_of
+cabas,du,fabricant,r_product_of
+couffin,du,vannier,r_product_of
+panier,du,vannier,r_product_of
+corbeille,du,vannier,r_product_of
+bannette,du,vannier,r_product_of
+paneton,du,vannier,r_product_of
+manne,du,vannier,r_product_of
+hotte,du,vannier,r_product_of
+banne,du,vannier,r_product_of
+berceau,du,vannier,r_product_of
+bercelonnette,du,vannier,r_product_of
+moïse,du,vannier,r_product_of
+nacelle,du,vannier,r_product_of
+landau,du,carrossier,r_product_of
+poussette,du,fabricant,r_product_of
+voiture,du,carrossier,r_product_of
+carrosse,du,carrossier,r_product_of
+berline,du,carrossier,r_product_of
+calèche,du,carrossier,r_product_of
+coupé,du,carrossier,r_product_of
+cabriolet,du,carrossier,r_product_of
+fiacre,du,carrossier,r_product_of
+victoria,du,carrossier,r_product_of
+tilbury,du,carrossier,r_product_of
+phaéton,du,carrossier,r_product_of
+vis-à-vis,du,carrossier,r_product_of
+landaulet,du,carrossier,r_product_of
+break,du,carrossier,r_product_of
+char,du,charron,r_product_of
+charrette,du,charron,r_product_of
+carriole,du,charron,r_product_of
+tombereau,du,charron,r_product_of
+haquet,du,charron,r_product_of
+fardier,du,charron,r_product_of
+binard,du,charron,r_product_of
+chariot,du,charron,r_product_of
+fourgon,du,charron,r_product_of
+diable,du,charron,r_product_of
+brouette,du,charron,r_product_of
+roue,du,charron,r_product_of
+jante,du,charron,r_product_of
+moyeu,du,charron,r_product_of
+rayon,du,charron,r_product_of
+essieu,du,charron,r_product_of
+timon,du,charron,r_product_of
+limon,du,charron,r_product_of
+brancard,du,charron,r_product_of
+ridelle,du,charron,r_product_of
+hayon,du,charron,r_product_of

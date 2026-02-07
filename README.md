@@ -31,7 +31,7 @@ Pour accéder au shell du conteneur de l'application :
 docker exec -it app_container sh
 ```
 
-La commande pour réaliser une inférence est : 
+La commande pour réaliser une inférence est :
 ```bash
 python app.py
 ```

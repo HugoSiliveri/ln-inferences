@@ -1,0 +1,76 @@
+﻿expression,etiquette,justification
+poème d'amour,r_topic,le poème a pour sujet l’amour
+bouteille de lait,r_objet>matière,la bouteille contient / est faite pour contenir le lait
+musée d'art moderne,r_topic,le musée a pour thème l’art moderne
+jeu de sport,r_topic,le jeu a pour thème le sport
+livre d'histoire,r_topic,le livre a pour sujet l’histoire
+lampe de bureau,r_lieu,la lampe se situe sur ou dans un bureau
+foule de gens,r_holo,la foule est composée de gens
+courant de pensée,r_topic,le courant a pour sujet une pensée / idéologie
+bouteille de parfum,r_objet>matière,la bouteille contient du parfum
+jet d'eau,r_objet>matière,le jet est constitué d’eau
+reportage d'une tradition,r_topic,le reportage traite d’une tradition
+aquarelle d'un lac,r_depict,l’aquarelle représente un lac
+narration d'un exploit,r_topic,la narration porte sur un exploit
+dessin d'un animal,r_depict,le dessin représente un animal
+récit d'une exploration,r_topic,le récit porte sur une exploration
+dette de l'emprunt,r_has_causatif,la dette est causée par l’emprunt
+incendie du court-circuit,r_has_causatif,l’incendie est causé par le court-circuit
+anxiété de l'attente,r_has_causatif,l’anxiété est causée par l’attente
+protestations des citoyens,r_processus_agent,les citoyens sont les agents des protestations
+insomnie de la peur,r_has_causatif,la peur cause l’insomnie
+générosité du mécène,r_processus_agent,le mécène est l’agent de la générosité
+sincérité du confident,r_processus_agent,le confident agit avec sincérité
+pessimisme du critique,r_processus_agent,le critique manifeste le pessimisme
+délicatesse du diplomate,r_processus_agent,le diplomate manifeste la délicatesse
+sournoiserie du politicien,r_processus_agent,le politicien manifeste la sournoiserie
+filtre du café,r_processus>instr-1,le filtre sert à filtrer le café
+verre de la fenêtre,r_holo,le verre fait partie de la fenêtre
+corde de la guitare,r_holo,la corde fait partie de la guitare
+nageoire du dauphin,r_holo,la nageoire fait partie du dauphin
+toile du tableau,r_holo,la toile est un élément constitutif du tableau
+porte de Brandenburg,r_lieu>origine,la porte se trouve à Brandenburg
+aéroport d'Heathrow,r_lieu>origine,l’aéroport est localisé à Heathrow
+parc de Yellowstone,r_lieu>origine,le parc est localisé à Yellowstone
+falaise de Douvres,r_lieu>origine,la falaise est située à Douvres
+château de Dracula,r_topic,le château est lié au thème / nom de Dracula
+piment d'Espelette,r_lieu>origine,le piment provient d’Espelette
+anchois du Pérou,r_lieu>origine,l’anchois vient du Pérou
+vanille de Madagascar,r_lieu>origine,la vanille provient de Madagascar
+moutarde de Dijon,r_lieu>origine,la moutarde provient de Dijon
+couscous du Maroc,r_lieu>origine,le couscous provient du Maroc
+matelas de mousse,r_objet>matière,le matelas est fait de mousse
+boîte de fer,r_objet>matière,la boîte est faite de fer
+bol de grès,r_objet>matière,le bol est en grès
+bateau de bois,r_objet>matière,le bateau est fait de bois
+robe de velours,r_objet>matière,la robe est en velours
+toile du peintre,r_own-1,la toile appartient au peintre
+drapeau du pays,r_own-1,le drapeau appartient / représente le pays
+robe de la mariée,r_own-1,la robe appartient à la mariée
+badge du policier,r_own-1,le badge appartient au policier
+sacoche du facteur,r_own-1,la sacoche appartient au facteur
+étude du chimiste,r_processus_agent,le chimiste est l’agent de l’étude
+rassemblement du leader,r_processus_agent,le leader organise le rassemblement
+plan du stratège,r_processus_agent,le stratège élabore le plan
+capture du pêcheur,r_processus_agent,le pêcheur réalise la capture
+jugement du magistrat,r_processus_agent,le magistrat rend le jugement
+pinceau du maquillage,r_processus>instr-1,le pinceau sert à maquiller
+chaudron de cuisson,r_processus>instr-1,le chaudron sert à cuire
+plume de calligraphie,r_processus>instr-1,la plume sert à écrire (dans la calligraphie)
+couteau de coupe,r_processus>instr-1,le couteau sert à couper
+crayon d'écriture,r_processus>instr-1,le crayon sert à écrire
+piratage du compte,r_processus_patient,le compte est la victime du piratage
+perquisition du domicile,r_processus_patient,le domicile est la cible de la perquisition
+abolition de la loi,r_processus_patient,la loi est l’objet de l’abolition
+perte du contrôle,r_processus_patient,le contrôle est ce qui est perdu
+exploitation du travailleur,r_processus_patient,le travailleur subit l’exploitation
+sel de la mine,r_lieu,le sel se trouve dans la mine
+animation de Pixar,r_product_of,l’animation est produite par Pixar
+chaussures de Nike,r_product_of,les chaussures sont produites par Nike
+tissu du tisserand,r_product_of,le tissu est produit par le tisserand
+ordinateur de Dell,r_product_of,l’ordinateur est produit par Dell
+photographe du mariage,r_lieu,le photographe opère à l’occasion du mariage
+guide du groupe,r_social_tie,le guide a un rôle social envers le groupe
+interprète du discours,r_processus_agent,l’interprète est l’agent de l’action d’interpréter le discours
+réalisateur du projet,r_processus_agent,le réalisateur mène le projet
+ambassadeur de la nation,r_social_tie,l’ambassadeur représente la nation

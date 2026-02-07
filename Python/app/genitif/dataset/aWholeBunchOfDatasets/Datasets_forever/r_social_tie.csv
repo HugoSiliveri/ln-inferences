@@ -1,0 +1,1028 @@
+A,determinant,B,type_relation
+avocat,d',une femme,r_social_tie
+chef,du,groupe,r_social_tie
+médecin,du,garçon,r_social_tie
+professeur,de la,classe,r_social_tie
+directeur,de l',école,r_social_tie
+maire,de la,ville,r_social_tie
+président,du,pays,r_social_tie
+ministre,du,gouvernement,r_social_tie
+député,de la,circonscription,r_social_tie
+sénateur,de la,région,r_social_tie
+conseiller,de la,municipalité,r_social_tie
+juge,du,tribunal,r_social_tie
+procureur,de la,république,r_social_tie
+avocat,de l',accusé,r_social_tie
+notaire,de la,famille,r_social_tie
+huissier,du,tribunal,r_social_tie
+greffier,de la,cour,r_social_tie
+commissaire,du,quartier,r_social_tie
+inspecteur,de l',enquête,r_social_tie
+agent,du,secteur,r_social_tie
+gardien,de la,prison,r_social_tie
+surveillant,du,lycée,r_social_tie
+proviseur,du,lycée,r_social_tie
+principal,du,collège,r_social_tie
+recteur,de l',académie,r_social_tie
+inspecteur,de l',éducation,r_social_tie
+enseignant,de l',école,r_social_tie
+instituteur,de la,classe,r_social_tie
+maître,des,élèves,r_social_tie
+professeur,des,étudiants,r_social_tie
+tuteur,de l',enfant,r_social_tie
+précepteur,du,prince,r_social_tie
+gouvernante,des,enfants,r_social_tie
+nourrice,du,bébé,r_social_tie
+baby-sitter,de la,famille,r_social_tie
+éducateur,des,jeunes,r_social_tie
+moniteur,du,camp,r_social_tie
+entraîneur,de l',équipe,r_social_tie
+coach,du,sportif,r_social_tie
+capitaine,de l',équipe,r_social_tie
+chef,de la,brigade,r_social_tie
+commandant,du,bataillon,r_social_tie
+colonel,du,régiment,r_social_tie
+général,de l',armée,r_social_tie
+amiral,de la,flotte,r_social_tie
+capitaine,du,navire,r_social_tie
+commandant,de l',avion,r_social_tie
+pilote,de l',appareil,r_social_tie
+contrôleur,du,vol,r_social_tie
+steward,des,passagers,r_social_tie
+hôtesse,du,vol,r_social_tie
+guide,du,groupe,r_social_tie
+accompagnateur,des,touristes,r_social_tie
+gardien,du,musée,r_social_tie
+conservateur,du,musée,r_social_tie
+bibliothécaire,de la,bibliothèque,r_social_tie
+archiviste,des,archives,r_social_tie
+documentaliste,du,centre,r_social_tie
+secrétaire,du,directeur,r_social_tie
+assistant,du,professeur,r_social_tie
+aide,du,chirurgien,r_social_tie
+infirmière,du,patient,r_social_tie
+aide-soignant,du,malade,r_social_tie
+kinésithérapeute,du,blessé,r_social_tie
+psychologue,du,patient,r_social_tie
+psychiatre,du,malade,r_social_tie
+thérapeute,du,patient,r_social_tie
+pharmacien,du,quartier,r_social_tie
+dentiste,du,patient,r_social_tie
+vétérinaire,de l',animal,r_social_tie
+éleveur,du,troupeau,r_social_tie
+berger,des,moutons,r_social_tie
+gardien,du,troupeau,r_social_tie
+palefrenier,des,chevaux,r_social_tie
+dresseur,du,chien,r_social_tie
+maître,de l',animal,r_social_tie
+propriétaire,du,chien,r_social_tie
+jardinier,du,parc,r_social_tie
+gardien,de l',immeuble,r_social_tie
+concierge,de l',immeuble,r_social_tie
+portier,de l',hôtel,r_social_tie
+réceptionniste,de l',hôtel,r_social_tie
+serveur,du,restaurant,r_social_tie
+sommelier,du,restaurant,r_social_tie
+chef,de la,cuisine,r_social_tie
+cuisinier,du,restaurant,r_social_tie
+pâtissier,de la,boutique,r_social_tie
+boulanger,du,village,r_social_tie
+boucher,du,quartier,r_social_tie
+poissonnier,du,marché,r_social_tie
+épicier,du,coin,r_social_tie
+commerçant,du,quartier,r_social_tie
+vendeur,du,magasin,r_social_tie
+gérant,de la,boutique,r_social_tie
+patron,du,café,r_social_tie
+barman,du,bar,r_social_tie
+tenancier,de l',auberge,r_social_tie
+hôtelier,de l',hôtel,r_social_tie
+aubergiste,de l',auberge,r_social_tie
+cabaretier,du,cabaret,r_social_tie
+animateur,de l',émission,r_social_tie
+présentateur,du,journal,r_social_tie
+journaliste,du,journal,r_social_tie
+reporter,du,journal,r_social_tie
+correspondant,de la,région,r_social_tie
+chroniqueur,de l',émission,r_social_tie
+rédacteur,du,magazine,r_social_tie
+éditorialiste,du,journal,r_social_tie
+critique,du,journal,r_social_tie
+commentateur,de l',émission,r_social_tie
+consultant,de l',émission,r_social_tie
+expert,de l',émission,r_social_tie
+analyste,du,débat,r_social_tie
+modérateur,du,forum,r_social_tie
+médiateur,du,conflit,r_social_tie
+arbitre,du,match,r_social_tie
+juge,de la,compétition,r_social_tie
+commissaire,de la,course,r_social_tie
+chronométreur,de l',épreuve,r_social_tie
+contrôleur,de la,compétition,r_social_tie
+délégué,de la,fédération,r_social_tie
+responsable,de la,section,r_social_tie
+coordinateur,du,projet,r_social_tie
+superviseur,de l',équipe,r_social_tie
+manager,de l',équipe,r_social_tie
+dirigeant,de l',entreprise,r_social_tie
+président,de l',entreprise,r_social_tie
+directeur,de l',entreprise,r_social_tie
+administrateur,de la,société,r_social_tie
+gérant,de la,société,r_social_tie
+chef,de l',entreprise,r_social_tie
+patron,de l',entreprise,r_social_tie
+employeur,des,salariés,r_social_tie
+contremaître,de l',atelier,r_social_tie
+chef,de l',atelier,r_social_tie
+chef,du,chantier,r_social_tie
+conducteur,des,travaux,r_social_tie
+architecte,du,projet,r_social_tie
+ingénieur,du,projet,r_social_tie
+technicien,du,service,r_social_tie
+ouvrier,du,chantier,r_social_tie
+artisan,de l',atelier,r_social_tie
+compagnon,de l',atelier,r_social_tie
+apprenti,du,maître,r_social_tie
+stagiaire,de l',entreprise,r_social_tie
+employé,de l',entreprise,r_social_tie
+salarié,de l',entreprise,r_social_tie
+collaborateur,de l',équipe,r_social_tie
+collègue,du,bureau,r_social_tie
+associé,de l',entreprise,r_social_tie
+partenaire,de l',affaire,r_social_tie
+actionnaire,de la,société,r_social_tie
+investisseur,du,projet,r_social_tie
+sponsor,de l',événement,r_social_tie
+mécène,de l',artiste,r_social_tie
+bienfaiteur,de la,fondation,r_social_tie
+donateur,de l',association,r_social_tie
+membre,de l',association,r_social_tie
+adhérent,du,club,r_social_tie
+sociétaire,de la,coopérative,r_social_tie
+cotisant,de la,mutuelle,r_social_tie
+abonné,du,théâtre,r_social_tie
+spectateur,du,spectacle,r_social_tie
+auditeur,de la,conférence,r_social_tie
+participant,du,séminaire,r_social_tie
+intervenant,du,colloque,r_social_tie
+conférencier,du,congrès,r_social_tie
+orateur,de la,cérémonie,r_social_tie
+speaker,de l',événement,r_social_tie
+représentant,de l',entreprise,r_social_tie
+délégué,du,syndicat,r_social_tie
+syndiqué,du,syndicat,r_social_tie
+militant,du,parti,r_social_tie
+partisan,du,mouvement,r_social_tie
+sympathisant,du,parti,r_social_tie
+électeur,de la,circonscription,r_social_tie
+citoyen,de la,nation,r_social_tie
+habitant,de la,ville,r_social_tie
+résident,du,quartier,r_social_tie
+locataire,de l',appartement,r_social_tie
+propriétaire,de la,maison,r_social_tie
+copropriétaire,de l',immeuble,r_social_tie
+bailleur,du,logement,r_social_tie
+voisin,de l',immeuble,r_social_tie
+riverain,de la,rue,r_social_tie
+commerçant,de la,rue,r_social_tie
+artisan,du,quartier,r_social_tie
+professionnel,du,secteur,r_social_tie
+spécialiste,du,domaine,r_social_tie
+expert,du,domaine,r_social_tie
+consultant,de l',entreprise,r_social_tie
+conseiller,du,président,r_social_tie
+attaché,de l',ambassade,r_social_tie
+diplomate,de l',ambassade,r_social_tie
+ambassadeur,du,pays,r_social_tie
+consul,de la,ville,r_social_tie
+chargé,de l',affaire,r_social_tie
+délégué,de la,mission,r_social_tie
+envoyé,du,gouvernement,r_social_tie
+émissaire,du,roi,r_social_tie
+messager,du,prince,r_social_tie
+héraut,du,roi,r_social_tie
+porte-parole,du,gouvernement,r_social_tie
+communicant,de l',entreprise,r_social_tie
+attaché,de,presse,r_social_tie
+agent,de l',artiste,r_social_tie
+impresario,du,chanteur,r_social_tie
+producteur,du,film,r_social_tie
+réalisateur,du,film,r_social_tie
+metteur,de la,scène,r_social_tie
+régisseur,du,théâtre,r_social_tie
+directeur,du,théâtre,r_social_tie
+scénographe,du,spectacle,r_social_tie
+décorateur,du,plateau,r_social_tie
+costumier,de la,pièce,r_social_tie
+maquilleur,de l',acteur,r_social_tie
+coiffeur,de l',actrice,r_social_tie
+accessoiriste,du,tournage,r_social_tie
+éclairagiste,du,spectacle,r_social_tie
+sonoriseur,du,concert,r_social_tie
+ingénieur,du,son,r_social_tie
+preneur,du,son,r_social_tie
+machiniste,du,théâtre,r_social_tie
+technicien,du,plateau,r_social_tie
+cadreur,du,film,r_social_tie
+cameraman,du,tournage,r_social_tie
+opérateur,de la,caméra,r_social_tie
+directeur,de la,photographie,r_social_tie
+monteur,du,film,r_social_tie
+chef,du,montage,r_social_tie
+mixeur,du,son,r_social_tie
+compositeur,de la,musique,r_social_tie
+chef,de l',orchestre,r_social_tie
+premier,de l',orchestre,r_social_tie
+soliste,de l',orchestre,r_social_tie
+musicien,de l',orchestre,r_social_tie
+instrumentiste,de l',ensemble,r_social_tie
+violoniste,de l',orchestre,r_social_tie
+altiste,de l',orchestre,r_social_tie
+violoncelliste,de l',orchestre,r_social_tie
+contrebassiste,de l',orchestre,r_social_tie
+flûtiste,de l',orchestre,r_social_tie
+hautboïste,de l',orchestre,r_social_tie
+clarinettiste,de l',orchestre,r_social_tie
+bassoniste,de l',orchestre,r_social_tie
+corniste,de l',orchestre,r_social_tie
+trompettiste,de l',orchestre,r_social_tie
+tromboniste,de l',orchestre,r_social_tie
+tubiste,de l',orchestre,r_social_tie
+timbalier,de l',orchestre,r_social_tie
+percussionniste,de l',orchestre,r_social_tie
+harpiste,de l',orchestre,r_social_tie
+pianiste,de l',orchestre,r_social_tie
+organiste,de l',église,r_social_tie
+chantre,de l',église,r_social_tie
+maître,de la,chapelle,r_social_tie
+choriste,de la,chorale,r_social_tie
+soprano,de la,chorale,r_social_tie
+alto,de la,chorale,r_social_tie
+ténor,de la,chorale,r_social_tie
+basse,de la,chorale,r_social_tie
+chef,du,chœur,r_social_tie
+directeur,de la,chorale,r_social_tie
+soliste,du,concert,r_social_tie
+chanteur,du,groupe,r_social_tie
+leader,du,groupe,r_social_tie
+guitariste,du,groupe,r_social_tie
+bassiste,du,groupe,r_social_tie
+batteur,du,groupe,r_social_tie
+claviériste,du,groupe,r_social_tie
+saxophoniste,du,groupe,r_social_tie
+trompettiste,du,groupe,r_social_tie
+danseur,de la,troupe,r_social_tie
+ballerine,du,ballet,r_social_tie
+étoile,du,ballet,r_social_tie
+premier,du,ballet,r_social_tie
+coryphée,du,ballet,r_social_tie
+sujet,du,ballet,r_social_tie
+quadrille,du,ballet,r_social_tie
+figurant,du,ballet,r_social_tie
+mime,de la,troupe,r_social_tie
+clown,du,cirque,r_social_tie
+acrobate,du,cirque,r_social_tie
+équilibriste,du,cirque,r_social_tie
+jongleur,du,cirque,r_social_tie
+trapéziste,du,cirque,r_social_tie
+funambule,du,cirque,r_social_tie
+prestidigitateur,du,spectacle,r_social_tie
+illusionniste,du,spectacle,r_social_tie
+magicien,du,spectacle,r_social_tie
+ventriloque,du,spectacle,r_social_tie
+dompteur,du,cirque,r_social_tie
+dresseur,des,fauves,r_social_tie
+montreur,des,animaux,r_social_tie
+directeur,du,cirque,r_social_tie
+Monsieur,du,cirque,r_social_tie
+présentateur,du,numéro,r_social_tie
+meneur,du,jeu,r_social_tie
+animateur,de la,soirée,r_social_tie
+disc-jockey,de la,soirée,r_social_tie
+programmateur,de la,salle,r_social_tie
+directeur,de la,salle,r_social_tie
+gérant,de la,salle,r_social_tie
+placeur,du,théâtre,r_social_tie
+ouvreuse,du,cinéma,r_social_tie
+contrôleur,de la,salle,r_social_tie
+vigile,de la,salle,r_social_tie
+agent,de,sécurité,r_social_tie
+garde,du,corps,r_social_tie
+gorille,du,président,r_social_tie
+escorte,du,ministre,r_social_tie
+garde,du,roi,r_social_tie
+sentinelle,du,palais,r_social_tie
+faction,du,poste,r_social_tie
+veilleur,de,nuit,r_social_tie
+rondier,de,nuit,r_social_tie
+gardien,de,nuit,r_social_tie
+surveillant,de,nuit,r_social_tie
+veilleur,du,site,r_social_tie
+gardien,du,site,r_social_tie
+responsable,du,site,r_social_tie
+chef,de la,sécurité,r_social_tie
+directeur,de la,sécurité,r_social_tie
+préfet,du,département,r_social_tie
+sous-préfet,de l',arrondissement,r_social_tie
+gouverneur,de la,province,r_social_tie
+intendant,de la,province,r_social_tie
+vice-roi,de la,colonie,r_social_tie
+résident,de la,colonie,r_social_tie
+administrateur,de la,colonie,r_social_tie
+commissaire,de la,colonie,r_social_tie
+délégué,de la,colonie,r_social_tie
+chancelier,de l',empire,r_social_tie
+premier,du,roi,r_social_tie
+vizir,du,sultan,r_social_tie
+grand,du,sultan,r_social_tie
+pacha,de la,province,r_social_tie
+bey,de la,province,r_social_tie
+caïd,de la,tribu,r_social_tie
+cheik,de la,tribu,r_social_tie
+émir,de la,principauté,r_social_tie
+sultan,de l',empire,r_social_tie
+calife,de l',empire,r_social_tie
+imam,de la,mosquée,r_social_tie
+muezzin,de la,mosquée,r_social_tie
+mollah,de la,communauté,r_social_tie
+ayatollah,de la,communauté,r_social_tie
+mufti,de la,communauté,r_social_tie
+rabbin,de la,synagogue,r_social_tie
+grand,de la,synagogue,r_social_tie
+chantre,de la,synagogue,r_social_tie
+hazzan,de la,synagogue,r_social_tie
+cohen,de la,communauté,r_social_tie
+lévite,de la,communauté,r_social_tie
+prêtre,de l',église,r_social_tie
+curé,de la,paroisse,r_social_tie
+vicaire,de la,paroisse,r_social_tie
+doyen,du,chapitre,r_social_tie
+chanoine,de la,cathédrale,r_social_tie
+archiprêtre,du,diocèse,r_social_tie
+évêque,du,diocèse,r_social_tie
+archevêque,de la,province,r_social_tie
+métropolite,de la,province,r_social_tie
+patriarche,de l',église,r_social_tie
+primat,de l',église,r_social_tie
+cardinal,de l',église,r_social_tie
+pape,de l',église,r_social_tie
+légat,du,pape,r_social_tie
+nonce,du,pape,r_social_tie
+vicaire,du,pape,r_social_tie
+abbé,de l',abbaye,r_social_tie
+prieur,du,prieuré,r_social_tie
+moine,du,monastère,r_social_tie
+frère,de la,communauté,r_social_tie
+religieux,de l',ordre,r_social_tie
+père,de l',ordre,r_social_tie
+supérieur,de l',ordre,r_social_tie
+général,de l',ordre,r_social_tie
+provincial,de la,province,r_social_tie
+gardien,du,couvent,r_social_tie
+custode,du,couvent,r_social_tie
+définiteur,de l',ordre,r_social_tie
+visiteur,de l',ordre,r_social_tie
+chapelain,de la,chapelle,r_social_tie
+aumônier,de l',armée,r_social_tie
+confesseur,du,roi,r_social_tie
+directeur,de,conscience,r_social_tie
+père,de la,confession,r_social_tie
+prédicateur,de la,mission,r_social_tie
+missionnaire,de la,mission,r_social_tie
+évangéliste,de la,communauté,r_social_tie
+pasteur,de l',église,r_social_tie
+ministre,du,culte,r_social_tie
+diacre,de l',église,r_social_tie
+ancien,de l',église,r_social_tie
+évêque,de la,communauté,r_social_tie
+superintendant,de l',église,r_social_tie
+modérateur,de l',assemblée,r_social_tie
+prophète,de la,communauté,r_social_tie
+apôtre,de la,communauté,r_social_tie
+disciple,du,maître,r_social_tie
+adepte,du,gourou,r_social_tie
+fidèle,de l',église,r_social_tie
+paroissien,de la,paroisse,r_social_tie
+ouaille,du,troupeau,r_social_tie
+croyant,de la,religion,r_social_tie
+pratiquant,du,culte,r_social_tie
+dévot,du,saint,r_social_tie
+pèlerin,du,sanctuaire,r_social_tie
+visiteur,du,sanctuaire,r_social_tie
+gardien,du,temple,r_social_tie
+desservant,de la,chapelle,r_social_tie
+sacristain,de l',église,r_social_tie
+bedeau,de l',église,r_social_tie
+suisse,de l',église,r_social_tie
+marguillier,de la,paroisse,r_social_tie
+chantre,de la,paroisse,r_social_tie
+organiste,de la,paroisse,r_social_tie
+sonneur,de l',église,r_social_tie
+carillonneur,de l',église,r_social_tie
+fossoyeur,du,cimetière,r_social_tie
+gardien,du,cimetière,r_social_tie
+conservateur,du,cimetière,r_social_tie
+chef,de la,famille,r_social_tie
+père,de la,famille,r_social_tie
+mère,de la,famille,r_social_tie
+parent,de l',enfant,r_social_tie
+grand-père,de la,famille,r_social_tie
+grand-mère,de la,famille,r_social_tie
+aïeul,de la,famille,r_social_tie
+ancêtre,de la,lignée,r_social_tie
+patriarche,de la,famille,r_social_tie
+matriarche,de la,famille,r_social_tie
+chef,du,clan,r_social_tie
+doyen,de la,famille,r_social_tie
+aîné,de la,famille,r_social_tie
+fils,de la,famille,r_social_tie
+fille,de la,famille,r_social_tie
+enfant,de la,famille,r_social_tie
+frère,de la,fratrie,r_social_tie
+sœur,de la,fratrie,r_social_tie
+jumeau,de la,paire,r_social_tie
+oncle,de la,famille,r_social_tie
+tante,de la,famille,r_social_tie
+neveu,de la,famille,r_social_tie
+nièce,de la,famille,r_social_tie
+cousin,de la,famille,r_social_tie
+cousine,de la,famille,r_social_tie
+parrain,du,filleul,r_social_tie
+marraine,de la,filleule,r_social_tie
+filleul,du,parrain,r_social_tie
+filleule,de la,marraine,r_social_tie
+tuteur,de l',orphelin,r_social_tie
+tutrice,de l',orpheline,r_social_tie
+pupille,du,tuteur,r_social_tie
+protégé,du,tuteur,r_social_tie
+protégée,de la,tutrice,r_social_tie
+gardien,de l',enfant,r_social_tie
+responsable,de l',enfant,r_social_tie
+parent,de l',élève,r_social_tie
+représentant,de l',élève,r_social_tie
+beau-père,de la,famille,r_social_tie
+belle-mère,de la,famille,r_social_tie
+beau-fils,de la,famille,r_social_tie
+belle-fille,de la,famille,r_social_tie
+gendre,de la,famille,r_social_tie
+bru,de la,famille,r_social_tie
+beau-frère,de la,famille,r_social_tie
+belle-sœur,de la,famille,r_social_tie
+demi-frère,de la,fratrie,r_social_tie
+demi-sœur,de la,fratrie,r_social_tie
+conjoint,du,couple,r_social_tie
+époux,du,couple,r_social_tie
+épouse,du,couple,r_social_tie
+mari,de la,femme,r_social_tie
+femme,du,mari,r_social_tie
+compagnon,de la,compagne,r_social_tie
+compagne,du,compagnon,r_social_tie
+fiancé,de la,fiancée,r_social_tie
+fiancée,du,fiancé,r_social_tie
+promis,de la,promise,r_social_tie
+promise,du,promis,r_social_tie
+prétendant,de la,dame,r_social_tie
+soupirant,de la,dame,r_social_tie
+amant,de la,maîtresse,r_social_tie
+maîtresse,de l',amant,r_social_tie
+amoureux,de la,belle,r_social_tie
+amoureuse,du,beau,r_social_tie
+bien-aimé,de la,bien-aimée,r_social_tie
+bien-aimée,du,bien-aimé,r_social_tie
+ami,de l',ami,r_social_tie
+amie,de l',amie,r_social_tie
+copain,du,copain,r_social_tie
+copine,de la,copine,r_social_tie
+camarade,du,camarade,r_social_tie
+pote,du,pote,r_social_tie
+confident,de la,confidente,r_social_tie
+confidente,du,confident,r_social_tie
+complice,du,complice,r_social_tie
+allié,de l',allié,r_social_tie
+allié,du,camp,r_social_tie
+partisan,du,chef,r_social_tie
+fidèle,du,seigneur,r_social_tie
+vassal,du,suzerain,r_social_tie
+suzerain,du,vassal,r_social_tie
+féal,du,seigneur,r_social_tie
+homme,du,seigneur,r_social_tie
+chevalier,du,roi,r_social_tie
+écuyer,du,chevalier,r_social_tie
+page,du,chevalier,r_social_tie
+valet,du,maître,r_social_tie
+serviteur,du,maître,r_social_tie
+domestique,de la,maison,r_social_tie
+employé,de,maison,r_social_tie
+homme,de,peine,r_social_tie
+femme,de,ménage,r_social_tie
+bonne,de la,maison,r_social_tie
+soubrette,de la,maison,r_social_tie
+camériste,de la,dame,r_social_tie
+suivante,de la,dame,r_social_tie
+demoiselle,de la,reine,r_social_tie
+dame,de la,reine,r_social_tie
+dame,de,compagnie,r_social_tie
+lectrice,de la,reine,r_social_tie
+intendant,de la,maison,r_social_tie
+majordome,de la,maison,r_social_tie
+maître,de la,maison,r_social_tie
+sommelier,de la,cour,r_social_tie
+échanson,du,roi,r_social_tie
+panetier,du,roi,r_social_tie
+queux,du,roi,r_social_tie
+cuisinier,de la,cour,r_social_tie
+chef,de la,cour,r_social_tie
+pâtissier,de la,cour,r_social_tie
+rôtisseur,de la,cour,r_social_tie
+saucier,de la,cour,r_social_tie
+écuyer,de la,cuisine,r_social_tie
+marmiton,de la,cuisine,r_social_tie
+aide,de la,cuisine,r_social_tie
+plongeur,du,restaurant,r_social_tie
+garçon,du,restaurant,r_social_tie
+commis,de la,cuisine,r_social_tie
+apprenti,de la,cuisine,r_social_tie
+chef,de,partie,r_social_tie
+second,de la,cuisine,r_social_tie
+sous-chef,de la,cuisine,r_social_tie
+chef,de la,brigade,r_social_tie
+saucier,de la,brigade,r_social_tie
+poissonnier,de la,brigade,r_social_tie
+rôtisseur,de la,brigade,r_social_tie
+garde-manger,de la,brigade,r_social_tie
+entremétier,de la,brigade,r_social_tie
+pâtissier,de la,brigade,r_social_tie
+glacier,de la,brigade,r_social_tie
+confiseur,de la,brigade,r_social_tie
+boulanger,de la,brigade,r_social_tie
+chef,de,rang,r_social_tie
+chef,de la,salle,r_social_tie
+maître,de la,salle,r_social_tie
+maître,de l',hôtel,r_social_tie
+sommelier,de la,cave,r_social_tie
+caviste,de la,cave,r_social_tie
+barman,du,restaurant,r_social_tie
+barista,du,café,r_social_tie
+serveur,de la,terrasse,r_social_tie
+garçon,du,café,r_social_tie
+limonadier,du,café,r_social_tie
+cafetier,du,café,r_social_tie
+bistrotier,du,bistrot,r_social_tie
+tavernier,de la,taverne,r_social_tie
+cabaretier,de la,guinguette,r_social_tie
+guinguettier,de la,guinguette,r_social_tie
+aubergiste,de la,table,r_social_tie
+restaurateur,de l',établissement,r_social_tie
+traiteur,du,service,r_social_tie
+organisateur,de la,réception,r_social_tie
+wedding,du,mariage,r_social_tie
+coach,de la,mariée,r_social_tie
+témoin,du,mariage,r_social_tie
+garçon,du,cortège,r_social_tie
+demoiselle,du,cortège,r_social_tie
+page,du,cortège,r_social_tie
+bouquetière,du,cortège,r_social_tie
+porteur,des,alliances,r_social_tie
+cérémoniaire,de la,cérémonie,r_social_tie
+maître,de la,cérémonie,r_social_tie
+officiant,de la,cérémonie,r_social_tie
+célébrant,de la,messe,r_social_tie
+diacre,de la,messe,r_social_tie
+sous-diacre,de la,messe,r_social_tie
+servant,de la,messe,r_social_tie
+enfant,du,chœur,r_social_tie
+acolyte,du,prêtre,r_social_tie
+thuriféraire,de la,procession,r_social_tie
+porte-croix,de la,procession,r_social_tie
+porte-bannière,de la,procession,r_social_tie
+dais,de la,procession,r_social_tie
+porte-dais,de la,procession,r_social_tie
+bedeau,de la,procession,r_social_tie
+suisse,de la,procession,r_social_tie
+huissier,de la,cérémonie,r_social_tie
+chambellan,de la,cour,r_social_tie
+grand,de la,cour,r_social_tie
+veneur,du,roi,r_social_tie
+fauconnier,du,roi,r_social_tie
+louvetier,du,roi,r_social_tie
+garde,de la,chasse,r_social_tie
+piqueur,de la,chasse,r_social_tie
+valet,de la,chasse,r_social_tie
+rabatteur,de la,chasse,r_social_tie
+traqueur,de la,chasse,r_social_tie
+limier,de la,chasse,r_social_tie
+veneur,de la,meute,r_social_tie
+maître,de la,meute,r_social_tie
+piqueur,de la,meute,r_social_tie
+fouet,de la,meute,r_social_tie
+valet,de,chiens,r_social_tie
+garde,des,animaux,r_social_tie
+soigneur,des,animaux,r_social_tie
+gardien,de la,ménagerie,r_social_tie
+conservateur,de la,ménagerie,r_social_tie
+directeur,du,zoo,r_social_tie
+vétérinaire,du,zoo,r_social_tie
+soigneur,du,zoo,r_social_tie
+gardien,du,zoo,r_social_tie
+animalier,du,parc,r_social_tie
+biologiste,du,parc,r_social_tie
+botaniste,du,jardin,r_social_tie
+horticulteur,du,jardin,r_social_tie
+paysagiste,du,parc,r_social_tie
+jardinier,du,jardin,r_social_tie
+jardinier,de la,propriété,r_social_tie
+maraîcher,du,potager,r_social_tie
+arboriculteur,du,verger,r_social_tie
+viticulteur,de la,vigne,r_social_tie
+vigneron,du,domaine,r_social_tie
+œnologue,du,domaine,r_social_tie
+caviste,du,domaine,r_social_tie
+maître,de,chai,r_social_tie
+régisseur,du,domaine,r_social_tie
+intendant,du,domaine,r_social_tie
+gestionnaire,de la,propriété,r_social_tie
+administrateur,du,domaine,r_social_tie
+économe,de l',établissement,r_social_tie
+trésorier,de l',association,r_social_tie
+comptable,de l',entreprise,r_social_tie
+expert-comptable,de l',entreprise,r_social_tie
+commissaire,des,comptes,r_social_tie
+auditeur,de l',entreprise,r_social_tie
+contrôleur,de,gestion,r_social_tie
+analyste,de l',entreprise,r_social_tie
+financier,de l',entreprise,r_social_tie
+banquier,de l',entreprise,r_social_tie
+conseiller,de la,banque,r_social_tie
+chargé,de,clientèle,r_social_tie
+gestionnaire,du,portefeuille,r_social_tie
+trader,de la,banque,r_social_tie
+cambiste,de la,banque,r_social_tie
+courtier,de la,bourse,r_social_tie
+agent,de,change,r_social_tie
+notaire,de l',étude,r_social_tie
+clerc,du,notaire,r_social_tie
+tabellion,de l',étude,r_social_tie
+officier,de l',état,r_social_tie
+greffier,de la,mairie,r_social_tie
+secrétaire,de la,mairie,r_social_tie
+employé,de la,mairie,r_social_tie
+agent,de la,mairie,r_social_tie
+policier,de la,ville,r_social_tie
+gendarme,de la,brigade,r_social_tie
+militaire,de la,caserne,r_social_tie
+soldat,du,régiment,r_social_tie
+caporal,de la,section,r_social_tie
+sergent,de la,section,r_social_tie
+adjudant,de la,compagnie,r_social_tie
+lieutenant,de la,section,r_social_tie
+capitaine,de la,compagnie,r_social_tie
+commandant,de l',unité,r_social_tie
+colonel,de la,brigade,r_social_tie
+général,de la,division,r_social_tie
+maréchal,de l',armée,r_social_tie
+officier,de l',armée,r_social_tie
+sous-officier,de l',armée,r_social_tie
+engagé,de l',armée,r_social_tie
+conscrit,de la,classe,r_social_tie
+recrue,du,régiment,r_social_tie
+bleu,du,régiment,r_social_tie
+appelé,de la,classe,r_social_tie
+réserviste,de l',armée,r_social_tie
+vétéran,de la,guerre,r_social_tie
+ancien,de la,guerre,r_social_tie
+combattant,de la,guerre,r_social_tie
+poilu,de la,guerre,r_social_tie
+grognard,de l',empire,r_social_tie
+garde,de l',empereur,r_social_tie
+grenadier,de la,garde,r_social_tie
+voltigeur,de la,garde,r_social_tie
+chasseur,du,régiment,r_social_tie
+dragon,de l',escadron,r_social_tie
+cuirassier,de l',escadron,r_social_tie
+hussard,de l',escadron,r_social_tie
+lancier,de l',escadron,r_social_tie
+cavalier,de l',escadron,r_social_tie
+artilleur,du,régiment,r_social_tie
+canonnier,de la,batterie,r_social_tie
+sapeur,du,génie,r_social_tie
+mineur,du,génie,r_social_tie
+pontier,du,génie,r_social_tie
+télégraphiste,de l',armée,r_social_tie
+signaleur,de l',armée,r_social_tie
+transmetteur,de l',armée,r_social_tie
+radio,du,poste,r_social_tie
+opérateur,du,poste,r_social_tie
+observateur,du,poste,r_social_tie
+guetteur,du,poste,r_social_tie
+éclaireur,de la,patrouille,r_social_tie
+éclaireur,du,camp,r_social_tie
+sentinelle,du,camp,r_social_tie
+garde,du,camp,r_social_tie
+planton,du,camp,r_social_tie
+ordonnance,du,capitaine,r_social_tie
+estafette,du,commandement,r_social_tie
+courrier,de l',armée,r_social_tie
+messager,de l',armée,r_social_tie
+agent,de,liaison,r_social_tie
+agent,du,renseignement,r_social_tie
+espion,de l',ennemi,r_social_tie
+indicateur,de la,police,r_social_tie
+informateur,de la,police,r_social_tie
+délateur,de la,police,r_social_tie
+mouchard,de la,police,r_social_tie
+balance,de la,police,r_social_tie
+indic,de la,police,r_social_tie
+taupe,du,service,r_social_tie
+agent,du,service,r_social_tie
+barbouze,du,gouvernement,r_social_tie
+tueur,de l',organisation,r_social_tie
+assassin,de l',organisation,r_social_tie
+sicaire,du,clan,r_social_tie
+spadassin,du,seigneur,r_social_tie
+bravo,du,prince,r_social_tie
+sbire,du,tyran,r_social_tie
+séide,du,chef,r_social_tie
+homme,du,gang,r_social_tie
+homme,du,milieu,r_social_tie
+truand,du,milieu,r_social_tie
+gangster,du,gang,r_social_tie
+malfrat,du,gang,r_social_tie
+voyou,de la,bande,r_social_tie
+bandit,de la,bande,r_social_tie
+brigand,de la,bande,r_social_tie
+malfaiteur,de la,bande,r_social_tie
+criminel,de l',organisation,r_social_tie
+chef,de la,bande,r_social_tie
+caïd,de la,bande,r_social_tie
+parrain,du,clan,r_social_tie
+boss,de l',organisation,r_social_tie
+capo,de la,famille,r_social_tie
+sous-chef,de la,bande,r_social_tie
+lieutenant,du,boss,r_social_tie
+bras,du,chef,r_social_tie
+homme,du,patron,r_social_tie
+nervi,du,chef,r_social_tie
+gros,du,gang,r_social_tie
+gorille,du,patron,r_social_tie
+garde,du,corps,r_social_tie
+videur,de la,boîte,r_social_tie
+portier,de la,boîte,r_social_tie
+physionomiste,de la,boîte,r_social_tie
+vestiairiste,de la,boîte,r_social_tie
+barman,de la,boîte,r_social_tie
+barmaid,de la,boîte,r_social_tie
+serveuse,de la,boîte,r_social_tie
+entraîneuse,de la,boîte,r_social_tie
+danseuse,de la,boîte,r_social_tie
+stripteaseuse,de la,boîte,r_social_tie
+girl,du,cabaret,r_social_tie
+danseuse,du,cabaret,r_social_tie
+meneuse,de la,revue,r_social_tie
+vedette,de la,revue,r_social_tie
+étoile,de la,revue,r_social_tie
+première,de la,revue,r_social_tie
+doublure,de la,vedette,r_social_tie
+remplaçant,de l',acteur,r_social_tie
+cascadeur,du,film,r_social_tie
+doublure,de l',acteur,r_social_tie
+figurant,du,film,r_social_tie
+extra,du,film,r_social_tie
+comparse,de la,scène,r_social_tie
+utilité,de la,scène,r_social_tie
+souffleur,de la,scène,r_social_tie
+régisseur,de la,scène,r_social_tie
+machiniste,de la,scène,r_social_tie
+décorateur,de la,scène,r_social_tie
+accessoiriste,de la,scène,r_social_tie
+habilleuse,de l',actrice,r_social_tie
+habilleuse,du,théâtre,r_social_tie
+costumière,du,théâtre,r_social_tie
+couturière,du,théâtre,r_social_tie
+modiste,du,théâtre,r_social_tie
+perruquier,du,théâtre,r_social_tie
+barbier,du,théâtre,r_social_tie
+maquilleur,du,théâtre,r_social_tie
+maquilleuse,de l',actrice,r_social_tie
+coiffeur,du,plateau,r_social_tie
+coiffeuse,de l',actrice,r_social_tie
+esthéticienne,de l',actrice,r_social_tie
+manucure,de l',actrice,r_social_tie
+pédicure,de l',actrice,r_social_tie
+masseur,de l',acteur,r_social_tie
+masseuse,de l',actrice,r_social_tie
+coach,de l',acteur,r_social_tie
+professeur,de l',acteur,r_social_tie
+maître,de l',acteur,r_social_tie
+mentor,de l',élève,r_social_tie
+guide,de l',apprenti,r_social_tie
+formateur,du,stagiaire,r_social_tie
+instructeur,de l',élève,r_social_tie
+moniteur,de l',auto-école,r_social_tie
+examinateur,de l',examen,r_social_tie
+correcteur,de l',examen,r_social_tie
+jury,du,concours,r_social_tie
+juré,du,jury,r_social_tie
+président,du,jury,r_social_tie
+membre,du,jury,r_social_tie
+assesseur,du,jury,r_social_tie
+rapporteur,du,jury,r_social_tie
+expert,du,jury,r_social_tie
+testeur,du,produit,r_social_tie
+contrôleur,de la,qualité,r_social_tie
+inspecteur,de la,qualité,r_social_tie
+vérificateur,de la,qualité,r_social_tie
+certificateur,du,produit,r_social_tie
+auditeur,de la,qualité,r_social_tie
+agent,de la,qualité,r_social_tie
+responsable,de la,qualité,r_social_tie
+directeur,de la,qualité,r_social_tie
+chef,de la,qualité,r_social_tie
+ingénieur,de la,qualité,r_social_tie
+technicien,de la,qualité,r_social_tie
+opérateur,de la,production,r_social_tie
+agent,de la,production,r_social_tie
+ouvrier,de l',usine,r_social_tie
+manœuvre,du,chantier,r_social_tie
+manutentionnaire,de l',entrepôt,r_social_tie
+cariste,de l',entrepôt,r_social_tie
+magasinier,de l',entrepôt,r_social_tie
+préparateur,de,commandes,r_social_tie
+livreur,de l',entreprise,r_social_tie
+coursier,de l',entreprise,r_social_tie
+chauffeur,de l',entreprise,r_social_tie
+routier,de l',entreprise,r_social_tie
+camionneur,de l',entreprise,r_social_tie
+transporteur,de la,région,r_social_tie
+déménageur,de l',entreprise,r_social_tie
+docker,du,port,r_social_tie
+débardeur,du,port,r_social_tie
+arrimeur,du,port,r_social_tie
+grutier,du,port,r_social_tie
+porteur,du,marché,r_social_tie
+portefaix,du,marché,r_social_tie
+commissionnaire,du,marché,r_social_tie
+facteur,du,quartier,r_social_tie
+préposé,de la,poste,r_social_tie
+guichetier,de la,poste,r_social_tie
+postier,de la,poste,r_social_tie
+employé,de la,poste,r_social_tie
+facteur,de la,tournée,r_social_tie
+distributeur,du,courrier,r_social_tie
+releveur,de la,boîte,r_social_tie
+trieur,du,centre,r_social_tie
+trieur,du,courrier,r_social_tie
+opérateur,du,tri,r_social_tie
+agent,du,tri,r_social_tie
+mécanicien,du,centre,r_social_tie
+technicien,du,centre,r_social_tie
+électricien,du,centre,r_social_tie
+plombier,du,bâtiment,r_social_tie
+chauffagiste,de l',immeuble,r_social_tie
+frigoriste,de l',installation,r_social_tie
+climaticien,du,bâtiment,r_social_tie
+ascensoriste,de l',immeuble,r_social_tie
+serrurier,de l',immeuble,r_social_tie
+vitrier,de l',immeuble,r_social_tie
+menuisier,de l',entreprise,r_social_tie
+charpentier,de l',entreprise,r_social_tie
+couvreur,de l',entreprise,r_social_tie
+zingueur,de l',entreprise,r_social_tie
+plâtrier,de l',entreprise,r_social_tie
+peintre,de l',entreprise,r_social_tie
+carreleur,de l',entreprise,r_social_tie
+solier,de l',entreprise,r_social_tie
+parqueteur,de l',entreprise,r_social_tie
+mosaïste,de l',entreprise,r_social_tie
+staffeur,de l',entreprise,r_social_tie
+stucateur,de l',entreprise,r_social_tie
+gypsier,de l',entreprise,r_social_tie
+maçon,de l',entreprise,r_social_tie
+coffreur,du,chantier,r_social_tie
+ferrailleur,du,chantier,r_social_tie
+bétonnière,du,chantier,r_social_tie
+cimentier,du,chantier,r_social_tie
+tailleur,de,pierre,r_social_tie
+marbrier,de l',atelier,r_social_tie
+granitier,de l',atelier,r_social_tie
+ardoisier,de la,carrière,r_social_tie
+carrier,de la,carrière,r_social_tie
+mineur,de la,mine,r_social_tie
+galibot,de la,mine,r_social_tie
+porion,de la,mine,r_social_tie
+piqueur,de la,mine,r_social_tie
+haveur,de la,mine,r_social_tie
+boiseur,de la,mine,r_social_tie
+rouleur,de la,mine,r_social_tie
+berline,de la,mine,r_social_tie
+cage,de la,mine,r_social_tie
+receveur,de la,mine,r_social_tie
+jour,de la,mine,r_social_tie
+fond,de la,mine,r_social_tie
+abatteur,de la,mine,r_social_tie
+bouteur,de la,mine,r_social_tie
+pétrisseur,de la,mine,r_social_tie
+remblayeur,de la,mine,r_social_tie
+soutènement,de la,mine,r_social_tie
+étançonneur,de la,mine,r_social_tie
+chef,du,poste,r_social_tie
+chef,de la,mine,r_social_tie
+directeur,de la,mine,r_social_tie
+ingénieur,de la,mine,r_social_tie
+géomètre,de la,mine,r_social_tie
+topographe,de la,mine,r_social_tie
+géologue,de la,mine,r_social_tie
+prospecteur,de la,mine,r_social_tie
+foreur,de la,mine,r_social_tie
+sondeur,de la,mine,r_social_tie
+dynamiteur,de la,mine,r_social_tie
+boulonneur,de la,mine,r_social_tie
+artificier,de la,mine,r_social_tie
+pyrotechnicien,du,spectacle,r_social_tie
+pétardier,du,chantier,r_social_tie
+mineur,du,génie,r_social_tie
+sapeur,du,chantier,r_social_tie
+terrassier,du,chantier,r_social_tie
+pelleur,du,chantier,r_social_tie
+piocheur,du,chantier,r_social_tie
+puisatier,du,village,r_social_tie
+fontainier,de la,ville,r_social_tie
+canalisateur,de la,ville,r_social_tie
+égoutier,de la,ville,r_social_tie
+boueur,de la,ville,r_social_tie
+éboueur,de la,ville,r_social_tie
+ripeur,de la,ville,r_social_tie
+balayeur,de la,ville,r_social_tie
+cantonnier,de la,route,r_social_tie
+agent,de la,voirie,r_social_tie
+ouvrier,de la,voirie,r_social_tie
+paveur,de la,voirie,r_social_tie
+empierreur,de la,voirie,r_social_tie
+goudronneur,de la,route,r_social_tie
+bitumeur,de la,route,r_social_tie
+asphalteur,de la,route,r_social_tie
+rouleur,de la,route,r_social_tie
+signaleur,de la,route,r_social_tie
+marqueur,de la,route,r_social_tie
+agent,de la,route,r_social_tie
+surveillant,de la,route,r_social_tie
+patrouilleur,de la,route,r_social_tie
+motard,de la,route,r_social_tie
+gendarme,de la,route,r_social_tie
+policier,de la,route,r_social_tie
+contrôleur,de la,circulation,r_social_tie
+régulateur,de la,circulation,r_social_tie
+agent,de la,circulation,r_social_tie
+contractuel,de la,ville,r_social_tie
+pervenche,de la,ville,r_social_tie
+auxiliaire,de la,police,r_social_tie
+îlotier,du,quartier,r_social_tie
+gardien,de la,paix,r_social_tie
+policier,du,quartier,r_social_tie
+brigadier,du,quartier,r_social_tie
+inspecteur,de la,police,r_social_tie
+commissaire,de la,police,r_social_tie
+contrôleur,de la,police,r_social_tie
+officier,de la,police,r_social_tie
+commandant,de la,police,r_social_tie
+capitaine,de la,police,r_social_tie
+lieutenant,de la,police,r_social_tie
+enquêteur,de la,police,r_social_tie
+limier,de la,police,r_social_tie
+détective,de l',affaire,r_social_tie
+privé,de l',affaire,r_social_tie
+agent,de l',agence,r_social_tie
+détective,de l',agence,r_social_tie
+filature,de l',agence,r_social_tie
+surveillant,de l',agence,r_social_tie
+vigile,de l',agence,r_social_tie
+gardien,de l',entreprise,r_social_tie
+veilleur,de l',entreprise,r_social_tie
+rondier,de l',entreprise,r_social_tie
+agent,de,surveillance,r_social_tie
+garde,de l',usine,r_social_tie
+portier,de l',usine,r_social_tie
+concierge,du,site,r_social_tie
+loge,du,site,r_social_tie
+accueil,du,site,r_social_tie
+hôtesse,de l',accueil,r_social_tie
+standardiste,de l',entreprise,r_social_tie
+téléphoniste,de l',entreprise,r_social_tie
+opérateur,du,central,r_social_tie
+opératrice,du,standard,r_social_tie
+dactylo,du,bureau,r_social_tie
+secrétaire,du,service,r_social_tie
+assistant,du,directeur,r_social_tie
+assistante,de,direction,r_social_tie
+chef,du,secrétariat,r_social_tie
+attaché,de,direction,r_social_tie
+chargé,de,mission,r_social_tie
+chargé,du,dossier,r_social_tie
+responsable,du,dossier,r_social_tie
+gestionnaire,du,dossier,r_social_tie
+instructeur,du,dossier,r_social_tie
+rapporteur,du,dossier,r_social_tie
+rédacteur,du,rapport,r_social_tie
+documentaliste,du,service,r_social_tie
+archiviste,du,service,r_social_tie
+bibliothécaire,du,service,r_social_tie
+documentaliste,de la,bibliothèque,r_social_tie

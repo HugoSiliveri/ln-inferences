@@ -1,1 +1,3 @@
 /Redis/data/
+__pycache__/
+*/vectors.json
